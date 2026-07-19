@@ -3,7 +3,7 @@
 ## 安装灵妆
 
 1. 打开 [LingGlow Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)。
-2. 下载 `LingGlow-<版本>-macOS.dmg` 和对应 `.sha256` 文件。
+2. Apple Silicon 下载 `Apple-Silicon.dmg`，Intel Mac 下载 `Intel.dmg`，并同时下载 `SHA256SUMS`。
 3. 打开 DMG，把“灵妆.app”拖入“应用程序”。
 4. 首次启动时确认发布者为 `xiaoming zhou`，Developer Team ID 为 `UQ87N2WZ76`。
 5. 灵妆不显示在 Dock；点击 macOS 菜单栏的灵妆图标即可打开桌面窗口。
@@ -18,6 +18,8 @@
 4. 未安装的皮肤显示“下载”。点击后只下载这一套皮肤，不会重新下载或升级整个 App。
 5. 下载完成后，免费或已购皮肤显示“应用”；未购买的 VIP 皮肤显示“试用一次”。
 6. 皮肤有新版本时显示“更新”；点击即可替换本地皮肤，仍不需要更新灵妆 App。
+7. 可用搜索框按名称、系列或标签搜索，也可按运动、幻想、自然、极简、艺术等分类筛选。
+8. 页面提示目录有更新时点击“拉取新模板”；也可随时手动刷新，不必升级灵妆 App。
 
 远程皮肤使用两级校验：先核对整个皮肤包的 SHA-256，再核对定义文件和每张 WebP 的 SHA-256。校验失败时不会安装。
 
@@ -44,7 +46,7 @@
 
 - 成功读取过目录后，灵妆会在本机缓存目录索引。
 - 没有网络时，可以继续使用已经下载的皮肤。
-- 首次启动且没有网络时，只显示安装包内的一套离线兜底皮肤和兼容小资源。
+- 首次启动且没有网络时，仍可使用内置的“极光青 Free”免费皮肤，以及“C罗灵感·葡萄牙7号星夜”“功夫女足·无厘头绿茵夜”两套 VIP 模板。VIP 仍遵守授权与一次性试用规则。
 - 已下载皮肤位于 `~/Library/Application Support/Codex Skin Studio/remote-theme-packs/`。
 
 ## 常见问题
