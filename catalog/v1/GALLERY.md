@@ -6,6 +6,7 @@
 
 - ID: `dream-portal`
 - 类型: 免费 / 浅色
+- 分类: fantasy / dream-portal / 梦境、传送门、浅色
 - Agent: codex、workbuddy
 
 ![Dream Portal 测试](./previews/dream-portal.webp)
@@ -14,6 +15,7 @@
 
 - ID: `graphite-focus`
 - 类型: 免费 / 深色
+- 分类: minimal / focus / 石墨、专注、深色
 - Agent: codex、workbuddy
 
 ![石墨专注](./previews/graphite-focus.png)
@@ -22,6 +24,7 @@
 
 - ID: `ocean-breeze`
 - 类型: 免费 / 浅色
+- 分类: nature / ocean / 海洋、清爽、浅色
 - Agent: codex、workbuddy
 
 ![海风浅蓝](./previews/ocean-breeze.png)
@@ -30,6 +33,7 @@
 
 - ID: `jade-calm`
 - 类型: 免费 / 深色
+- 分类: nature / jade / 青玉、静谧、深色
 - Agent: codex、workbuddy
 
 ![青玉静谧](./previews/jade-calm.png)
@@ -38,6 +42,7 @@
 
 - ID: `aurora-glass`
 - 类型: VIP / 深色
+- 分类: fantasy / aurora / 极光、玻璃、深色
 - Agent: codex、workbuddy
 
 ![极光玻璃](./previews/aurora-glass.png)
@@ -46,6 +51,7 @@
 
 - ID: `sunset-atelier`
 - 类型: VIP / 浅色
+- 分类: art / atelier / 落日、工坊、浅色
 - Agent: codex、workbuddy
 
 ![落日工坊](./previews/sunset-atelier.png)
@@ -54,6 +60,7 @@
 
 - ID: `violet-nebula`
 - 类型: VIP / 深色
+- 分类: fantasy / nebula / 星云、宇宙、深色
 - Agent: codex、workbuddy
 
 ![紫雾星云](./previews/violet-nebula.png)
@@ -62,6 +69,7 @@
 
 - ID: `aurora-free`
 - 类型: 免费 / 深色
+- 分类: fantasy / aurora / 极光、免费、深色
 - Agent: workbuddy、doubao、codex
 
 ![极光青 Free](./previews/aurora-free.webp)
@@ -70,6 +78,7 @@
 
 - ID: `amber-free`
 - 类型: 免费 / 深色
+- 分类: minimal / amber / 暖沙、免费、深色
 - Agent: workbuddy、doubao、codex
 
 ![暖沙金 Free](./previews/amber-free.webp)
@@ -78,6 +87,7 @@
 
 - ID: `dream-gothic-void`
 - 类型: 免费 / 深色
+- 分类: fantasy / gothic / 哥特、远征、深色
 - Agent: workbuddy、doubao、codex
 
 ![哥特虚空远征](./previews/dream-gothic-void.webp)
@@ -86,6 +96,7 @@
 
 - ID: `dream-portal-free`
 - 类型: 免费 / 浅色
+- 分类: fantasy / dream-portal / 梦境、免费、浅色
 - Agent: workbuddy、doubao、codex
 
 ![梦境传送门 Free](./previews/dream-portal-free.webp)
@@ -94,6 +105,7 @@
 
 - ID: `cr7-portugal`
 - 类型: VIP / 深色
+- 分类: sports / football-legends / 足球、葡萄牙、7号
 - Agent: workbuddy、doubao、codex
 
 ![C罗灵感·葡萄牙7号星夜](./previews/cr7-portugal.webp)
@@ -102,6 +114,7 @@
 
 - ID: `messi-argentina`
 - 类型: VIP / 深色
+- 分类: sports / football-legends / 足球、阿根廷、10号
 - Agent: workbuddy、doubao、codex
 
 ![梅西灵感·阿根廷10号月光](./previews/messi-argentina.webp)
@@ -110,6 +123,7 @@
 
 - ID: `neymar-brazil`
 - 类型: VIP / 深色
+- 分类: sports / football-legends / 足球、巴西、10号
 - Agent: workbuddy、doubao、codex
 
 ![内马尔灵感·巴西10号热浪](./previews/neymar-brazil.webp)
@@ -118,6 +132,7 @@
 
 - ID: `kungfu-womens-football`
 - 类型: VIP / 深色
+- 分类: sports / kungfu-football / 功夫、女足、电影感
 - Agent: workbuddy、doubao、codex
 
 ![功夫女足·无厘头绿茵夜](./previews/kungfu-womens-football.webp)
