@@ -6,10 +6,13 @@
 
 ## 下载灵妆
 
-前往 [Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest) 下载最新的 `LingGlow-<版本>-macOS.dmg`。
+前往 [Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest) 下载与你的 Mac 匹配的安装包：
+
+- Apple Silicon（M1/M2/M3/M4）：`LingGlow-<版本>-macOS-Apple-Silicon.dmg`
+- Intel：`LingGlow-<版本>-macOS-Intel.dmg`
 
 - macOS 13 或更高版本
-- Universal Binary：Apple Silicon 与 Intel
+- 按架构独立打包，避免在一台 Mac 上携带另一架构的 Node 运行时
 - Developer Team ID：`UQ87N2WZ76`
 - DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据
 
@@ -27,11 +30,13 @@
 
 ## 远程皮肤目录
 
-灵妆 2.2.0 起不再把全部皮肤大图放进 DMG。App 只读取远程目录中的名称、预览、明暗模式、大小与 Agent 适配；用户点击“下载”后才下载所选皮肤。
+灵妆 2.2.1 起不再把全部皮肤大图放进 DMG。App 只读取远程目录中的名称、预览、分类、系列、标签、明暗模式、大小与 Agent 适配；用户点击“下载”后才下载所选皮肤。
 
 - [皮肤目录 JSON](catalog/v1/index.json)
 - [15 套皮肤样式预览](catalog/v1/GALLERY.md)
 - 8 套免费皮肤，7 套 VIP 皮肤
+- 内置“极光青 Free”与两套 VIP 离线模板；GitHub 不可访问时仍可体验和使用已授权模板
+- 支持按名称、系列、标签搜索，并按运动、幻想、自然、极简、艺术等分类筛选
 - 每套皮肤独立下载和更新，不要求升级整个 App
 - 整包、定义文件和每张 WebP 都有 SHA-256 校验
 - 只允许声明式 JSON 与静态 WebP，不接受脚本或可执行内容
@@ -45,6 +50,7 @@
 3. 点击“下载”，等待 SHA-256 校验和本地安装完成。
 4. 点击“应用”并确认重启目标 Agent。
 5. 有新皮肤版本时点击“更新”，不需要重新安装灵妆。
+6. 目录有更新时客户端会提示，也可点击“拉取新模板”手动刷新。
 
 VIP 皮肤可以预览和下载。未开通 VIP、也未兑换该皮肤密钥时，每套 VIP 皮肤可试用一次；成功启动后记为已试用，下一次重启 Agent 后失效且不能再次试用。有效 VIP 或绑定该 `skinId` 的永久密钥可重复应用。
 
@@ -64,7 +70,7 @@ VIP 皮肤可以预览和下载。未开通 VIP、也未兑换该皮肤密钥时
 
 ## 自动升级
 
-客户端读取 [`latest.json`](latest.json)，升级前校验 SHA-256、Bundle ID、Team ID、Developer ID 签名和 Apple 公证状态。App 升级与皮肤更新是两个独立通道。
+客户端读取 [`latest.json`](latest.json)，自动选择 Apple Silicon 或 Intel 安装包；升级前校验 SHA-256、Bundle ID、Team ID、Developer ID 签名和 Apple 公证状态。App 升级与皮肤更新是两个独立通道。
 
 ## 仓库内容
 
