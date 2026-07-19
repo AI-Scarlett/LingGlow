@@ -23,6 +23,7 @@
 ## 最少需要准备的内容
 
 - 皮肤名称、稳定的英文 `skinId`、免费/VIP 等级。
+- 一个分类、一个稳定系列 ID，以及用于搜索的简短标签。
 - 明确选择浅色或深色模式。
 - 一张全局背景图。
 - 一张与背景风格相关但不是同一文件的 Codex 首页 3:1 图片。
@@ -49,7 +50,8 @@
 Codex 首页图要另外生成一张相关的 3:1 电台控制室图片，
 WorkBuddy 机器人替换为我提供的透明小猫。
 请保证历史对话、输入框、模型菜单、专家页和弹窗可读、可点击，
-并输出符合 LingGlow Remote Distribution v1 的 Theme Pack。
+分类使用 sports，系列使用 rain-radio，标签包含雨夜、电台、深色，
+并输出符合 LingGlow Remote Distribution v2 的 Theme Pack。
 ```
 
 ## 制作流程
@@ -60,7 +62,7 @@ WorkBuddy 机器人替换为我提供的透明小猫。
 4. 检查全局背景与 Codex 首页图不是同一文件。
 5. 在真实 WorkBuddy、豆包和 Codex 中测试首页、历史对话、输入框、菜单、弹窗和点击区域。
 6. 通过回滚验证后，生成本地 Theme Pack 与预览证据。
-7. 项目维护者运行 `node scripts/build_skin_distribution.mjs` 生成 `.lingglow-skin.json` 和远程目录记录。
+7. 项目维护者运行 `node scripts/build_skin_distribution.mjs` 生成 `.lingglow-skin.json` 和目录协议 v2 记录；分类、系列与标签会直接用于客户端筛选和搜索。
 
 ## 发布边界
 
