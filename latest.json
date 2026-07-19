@@ -1,10 +1,10 @@
 {
-  "version": "2.1.2",
-  "tag": "v2.1.2",
-  "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.1.2/LingGlow-2.1.2-macOS.dmg",
-  "sha256": "09486ace5be450bc17c8e44896af9a9b97e7e7a75521a0061e3df2b602d69517",
+  "version": "2.2.0",
+  "tag": "v2.2.0",
+  "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.2.0/LingGlow-2.2.0-macOS.dmg",
+  "sha256": "d9df7bab151886eab834ae05921ef25b8cc8e024ce8edcb6a6d6f5411f9f1be2",
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "新增功夫女足主题；修复 WorkBuddy 自定义机器人图片白边、方底和假透明素材；更新三端主题目录。"
+  "releaseNotes": "正式购买改为 Dodo 托管支付链接与公共 License API；无需自建后端、API Key 或 Webhook；新增隐私政策、购买说明和购买前确认。"
 }
