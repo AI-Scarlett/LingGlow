@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "dream-portal-free",
+  "name": "梦境传送门 Free",
+  "description": "Codex Dream Skin 原创抽象 Portal 艺术扩展的免费三端主题；独立全局背景、关联首页 Hero 与 WorkBuddy 透明传送门精灵。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "dream-portal-background"
+  },
+  "assets": {
+    "dream-portal-background": {
+      "slot": "background.main",
+      "path": "assets/dream-portal-background.webp",
+      "sha256": "e6c89bbcfa171444bcf7f061deaf3bf91c70103b827bf3ae8118cdd01a9c0800"
+    },
+    "dream-portal-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/dream-portal.webp",
+      "sha256": "2154717eedf080ea6ab608638022ecef67116c445e076a55bb02377d1cb415ba"
+    },
+    "dream-portal-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/dream-portal.webp",
+      "sha256": "2154717eedf080ea6ab608638022ecef67116c445e076a55bb02377d1cb415ba"
+    },
+    "dream-portal-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/dream-portal.webp",
+      "sha256": "2154717eedf080ea6ab608638022ecef67116c445e076a55bb02377d1cb415ba"
+    },
+    "dream-portal-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/dream-portal-avatar.webp",
+      "sha256": "1bb7967c85a101577bc9d4a4b6bdb1c98839d017ae85372ebf34edcf32c084ab"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#E45166",
+    "appearance.surface": "#FFF4F5",
+    "appearance.ink": "#24191D",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#3E9D70",
+    "semantic.diffRemoved": "#D84D5F",
+    "semantic.skill": "#C16B8D",
+    "background.image": {
+      "assetId": "dream-portal-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.04,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": false,
+    "brand.displayName": "灵妆 Free",
+    "brand.shortMark": "FR",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": null,
+    "shape.radius": 22,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "dream-portal-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "dream-portal-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "dream-portal-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "dream-portal-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D95168",
+      "appearance.surface": "#FFF3F4",
+      "appearance.ink": "#24191D"
+    },
+    "doubao": {
+      "appearance.accent": "#DE5269",
+      "appearance.surface": "#FFF5F6",
+      "appearance.ink": "#25191D",
+      "background.overlay": 0.03
+    },
+    "codex": {
+      "appearance.accent": "#D94E65",
+      "appearance.surface": "#FFF4F5",
+      "appearance.ink": "#24191D"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "dream-gothic-void",
+  "name": "哥特虚空远征",
+  "description": "Codex Dream Skin 社区原创哥特科幻背景，免费适配 Codex、WorkBuddy 与豆包。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "dream-gothic-void-background"
+  },
+  "assets": {
+    "dream-gothic-void-background": {
+      "slot": "background.main",
+      "path": "assets/dream-gothic-void.webp",
+      "sha256": "94ee8d19e87fdd3d6972fedb689bcc09cd98c6705a610afbed1f381f73528688"
+    },
+    "dream-gothic-void-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/dream-gothic-void-hero.webp",
+      "sha256": "7e4261099a154f9c9eefcb82d93417427b18915b3646e200a81822f51b4ec29b"
+    },
+    "dream-gothic-void-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/dream-gothic-void-hero.webp",
+      "sha256": "7e4261099a154f9c9eefcb82d93417427b18915b3646e200a81822f51b4ec29b"
+    },
+    "dream-gothic-void-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/dream-gothic-void-hero.webp",
+      "sha256": "7e4261099a154f9c9eefcb82d93417427b18915b3646e200a81822f51b4ec29b"
+    },
+    "dream-gothic-void-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/dream-gothic-void-avatar.webp",
+      "sha256": "acd226a676ac1fd2df751ba99b90ea9777aab393544fe36c750705c7b297732a"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#C8A55A",
+    "appearance.surface": "#171513",
+    "appearance.ink": "#F3EAD7",
+    "appearance.contrast": 72,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#62C48D",
+    "semantic.diffRemoved": "#E06B62",
+    "semantic.skill": "#E3C27A",
+    "background.image": {
+      "assetId": "dream-gothic-void-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.03,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 20,
+    "brand.enabled": false,
+    "brand.displayName": "灵妆 Free",
+    "brand.shortMark": "FR",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 18,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "dream-gothic-void-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "dream-gothic-void-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "dream-gothic-void-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "dream-gothic-void-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#C8A55A",
+      "appearance.surface": "#171513",
+      "appearance.ink": "#F3EAD7",
+      "background.overlay": 0.14
+    },
+    "doubao": {
+      "appearance.accent": "#C8A55A",
+      "appearance.surface": "#171513",
+      "appearance.ink": "#F3EAD7",
+      "background.overlay": 0.02,
+      "background.opacity": 1,
+      "glass.enabled": false,
+      "glass.opacity": 0.35,
+      "glass.blur": 0
+    },
+    "codex": {
+      "appearance.accent": "#C8A55A",
+      "appearance.surface": "#171513",
+      "appearance.ink": "#F3EAD7",
+      "background.overlay": 0.12
+    }
+  }
+}

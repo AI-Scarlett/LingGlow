@@ -19,6 +19,9 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 8. Accept an avatar as transparent only when the decoded image has a real Alpha channel. A checkerboard rendered into RGB pixels is not transparency.
 9. Preserve native app appearance while a skin is active. Tell the user not to switch the Agent's own light/dark setting independently; reapply or warn when the states diverge.
 10. Treat a successful build or injection probe as insufficient. Release only after screenshot-backed interaction QA in all three real clients.
+11. Give every distributable WorkBuddy theme its own style-matched composer mascot. Sports themes should use a related object or symbol; never reuse one generic robot across unrelated themes.
+12. Give every Codex theme a dedicated 3:1 home artwork that is visually related to, but not the same file as, the global background.
+13. Record asset provenance and redistribution terms. Exclude any third-party person, character, logo, or artwork whose rights are unclear, even when it appears in an upstream preset repository.
 
 ## Inputs
 
@@ -42,9 +45,10 @@ Use the templates in `inputs/`. Read `references/asset-specs.md` before acceptin
 5. Apply the selected appearance to the Agent's native appearance selector when safely possible. Otherwise apply the complete matching semantic token set and show a warning not to change native appearance while the skin is active.
 6. Keep the default background on one fixed visual layer. Make only approved content surfaces reveal it. Keep popovers and cards opaque enough to meet contrast.
 7. Validate assets before injection. Reject oversize images, non-image payloads, and mascot files that claim transparency but have no Alpha channel.
-8. Apply the skin, restart only the target Agent when required, then run the real-client matrix in `checks/layout-smoke-checklist.md`.
-9. Capture screenshots for light and dark skins and exercise clicks, typing, scrolling, menus, hover cards, and embedded browser panels.
-10. Package only after all required rows pass. Record Agent versions, skin version, appearance mode, screenshots, failures, and rollback result.
+8. Verify that the Codex home artwork and global background have different content hashes, and that every WorkBuddy pack resolves a theme-specific mascot asset.
+9. Apply the skin, restart only the target Agent when required, then run the real-client matrix in `checks/layout-smoke-checklist.md`.
+10. Capture screenshots for light and dark skins and exercise clicks, typing, scrolling, menus, hover cards, and embedded browser panels.
+11. Package only after all required rows pass. Record Agent versions, skin version, appearance mode, screenshots, failures, and rollback result.
 
 ## Client rules
 

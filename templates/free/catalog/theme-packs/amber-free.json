@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "amber-free",
+  "name": "暖沙金 Free",
+  "description": "免费三端主题：暖金沙色、咖色玻璃与高对比文字。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "amber-free-background"
+  },
+  "assets": {
+    "amber-free-background": {
+      "slot": "background.main",
+      "path": "assets/amber-free.webp",
+      "sha256": "05cc53f6a7c566185aa4267b11ce7ad96f118448870428985769a17adb980877"
+    },
+    "amber-free-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/amber-free-hero.webp",
+      "sha256": "6cdbec483cf132a567298d1699a6e1b47169fea1fc7fd1399915d407c307dd1d"
+    },
+    "amber-free-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/amber-free-hero.webp",
+      "sha256": "6cdbec483cf132a567298d1699a6e1b47169fea1fc7fd1399915d407c307dd1d"
+    },
+    "amber-free-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/amber-free-hero.webp",
+      "sha256": "6cdbec483cf132a567298d1699a6e1b47169fea1fc7fd1399915d407c307dd1d"
+    },
+    "amber-free-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/amber-free-avatar.webp",
+      "sha256": "89c6d1fcd16af5ea5c3d4db7e37e985db3bfb11a0e74753bdecf806a3e219956"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#F2A93B",
+    "appearance.surface": "#21170D",
+    "appearance.ink": "#FFF8EA",
+    "appearance.contrast": 60,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#E7C35D",
+    "background.image": {
+      "assetId": "amber-free-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.08,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.8,
+    "glass.blur": 20,
+    "brand.enabled": false,
+    "brand.displayName": "灵妆 Free",
+    "brand.shortMark": "FR",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "amber-free-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "amber-free-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "amber-free-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "amber-free-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#F2A93B",
+      "appearance.surface": "#21170D",
+      "appearance.ink": "#FFF8EA"
+    },
+    "doubao": {
+      "appearance.accent": "#F2A93B",
+      "appearance.surface": "#21170D",
+      "appearance.ink": "#FFF8EA",
+      "background.overlay": 0.06
+    },
+    "codex": {
+      "appearance.accent": "#F2A93B",
+      "appearance.surface": "#21170D",
+      "appearance.ink": "#FFF8EA"
+    }
+  }
+}

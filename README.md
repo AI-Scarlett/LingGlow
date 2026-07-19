@@ -2,38 +2,54 @@
 
 灵妆是面向 Codex/GPT、WorkBuddy 与豆包的 macOS 主题管理工具。
 
-本仓库仅发布：
+本仓库只发布：
 
-- 已签名的 macOS DMG（位于 GitHub Releases）
-- 可复用的皮肤制作 Skill（`skills/skin-abstract`）
+- Apple Developer ID 签名并公证的 macOS DMG
+- 4 套可公开分发的免费 Theme Pack 与素材来源说明
+- 可复用的三客户端皮肤制作 Skill
+- 客户端自动升级清单 `latest.json`
 
-本仓库**不包含灵妆应用源码**。GitHub 自动生成的 Source code 压缩包只包含本 README 与 Skill。
+本仓库**不包含灵妆应用源码**。GitHub 自动生成的 Source code 压缩包只包含文档、模板、Skill 与升级清单。
 
-## 桌面窗口版
+## v2.1.0
 
-`v2.0.0-desktop` 将原来的临时菜单栏弹出层改为独立桌面窗口：
+- 菜单栏图标打开持久桌面窗口，窗口不会因点击其他应用而消失，且不显示在 Dock。
+- 新增“检查更新”和用户可选的“自动安装更新”。升级前校验 SHA-256、Bundle ID、Team ID、Developer ID 签名与 Apple 公证状态。
+- 内置 7 套模板，全部声明 Codex/GPT、WorkBuddy、豆包三客户端投影。
+- Codex 模板使用两张不同图片：一张全局背景，一张相关联的 3:1 新建任务图。
+- WorkBuddy 每套模板使用风格匹配的替换图；足球主题使用对应色系足球，其他主题使用匹配的猫、狐狸、光球或精灵。
+- 4 套免费模板：`aurora-free`、`amber-free`、`dream-gothic-void`、`dream-portal-free`。
+- 3 套 VIP 模板：`cr7-portugal`、`messi-argentina`、`neymar-brazil`。
 
-- 点击菜单栏灵妆图标即可显示并置前。
-- 点击其他应用时窗口不会自动消失。
-- 窗口支持移动、缩放，并记住上次尺寸和位置。
-- 关闭窗口后灵妆仍常驻菜单栏。
-- 灵妆不会出现在 Dock。
+前往 [Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest) 下载 DMG。
 
-前往 [Releases](https://github.com/AI-Scarlett/LingGlow/releases) 下载 DMG。
+## 免费模板
+
+模板与预览位于 [`templates/free`](templates/free)。可明确重分发的 Gothic Void 和 Portal 方向已纳入；上游 Arina 人物素材因 NOTICE 明确排除 MIT 授权而未收录。
 
 ## Skin Skill
 
-`skills/skin-abstract` 提供三客户端皮肤制作与验收流程，包括：
+[`skills/skin-abstract`](skills/skin-abstract) 包含：
 
 - 显式浅色/深色模式契约
-- 全局背景与首页专图分层
+- 单一全局背景与客户端首页专图分层
 - Codex/GPT、WorkBuddy、豆包适配规则
 - 弹窗、卡片、输入框与文字对比度策略
-- WorkBuddy 机器人/头像真实 Alpha 棪测
-- 点击遮挡防护与真实客户端截图验收矩阵
+- WorkBuddy 主题匹配替换图与真实 Alpha 检测
+- 点击遮挡防护和真实客户端截图验收矩阵
+- 所有配图的建议比例、尺寸与大小上限
+- 素材来源和再分发权利检查
 
-将 `skills/skin-abstract` 放入 Codex 的 Skills 目录即可使用。
+## 图片规范
 
-## 签名状态
+| 用途 | 建议尺寸 | 比例 | 大小限制 |
+| --- | ---: | ---: | ---: |
+| 全局背景 | 2560x1600 | 16:10 | 4 MB，最长边 4096 px，最多 16 MP |
+| Codex 首页图 | 2400x800 | 3:1 | 4 MB |
+| WorkBuddy 首页图 | 1920x1080 | 16:9 | 4 MB |
+| App Icon | 1024x1024 | 1:1 | 2 MB，最长边 2048 px |
+| WorkBuddy 替换图 | 1024x1024 | 1:1 | 2 MB，透明时必须有真实 Alpha |
 
-DMG 与应用使用 Developer ID Application 签名，Team ID：`UQ87N2WZ76`。当前构建未附加 Apple 公证票据；安装前请核对 Release 中的 SHA-256。
+## 签名与公证
+
+DMG 和应用均使用 Developer ID Application 签名，Team ID 为 `UQ87N2WZ76`，并附加 Apple 公证票据。请同时核对 Release 中的 SHA-256。

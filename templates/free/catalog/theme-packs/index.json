@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "theme-pack-index",
+  "packs": [
+    {
+      "id": "aurora-free",
+      "path": "theme-packs/aurora-free.json",
+      "sha256": "e049d1622d7e19857270f827a533667f7db426c2742687ab59fe08a25d1ce355"
+    },
+    {
+      "id": "amber-free",
+      "path": "theme-packs/amber-free.json",
+      "sha256": "33342dc3063663d49e5a58a0efd34b1fa5c1e07f36d139cc3e74e647fece506a"
+    },
+    {
+      "id": "dream-gothic-void",
+      "path": "theme-packs/dream-gothic-void.json",
+      "sha256": "400246b71ddf56e42ccb0c23f75c6bbec8cc0e41ee46665ffac1e2fa4da81857"
+    },
+    {
+      "id": "dream-portal-free",
+      "path": "theme-packs/dream-portal-free.json",
+      "sha256": "25ce6af442710bf1e1aecfd64ee9f48cd633dcc45c2d253826893da9ed931677"
+    }
+  ]
+}
