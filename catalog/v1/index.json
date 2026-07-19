@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "catalogVersion": "2026.07.19.1",
-  "generatedAt": "2026-07-19T13:00:09.306Z",
-  "minimumAppVersion": "2.2.0",
+  "generatedAt": "2026-07-19T14:48:04.880Z",
+  "minimumAppVersion": "2.2.1",
   "skins": [
     {
       "id": "dream-portal",
@@ -15,6 +15,13 @@
       "clientIds": [
         "codex",
         "workbuddy"
+      ],
+      "category": "fantasy",
+      "series": "dream-portal",
+      "tags": [
+        "梦境",
+        "传送门",
+        "浅色"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-portal.webp",
@@ -49,6 +56,13 @@
         "codex",
         "workbuddy"
       ],
+      "category": "minimal",
+      "series": "focus",
+      "tags": [
+        "石墨",
+        "专注",
+        "深色"
+      ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/graphite-focus.png",
         "sha256": "4a7efea489850fe797a5c6fb454dccf650162203c59dc82bd8075c6dc8bc6453"
@@ -81,6 +95,13 @@
       "clientIds": [
         "codex",
         "workbuddy"
+      ],
+      "category": "nature",
+      "series": "ocean",
+      "tags": [
+        "海洋",
+        "清爽",
+        "浅色"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/ocean-breeze.png",
@@ -115,6 +136,13 @@
         "codex",
         "workbuddy"
       ],
+      "category": "nature",
+      "series": "jade",
+      "tags": [
+        "青玉",
+        "静谧",
+        "深色"
+      ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/jade-calm.png",
         "sha256": "fcf303b43291e8f968c252eaa5e1d19f2a55f34814dd389be6c037962aa81fff"
@@ -147,6 +175,13 @@
       "clientIds": [
         "codex",
         "workbuddy"
+      ],
+      "category": "fantasy",
+      "series": "aurora",
+      "tags": [
+        "极光",
+        "玻璃",
+        "深色"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/aurora-glass.png",
@@ -181,6 +216,13 @@
         "codex",
         "workbuddy"
       ],
+      "category": "art",
+      "series": "atelier",
+      "tags": [
+        "落日",
+        "工坊",
+        "浅色"
+      ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/sunset-atelier.png",
         "sha256": "9ceceb6d95bb21b95ca645369c9cad40624e48d9be72965135fd60034041b437"
@@ -213,6 +255,13 @@
       "clientIds": [
         "codex",
         "workbuddy"
+      ],
+      "category": "fantasy",
+      "series": "nebula",
+      "tags": [
+        "星云",
+        "宇宙",
+        "深色"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/violet-nebula.png",
@@ -248,6 +297,13 @@
         "doubao",
         "codex"
       ],
+      "category": "fantasy",
+      "series": "aurora",
+      "tags": [
+        "极光",
+        "免费",
+        "深色"
+      ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/aurora-free.webp",
         "sha256": "9a8f629d379faaa093470969a4a4c053fc8809eeed02653428defbeb0aeefacd"
@@ -281,6 +337,13 @@
         "workbuddy",
         "doubao",
         "codex"
+      ],
+      "category": "minimal",
+      "series": "amber",
+      "tags": [
+        "暖沙",
+        "免费",
+        "深色"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/amber-free.webp",
@@ -316,6 +379,13 @@
         "doubao",
         "codex"
       ],
+      "category": "fantasy",
+      "series": "gothic",
+      "tags": [
+        "哥特",
+        "远征",
+        "深色"
+      ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-gothic-void.webp",
         "sha256": "94ee8d19e87fdd3d6972fedb689bcc09cd98c6705a610afbed1f381f73528688"
@@ -349,6 +419,13 @@
         "workbuddy",
         "doubao",
         "codex"
+      ],
+      "category": "fantasy",
+      "series": "dream-portal",
+      "tags": [
+        "梦境",
+        "免费",
+        "浅色"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-portal-free.webp",
@@ -384,6 +461,13 @@
         "doubao",
         "codex"
       ],
+      "category": "sports",
+      "series": "football-legends",
+      "tags": [
+        "足球",
+        "葡萄牙",
+        "7号"
+      ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/cr7-portugal.webp",
         "sha256": "0970c2866c337f4785656dd970c8375d6debb71bdd80ac57bf4a1e0b62996aad"
@@ -417,6 +501,13 @@
         "workbuddy",
         "doubao",
         "codex"
+      ],
+      "category": "sports",
+      "series": "football-legends",
+      "tags": [
+        "足球",
+        "阿根廷",
+        "10号"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/messi-argentina.webp",
@@ -452,6 +543,13 @@
         "doubao",
         "codex"
       ],
+      "category": "sports",
+      "series": "football-legends",
+      "tags": [
+        "足球",
+        "巴西",
+        "10号"
+      ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/neymar-brazil.webp",
         "sha256": "c26515d02fe552482f908314ef02a0ed922928aa79816d6e1a6ff0152adab0b7"
@@ -485,6 +583,13 @@
         "workbuddy",
         "doubao",
         "codex"
+      ],
+      "category": "sports",
+      "series": "kungfu-football",
+      "tags": [
+        "功夫",
+        "女足",
+        "电影感"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/kungfu-womens-football.webp",
