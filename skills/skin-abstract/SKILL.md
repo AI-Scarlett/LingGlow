@@ -29,6 +29,7 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 Collect:
 
 - `skinId`, version, free/VIP tier, display name, and source/license.
+- Catalog classification: one stable `category`, one `series`, and concise search `tags`.
 - `appearanceMode`: `light` or `dark`.
 - Semantic colors: `canvas`, `surface`, `surfaceElevated`, `textPrimary`, `textSecondary`, `border`, `selection`, `accent`, `danger`.
 - Global background plus optional client-specific home artwork.
@@ -53,7 +54,7 @@ Use the templates in `inputs/`. Read `references/asset-specs.md` before acceptin
 
 ## Remote catalog packaging
 
-Read `references/remote-distribution.md` when the user asks to share, publish, download, or install a skin through LingGlow. Build the project distribution with `node scripts/build_skin_distribution.mjs`; do not hand-edit generated bundle hashes or the public catalog index.
+Read `references/remote-distribution.md` when the user asks to share, publish, download, or install a skin through LingGlow. LingGlow Remote Distribution v2 requires `category`, `series`, and `tags` so clients can search and filter without downloading the full pack. Build the project distribution with `node scripts/build_skin_distribution.mjs`; do not hand-edit generated bundle hashes or the public catalog index.
 
 Publish in this order: skin bundle, gallery preview, catalog index. The index is always last so a visible catalog card never points to a missing package. Treat uploading to the public repository as an external release action and require explicit user authorization.
 
