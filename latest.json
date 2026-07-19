@@ -1,10 +1,18 @@
 {
-  "version": "2.2.0",
-  "tag": "v2.2.0",
-  "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.2.0/LingGlow-2.2.0-macOS.dmg",
-  "sha256": "d9df7bab151886eab834ae05921ef25b8cc8e024ce8edcb6a6d6f5411f9f1be2",
+  "version": "2.2.1",
+  "tag": "v2.2.1",
+  "artifacts": {
+    "arm64": {
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.2.1/LingGlow-2.2.1-macOS-Apple-Silicon.dmg",
+      "sha256": "a2cbc80a20ac6e7e66321dd4891ac8c6593518c55582f4c471f0aac4a835c46d"
+    },
+    "x86_64": {
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.2.1/LingGlow-2.2.1-macOS-Intel.dmg",
+      "sha256": "1cb74764a112a062a9bbf013908c9188d53d2bca21d23d73699fdf0c294d24c2"
+    }
+  },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "正式购买改为 Dodo 托管支付链接与公共 License API；无需自建后端、API Key 或 Webhook；新增隐私政策、购买说明和购买前确认。"
+  "releaseNotes": "重做标准左侧栏客户端；新增模板分类、搜索、目录更新提示与手动拉取；安装包按 Apple Silicon/Intel 分发并仅内置一套免费和两套 VIP 离线模板；修复内置服务索引字段缺失导致的连接失败。"
 }
