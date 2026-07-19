@@ -1,4 +1,4 @@
-# LingGlow Remote Distribution v1
+# LingGlow Remote Distribution v2
 
 Read this file when a completed skin must be packaged for the public LingGlow catalog.
 
@@ -10,6 +10,7 @@ Required authoring facts:
 
 - Stable lowercase `skinId`.
 - Semantic version, free/VIP tier, and explicit `appearance.mode`.
+- One catalog `category`, a stable `series`, and concise search `tags`.
 - Supported Agent IDs.
 - Global background, separate Codex 3:1 hero, and WorkBuddy transparent mascot when those slots are enabled.
 - Source, license, and redistribution evidence.
@@ -32,5 +33,7 @@ node scripts/build_skin_distribution.mjs
 ```
 
 The project packager creates a single `<skinId>.lingglow-skin.json` with Base64 WebP assets and SHA-256 locks. Do not hand-edit the generated bundle or public `catalog/v1/index.json`.
+
+The public index uses `schemaVersion: 2`. Supported categories are `sports`, `fantasy`, `nature`, `minimal`, `art`, `seasonal`, and `other`. Use a stable lowercase series ID so related skins can be grouped across releases. Tags should describe subject, mood, appearance, and usage; do not duplicate long descriptions.
 
 The maintainer uploads the bundle to the `skin-catalog-v1` GitHub Release, uploads the preview to `catalog/v1/previews/`, then publishes the generated index last. A user-created skin remains local until the maintainer completes rights review and real-client QA.
