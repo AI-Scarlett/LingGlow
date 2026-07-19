@@ -1,10 +1,10 @@
 {
-  "version": "2.1.1",
-  "tag": "v2.1.1",
-  "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.1.1/LingGlow-2.1.1-macOS.dmg",
-  "sha256": "e7d83c3d4381d719c4c811538da5c85cd29df1a4db2df5f66f7cf5c4111902c0",
+  "version": "2.1.2",
+  "tag": "v2.1.2",
+  "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.1.2/LingGlow-2.1.2-macOS.dmg",
+  "sha256": "09486ace5be450bc17c8e44896af9a9b97e7e7a75521a0061e3df2b602d69517",
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复本地服务安全检测超过 10 秒时误报无法连接、皮肤目录显示 0 套的问题；首次快照增加自动重试；同步后端版本号。"
+  "releaseNotes": "新增功夫女足主题；修复 WorkBuddy 自定义机器人图片白边、方底和假透明素材；更新三端主题目录。"
 }
