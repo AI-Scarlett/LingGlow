@@ -15,6 +15,16 @@
 
 完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
 
+## 购买、授权与隐私
+
+灵妆使用 Dodo Payments 官方托管支付页和公共 License API，不在客户端嵌入商户 API Key，也不要求用户配置 Webhook。付款后由 Dodo 交付 License Key，用户在灵妆“授权”页面粘贴激活。
+
+- [隐私政策](docs/PRIVACY.md)
+- [购买说明](docs/PURCHASE-TERMS.md)
+- 支付、税费、发票和争议由 Dodo Payments 作为 Merchant of Record 处理
+- 数字授权和虚拟皮肤除适用法律或 Dodo 规则另有规定外不支持退货退款
+- 订阅取消、退款或拒付会在下一次联网验证后撤销对应权益
+
 ## 远程皮肤目录
 
 灵妆 2.2.0 起不再把全部皮肤大图放进 DMG。App 只读取远程目录中的名称、预览、明暗模式、大小与 Agent 适配；用户点击“下载”后才下载所选皮肤。
