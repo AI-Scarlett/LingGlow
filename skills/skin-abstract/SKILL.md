@@ -1,6 +1,6 @@
 ---
 name: skin-abstract
-description: Create, adapt, and QA reusable light/dark skins for Codex/GPT, WorkBuddy, and Doubao. Use when making free or VIP theme packs, updating client layout compatibility, defining global and home artwork, replacing icons or mascots, fixing unreadable text and dialogs, or validating that visual overlays do not block native interaction.
+description: Create, adapt, package, and QA reusable light/dark skins for Codex/GPT, WorkBuddy, and Doubao. Use when making free or VIP theme packs, publishing LingGlow remote skin bundles, updating client layout compatibility, defining global and home artwork, replacing icons or mascots, fixing unreadable text and dialogs, or validating that visual overlays do not block native interaction.
 ---
 
 # Skin Abstract
@@ -22,6 +22,7 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 11. Give every distributable WorkBuddy theme its own style-matched composer mascot. Sports themes should use a related object or symbol; never reuse one generic robot across unrelated themes.
 12. Give every Codex theme a dedicated 3:1 home artwork that is visually related to, but not the same file as, the global background.
 13. Record asset provenance and redistribution terms. Exclude any third-party person, character, logo, or artwork whose rights are unclear, even when it appears in an upstream preset repository.
+14. Publish one declarative `.lingglow-skin.json` per skin. Never place JavaScript, CSS, executable files, arbitrary URLs, or source archives in a remote skin bundle.
 
 ## Inputs
 
@@ -49,6 +50,12 @@ Use the templates in `inputs/`. Read `references/asset-specs.md` before acceptin
 9. Apply the skin, restart only the target Agent when required, then run the real-client matrix in `checks/layout-smoke-checklist.md`.
 10. Capture screenshots for light and dark skins and exercise clicks, typing, scrolling, menus, hover cards, and embedded browser panels.
 11. Package only after all required rows pass. Record Agent versions, skin version, appearance mode, screenshots, failures, and rollback result.
+
+## Remote catalog packaging
+
+Read `references/remote-distribution.md` when the user asks to share, publish, download, or install a skin through LingGlow. Build the project distribution with `node scripts/build_skin_distribution.mjs`; do not hand-edit generated bundle hashes or the public catalog index.
+
+Publish in this order: skin bundle, gallery preview, catalog index. The index is always last so a visible catalog card never points to a missing package. Treat uploading to the public repository as an external release action and require explicit user authorization.
 
 ## Client rules
 

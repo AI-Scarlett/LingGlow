@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "2026.07.19.1",
+  "generatedAt": "2026-07-19T13:00:09.306Z",
+  "minimumAppVersion": "2.2.0",
+  "skins": [
+    {
+      "id": "dream-portal",
+      "kind": "legacy-v1",
+      "version": "1.0.0",
+      "name": "Dream Portal 测试",
+      "description": "基于 Codex Dream Skin 的 MIT 抽象演示图，使用红白高对比全屏背景验证换肤效果。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "codex",
+        "workbuddy"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-portal.webp",
+        "sha256": "2154717eedf080ea6ab608638022ecef67116c445e076a55bb02377d1cb415ba"
+      },
+      "colors": {
+        "accent": "#E25563",
+        "surface": "#F7F4F5",
+        "ink": "#2B2224"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": false
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-portal.lingglow-skin.json",
+        "sha256": "2f9c1b8664d14b6945c09b5b06770bf6bc8df57f64cfd063613d718cdeedeed5",
+        "bytes": 120304
+      }
+    },
+    {
+      "id": "graphite-focus",
+      "kind": "legacy-v1",
+      "version": "1.0.0",
+      "name": "石墨专注",
+      "description": "低干扰的中性深色方案，适合长时间编码。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "codex",
+        "workbuddy"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/graphite-focus.png",
+        "sha256": "4a7efea489850fe797a5c6fb454dccf650162203c59dc82bd8075c6dc8bc6453"
+      },
+      "colors": {
+        "accent": "#A3A3A3",
+        "surface": "#171717",
+        "ink": "#F5F5F5"
+      },
+      "features": {
+        "artwork": false,
+        "projectHero": false,
+        "brand": false,
+        "banner": false
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/graphite-focus.lingglow-skin.json",
+        "sha256": "70b3c01f5d8d20275cb0e0213656ca536e52d74321859c60687398f0f83f3146",
+        "bytes": 1609
+      }
+    },
+    {
+      "id": "ocean-breeze",
+      "kind": "legacy-v1",
+      "version": "1.0.0",
+      "name": "海风浅蓝",
+      "description": "清爽明亮的海蓝色方案，适合白天和高亮环境。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "codex",
+        "workbuddy"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/ocean-breeze.png",
+        "sha256": "829bfdd23a3e620ed6541058c8c8b5db0ab7b178ddd14e7c9d4ae69c0d534d83"
+      },
+      "colors": {
+        "accent": "#0284C7",
+        "surface": "#EAF7FF",
+        "ink": "#0C4A6E"
+      },
+      "features": {
+        "artwork": false,
+        "projectHero": false,
+        "brand": false,
+        "banner": false
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/ocean-breeze.lingglow-skin.json",
+        "sha256": "c312d0153e248710229d284ae2521f0e1cc647a0fdd43482f7ef7ba748b60031",
+        "bytes": 1605
+      }
+    },
+    {
+      "id": "jade-calm",
+      "kind": "legacy-v1",
+      "version": "1.0.0",
+      "name": "青玉静谧",
+      "description": "柔和的青绿色深色方案，平衡辨识度与舒适度。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "codex",
+        "workbuddy"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/jade-calm.png",
+        "sha256": "fcf303b43291e8f968c252eaa5e1d19f2a55f34814dd389be6c037962aa81fff"
+      },
+      "colors": {
+        "accent": "#2DD4BF",
+        "surface": "#0B1F1B",
+        "ink": "#D1FAE5"
+      },
+      "features": {
+        "artwork": false,
+        "projectHero": false,
+        "brand": false,
+        "banner": false
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/jade-calm.lingglow-skin.json",
+        "sha256": "3f1ce92049cb98a7b04d23394bdaff1da2ea1ef4a9a6546324ddb0c224e704fc",
+        "bytes": 1599
+      }
+    },
+    {
+      "id": "aurora-glass",
+      "kind": "legacy-v1",
+      "version": "1.0.0",
+      "name": "极光玻璃",
+      "description": "高质感冷色玻璃方案，强调层次、光感和轻动画。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "codex",
+        "workbuddy"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/aurora-glass.png",
+        "sha256": "b920b2eb7aaffb41dcb731988537695a493c16b9ee199a55ca95e87e228d7f39"
+      },
+      "colors": {
+        "accent": "#67E8F9",
+        "surface": "#10142A",
+        "ink": "#E0F2FE"
+      },
+      "features": {
+        "artwork": false,
+        "projectHero": false,
+        "brand": false,
+        "banner": false
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/aurora-glass.lingglow-skin.json",
+        "sha256": "a5b695dc242ee4336078f3f41e6f2ce360431fc21988e53a1c1640d96472abde",
+        "bytes": 1613
+      }
+    },
+    {
+      "id": "sunset-atelier",
+      "kind": "legacy-v1",
+      "version": "1.0.0",
+      "name": "落日工坊",
+      "description": "温暖而克制的浅色创作方案，适合设计与内容工作。",
+      "tier": "vip",
+      "appearanceMode": "light",
+      "clientIds": [
+        "codex",
+        "workbuddy"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/sunset-atelier.png",
+        "sha256": "9ceceb6d95bb21b95ca645369c9cad40624e48d9be72965135fd60034041b437"
+      },
+      "colors": {
+        "accent": "#EA580C",
+        "surface": "#FFF7ED",
+        "ink": "#7C2D12"
+      },
+      "features": {
+        "artwork": false,
+        "projectHero": false,
+        "brand": false,
+        "banner": false
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/sunset-atelier.lingglow-skin.json",
+        "sha256": "19781e2ac37cc3685fcfd51fad64e907482132176e0969c5989da1e2024932bb",
+        "bytes": 1625
+      }
+    },
+    {
+      "id": "violet-nebula",
+      "kind": "legacy-v1",
+      "version": "1.0.0",
+      "name": "紫雾星云",
+      "description": "层次丰富的紫蓝深色方案，为夜间使用优化。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "codex",
+        "workbuddy"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/violet-nebula.png",
+        "sha256": "49c05c6f580db3cb8e881edf70f8ff7ab18e969d7ac8d44d979a39bbea660284"
+      },
+      "colors": {
+        "accent": "#A78BFA",
+        "surface": "#17112B",
+        "ink": "#F3E8FF"
+      },
+      "features": {
+        "artwork": false,
+        "projectHero": false,
+        "brand": false,
+        "banner": false
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/violet-nebula.lingglow-skin.json",
+        "sha256": "b1bf23c86c05dfd3c7d4fc936eebf3c0e86c2eed0985eeac4270399b0f3bb1da",
+        "bytes": 1611
+      }
+    },
+    {
+      "id": "aurora-free",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "极光青 Free",
+      "description": "免费三端主题：清透青绿、深色玻璃与高对比文字。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/aurora-free.webp",
+        "sha256": "9a8f629d379faaa093470969a4a4c053fc8809eeed02653428defbeb0aeefacd"
+      },
+      "colors": {
+        "accent": "#27D7A1",
+        "surface": "#071A17",
+        "ink": "#F3FFF9"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": false,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/aurora-free.lingglow-skin.json",
+        "sha256": "10ff623e5a3e7f155df54503657bfb012dbc5f77309017a04019598bd9a47061",
+        "bytes": 1059174
+      }
+    },
+    {
+      "id": "amber-free",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "暖沙金 Free",
+      "description": "免费三端主题：暖金沙色、咖色玻璃与高对比文字。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/amber-free.webp",
+        "sha256": "05cc53f6a7c566185aa4267b11ce7ad96f118448870428985769a17adb980877"
+      },
+      "colors": {
+        "accent": "#F2A93B",
+        "surface": "#21170D",
+        "ink": "#FFF8EA"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": false,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/amber-free.lingglow-skin.json",
+        "sha256": "78bd39d47093099a71c68104199744abb165f576dd2244677b4405d0296b5bf5",
+        "bytes": 1087489
+      }
+    },
+    {
+      "id": "dream-gothic-void",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "哥特虚空远征",
+      "description": "Codex Dream Skin 社区原创哥特科幻背景，免费适配 Codex、WorkBuddy 与豆包。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-gothic-void.webp",
+        "sha256": "94ee8d19e87fdd3d6972fedb689bcc09cd98c6705a610afbed1f381f73528688"
+      },
+      "colors": {
+        "accent": "#C8A55A",
+        "surface": "#171513",
+        "ink": "#F3EAD7"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": false,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-gothic-void.lingglow-skin.json",
+        "sha256": "9bc65bd9427f0b9b5675c76fcbffa583b5ce188ecb0dde44692e8a429924ab83",
+        "bytes": 1640196
+      }
+    },
+    {
+      "id": "dream-portal-free",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "梦境传送门 Free",
+      "description": "Codex Dream Skin 原创抽象 Portal 艺术扩展的免费三端主题；独立全局背景、关联首页 Hero 与 WorkBuddy 透明传送门精灵。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-portal-free.webp",
+        "sha256": "e6c89bbcfa171444bcf7f061deaf3bf91c70103b827bf3ae8118cdd01a9c0800"
+      },
+      "colors": {
+        "accent": "#E45166",
+        "surface": "#FFF4F5",
+        "ink": "#24191D"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": false,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-portal-free.lingglow-skin.json",
+        "sha256": "32e5a61eca59f06e5b83341aa75544a847baf183c1900c1e9820c9105f122561",
+        "bytes": 1250139
+      }
+    },
+    {
+      "id": "cr7-portugal",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "C罗灵感·葡萄牙7号星夜",
+      "description": "葡萄牙红、祖母绿与金色夜场氛围；原创匿名 7 号背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/cr7-portugal.webp",
+        "sha256": "0970c2866c337f4785656dd970c8375d6debb71bdd80ac57bf4a1e0b62996aad"
+      },
+      "colors": {
+        "accent": "#E3B341",
+        "surface": "#071411",
+        "ink": "#F7F2E7"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/cr7-portugal.lingglow-skin.json",
+        "sha256": "501c8545b7134fd82d61a84f62937833553fdb20d3fe94615917505e4a88b929",
+        "bytes": 1900123
+      }
+    },
+    {
+      "id": "messi-argentina",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "梅西灵感·阿根廷10号月光",
+      "description": "阿根廷天蓝、月白与银金黎明氛围；原创匿名 10 号背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/messi-argentina.webp",
+        "sha256": "96b90a688244702754f35c5fb8db30048f8a6b210aaa809c0cce125b7af5ae8d"
+      },
+      "colors": {
+        "accent": "#8BCBF1",
+        "surface": "#071526",
+        "ink": "#F5FAFF"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/messi-argentina.lingglow-skin.json",
+        "sha256": "e43ca0ab7dbcfb4fb0ac809dde8e19978be7dd4a81cd8fa66e929db24548eb52",
+        "bytes": 1830434
+      }
+    },
+    {
+      "id": "neymar-brazil",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "内马尔灵感·巴西10号热浪",
+      "description": "巴西黄、翡翠绿与深蓝速度感；原创匿名 10 号动态背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/neymar-brazil.webp",
+        "sha256": "c26515d02fe552482f908314ef02a0ed922928aa79816d6e1a6ff0152adab0b7"
+      },
+      "colors": {
+        "accent": "#F6C945",
+        "surface": "#061A24",
+        "ink": "#F7F4D6"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/neymar-brazil.lingglow-skin.json",
+        "sha256": "26067311912c2e0bb4d26b1ad1bf6a9e8f1d748ca9b7f755572680ded5e3c019",
+        "bytes": 2102792
+      }
+    },
+    {
+      "id": "kungfu-womens-football",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "功夫女足·无厘头绿茵夜",
+      "description": "以周星驰式无厘头功夫喜剧精神为灵感的原创三端 VIP 主题；不含演员肖像、电影剧照、角色造型、片名标识或官方合作元素。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/kungfu-womens-football.webp",
+        "sha256": "027cd83540abd038150bbec789c4f8090da00ff9e3cff63c5483fd7277935b9f"
+      },
+      "colors": {
+        "accent": "#D7B65B",
+        "surface": "#081611",
+        "ink": "#F7F2DB"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/kungfu-womens-football.lingglow-skin.json",
+        "sha256": "7d4ae864ed16cf6230a418c1ecf2bcd7dfe951cabba8aeae8418b5da0d5bb590",
+        "bytes": 1795436
+      }
+    }
+  ]
+}
