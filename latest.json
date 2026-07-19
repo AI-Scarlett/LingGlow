@@ -1,10 +1,10 @@
 {
-  "version": "2.1.0",
-  "tag": "v2.1.0",
-  "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.1.0/LingGlow-2.1.0-macOS.dmg",
-  "sha256": "d0e52da0f4875b13390fb09d5e72aff876c840fb841cd85257833783baf8e6ed",
+  "version": "2.1.1",
+  "tag": "v2.1.1",
+  "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.1.1/LingGlow-2.1.1-macOS.dmg",
+  "sha256": "e7d83c3d4381d719c4c811538da5c85cd29df1a4db2df5f66f7cf5c4111902c0",
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "新增升级提示与可选自动升级；内置 7 套三客户端模板；Codex 使用独立首页图；WorkBuddy 使用主题匹配替换图；修复菜单栏窗口体验与公证安装。"
+  "releaseNotes": "修复本地服务安全检测超过 10 秒时误报无法连接、皮肤目录显示 0 套的问题；首次快照增加自动重试；同步后端版本号。"
 }
