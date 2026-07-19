@@ -1,0 +1,26 @@
+{
+  "version": "2026.07.19-v3",
+  "targetClientId": "codex",
+  "appearanceMode": "dark",
+  "artwork": {
+    "globalBackground": null,
+    "homeArtwork": null,
+    "homeArtworkRatio": "3:1"
+  },
+  "copy": {
+    "homeTitle": null
+  },
+  "surfaces": {
+    "page": "transparent",
+    "sidebar": "translucent",
+    "composer": "opaque-contrast-safe",
+    "cards": "opaque-contrast-safe",
+    "overlays": "opaque-contrast-safe"
+  },
+  "interaction": {
+    "decorativePointerEvents": "none",
+    "preserveNativeGeometry": true,
+    "preserveRightPanelInput": true
+  },
+  "requiredStates": ["selected", "hover", "focus", "disabled", "warning", "error"]
+}

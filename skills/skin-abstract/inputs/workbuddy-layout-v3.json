@@ -1,0 +1,28 @@
+{
+  "version": "2026.07.19-v3",
+  "targetClientId": "workbuddy",
+  "appearanceMode": "dark",
+  "artwork": {
+    "globalBackground": null,
+    "homeArtwork": null,
+    "composerMascot": null,
+    "mascotRequiresAlpha": true
+  },
+  "copy": {
+    "homeTitle": null,
+    "homeSubtitle": null
+  },
+  "surfaces": {
+    "page": "transparent",
+    "history": "transparent",
+    "composer": "transparent-or-translucent",
+    "expertCards": "opaque-contrast-safe",
+    "overlays": "opaque-contrast-safe"
+  },
+  "interaction": {
+    "decorativePointerEvents": "none",
+    "preserveNativeMascotClickTarget": true,
+    "preserveHistoryActions": true
+  },
+  "requiredPopups": ["model-menu", "model-hover-card", "speaker", "notice", "tooltip"]
+}

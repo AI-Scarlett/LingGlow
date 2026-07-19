@@ -1,0 +1,14 @@
+{
+  "version": "2026.07.19-v3",
+  "clientId": "doubao",
+  "selectorPolicy": {
+    "prefer": ["data-testid", "ARIA roles", "native selected and focus states"],
+    "avoid": ["blanket content transparency", "forcing all text to accent color", "interactive overlays"]
+  },
+  "layerPolicy": {
+    "globalBackground": {"position": "fixed", "pointerEvents": "none"},
+    "chatCanvas": {"removeOpaqueVeil": true, "preserveReadableMessages": true},
+    "composer": {"preserveInputAndToolClicks": true}
+  },
+  "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true}
+}

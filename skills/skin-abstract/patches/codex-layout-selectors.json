@@ -1,0 +1,14 @@
+{
+  "version": "2026.07.19-v3",
+  "clientId": "codex",
+  "selectorPolicy": {
+    "prefer": ["data attributes", "ARIA roles", "native state attributes"],
+    "avoid": ["hashed class names as sole selector", "blanket descendant text rules", "global z-index promotion"]
+  },
+  "layerPolicy": {
+    "globalBackground": {"position": "fixed", "pointerEvents": "none"},
+    "homeArtwork": {"scope": "native-home-hero-only", "preserveGeometry": true},
+    "rightPanel": {"pointerEvents": "auto", "mustRemainInteractive": true}
+  },
+  "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true}
+}
