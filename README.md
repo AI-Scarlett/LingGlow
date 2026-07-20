@@ -33,8 +33,9 @@
 灵妆 2.2.1 起不再把全部皮肤大图放进 DMG。App 只读取远程目录中的名称、预览、分类、系列、标签、明暗模式、大小与 Agent 适配；用户点击“下载”后才下载所选皮肤。
 
 - [皮肤目录 JSON](catalog/v1/index.json)
-- [15 套皮肤样式预览](catalog/v1/GALLERY.md)
-- 8 套免费皮肤，8 套 VIP 皮肤
+- [25 套皮肤样式预览](catalog/v1/GALLERY.md)
+- 18 套免费皮肤，7 套 VIP 皮肤
+- 新增《八仙！》系列：八位角色单人款与一套群像款，全部免费
 - 内置“极光青 Free”与两套 VIP 离线模板；GitHub 不可访问时仍可体验和使用已授权模板
 - 支持按名称、系列、标签搜索，并按运动、幻想、自然、极简、艺术等分类筛选
 - 每套皮肤独立下载和更新，不要求升级整个 App
@@ -70,7 +71,7 @@ VIP 皮肤可以预览和下载。未开通 VIP、也未兑换该皮肤密钥时
 
 ## 自动升级
 
-客户端读取 [`latest.json`](latest.json)，自动选择 Apple Silicon 或 Intel 安装包；升级前校验 SHA-256、Bundle ID、Team ID、Developer ID 签名和 Apple 公证状态。App 升级与皮肤更新是两个独立通道。
+客户端“设置”提供自动更新开关、立即检查和安装入口。客户端读取 [`latest.json`](latest.json)，自动选择 Apple Silicon 或 Intel 安装包；升级前校验 SHA-256、Bundle ID、Team ID、Developer ID 签名和 Apple 公证状态。App 升级与皮肤更新是两个独立通道。
 
 ## 仓库内容
 

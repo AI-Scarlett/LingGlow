@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "catalogVersion": "2026.07.20.1",
-  "generatedAt": "2026-07-20T00:27:02.783Z",
+  "generatedAt": "2026-07-20T01:52:32.606Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
@@ -617,8 +617,8 @@
       "kind": "theme-pack",
       "version": "1.0.0",
       "name": "西班牙·双星冠军之夜",
-      "description": "纪念西班牙赢得 2026 男足世界杯、收获队史第二冠的原创三端 VIP 主题；采用西班牙红、冠军金与午夜蓝，不含官方标识、球员肖像或官方奖杯造型。",
-      "tier": "vip",
+      "description": "纪念西班牙赢得 2026 男足世界杯、收获队史第二冠的三端免费主题；采用西班牙红、冠军金、午夜蓝与真实大力神杯视觉。官方奖杯形象须在取得相应授权后方可公开分发。",
+      "tier": "free",
       "appearanceMode": "dark",
       "clientIds": [
         "workbuddy",
@@ -636,7 +636,7 @@
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/spain-2026-champions.webp",
-        "sha256": "741d4f45157c65d3f359065ab99b10c16605458cca646b174e188382715fbffc"
+        "sha256": "89b5a6717685e3abea6d6a7faa034e66abc9c81d8723ee4c408df0fb08af91b8"
       },
       "colors": {
         "accent": "#F2C14E",
@@ -651,8 +651,404 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/spain-2026-champions.lingglow-skin.json",
-        "sha256": "3d4014eed844c2ab016cdc81c137a8bff38a5ae8490183b46f66a634dc440245",
-        "bytes": 840159
+        "sha256": "5a993641bf672a3592e0222ea913f3b8a88abf0683ba7a5171e230d73320b680",
+        "bytes": 878771
+      }
+    },
+    {
+      "id": "baxian-lu-dongbin",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "吕洞宾·纯阳剑影",
+      "description": "取自动画电影《八仙！》吕洞宾角色造型的免费三端主题；蓝金剑气与蓬莱云海。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "吕洞宾",
+        "纯阳剑",
+        "电影",
+        "免费",
+        "浅色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-lu-dongbin.webp",
+        "sha256": "f4d585dc5d3109ae69dff67aca1a797f1f245dedcf096591afecd566f18a96cc"
+      },
+      "colors": {
+        "accent": "#2C91C8",
+        "surface": "#EAF3F3",
+        "ink": "#102A36"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-lu-dongbin.lingglow-skin.json",
+        "sha256": "cfb4afb2c296439a88171f9bf3660cda08640f318054ed4839f5fee1032aad8c",
+        "bytes": 1068040
+      }
+    },
+    {
+      "id": "baxian-he-xiangu",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "何仙姑·莲月清辉",
+      "description": "取自动画电影《八仙！》何仙姑角色造型的免费三端主题；莲月、青玉与柔粉流光。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "何仙姑",
+        "莲花",
+        "电影",
+        "免费",
+        "浅色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-he-xiangu.webp",
+        "sha256": "3d82fd5c7835bf234dd1ffc4361beafef658668daceabbbbf47e3b370e917c05"
+      },
+      "colors": {
+        "accent": "#E56F8A",
+        "surface": "#F6F1EE",
+        "ink": "#213A39"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-he-xiangu.lingglow-skin.json",
+        "sha256": "fb87f75cfd77091ba14d8406dfef6c3a5f37a213d82f935ba9fb19db842f92c3",
+        "bytes": 1046295
+      }
+    },
+    {
+      "id": "baxian-zhongli-quan",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "钟离权·赤焰芭蕉",
+      "description": "取自动画电影《八仙！》钟离权角色造型的免费三端主题；赤焰、铜金与芭蕉仙风。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "钟离权",
+        "芭蕉扇",
+        "电影",
+        "免费",
+        "深色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-zhongli-quan.webp",
+        "sha256": "5523cbd743b3121f10f0e954febbdbdbf661e517a7ad6c62178c450dad3eda46"
+      },
+      "colors": {
+        "accent": "#E69A42",
+        "surface": "#21130F",
+        "ink": "#FFF1D8"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-zhongli-quan.lingglow-skin.json",
+        "sha256": "38f21a644bc68ac6bd916e6f985e58ea6b299be36ef71ead0360463ac1d9706e",
+        "bytes": 1387570
+      }
+    },
+    {
+      "id": "baxian-tieguai-li",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "铁拐李·葫芦玄火",
+      "description": "取自动画电影《八仙！》铁拐李角色造型的免费三端主题；玄火葫芦与铜绿炼境。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "铁拐李",
+        "葫芦",
+        "电影",
+        "免费",
+        "深色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-tieguai-li.webp",
+        "sha256": "59425e325b5279f69d2c3884f2282556623d3a04f0bcfb7cfce13d75e40edcf6"
+      },
+      "colors": {
+        "accent": "#63B28A",
+        "surface": "#0C1815",
+        "ink": "#EDF7E9"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-tieguai-li.lingglow-skin.json",
+        "sha256": "056a460ba12db78765484433de77e84b0bf40f048e88ff1f4b602729621cc512",
+        "bytes": 1328376
+      }
+    },
+    {
+      "id": "baxian-han-xiangzi",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "韩湘子·碧箫流云",
+      "description": "取自动画电影《八仙！》韩湘子角色造型的免费三端主题；碧青机关与轻盈流云。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "韩湘子",
+        "流云",
+        "电影",
+        "免费",
+        "浅色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-han-xiangzi.webp",
+        "sha256": "4be0100f2f968f7b950612f15a621b1554681753c237ab73fa3702e0fb9ccbf5"
+      },
+      "colors": {
+        "accent": "#43A997",
+        "surface": "#EDF6F1",
+        "ink": "#173A36"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-han-xiangzi.lingglow-skin.json",
+        "sha256": "50b1754099a531fb66b37d485d1473d3f34aa829d3384d1dcfa05c6a2d66cb18",
+        "bytes": 1052769
+      }
+    },
+    {
+      "id": "baxian-cao-guojiu",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "曹国舅·玉板金章",
+      "description": "取自动画电影《八仙！》曹国舅角色造型的免费三端主题；珊瑚宫阙与玉板金章。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "曹国舅",
+        "玉板",
+        "电影",
+        "免费",
+        "浅色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-cao-guojiu.webp",
+        "sha256": "4e32727c539ff209d7a60f98ee8f7ef22eb60e507d20e28cf93fec401641b3e5"
+      },
+      "colors": {
+        "accent": "#D95E55",
+        "surface": "#F8EEE6",
+        "ink": "#43231E"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-cao-guojiu.lingglow-skin.json",
+        "sha256": "4a5ee5abe04053643581a1768b89cbaef6d9cfbb30b677a7665095db924d0a8b",
+        "bytes": 1300524
+      }
+    },
+    {
+      "id": "baxian-lan-caihe",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "蓝采和·花篮春潮",
+      "description": "取自动画电影《八仙！》蓝采和角色造型的免费三端主题；花篮、福包与海上春潮。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "蓝采和",
+        "花篮",
+        "电影",
+        "免费",
+        "浅色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-lan-caihe.webp",
+        "sha256": "46b549e19ea7d8f404cdeed3f802d0e42aaade9c5c45f02715590c1ab5115c9a"
+      },
+      "colors": {
+        "accent": "#3E8FD0",
+        "surface": "#EEF4F7",
+        "ink": "#183449"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-lan-caihe.lingglow-skin.json",
+        "sha256": "a52ee15d72361ef09c10d8aa8716510042a536d39d58626dddd73317846e76b7",
+        "bytes": 1580707
+      }
+    },
+    {
+      "id": "baxian-zhang-guolao",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "张果老·月驴星河",
+      "description": "取自动画电影《八仙！》张果老角色造型的免费三端主题；倒骑仙驴穿越月桥星河。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "张果老",
+        "仙驴",
+        "电影",
+        "免费",
+        "深色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-zhang-guolao.webp",
+        "sha256": "e01fc1172ccd42269d31c36f25e26e9d12f96d43347b47e1b6d42e62646ad719"
+      },
+      "colors": {
+        "accent": "#87A9E8",
+        "surface": "#0B1529",
+        "ink": "#EEF3FF"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-zhang-guolao.lingglow-skin.json",
+        "sha256": "7b3f591d7825dd33ca94cbabdb86cf219d258a5d88982682230b2902f6273056",
+        "bytes": 1421494
+      }
+    },
+    {
+      "id": "baxian-ensemble",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "八仙过海·有求必应",
+      "description": "取自动画电影《八仙！》八位主角群像造型的免费三端主题；琉璃海潮与欢乐同行。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "baxian-movie",
+      "tags": [
+        "八仙",
+        "群像",
+        "过海",
+        "有求必应",
+        "电影",
+        "免费"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-ensemble.webp",
+        "sha256": "d68f9d939c28dab37d2b0756c5cf3b1efe9ab0d7d4f439be27944147a2294c1f"
+      },
+      "colors": {
+        "accent": "#ED6A5A",
+        "surface": "#F6F1E9",
+        "ink": "#24323A"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-ensemble.lingglow-skin.json",
+        "sha256": "1ce381ef8480d89ac61441f19cb3f2dd09c90276460dedb7752e59ee142b03ca",
+        "bytes": 2236970
       }
     }
   ]

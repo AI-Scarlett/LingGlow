@@ -1,6 +1,6 @@
 # 灵妆皮肤样式库
 
-当前共 16 套。预览图只用于展示风格；实际效果取决于 Agent 版本与安全适配级别。
+当前共 25 套。预览图只用于展示风格；实际效果取决于 Agent 版本与安全适配级别。
 
 ## Dream Portal 测试
 
@@ -140,8 +140,89 @@
 ## 西班牙·双星冠军之夜
 
 - ID: `spain-2026-champions`
-- 类型: VIP / 深色
+- 类型: 免费 / 深色
 - 分类: sports / world-champions / 世界杯、西班牙、双星冠军、足球、深色
 - Agent: workbuddy、doubao、codex
 
 ![西班牙·双星冠军之夜](./previews/spain-2026-champions.webp)
+
+## 吕洞宾·纯阳剑影
+
+- ID: `baxian-lu-dongbin`
+- 类型: 免费 / 浅色
+- 分类: fantasy / baxian-movie / 八仙、吕洞宾、纯阳剑、电影、免费、浅色
+- Agent: workbuddy、doubao、codex
+
+![吕洞宾·纯阳剑影](./previews/baxian-lu-dongbin.webp)
+
+## 何仙姑·莲月清辉
+
+- ID: `baxian-he-xiangu`
+- 类型: 免费 / 浅色
+- 分类: fantasy / baxian-movie / 八仙、何仙姑、莲花、电影、免费、浅色
+- Agent: workbuddy、doubao、codex
+
+![何仙姑·莲月清辉](./previews/baxian-he-xiangu.webp)
+
+## 钟离权·赤焰芭蕉
+
+- ID: `baxian-zhongli-quan`
+- 类型: 免费 / 深色
+- 分类: fantasy / baxian-movie / 八仙、钟离权、芭蕉扇、电影、免费、深色
+- Agent: workbuddy、doubao、codex
+
+![钟离权·赤焰芭蕉](./previews/baxian-zhongli-quan.webp)
+
+## 铁拐李·葫芦玄火
+
+- ID: `baxian-tieguai-li`
+- 类型: 免费 / 深色
+- 分类: fantasy / baxian-movie / 八仙、铁拐李、葫芦、电影、免费、深色
+- Agent: workbuddy、doubao、codex
+
+![铁拐李·葫芦玄火](./previews/baxian-tieguai-li.webp)
+
+## 韩湘子·碧箫流云
+
+- ID: `baxian-han-xiangzi`
+- 类型: 免费 / 浅色
+- 分类: fantasy / baxian-movie / 八仙、韩湘子、流云、电影、免费、浅色
+- Agent: workbuddy、doubao、codex
+
+![韩湘子·碧箫流云](./previews/baxian-han-xiangzi.webp)
+
+## 曹国舅·玉板金章
+
+- ID: `baxian-cao-guojiu`
+- 类型: 免费 / 浅色
+- 分类: fantasy / baxian-movie / 八仙、曹国舅、玉板、电影、免费、浅色
+- Agent: workbuddy、doubao、codex
+
+![曹国舅·玉板金章](./previews/baxian-cao-guojiu.webp)
+
+## 蓝采和·花篮春潮
+
+- ID: `baxian-lan-caihe`
+- 类型: 免费 / 浅色
+- 分类: fantasy / baxian-movie / 八仙、蓝采和、花篮、电影、免费、浅色
+- Agent: workbuddy、doubao、codex
+
+![蓝采和·花篮春潮](./previews/baxian-lan-caihe.webp)
+
+## 张果老·月驴星河
+
+- ID: `baxian-zhang-guolao`
+- 类型: 免费 / 深色
+- 分类: fantasy / baxian-movie / 八仙、张果老、仙驴、电影、免费、深色
+- Agent: workbuddy、doubao、codex
+
+![张果老·月驴星河](./previews/baxian-zhang-guolao.webp)
+
+## 八仙过海·有求必应
+
+- ID: `baxian-ensemble`
+- 类型: 免费 / 浅色
+- 分类: fantasy / baxian-movie / 八仙、群像、过海、有求必应、电影、免费
+- Agent: workbuddy、doubao、codex
+
+![八仙过海·有求必应](./previews/baxian-ensemble.webp)
