@@ -1,6 +1,6 @@
 # 灵妆皮肤样式库
 
-当前共 15 套。预览图只用于展示风格；实际效果取决于 Agent 版本与安全适配级别。
+当前共 16 套。预览图只用于展示风格；实际效果取决于 Agent 版本与安全适配级别。
 
 ## Dream Portal 测试
 
@@ -136,3 +136,12 @@
 - Agent: workbuddy、doubao、codex
 
 ![功夫女足·无厘头绿茵夜](./previews/kungfu-womens-football.webp)
+
+## 西班牙·双星冠军之夜
+
+- ID: `spain-2026-champions`
+- 类型: VIP / 深色
+- 分类: sports / world-champions / 世界杯、西班牙、双星冠军、足球、深色
+- Agent: workbuddy、doubao、codex
+
+![西班牙·双星冠军之夜](./previews/spain-2026-champions.webp)
