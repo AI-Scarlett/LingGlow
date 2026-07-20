@@ -1,9 +1,9 @@
 {
-  "version": "2026.07.19-v3",
+  "version": "2026.07.20-v4",
   "clientId": "workbuddy",
   "selectorPolicy": {
     "prefer": ["semantic page roots", "ARIA roles", "native state attributes"],
-    "avoid": ["duplicated background images", "blanket text recoloring", "mascot overlay frames", "global z-index promotion"]
+    "avoid": ["duplicated background images", "blanket text recoloring", "per-text backgrounds", "mascot overlay frames", "global z-index promotion"]
   },
   "layerPolicy": {
     "globalBackground": {"position": "fixed", "pointerEvents": "none"},
@@ -11,5 +11,6 @@
     "cardsAndPopovers": {"opaqueContrastSafe": true},
     "customMascot": {"replaceInPlace": true, "containerTransparent": true, "preserveClickTarget": true}
   },
-  "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true}
+  "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true, "resolveInkAgainst": "effective-painted-surface"},
+  "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "preserveControls": true}
 }

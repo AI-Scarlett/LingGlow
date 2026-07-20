@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.19-v3",
+  "version": "2026.07.20-v4",
   "targetClientId": "codex",
   "appearanceMode": "dark",
   "artwork": {
@@ -16,6 +16,11 @@
     "composer": "opaque-contrast-safe",
     "cards": "opaque-contrast-safe",
     "overlays": "opaque-contrast-safe"
+  },
+  "textSurfacePolicy": {
+    "resolveInkAgainst": "effective-painted-surface",
+    "plainTextBackground": "none",
+    "structuralBackdropOnly": true
   },
   "interaction": {
     "decorativePointerEvents": "none",

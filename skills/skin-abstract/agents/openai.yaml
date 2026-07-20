@@ -1,0 +1,4 @@
+interface:
+  display_name: "LingGlow Skin Abstract"
+  short_description: "制作并验证 Codex、WorkBuddy 与豆包三端皮肤"
+  default_prompt: "Use $skin-abstract to create or repair a three-client LingGlow skin with contrast-safe surfaces and real-client QA."

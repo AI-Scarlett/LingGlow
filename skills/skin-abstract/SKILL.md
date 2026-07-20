@@ -23,6 +23,9 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 12. Give every Codex theme a dedicated 3:1 home artwork that is visually related to, but not the same file as, the global background.
 13. Record asset provenance and redistribution terms. Exclude any third-party person, character, logo, or artwork whose rights are unclear, even when it appears in an upstream preset repository.
 14. Publish one declarative `.lingglow-skin.json` per skin. Never place JavaScript, CSS, executable files, arbitrary URLs, or source archives in a remote skin bundle.
+15. Never add a background, border, or shadow to text merely because an element contains glyphs. Headings, paragraphs, labels, spans, placeholders, inputs, textareas, and content-editable text stay visually plain; paint one structural parent surface when readability needs a backdrop. Buttons, chips, selected rows, badges, code blocks, and true input containers remain explicit exceptions.
+16. Resolve ink against the surface that is actually painted behind the text. A host dark-mode class is not evidence of a dark surface after a light skin replaces it; inspect the computed background or the closest effective semantic surface and choose contrast-safe ink from that result.
+17. Runtime compatibility repair must stay narrow and reversible. If a client paints backgrounds directly on short text-only wrappers, clear only those wrappers and exclude controls, selected states, cards, dialogs, popovers, menus, code, and editable containers.
 
 ## Inputs
 
@@ -44,13 +47,15 @@ Use the templates in `inputs/`. Read `references/asset-specs.md` before acceptin
 2. Capture the live layout and identify stable semantic anchors such as roles, test IDs, native state attributes, and client-owned regions. Avoid hashed class names as the only selector.
 3. Fill one client input template. Separate global background, home artwork, content surfaces, overlay surfaces, text tokens, selection states, and optional branding.
 4. Apply the adapter contract in `patches/`. Start with narrow selectors and native state attributes. Do not use blanket rules such as `* { color: ... }`, `div { background: transparent }`, or global z-index promotion.
-5. Apply the selected appearance to the Agent's native appearance selector when safely possible. Otherwise apply the complete matching semantic token set and show a warning not to change native appearance while the skin is active.
-6. Keep the default background on one fixed visual layer. Make only approved content surfaces reveal it. Keep popovers and cards opaque enough to meet contrast.
-7. Validate assets before injection. Reject oversize images, non-image payloads, and mascot files that claim transparency but have no Alpha channel.
-8. Verify that the Codex home artwork and global background have different content hashes, and that every WorkBuddy pack resolves a theme-specific mascot asset.
-9. Apply the skin, restart only the target Agent when required, then run the real-client matrix in `checks/layout-smoke-checklist.md`.
-10. Capture screenshots for light and dark skins and exercise clicks, typing, scrolling, menus, hover cards, and embedded browser panels.
-11. Package only after all required rows pass. Record Agent versions, skin version, appearance mode, screenshots, failures, and rollback result.
+5. Audit text wrappers before styling. Remove accidental per-label paint, then put any required readability surface on the nearest structural container. Do not turn every text node or text input into a separate tile.
+6. Apply the selected appearance to the Agent's native appearance selector when safely possible. Otherwise apply the complete matching semantic token set and show a warning not to change native appearance while the skin is active.
+7. Resolve text tokens against the effective painted surface after all host and skin rules apply. Verify the result with computed styles or screenshots instead of trusting the host appearance class.
+8. Keep the default background on one fixed visual layer. Make only approved content surfaces reveal it. Keep popovers and cards opaque enough to meet contrast.
+9. Validate assets before injection. Reject oversize images, non-image payloads, and mascot files that claim transparency but have no Alpha channel.
+10. Verify that the Codex home artwork and global background have different content hashes, and that every WorkBuddy pack resolves a theme-specific mascot asset.
+11. Apply the skin, restart only the target Agent when required, then run the real-client matrix in `checks/layout-smoke-checklist.md`.
+12. Capture screenshots for light and dark skins and exercise clicks, typing, scrolling, menus, hover cards, and embedded browser panels.
+13. Package only after all required rows pass. Record Agent versions, skin version, appearance mode, screenshots, failures, and rollback result.
 
 ## Remote catalog packaging
 
@@ -66,6 +71,7 @@ Publish in this order: skin bundle, gallery preview, catalog index. The index is
 - Use the optional home artwork only in the native home hero region; use the global background everywhere else.
 - Do not cover top controls or the embedded browser with a full-window overlay.
 - Preserve selected task/project state and disabled-button opacity.
+- Verify permission, model, microphone, send, and stop controls independently from their adjacent text; do not create a background tile around each label or placeholder.
 
 ### WorkBuddy
 
@@ -73,12 +79,14 @@ Publish in this order: skin bundle, gallery preview, catalog index. The index is
 - Let chat history and composer reveal the single global background; do not insert another cropped image.
 - Keep cards and popovers contrast-safe rather than recoloring every inner text node.
 - Replace the native composer mascot in place and preserve its native click target.
+- Check profile/account menus, history rows, automation templates, and table cells for accidental per-text backgrounds. Rounded structural panels are allowed; label-sized rectangles are not.
 
 ### Doubao
 
 - Test home, current/history conversations, left navigation states, message text, composer, dialogs, and suggestions.
 - Remove opaque chat canvases only where safe; keep message and input text readable in both appearances.
 - Preserve left-tab selected/hover/pressed states and avoid a black veil over the background.
+- Test AI Creation and conversation pages under a light background while the host reports dark mode. Titles, prompts, messages, and placeholders must switch to dark ink without receiving individual background strips.
 
 ## Release gate
 
@@ -86,6 +94,7 @@ Do not mark a skin complete unless:
 
 - The exact target client versions are recorded.
 - Both light and dark skins pass semantic contrast checks.
+- Text remains plain unless it belongs to a real control or structural surface; no generated label-sized background boxes remain.
 - One global background remains continuous across home and history pages.
 - Every overlay/menu/hover card is readable.
 - History rows, sidebar tabs, composer controls, menus, and browser panels remain clickable.
