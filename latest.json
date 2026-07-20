@@ -1,18 +1,19 @@
 {
-  "version": "2.3.0",
-  "tag": "v2.3.0",
+  "version": "2.3.1",
+  "tag": "v2.3.1",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.0/LingGlow-2.3.0-macOS-Apple-Silicon.dmg",
-      "sha256": "0af4e6394f9f183b00f5bb1c8996f71875adecad4aa8d6f8eaf49b6c5a72fbf8"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.1/LingGlow-2.3.1-macOS.dmg",
+      "sha256": "9740deb44ae3461946603349cfa26135fc8d3fca7bd83229f56d4b16eade503f"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.0/LingGlow-2.3.0-macOS-Intel.dmg",
-      "sha256": "618cd4067e17b2985917ceac8fe7a5af9830e243c6e4742b1e7208fc98698a55"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.1/LingGlow-2.3.1-macOS.dmg",
+      "sha256": "9740deb44ae3461946603349cfa26135fc8d3fca7bd83229f56d4b16eade503f"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "新增推荐、全部与我的皮肤视图；支持按 Agent、风格、标签及免费/VIP 筛选；加入简体中文与英文；购买入口改为灵妆品牌协议确认弹窗；更新世界杯夺冠与八仙推荐主题、真实 Agent 图标、模板更新提示及自动更新。"
+  "releaseNotes": "完整修复中英文即时切换：Tab、菜单、状态、目录、商品、预览与错误提示无需重启即可统一刷新；同时修复 Codex 新建任务页闪烁、模板同步阻塞，并优化 WorkBuddy 深色视觉。",
+  "releaseNotesEn": "Completely fixes instant Chinese/English switching across tabs, menus, status, catalog, products, previews, and errors without a relaunch. Also fixes Codex new-task flicker, nonblocking hourly theme sync, and WorkBuddy dark-mode visuals."
 }
