@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "catalogVersion": "2026.07.20.1",
-  "generatedAt": "2026-07-20T04:08:11.056Z",
+  "generatedAt": "2026-07-20T05:49:33.813Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
@@ -648,6 +648,7 @@
         "双星冠军",
         "足球",
         "深色",
+        "featured",
         "label:football"
       ],
       "preview": {
@@ -667,7 +668,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/spain-2026-champions.lingglow-skin.json",
-        "sha256": "0904d16aa5871e58ce2f2df50456880f34d44301b8aefcbc58ed9b950d7a78b6",
+        "sha256": "48205db64fea74cf290e8596d782d6a3964f0905c5c8ac222751067c187f5043",
         "bytes": 878771
       }
     },
@@ -693,6 +694,7 @@
         "电影",
         "免费",
         "浅色",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -712,7 +714,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-lu-dongbin.lingglow-skin.json",
-        "sha256": "322019ffd6f44bbaf0c7676a7bc0f5187f24772aeee2afc9d03491a57cc143ca",
+        "sha256": "0a1beb96f06bb371d81b02fea0bd52b9ac2695a3d156ccf00179646fb00dc7de",
         "bytes": 1068040
       }
     },
@@ -738,6 +740,7 @@
         "电影",
         "免费",
         "浅色",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -757,7 +760,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-he-xiangu.lingglow-skin.json",
-        "sha256": "68255b5dc54f541dfee0f483eb6f91b56134ac7ef77f8a51ba35f5bdb0cf868e",
+        "sha256": "cf18f6e0792dd14849858927cf81bf5fc7d6e007be7c12046b50f20cc3b52820",
         "bytes": 1046295
       }
     },
@@ -783,6 +786,7 @@
         "电影",
         "免费",
         "深色",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -802,7 +806,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-zhongli-quan.lingglow-skin.json",
-        "sha256": "7026d894d1c6d241bfb85b50440c5fd7f4166effb3b87a26c7305de3c5a820ad",
+        "sha256": "944a8a0d9428088932409b1f57684365b9b9a14214993ffe32f89a5b3eaa2ed5",
         "bytes": 1387570
       }
     },
@@ -828,6 +832,7 @@
         "电影",
         "免费",
         "深色",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -847,7 +852,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-tieguai-li.lingglow-skin.json",
-        "sha256": "f9e5748234f8844e4ce4e3bd45327c52606fb2b40f82bf68220b0e097543b85d",
+        "sha256": "73f64e892214f60c478160e032bc1b6c2cdd43c942283ceeb3e7095ba5037d72",
         "bytes": 1328376
       }
     },
@@ -873,6 +878,7 @@
         "电影",
         "免费",
         "浅色",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -892,7 +898,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-han-xiangzi.lingglow-skin.json",
-        "sha256": "fefe3f546f5d8201be30915087de4532139d30b8576e89d5ad089daf62049c4b",
+        "sha256": "133622d2eed86fea024bbcb9f2d8c56bd4e4a7e32ca414c9f5bb3accb3fa0c3c",
         "bytes": 1052769
       }
     },
@@ -918,6 +924,7 @@
         "电影",
         "免费",
         "浅色",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -937,7 +944,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-cao-guojiu.lingglow-skin.json",
-        "sha256": "1d04c66bdf78e5c42c2c0ab63b0a4bb2a81ad94f8a5b09460e25b987e06026be",
+        "sha256": "bb8d570536b102e7c8a3b61cd76414ca8519846a14577ceac4a818c51157e4aa",
         "bytes": 1300524
       }
     },
@@ -963,6 +970,7 @@
         "电影",
         "免费",
         "浅色",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -982,7 +990,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-lan-caihe.lingglow-skin.json",
-        "sha256": "6492d6e010a6172e3051c855cfaa35439425853b68b5df0f361877758f804277",
+        "sha256": "486b26b467e90305e03db89afd5dc6cef4fa46c79ebd8ed8c96455d8a8937042",
         "bytes": 1580707
       }
     },
@@ -1008,6 +1016,7 @@
         "电影",
         "免费",
         "深色",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -1027,7 +1036,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-zhang-guolao.lingglow-skin.json",
-        "sha256": "c445dbb65e0c8a6ed2f1de66c5fcf48f7399f5c4966981b06fc8117de5eb6c19",
+        "sha256": "ce763462ef70b295e17b8f38035d0641f781fad3816f0c8ba41bd8935e9f2612",
         "bytes": 1421494
       }
     },
@@ -1053,6 +1062,7 @@
         "有求必应",
         "电影",
         "免费",
+        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -1072,7 +1082,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-ensemble.lingglow-skin.json",
-        "sha256": "c56b904b780798472ae27d8ecebca795ceee3f944ba6d3d8a14870da80456a27",
+        "sha256": "137d580829f44149352b3bb5a28c8973cb21e26de07be10f09e9377388a0426a",
         "bytes": 2236970
       }
     }

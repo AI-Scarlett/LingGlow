@@ -156,7 +156,7 @@
 
 - ID: `spain-2026-champions`
 - 类型: 免费 / 深色
-- 分类: sports / world-champions / 世界杯、西班牙、双星冠军、足球、深色、label:football
+- 分类: sports / world-champions / 世界杯、西班牙、双星冠军、足球、深色、featured、label:football
 - 标签分类: football
 - Agent: workbuddy、doubao、codex
 
@@ -166,7 +166,7 @@
 
 - ID: `baxian-lu-dongbin`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、吕洞宾、纯阳剑、电影、免费、浅色、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、吕洞宾、纯阳剑、电影、免费、浅色、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -176,7 +176,7 @@
 
 - ID: `baxian-he-xiangu`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、何仙姑、莲花、电影、免费、浅色、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、何仙姑、莲花、电影、免费、浅色、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -186,7 +186,7 @@
 
 - ID: `baxian-zhongli-quan`
 - 类型: 免费 / 深色
-- 分类: fantasy / baxian-movie / 八仙、钟离权、芭蕉扇、电影、免费、深色、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、钟离权、芭蕉扇、电影、免费、深色、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -196,7 +196,7 @@
 
 - ID: `baxian-tieguai-li`
 - 类型: 免费 / 深色
-- 分类: fantasy / baxian-movie / 八仙、铁拐李、葫芦、电影、免费、深色、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、铁拐李、葫芦、电影、免费、深色、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -206,7 +206,7 @@
 
 - ID: `baxian-han-xiangzi`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、韩湘子、流云、电影、免费、浅色、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、韩湘子、流云、电影、免费、浅色、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -216,7 +216,7 @@
 
 - ID: `baxian-cao-guojiu`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、曹国舅、玉板、电影、免费、浅色、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、曹国舅、玉板、电影、免费、浅色、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -226,7 +226,7 @@
 
 - ID: `baxian-lan-caihe`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、蓝采和、花篮、电影、免费、浅色、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、蓝采和、花篮、电影、免费、浅色、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -236,7 +236,7 @@
 
 - ID: `baxian-zhang-guolao`
 - 类型: 免费 / 深色
-- 分类: fantasy / baxian-movie / 八仙、张果老、仙驴、电影、免费、深色、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、张果老、仙驴、电影、免费、深色、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -246,7 +246,7 @@
 
 - ID: `baxian-ensemble`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、群像、过海、有求必应、电影、免费、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、群像、过海、有求必应、电影、免费、featured、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 

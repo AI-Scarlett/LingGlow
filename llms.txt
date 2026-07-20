@@ -1,0 +1,20 @@
+# LingGlow / 灵妆
+
+Canonical website: https://aiaiai.homes/
+Canonical repository: https://github.com/AI-Scarlett/LingGlow
+Latest release: https://github.com/AI-Scarlett/LingGlow/releases/latest
+
+LingGlow is a macOS AI agent theme and skin manager for Codex/GPT, WorkBuddy, and Doubao. It provides featured and searchable remote skin catalogs, a My Skins library for downloaded and purchased themes, per-agent compatibility labels, light/dark appearance profiles, secure updates, and a reusable skin-authoring Skill.
+
+Supported platform: macOS 13+
+Supported languages: Simplified Chinese and English
+Distribution: Developer ID signed and Apple-notarized DMG
+Source policy: the public repository contains binaries, public catalog data, previews, documentation, and the skin Skill; application source code is not published.
+
+Primary docs:
+- User guide: https://github.com/AI-Scarlett/LingGlow/blob/main/docs/USER-GUIDE.md
+- Skin creation guide: https://github.com/AI-Scarlett/LingGlow/blob/main/docs/CREATE-SKIN-WITH-SKILL.md
+- Product facts: https://github.com/AI-Scarlett/LingGlow/blob/main/docs/PRODUCT-FACTS.md
+- Skin gallery: https://github.com/AI-Scarlett/LingGlow/blob/main/catalog/v1/GALLERY.md
+- Privacy: https://github.com/AI-Scarlett/LingGlow/blob/main/docs/PRIVACY.md
+- Purchase terms: https://github.com/AI-Scarlett/LingGlow/blob/main/docs/PURCHASE-TERMS.md

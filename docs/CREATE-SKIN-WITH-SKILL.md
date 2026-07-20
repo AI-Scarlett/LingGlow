@@ -2,6 +2,18 @@
 
 ## 安装 Skill
 
+### 从灵妆客户端一键安装
+
+1. 打开灵妆桌面窗口。
+2. 进入左侧“设置”。
+3. 在“制作自己的皮肤”中点击“安装 SKILL”。
+4. 安装完成后重新打开 Codex。
+5. 在新任务中输入“使用 \$skin-abstract 制作一套皮肤”，即可开始。
+
+客户端会把签名 Release 中的 LingGlow-Skin-Skill.zip 安装到 ~/.codex/skills/lingglow-skin-maker/，不会写入目标 Agent 的应用目录。
+
+### 从 GitHub 手动安装
+
 公开 Skill 位于：
 
 [`skills/skin-abstract`](https://github.com/AI-Scarlett/LingGlow/tree/main/skills/skin-abstract)
@@ -19,6 +31,8 @@
 ```
 
 重新打开 Codex 后即可使用 `$skin-abstract`。
+
+也可以从 [Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest) 下载 LingGlow-Skin-Skill.zip，解压后把整个目录放入 ~/.codex/skills/lingglow-skin-maker/。
 
 ## 最少需要准备的内容
 
@@ -63,6 +77,17 @@ WorkBuddy 机器人替换为我提供的透明小猫。
 5. 在真实 WorkBuddy、豆包和 Codex 中测试首页、历史对话、输入框、菜单、弹窗和点击区域。
 6. 通过回滚验证后，生成本地 Theme Pack 与预览证据。
 7. 项目维护者运行 `node scripts/build_skin_distribution.mjs` 生成 `.lingglow-skin.json` 和目录协议 v2 记录；分类、系列与标签会直接用于客户端筛选和搜索。
+
+## 在 Codex 中的完整示例
+
+```text
+使用 \$skin-abstract，基于我附加的三张图制作一套名为“海边下午茶”的浅色免费皮肤。
+第一张作为全局 16:10 背景，第二张作为 Codex 和 WorkBuddy 新建任务区的 3:1 横幅，
+第三张是透明机器人图。适配 WorkBuddy、豆包和 Codex。
+请保持弹窗、模型菜单、历史对话和输入框可读、可点击，并输出本地预览和主题清单。
+```
+
+生成后先在本机测试。只有素材授权、三端截图、点击测试、回滚测试全部通过，才适合提交到官方目录。
 
 ## 发布边界
 
