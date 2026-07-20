@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "catalogVersion": "2026.07.20.1",
-  "generatedAt": "2026-07-20T01:52:32.606Z",
+  "generatedAt": "2026-07-20T04:08:11.056Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
       "id": "dream-portal",
       "kind": "legacy-v1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "Dream Portal 测试",
       "description": "基于 Codex Dream Skin 的 MIT 抽象演示图，使用红白高对比全屏背景验证换肤效果。",
       "tier": "free",
@@ -21,7 +21,8 @@
       "tags": [
         "梦境",
         "传送门",
-        "浅色"
+        "浅色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-portal.webp",
@@ -40,14 +41,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-portal.lingglow-skin.json",
-        "sha256": "2f9c1b8664d14b6945c09b5b06770bf6bc8df57f64cfd063613d718cdeedeed5",
+        "sha256": "42d12e6a986000eea29cd20f61a514331c79eb01151e0cc78ea89b04ce782b80",
         "bytes": 120304
       }
     },
     {
       "id": "graphite-focus",
       "kind": "legacy-v1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "石墨专注",
       "description": "低干扰的中性深色方案，适合长时间编码。",
       "tier": "free",
@@ -61,7 +62,8 @@
       "tags": [
         "石墨",
         "专注",
-        "深色"
+        "深色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/graphite-focus.png",
@@ -80,14 +82,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/graphite-focus.lingglow-skin.json",
-        "sha256": "70b3c01f5d8d20275cb0e0213656ca536e52d74321859c60687398f0f83f3146",
+        "sha256": "ac2420632d0cab78e695413a2d69e69288f9f962194f396944d91c79b7042e2d",
         "bytes": 1609
       }
     },
     {
       "id": "ocean-breeze",
       "kind": "legacy-v1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "海风浅蓝",
       "description": "清爽明亮的海蓝色方案，适合白天和高亮环境。",
       "tier": "free",
@@ -101,7 +103,8 @@
       "tags": [
         "海洋",
         "清爽",
-        "浅色"
+        "浅色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/ocean-breeze.png",
@@ -120,14 +123,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/ocean-breeze.lingglow-skin.json",
-        "sha256": "c312d0153e248710229d284ae2521f0e1cc647a0fdd43482f7ef7ba748b60031",
+        "sha256": "4b14a4f24b85c48fc2daa553c4beb4df0c14269ff8d6d39021ddb6fe7cf5237f",
         "bytes": 1605
       }
     },
     {
       "id": "jade-calm",
       "kind": "legacy-v1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "青玉静谧",
       "description": "柔和的青绿色深色方案，平衡辨识度与舒适度。",
       "tier": "free",
@@ -141,7 +144,8 @@
       "tags": [
         "青玉",
         "静谧",
-        "深色"
+        "深色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/jade-calm.png",
@@ -160,14 +164,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/jade-calm.lingglow-skin.json",
-        "sha256": "3f1ce92049cb98a7b04d23394bdaff1da2ea1ef4a9a6546324ddb0c224e704fc",
+        "sha256": "77f0baf7b136fbdec96abd4eb988db38797cba8e78c4b3ecfbd30852df2246fe",
         "bytes": 1599
       }
     },
     {
       "id": "aurora-glass",
       "kind": "legacy-v1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "极光玻璃",
       "description": "高质感冷色玻璃方案，强调层次、光感和轻动画。",
       "tier": "vip",
@@ -181,7 +185,8 @@
       "tags": [
         "极光",
         "玻璃",
-        "深色"
+        "深色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/aurora-glass.png",
@@ -200,14 +205,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/aurora-glass.lingglow-skin.json",
-        "sha256": "a5b695dc242ee4336078f3f41e6f2ce360431fc21988e53a1c1640d96472abde",
+        "sha256": "5c76be221e9d7bdd9259e9dce3a2ef1cbb567f8e66465eed29c9ad9fd9301842",
         "bytes": 1613
       }
     },
     {
       "id": "sunset-atelier",
       "kind": "legacy-v1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "落日工坊",
       "description": "温暖而克制的浅色创作方案，适合设计与内容工作。",
       "tier": "vip",
@@ -221,7 +226,8 @@
       "tags": [
         "落日",
         "工坊",
-        "浅色"
+        "浅色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/sunset-atelier.png",
@@ -240,14 +246,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/sunset-atelier.lingglow-skin.json",
-        "sha256": "19781e2ac37cc3685fcfd51fad64e907482132176e0969c5989da1e2024932bb",
+        "sha256": "c7469e6cae0165802cf81d35c0fcb3399f31265ef9c00677b1bb83b453c5605d",
         "bytes": 1625
       }
     },
     {
       "id": "violet-nebula",
       "kind": "legacy-v1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "紫雾星云",
       "description": "层次丰富的紫蓝深色方案，为夜间使用优化。",
       "tier": "vip",
@@ -261,7 +267,8 @@
       "tags": [
         "星云",
         "宇宙",
-        "深色"
+        "深色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/violet-nebula.png",
@@ -280,14 +287,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/violet-nebula.lingglow-skin.json",
-        "sha256": "b1bf23c86c05dfd3c7d4fc936eebf3c0e86c2eed0985eeac4270399b0f3bb1da",
+        "sha256": "dedd7173f10966f30f689d3f091e189b7cc4c175c6baa20d19bf8187bccff049",
         "bytes": 1611
       }
     },
     {
       "id": "aurora-free",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "极光青 Free",
       "description": "免费三端主题：清透青绿、深色玻璃与高对比文字。",
       "tier": "free",
@@ -302,7 +309,8 @@
       "tags": [
         "极光",
         "免费",
-        "深色"
+        "深色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/aurora-free.webp",
@@ -321,14 +329,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/aurora-free.lingglow-skin.json",
-        "sha256": "10ff623e5a3e7f155df54503657bfb012dbc5f77309017a04019598bd9a47061",
+        "sha256": "38dd27de8af0cbb2565b82ed42937123a367cc86513342252ae3a2796297607d",
         "bytes": 1059174
       }
     },
     {
       "id": "amber-free",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "暖沙金 Free",
       "description": "免费三端主题：暖金沙色、咖色玻璃与高对比文字。",
       "tier": "free",
@@ -343,7 +351,8 @@
       "tags": [
         "暖沙",
         "免费",
-        "深色"
+        "深色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/amber-free.webp",
@@ -362,14 +371,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/amber-free.lingglow-skin.json",
-        "sha256": "78bd39d47093099a71c68104199744abb165f576dd2244677b4405d0296b5bf5",
+        "sha256": "3f1640bfddf4bc3656aeb5512ee69324b8eba9adc485aef5cebdf3ab47d2782a",
         "bytes": 1087489
       }
     },
     {
       "id": "dream-gothic-void",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "哥特虚空远征",
       "description": "Codex Dream Skin 社区原创哥特科幻背景，免费适配 Codex、WorkBuddy 与豆包。",
       "tier": "free",
@@ -384,7 +393,8 @@
       "tags": [
         "哥特",
         "远征",
-        "深色"
+        "深色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-gothic-void.webp",
@@ -403,14 +413,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-gothic-void.lingglow-skin.json",
-        "sha256": "9bc65bd9427f0b9b5675c76fcbffa583b5ce188ecb0dde44692e8a429924ab83",
+        "sha256": "9c1aa584d5d9b666ac184772fe9f0ff93897e816904fe17e45357459e2f19b5d",
         "bytes": 1640196
       }
     },
     {
       "id": "dream-portal-free",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "梦境传送门 Free",
       "description": "Codex Dream Skin 原创抽象 Portal 艺术扩展的免费三端主题；独立全局背景、关联首页 Hero 与 WorkBuddy 透明传送门精灵。",
       "tier": "free",
@@ -425,7 +435,8 @@
       "tags": [
         "梦境",
         "免费",
-        "浅色"
+        "浅色",
+        "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/dream-portal-free.webp",
@@ -444,14 +455,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-portal-free.lingglow-skin.json",
-        "sha256": "32e5a61eca59f06e5b83341aa75544a847baf183c1900c1e9820c9105f122561",
+        "sha256": "5bcb22a590fc4ac2504c298c765771e43f4e773ff47753faf29b42f5fbcc665a",
         "bytes": 1250139
       }
     },
     {
       "id": "cr7-portugal",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "C罗灵感·葡萄牙7号星夜",
       "description": "葡萄牙红、祖母绿与金色夜场氛围；原创匿名 7 号背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
       "tier": "vip",
@@ -466,7 +477,8 @@
       "tags": [
         "足球",
         "葡萄牙",
-        "7号"
+        "7号",
+        "label:celebrity"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/cr7-portugal.webp",
@@ -485,14 +497,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/cr7-portugal.lingglow-skin.json",
-        "sha256": "501c8545b7134fd82d61a84f62937833553fdb20d3fe94615917505e4a88b929",
+        "sha256": "f251383a44391366dba78a302c919df76238c26c72abee5a15b3c1f5c37381b9",
         "bytes": 1900123
       }
     },
     {
       "id": "messi-argentina",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "梅西灵感·阿根廷10号月光",
       "description": "阿根廷天蓝、月白与银金黎明氛围；原创匿名 10 号背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
       "tier": "vip",
@@ -507,7 +519,8 @@
       "tags": [
         "足球",
         "阿根廷",
-        "10号"
+        "10号",
+        "label:celebrity"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/messi-argentina.webp",
@@ -526,14 +539,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/messi-argentina.lingglow-skin.json",
-        "sha256": "e43ca0ab7dbcfb4fb0ac809dde8e19978be7dd4a81cd8fa66e929db24548eb52",
+        "sha256": "7b199759f62c8e5216b7da57244d57b34a124243924a0953c0a90cf2eb5bb2e0",
         "bytes": 1830434
       }
     },
     {
       "id": "neymar-brazil",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "内马尔灵感·巴西10号热浪",
       "description": "巴西黄、翡翠绿与深蓝速度感；原创匿名 10 号动态背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
       "tier": "vip",
@@ -548,7 +561,8 @@
       "tags": [
         "足球",
         "巴西",
-        "10号"
+        "10号",
+        "label:celebrity"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/neymar-brazil.webp",
@@ -567,14 +581,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/neymar-brazil.lingglow-skin.json",
-        "sha256": "26067311912c2e0bb4d26b1ad1bf6a9e8f1d748ca9b7f755572680ded5e3c019",
+        "sha256": "5a497968632e0d6b2c78f6804fe3f49665e8b589f3c97c50192fcdf061a04769",
         "bytes": 2102792
       }
     },
     {
       "id": "kungfu-womens-football",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "功夫女足·无厘头绿茵夜",
       "description": "以周星驰式无厘头功夫喜剧精神为灵感的原创三端 VIP 主题；不含演员肖像、电影剧照、角色造型、片名标识或官方合作元素。",
       "tier": "vip",
@@ -589,7 +603,8 @@
       "tags": [
         "功夫",
         "女足",
-        "电影感"
+        "电影感",
+        "label:film-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/kungfu-womens-football.webp",
@@ -608,14 +623,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/kungfu-womens-football.lingglow-skin.json",
-        "sha256": "7d4ae864ed16cf6230a418c1ecf2bcd7dfe951cabba8aeae8418b5da0d5bb590",
+        "sha256": "eeb879d9c3fdd66ed3acfe689ed0faa2314813bf8a3dc36a4f10ea5eff653109",
         "bytes": 1795436
       }
     },
     {
       "id": "spain-2026-champions",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "西班牙·双星冠军之夜",
       "description": "纪念西班牙赢得 2026 男足世界杯、收获队史第二冠的三端免费主题；采用西班牙红、冠军金、午夜蓝与真实大力神杯视觉。官方奖杯形象须在取得相应授权后方可公开分发。",
       "tier": "free",
@@ -632,7 +647,8 @@
         "西班牙",
         "双星冠军",
         "足球",
-        "深色"
+        "深色",
+        "label:football"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/spain-2026-champions.webp",
@@ -651,14 +667,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/spain-2026-champions.lingglow-skin.json",
-        "sha256": "5a993641bf672a3592e0222ea913f3b8a88abf0683ba7a5171e230d73320b680",
+        "sha256": "0904d16aa5871e58ce2f2df50456880f34d44301b8aefcbc58ed9b950d7a78b6",
         "bytes": 878771
       }
     },
     {
       "id": "baxian-lu-dongbin",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "吕洞宾·纯阳剑影",
       "description": "取自动画电影《八仙！》吕洞宾角色造型的免费三端主题；蓝金剑气与蓬莱云海。",
       "tier": "free",
@@ -676,7 +692,8 @@
         "纯阳剑",
         "电影",
         "免费",
-        "浅色"
+        "浅色",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-lu-dongbin.webp",
@@ -695,14 +712,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-lu-dongbin.lingglow-skin.json",
-        "sha256": "cfb4afb2c296439a88171f9bf3660cda08640f318054ed4839f5fee1032aad8c",
+        "sha256": "322019ffd6f44bbaf0c7676a7bc0f5187f24772aeee2afc9d03491a57cc143ca",
         "bytes": 1068040
       }
     },
     {
       "id": "baxian-he-xiangu",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "何仙姑·莲月清辉",
       "description": "取自动画电影《八仙！》何仙姑角色造型的免费三端主题；莲月、青玉与柔粉流光。",
       "tier": "free",
@@ -720,7 +737,8 @@
         "莲花",
         "电影",
         "免费",
-        "浅色"
+        "浅色",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-he-xiangu.webp",
@@ -739,14 +757,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-he-xiangu.lingglow-skin.json",
-        "sha256": "fb87f75cfd77091ba14d8406dfef6c3a5f37a213d82f935ba9fb19db842f92c3",
+        "sha256": "68255b5dc54f541dfee0f483eb6f91b56134ac7ef77f8a51ba35f5bdb0cf868e",
         "bytes": 1046295
       }
     },
     {
       "id": "baxian-zhongli-quan",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "钟离权·赤焰芭蕉",
       "description": "取自动画电影《八仙！》钟离权角色造型的免费三端主题；赤焰、铜金与芭蕉仙风。",
       "tier": "free",
@@ -764,7 +782,8 @@
         "芭蕉扇",
         "电影",
         "免费",
-        "深色"
+        "深色",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-zhongli-quan.webp",
@@ -783,14 +802,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-zhongli-quan.lingglow-skin.json",
-        "sha256": "38f21a644bc68ac6bd916e6f985e58ea6b299be36ef71ead0360463ac1d9706e",
+        "sha256": "7026d894d1c6d241bfb85b50440c5fd7f4166effb3b87a26c7305de3c5a820ad",
         "bytes": 1387570
       }
     },
     {
       "id": "baxian-tieguai-li",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "铁拐李·葫芦玄火",
       "description": "取自动画电影《八仙！》铁拐李角色造型的免费三端主题；玄火葫芦与铜绿炼境。",
       "tier": "free",
@@ -808,7 +827,8 @@
         "葫芦",
         "电影",
         "免费",
-        "深色"
+        "深色",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-tieguai-li.webp",
@@ -827,14 +847,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-tieguai-li.lingglow-skin.json",
-        "sha256": "056a460ba12db78765484433de77e84b0bf40f048e88ff1f4b602729621cc512",
+        "sha256": "f9e5748234f8844e4ce4e3bd45327c52606fb2b40f82bf68220b0e097543b85d",
         "bytes": 1328376
       }
     },
     {
       "id": "baxian-han-xiangzi",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "韩湘子·碧箫流云",
       "description": "取自动画电影《八仙！》韩湘子角色造型的免费三端主题；碧青机关与轻盈流云。",
       "tier": "free",
@@ -852,7 +872,8 @@
         "流云",
         "电影",
         "免费",
-        "浅色"
+        "浅色",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-han-xiangzi.webp",
@@ -871,14 +892,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-han-xiangzi.lingglow-skin.json",
-        "sha256": "50b1754099a531fb66b37d485d1473d3f34aa829d3384d1dcfa05c6a2d66cb18",
+        "sha256": "fefe3f546f5d8201be30915087de4532139d30b8576e89d5ad089daf62049c4b",
         "bytes": 1052769
       }
     },
     {
       "id": "baxian-cao-guojiu",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "曹国舅·玉板金章",
       "description": "取自动画电影《八仙！》曹国舅角色造型的免费三端主题；珊瑚宫阙与玉板金章。",
       "tier": "free",
@@ -896,7 +917,8 @@
         "玉板",
         "电影",
         "免费",
-        "浅色"
+        "浅色",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-cao-guojiu.webp",
@@ -915,14 +937,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-cao-guojiu.lingglow-skin.json",
-        "sha256": "4a5ee5abe04053643581a1768b89cbaef6d9cfbb30b677a7665095db924d0a8b",
+        "sha256": "1d04c66bdf78e5c42c2c0ab63b0a4bb2a81ad94f8a5b09460e25b987e06026be",
         "bytes": 1300524
       }
     },
     {
       "id": "baxian-lan-caihe",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "蓝采和·花篮春潮",
       "description": "取自动画电影《八仙！》蓝采和角色造型的免费三端主题；花篮、福包与海上春潮。",
       "tier": "free",
@@ -940,7 +962,8 @@
         "花篮",
         "电影",
         "免费",
-        "浅色"
+        "浅色",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-lan-caihe.webp",
@@ -959,14 +982,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-lan-caihe.lingglow-skin.json",
-        "sha256": "a52ee15d72361ef09c10d8aa8716510042a536d39d58626dddd73317846e76b7",
+        "sha256": "6492d6e010a6172e3051c855cfaa35439425853b68b5df0f361877758f804277",
         "bytes": 1580707
       }
     },
     {
       "id": "baxian-zhang-guolao",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "张果老·月驴星河",
       "description": "取自动画电影《八仙！》张果老角色造型的免费三端主题；倒骑仙驴穿越月桥星河。",
       "tier": "free",
@@ -984,7 +1007,8 @@
         "仙驴",
         "电影",
         "免费",
-        "深色"
+        "深色",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-zhang-guolao.webp",
@@ -1003,14 +1027,14 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-zhang-guolao.lingglow-skin.json",
-        "sha256": "7b3f591d7825dd33ca94cbabdb86cf219d258a5d88982682230b2902f6273056",
+        "sha256": "c445dbb65e0c8a6ed2f1de66c5fcf48f7399f5c4966981b06fc8117de5eb6c19",
         "bytes": 1421494
       }
     },
     {
       "id": "baxian-ensemble",
       "kind": "theme-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "八仙过海·有求必应",
       "description": "取自动画电影《八仙！》八位主角群像造型的免费三端主题；琉璃海潮与欢乐同行。",
       "tier": "free",
@@ -1028,7 +1052,8 @@
         "过海",
         "有求必应",
         "电影",
-        "免费"
+        "免费",
+        "label:anime-ip"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/baxian-ensemble.webp",
@@ -1047,7 +1072,7 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-ensemble.lingglow-skin.json",
-        "sha256": "1ce381ef8480d89ac61441f19cb3f2dd09c90276460dedb7752e59ee142b03ca",
+        "sha256": "c56b904b780798472ae27d8ecebca795ceee3f944ba6d3d8a14870da80456a27",
         "bytes": 2236970
       }
     }
