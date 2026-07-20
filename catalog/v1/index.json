@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026.07.19.1",
-  "generatedAt": "2026-07-19T14:48:04.880Z",
+  "catalogVersion": "2026.07.20.1",
+  "generatedAt": "2026-07-20T00:27:02.783Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
@@ -610,6 +610,49 @@
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/kungfu-womens-football.lingglow-skin.json",
         "sha256": "7d4ae864ed16cf6230a418c1ecf2bcd7dfe951cabba8aeae8418b5da0d5bb590",
         "bytes": 1795436
+      }
+    },
+    {
+      "id": "spain-2026-champions",
+      "kind": "theme-pack",
+      "version": "1.0.0",
+      "name": "西班牙·双星冠军之夜",
+      "description": "纪念西班牙赢得 2026 男足世界杯、收获队史第二冠的原创三端 VIP 主题；采用西班牙红、冠军金与午夜蓝，不含官方标识、球员肖像或官方奖杯造型。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "sports",
+      "series": "world-champions",
+      "tags": [
+        "世界杯",
+        "西班牙",
+        "双星冠军",
+        "足球",
+        "深色"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/spain-2026-champions.webp",
+        "sha256": "741d4f45157c65d3f359065ab99b10c16605458cca646b174e188382715fbffc"
+      },
+      "colors": {
+        "accent": "#F2C14E",
+        "surface": "#071426",
+        "ink": "#FFF7E6"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/spain-2026-champions.lingglow-skin.json",
+        "sha256": "3d4014eed844c2ab016cdc81c137a8bff38a5ae8490183b46f66a634dc440245",
+        "bytes": 840159
       }
     }
   ]
