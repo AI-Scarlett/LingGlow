@@ -1,19 +1,19 @@
 {
-  "version": "2.3.2",
-  "tag": "v2.3.2",
+  "version": "2.3.3",
+  "tag": "v2.3.3",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.2/LingGlow-2.3.2-macOS.dmg",
-      "sha256": "3cf69131b543f7b4d4e57887f12017c2bc7ebae26dae4f368ebb520c2885287a"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.3/LingGlow-2.3.3-macOS.dmg",
+      "sha256": "370ccc16e002152df675c1388ca686d0aa0ea279055c5b5e9f058882383c3e2f"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.2/LingGlow-2.3.2-macOS.dmg",
-      "sha256": "3cf69131b543f7b4d4e57887f12017c2bc7ebae26dae4f368ebb520c2885287a"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.3/LingGlow-2.3.3-macOS.dmg",
+      "sha256": "370ccc16e002152df675c1388ca686d0aa0ea279055c5b5e9f058882383c3e2f"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "彻底修复中英文即时切换：Tab、菜单、状态、目录、商品、预览、错误提示与临时警告无需重启即可统一刷新；英文界面不再泄漏中文内部诊断。同时修复 Codex 新建任务页闪烁、模板同步阻塞，并优化 WorkBuddy 深色视觉。",
-  "releaseNotesEn": "Completely fixes instant Chinese/English switching across tabs, menus, status, catalog, products, previews, errors, and transient banners without a relaunch. Internal Chinese diagnostics no longer leak into English. Also fixes Codex new-task flicker, nonblocking hourly theme sync, and WorkBuddy dark-mode visuals."
+  "releaseNotes": "修复跨越多个侧栏页面切换时的长时间卡顿：皮肤缩略图改为后台限尺寸解码并使用有上限的内存缓存。统一 Agent 切换、风格、标签、陈列与权益筛选 UI，补齐悬停、选中和窄窗口布局。",
+  "releaseNotesEn": "Fixes long stalls when jumping across non-adjacent sidebar sections by decoding bounded theme thumbnails off the main thread with a memory-limited cache. Unifies Agent switching and catalog filters with consistent hover, selected, and compact-window states."
 }
