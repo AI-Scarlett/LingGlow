@@ -23,9 +23,10 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 12. Give every Codex theme a dedicated 3:1 home artwork that is visually related to, but not the same file as, the global background.
 13. Record asset provenance and redistribution terms. Exclude any third-party person, character, logo, or artwork whose rights are unclear, even when it appears in an upstream preset repository.
 14. Publish one declarative `.lingglow-skin.json` per skin. Never place JavaScript, CSS, executable files, arbitrary URLs, or source archives in a remote skin bundle.
-15. Never add a background, border, or shadow to text merely because an element contains glyphs. Headings, paragraphs, labels, spans, placeholders, inputs, textareas, and content-editable text stay visually plain; paint one structural parent surface when readability needs a backdrop. Buttons, chips, selected rows, badges, code blocks, and true input containers remain explicit exceptions.
+15. Never add a background, border, or shadow to text merely because an element contains glyphs. Headings, paragraphs, labels, spans, placeholders, inputs, textareas, and content-editable text stay visually plain; paint one structural parent surface when readability needs a backdrop. For a composer, paint its outer shell and keep the nested editor/input layer transparent. Buttons, chips, selected rows, badges, code blocks, and standalone input controls remain explicit exceptions.
 16. Resolve ink against the surface that is actually painted behind the text. A host dark-mode class is not evidence of a dark surface after a light skin replaces it; inspect the computed background or the closest effective semantic surface and choose contrast-safe ink from that result.
 17. Runtime compatibility repair must stay narrow and reversible. If a client paints backgrounds directly on short text-only wrappers, clear only those wrappers and exclude controls, selected states, cards, dialogs, popovers, menus, code, and editable containers.
+18. Never solve readability by placing one opaque surface over most of a page. Keep the page transparent, correct semantic ink first, and add translucent surfaces only to true local structures such as a user bubble, composer, table, code block, card, or popup. A large decorative region must use an edge-faded treatment with no visible rectangular boundary.
 
 ## Inputs
 
@@ -80,6 +81,9 @@ Publish in this order: skin bundle, gallery preview, catalog index. The index is
 - Keep cards and popovers contrast-safe rather than recoloring every inner text node.
 - Replace the native composer mascot in place and preserve its native click target.
 - Check profile/account menus, history rows, automation templates, and table cells for accidental per-text backgrounds. Rounded structural panels are allowed; label-sized rectangles are not.
+- Follow the Doubao conversation-detail pattern for chat: assistant prose stays directly on the shared background with contrast-safe ink; only user bubbles, composer, tables, code, cards, and overlays receive restrained translucent surfaces. Never turn the whole chat or automation page into one opaque panel.
+- Treat automation empty-state, hero, and template-list wrappers as structural roots, not cards: keep those wrappers transparent and paint only the individual template cards.
+- Normalize host dark-mode residue on structural controls instead of accepting black patches: remove any full-width team-member top fade entirely, and let only narrow lateral scroll affordances dissolve into the effective painted surface. Closed, hovered, focused, and expanded model/permission triggers must use the same local translucent control treatment; opened model and permission menus stay on an opaque contrast-safe surface with explicit semantic ink.
 
 ### Doubao
 

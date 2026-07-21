@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.20-v4",
+  "version": "2026.07.21-v7",
   "clientId": "workbuddy",
   "selectorPolicy": {
     "prefer": ["semantic page roots", "ARIA roles", "native state attributes"],
@@ -7,10 +7,13 @@
   },
   "layerPolicy": {
     "globalBackground": {"position": "fixed", "pointerEvents": "none"},
-    "historyAndComposer": {"backgroundImage": "none", "revealGlobalBackground": true},
+    "historyAndComposer": {"backgroundImage": "none", "revealGlobalBackground": true, "pageSurface": "transparent", "assistantProseSurface": "none", "localSurfaceOpacityMax": 0.66},
     "cardsAndPopovers": {"opaqueContrastSafe": true},
-    "customMascot": {"replaceInPlace": true, "containerTransparent": true, "preserveClickTarget": true}
+    "customMascot": {"replaceInPlace": true, "containerTransparent": true, "preserveClickTarget": true},
+    "teamMemberEdges": {"fullWidthTopFade": "none", "lateralEdgesUseEffectiveSurface": true, "fadeToTransparent": true, "forbidFullWidthDarkStrip": true},
+    "composerSelectors": {"localTranslucentSurface": true, "coverStates": ["closed", "hover", "focus", "expanded"], "popupOpaqueContrastSafe": true},
+    "automationEmptyState": {"structuralWrappersTransparent": true, "templateCardsLocalSurface": true, "forbidWholePagePanel": true}
   },
   "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true, "resolveInkAgainst": "effective-painted-surface"},
-  "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "preserveControls": true}
+  "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "nestedComposerEditorBackground": "transparent", "preserveControls": true}
 }

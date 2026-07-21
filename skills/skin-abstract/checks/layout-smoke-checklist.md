@@ -10,7 +10,9 @@ Record Agent version, skin ID/version, appearance mode, timestamp, and screensho
 - [ ] Primary text reaches 4.5:1 contrast and large text reaches 3:1.
 - [ ] Effective painted surfaces, not host light/dark classes alone, determine text ink.
 - [ ] Headings, labels, paragraphs, placeholders, and editable text do not gain label-sized background, border, or shadow boxes.
+- [ ] Composer/input-shell backgrounds belong to the structural shell; nested input, textarea, ProseMirror, and content-editable layers remain transparent without a second rectangular strip.
 - [ ] Any readability backdrop belongs to one rounded or edge-faded structural container; buttons, chips, selected rows, badges, code, and true input containers are the only intentional text-sized exceptions.
+- [ ] No non-modal readability surface covers most of the page; the global artwork remains visibly continuous behind primary content.
 - [ ] Dialogs, menus, tooltips, hover cards, and placeholders remain readable.
 - [ ] Selected, hover, pressed, focused, disabled, warning, and error states are visible.
 - [ ] A transparent mascot decodes with a real Alpha channel; no baked checkerboard remains.
@@ -32,8 +34,11 @@ Record Agent version, skin ID/version, appearance mode, timestamp, and screensho
 - [ ] Mascot is replaced in place without frame, halo, shadow, or duplicate overlay.
 - [ ] History rows: open, more, archive, pin, folder expand/collapse, and scrolling work.
 - [ ] Chat history and composer reveal the global background without a second image.
+- [ ] Assistant prose and automation-page copy sit directly on the global background; only bubbles, composer, cards, tables, code, and overlays use restrained translucent surfaces.
+- [ ] Automation empty-state/hero/template-list wrappers stay transparent; only each template card receives a local rounded surface.
 - [ ] Expert/skill/connector pages use readable cards and tab/button states.
 - [ ] Model menu, model hover card, speaker popover, notice popup, and tooltips are readable.
+- [ ] The full-width team-member top fade is absent and only narrow lateral scroll edges may dissolve into the painted surface; model and permission triggers stay locally translucent in closed, hover, focus, and expanded states while both menus remain opaque and readable.
 - [ ] Profile menu, automation templates, history tables, and code content have no accidental per-label background tiles.
 
 ## Doubao
