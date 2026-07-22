@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.22-v6",
+  "version": "2026.07.22-v7",
   "clientId": "codex",
   "selectorPolicy": {
     "prefer": ["data attributes", "ARIA roles", "native state attributes"],
@@ -12,7 +12,13 @@
     "threadFooterFade": {"scope": "[data-thread-scroll-footer]", "surface": "edge-fade", "maxOpacity": 0.38, "mustReachTransparent": true},
     "rightPanel": {"pointerEvents": "auto", "mustRemainInteractive": true, "surface": "local-opaque"}
   },
-  "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true, "resolveInkAgainst": "effective-painted-surface"},
+  "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true, "resolveInkAgainst": "effective-painted-surface", "overrideStaleHostModeTokens": true},
+  "semanticUtilityPolicy": {
+    "variablePrefixes": ["--vscode-", "--color-token-"],
+    "auditedDirectClassPrefixes": ["text-token-", "bg-token-"],
+    "scope": ["sidebar", "conversation", "artifact-card", "right-panel", "composer", "popup"],
+    "forbidBlanketDescendantOverride": true
+  },
   "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "preserveControls": true},
   "actionControlPolicy": {
     "selectors": ["[data-lingglow-codex-control=send]", "[data-lingglow-codex-control=stop]"],
@@ -22,5 +28,12 @@
     "preserveNativeGeometry": true,
     "forbidSolidBlackFallback": true,
     "states": ["idle", "hover", "focus", "pressed", "running", "disabled", "reduced-motion"]
+  },
+  "modelPickerPolicy": {
+    "selectors": ["[data-codex-intelligence-trigger]", "[role=menu]", "[role=listbox]", "[role=menuitem]", "[role=menuitemradio]", "[role=option]"],
+    "levels": ["closed-trigger", "category-menu", "model-submenu", "reasoning-submenu", "speed-submenu"],
+    "states": ["hover", "focus", "selected", "checked", "disabled"],
+    "parts": ["label", "icon", "badge", "price", "checkmark", "separator"],
+    "contrastSafePopupSurface": true
   }
 }

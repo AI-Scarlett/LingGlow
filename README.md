@@ -11,14 +11,14 @@
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 当前公开版本：2.3.5
+## 当前公开版本：2.3.6
 
-- Codex 左侧栏与对话区域之间不再出现突兀的浅色竖条，边缘会从左向右逐步变为透明。
-- 保留原生侧栏拖拽热区和布局行为，只调整边缘绘制并移除硬边框、硬阴影。
-- 精确适配、通用安全模式和内置 Dream Skin 使用一致的侧栏渐隐规则，切换皮肤后不会重新出现硬边。
-- 延续 2.3.4 的三端完整表面适配、文字可读性修复和 Skin Abstract 制作规范。
+- Codex 浅色/深色皮肤现在会锁定完整语义配色，侧栏、对话、文件卡、输出区和输入区不再继承错误的原生模式颜色。
+- 新建任务页只保留一层全局背景，移除了会造成大面积发白的重复渐变遮罩。
+- 模型触发按钮、模型/推理强度/速度菜单、二级模型列表、勾选和交互状态均按皮肤适配。
+- 权限、发送和停止控件补齐独立语义状态；Skin Abstract Skill 同步加入多级模型菜单与语义工具类回归检查。
 
-[查看 LingGlow 2.3.5 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.5)
+[查看 LingGlow 2.3.6 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.6)
 
 ## 主打皮肤 / Featured Skins
 
@@ -44,7 +44,7 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- 下载当前 Release 中的 `LingGlow-2.3.5-macOS.dmg` 和 `SHA256SUMS`
+- 下载当前 Release 中的 `LingGlow-2.3.6-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
 
 只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。

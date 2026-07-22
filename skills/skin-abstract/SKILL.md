@@ -28,6 +28,8 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 17. Runtime compatibility repair must stay narrow and reversible. If a client paints backgrounds directly on short text-only wrappers, clear only those wrappers and exclude controls, selected states, cards, dialogs, popovers, menus, code, and editable containers.
 18. Never solve readability by placing one opaque surface over most of a page. Keep the page transparent, correct semantic ink first, and add translucent surfaces only to true local structures such as a user bubble, composer, table, code block, card, or popup. A large decorative region must use an edge-faded treatment with no visible rectangular boundary.
 19. Treat send and stop as different semantic actions, not one button with two arbitrary colors. Derive send from `accent` plus a contrast-safe on-accent ink; derive stop from `danger` with a restrained running indicator. Preserve native geometry and hit targets. Give hover, focus, pressed, running, disabled, and reduced-motion states explicit treatments without turning either control into a solid black patch.
+20. Lock the complete client semantic palette to `appearanceMode`, including host variables and any audited semantic utility classes that directly paint text or structural backgrounds. A native `dark` class may remain in the DOM after a light skin is applied; it must not be allowed to turn conversation copy, file cards, sidebars, output panels, or menus back to dark-mode colors.
+21. Treat a model picker as one multi-level control. Theme the closed trigger, category menu, nested model list, reasoning and speed submenus, selected/checked rows, separators, icons, prices/badges, hover/focus states, and disabled rows together. Test every open level in both appearances.
 
 ## Inputs
 
@@ -74,6 +76,7 @@ Publish in this order: skin bundle, gallery preview, catalog index. The index is
 - Do not cover top controls or the embedded browser with a full-window overlay.
 - Preserve selected task/project state and disabled-button opacity.
 - Verify permission, model, microphone, send, and stop controls independently from their adjacent text; do not create a background tile around each label or placeholder.
+- Verify the complete nested model picker: closed trigger, model/reasoning/speed rows, child model list, selected check mark, separators, hover/focus, and disabled entries. Use semantic roles and state attributes where available, and force audited direct `text-token-*` / `bg-token-*` utility classes to the skin palette when variables alone do not win.
 - Theme send with the skin accent gradient and contrast-safe icon ink. Theme stop with the semantic danger token, a non-black local surface, and a restrained running ring; keep native size, icon, event handling, disabled semantics, and reduced-motion behavior.
 - Keep `main.main-surface` and `[data-app-shell-main-content-layout]` transparent. The fixed `body::before` layer is the sole global background owner; never repeat the same artwork on `body` or `main`.
 - Replace Codex's solid thread-footer wash with a restrained edge fade that reaches full transparency before the reading area. The composer and right-side output panel remain independent, rounded, contrast-safe local surfaces.
@@ -106,6 +109,7 @@ Do not mark a skin complete unless:
 - One global background remains continuous across home and history pages.
 - On Codex, verify a conversation with the right output panel open: the artwork focal subject remains visible, the main content root is transparent, and the composer footer does not form a large opaque rectangle.
 - Every overlay/menu/hover card is readable.
+- Codex model, reasoning, and speed menus pass with every submenu open; no row, icon, badge, check mark, or model trigger inherits stale host-mode ink.
 - History rows, sidebar tabs, composer controls, menus, and browser panels remain clickable.
 - Custom avatar Alpha is verified when transparency is requested.
 - Real screenshots exist for all three clients and rollback restores native appearance.
