@@ -3,9 +3,9 @@
 ## 安装灵妆
 
 1. 打开 [LingGlow Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)。
-2. Apple Silicon 下载 `Apple-Silicon.dmg`，Intel Mac 下载 `Intel.dmg`，并同时下载 `SHA256SUMS`。
+2. 下载当前 Release 中的 macOS DMG，并同时下载 `SHA256SUMS`。
 3. 打开 DMG，把“灵妆.app”拖入“应用程序”。
-4. 首次启动时确认发布者为 `xiaoming zhou`，Developer Team ID 为 `UQ87N2WZ76`。
+4. 首次启动时确认安装包来自本仓库的正式 Release，且 macOS 没有报告签名或公证错误。
 5. 灵妆不显示在 Dock；点击 macOS 菜单栏的灵妆图标即可打开桌面窗口。
 
 系统要求：macOS 13 或更高版本。仅从 `AI-Scarlett/LingGlow` 官方 Release 下载。
@@ -36,7 +36,7 @@
 
 1. 打开左侧“设置”。
 2. 在“界面语言”选择“中文”或“English”。
-3. 重新启动灵妆后生效。
+3. 界面会立即切换，不需要重新启动灵妆。
 
 灵妆只提供简体中文与英文两套界面语言。
 
