@@ -27,6 +27,7 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 16. Resolve ink against the surface that is actually painted behind the text. A host dark-mode class is not evidence of a dark surface after a light skin replaces it; inspect the computed background or the closest effective semantic surface and choose contrast-safe ink from that result.
 17. Runtime compatibility repair must stay narrow and reversible. If a client paints backgrounds directly on short text-only wrappers, clear only those wrappers and exclude controls, selected states, cards, dialogs, popovers, menus, code, and editable containers.
 18. Never solve readability by placing one opaque surface over most of a page. Keep the page transparent, correct semantic ink first, and add translucent surfaces only to true local structures such as a user bubble, composer, table, code block, card, or popup. A large decorative region must use an edge-faded treatment with no visible rectangular boundary.
+19. Treat send and stop as different semantic actions, not one button with two arbitrary colors. Derive send from `accent` plus a contrast-safe on-accent ink; derive stop from `danger` with a restrained running indicator. Preserve native geometry and hit targets. Give hover, focus, pressed, running, disabled, and reduced-motion states explicit treatments without turning either control into a solid black patch.
 
 ## Inputs
 
@@ -46,7 +47,7 @@ Use the templates in `inputs/`. Read `references/asset-specs.md` before acceptin
 
 1. Record the exact Agent version and its native light/dark state.
 2. Capture the live layout and identify stable semantic anchors such as roles, test IDs, native state attributes, and client-owned regions. Avoid hashed class names as the only selector.
-3. Fill one client input template. Separate global background, home artwork, content surfaces, overlay surfaces, text tokens, selection states, and optional branding.
+3. Fill one client input template. Separate global background, home artwork, content surfaces, overlay surfaces, text tokens, selection states, semantic action controls, and optional branding.
 4. Apply the adapter contract in `patches/`. Start with narrow selectors and native state attributes. Do not use blanket rules such as `* { color: ... }`, `div { background: transparent }`, or global z-index promotion.
 5. Audit text wrappers before styling. Remove accidental per-label paint, then put any required readability surface on the nearest structural container. Do not turn every text node or text input into a separate tile.
 6. Apply the selected appearance to the Agent's native appearance selector when safely possible. Otherwise apply the complete matching semantic token set and show a warning not to change native appearance while the skin is active.
@@ -73,6 +74,7 @@ Publish in this order: skin bundle, gallery preview, catalog index. The index is
 - Do not cover top controls or the embedded browser with a full-window overlay.
 - Preserve selected task/project state and disabled-button opacity.
 - Verify permission, model, microphone, send, and stop controls independently from their adjacent text; do not create a background tile around each label or placeholder.
+- Theme send with the skin accent gradient and contrast-safe icon ink. Theme stop with the semantic danger token, a non-black local surface, and a restrained running ring; keep native size, icon, event handling, disabled semantics, and reduced-motion behavior.
 - Keep `main.main-surface` and `[data-app-shell-main-content-layout]` transparent. The fixed `body::before` layer is the sole global background owner; never repeat the same artwork on `body` or `main`.
 - Replace Codex's solid thread-footer wash with a restrained edge fade that reaches full transparency before the reading area. The composer and right-side output panel remain independent, rounded, contrast-safe local surfaces.
 

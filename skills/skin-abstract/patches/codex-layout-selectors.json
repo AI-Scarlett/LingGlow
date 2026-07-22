@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.22-v5",
+  "version": "2026.07.22-v6",
   "clientId": "codex",
   "selectorPolicy": {
     "prefer": ["data attributes", "ARIA roles", "native state attributes"],
@@ -13,5 +13,14 @@
     "rightPanel": {"pointerEvents": "auto", "mustRemainInteractive": true, "surface": "local-opaque"}
   },
   "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true, "resolveInkAgainst": "effective-painted-surface"},
-  "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "preserveControls": true}
+  "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "preserveControls": true},
+  "actionControlPolicy": {
+    "selectors": ["[data-lingglow-codex-control=send]", "[data-lingglow-codex-control=stop]"],
+    "sendToken": "accent",
+    "stopToken": "danger",
+    "contrastInkRequired": true,
+    "preserveNativeGeometry": true,
+    "forbidSolidBlackFallback": true,
+    "states": ["idle", "hover", "focus", "pressed", "running", "disabled", "reduced-motion"]
+  }
 }

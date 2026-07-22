@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.22-v5",
+  "version": "2026.07.22-v6",
   "targetClientId": "codex",
   "appearanceMode": "dark",
   "artwork": {
@@ -29,7 +29,13 @@
   "interaction": {
     "decorativePointerEvents": "none",
     "preserveNativeGeometry": true,
-    "preserveRightPanelInput": true
+    "preserveRightPanelInput": true,
+    "actionControls": {
+      "send": "accent-gradient-with-contrast-ink",
+      "stop": "danger-surface-with-running-ring",
+      "preserveNativeIconAndHitTarget": true,
+      "states": ["idle", "hover", "focus", "pressed", "running", "disabled", "reduced-motion"]
+    }
   },
   "requiredStates": ["selected", "hover", "focus", "disabled", "warning", "error"]
 }

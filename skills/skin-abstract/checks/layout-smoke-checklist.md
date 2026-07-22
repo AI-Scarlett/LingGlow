@@ -23,6 +23,7 @@ Record Agent version, skin ID/version, appearance mode, timestamp, and screensho
 - [ ] New-task home: optional hero image uses its own region without changing native block geometry.
 - [ ] Sidebar: task/project selection and hover states are visible and clickable.
 - [ ] Composer: typing, model menu, permission menu, send, stop, and microphone work.
+- [ ] Send uses the skin accent plus contrast-safe icon ink; stop uses the danger token and a restrained running ring. Hover, focus, pressed, disabled, and reduced-motion states remain distinct, and neither action becomes a solid black patch.
 - [ ] History: messages, code blocks, artifacts, notices, and action buttons are readable.
 - [ ] New-task blocks and history text stay plain while permission/model/send controls keep their native control surfaces.
 - [ ] Conversation roots (`main.main-surface` and the main-content layout) are transparent; the selected artwork is painted once and remains visible behind history content.
