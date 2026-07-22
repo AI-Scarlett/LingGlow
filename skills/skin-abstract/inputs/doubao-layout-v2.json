@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.19-v3",
+  "version": "2026.07.20-v4",
   "targetClientId": "doubao",
   "appearanceMode": "dark",
   "artwork": {
@@ -14,6 +14,11 @@
     "composer": "opaque-contrast-safe",
     "messages": "transparent-or-semantic-surface",
     "overlays": "opaque-contrast-safe"
+  },
+  "textSurfacePolicy": {
+    "resolveInkAgainst": "effective-painted-surface",
+    "plainTextBackground": "none",
+    "structuralBackdropOnly": true
   },
   "interaction": {
     "decorativePointerEvents": "none",

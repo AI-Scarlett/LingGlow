@@ -1,15 +1,19 @@
 {
-  "version": "2026.07.19-v3",
+  "version": "2026.07.21-v7",
   "clientId": "workbuddy",
   "selectorPolicy": {
     "prefer": ["semantic page roots", "ARIA roles", "native state attributes"],
-    "avoid": ["duplicated background images", "blanket text recoloring", "mascot overlay frames", "global z-index promotion"]
+    "avoid": ["duplicated background images", "blanket text recoloring", "per-text backgrounds", "mascot overlay frames", "global z-index promotion"]
   },
   "layerPolicy": {
     "globalBackground": {"position": "fixed", "pointerEvents": "none"},
-    "historyAndComposer": {"backgroundImage": "none", "revealGlobalBackground": true},
+    "historyAndComposer": {"backgroundImage": "none", "revealGlobalBackground": true, "pageSurface": "transparent", "assistantProseSurface": "none", "localSurfaceOpacityMax": 0.66},
     "cardsAndPopovers": {"opaqueContrastSafe": true},
-    "customMascot": {"replaceInPlace": true, "containerTransparent": true, "preserveClickTarget": true}
+    "customMascot": {"replaceInPlace": true, "containerTransparent": true, "preserveClickTarget": true},
+    "teamMemberEdges": {"fullWidthTopFade": "none", "lateralEdgesUseEffectiveSurface": true, "fadeToTransparent": true, "forbidFullWidthDarkStrip": true},
+    "composerSelectors": {"localTranslucentSurface": true, "coverStates": ["closed", "hover", "focus", "expanded"], "popupOpaqueContrastSafe": true},
+    "automationEmptyState": {"structuralWrappersTransparent": true, "templateCardsLocalSurface": true, "forbidWholePagePanel": true}
   },
-  "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true}
+  "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true, "resolveInkAgainst": "effective-painted-surface"},
+  "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "nestedComposerEditorBackground": "transparent", "preserveControls": true}
 }

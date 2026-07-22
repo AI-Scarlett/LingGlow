@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.19-v3",
+  "version": "2026.07.20-v4",
   "targetClientId": "workbuddy",
   "appearanceMode": "dark",
   "artwork": {
@@ -18,6 +18,11 @@
     "composer": "transparent-or-translucent",
     "expertCards": "opaque-contrast-safe",
     "overlays": "opaque-contrast-safe"
+  },
+  "textSurfacePolicy": {
+    "resolveInkAgainst": "effective-painted-surface",
+    "plainTextBackground": "none",
+    "structuralBackdropOnly": true
   },
   "interaction": {
     "decorativePointerEvents": "none",

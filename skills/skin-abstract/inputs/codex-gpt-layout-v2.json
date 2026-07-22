@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.19-v3",
+  "version": "2026.07.22-v6",
   "targetClientId": "codex",
   "appearanceMode": "dark",
   "artwork": {
@@ -12,15 +12,30 @@
   },
   "surfaces": {
     "page": "transparent",
+    "conversationRoot": "transparent",
+    "globalBackgroundOwner": "single-fixed-layer",
+    "threadFooter": "edge-fade-to-transparent",
     "sidebar": "translucent",
     "composer": "opaque-contrast-safe",
     "cards": "opaque-contrast-safe",
+    "rightPanel": "local-opaque-contrast-safe",
     "overlays": "opaque-contrast-safe"
+  },
+  "textSurfacePolicy": {
+    "resolveInkAgainst": "effective-painted-surface",
+    "plainTextBackground": "none",
+    "structuralBackdropOnly": true
   },
   "interaction": {
     "decorativePointerEvents": "none",
     "preserveNativeGeometry": true,
-    "preserveRightPanelInput": true
+    "preserveRightPanelInput": true,
+    "actionControls": {
+      "send": "accent-gradient-with-contrast-ink",
+      "stop": "danger-surface-with-running-ring",
+      "preserveNativeIconAndHitTarget": true,
+      "states": ["idle", "hover", "focus", "pressed", "running", "disabled", "reduced-motion"]
+    }
   },
   "requiredStates": ["selected", "hover", "focus", "disabled", "warning", "error"]
 }

@@ -5,23 +5,22 @@
 
 [官方网站](https://aiaiai.homes/) · [下载最新版](https://github.com/AI-Scarlett/LingGlow/releases/latest) · [皮肤图鉴](catalog/v1/GALLERY.md) · [安装手册](docs/USER-GUIDE.md) · [English](#english)
 
-![LingGlow 2.3.0 skin library](docs/images/lingglow-2.3.0-skins.png)
+![LingGlow skin library](docs/images/lingglow-2.3.0-skins.png)
 
 灵妆让用户无需修改 Agent 源码，即可浏览、下载、更新和应用经过完整性校验的主题皮肤。它会根据目标客户端与深浅模式处理背景、文字、卡片、弹窗、输入框、首页专图与 WorkBuddy 机器人图片，并保留恢复官方原版的入口。
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 2.3.0 新功能
+## 当前公开版本：2.3.3
 
-- 新增“推荐 / 全部 / 我的皮肤”三栏，主打皮肤与个人资产分开管理。
-- “我的皮肤”集中显示已下载、已购买、适用 Agent 和可更新状态。
-- 更新数量按皮肤 ID 去重，不再因同一皮肤适配多个 Agent 重复提示。
-- 首批推荐：西班牙世界杯夺冠主题与九套八仙系列主题。
-- 新增中文与 English 两种客户端语言。
-- 未勾选购买协议时，点击购买会明确弹窗提示，可查看协议或同意后继续。
-- 修复八仙与世界杯主题的 Codex 横幅透明度越界，以及主题注册表完整性锁不同步问题。
+- 皮肤预览改为后台限尺寸解码，并使用有上限的内存缓存，减少跨侧栏切换卡顿。
+- Agent 切换、风格、标签、陈列和权益筛选控件统一选中、悬停与窄窗口状态。
+- 中文与 English 可即时切换，不需要重新启动灵妆。
+- 修复 Codex 新建任务页主视觉闪烁、操作区块消失和重复解码问题。
+- 支持“推荐 / 全部 / 我的皮肤”、按需下载、单独更新和三端适配标签。
+- 图片解码期间使用安静的渐变占位，避免大批进度指示器闪烁。
 
-[查看 2.3.0 完整更新说明](docs/WHATS-NEW-2.3.0.md)
+[查看 LingGlow 2.3.3 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.3)
 
 ## 主打皮肤 / Featured Skins
 
@@ -47,12 +46,10 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- Apple Silicon（M1/M2/M3/M4）：`LingGlow-<版本>-macOS-Apple-Silicon.dmg`
-- Intel：`LingGlow-<版本>-macOS-Intel.dmg`
+- 下载当前 Release 中的 `LingGlow-2.3.3-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
-- Developer Team ID：`UQ87N2WZ76`
 
-DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据。完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
+只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
 
 ## 皮肤下载与更新
 
