@@ -17,6 +17,6 @@ Accept a result only when screenshots and interaction observations agree. A succ
 
 Focused regression pages:
 
-- Codex: new-task blocks, conversation history, permission/model menus, composer placeholder, send/stop/microphone controls.
+- Codex: new-task blocks, conversation history, transparent main roots, edge-faded thread footer, open right output panel, permission/model menus, composer placeholder, send/stop/microphone controls.
 - WorkBuddy: profile/account menu, project/history list, automation templates, chat history tables and code blocks, model/speaker/notice popovers.
 - Doubao: AI Creation header and prompt, current/history conversations, left navigation, composer placeholder, suggestions and dialogs.

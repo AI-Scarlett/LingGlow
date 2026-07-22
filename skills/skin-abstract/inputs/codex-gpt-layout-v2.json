@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.20-v4",
+  "version": "2026.07.22-v5",
   "targetClientId": "codex",
   "appearanceMode": "dark",
   "artwork": {
@@ -12,9 +12,13 @@
   },
   "surfaces": {
     "page": "transparent",
+    "conversationRoot": "transparent",
+    "globalBackgroundOwner": "single-fixed-layer",
+    "threadFooter": "edge-fade-to-transparent",
     "sidebar": "translucent",
     "composer": "opaque-contrast-safe",
     "cards": "opaque-contrast-safe",
+    "rightPanel": "local-opaque-contrast-safe",
     "overlays": "opaque-contrast-safe"
   },
   "textSurfacePolicy": {

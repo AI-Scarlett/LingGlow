@@ -73,6 +73,8 @@ Publish in this order: skin bundle, gallery preview, catalog index. The index is
 - Do not cover top controls or the embedded browser with a full-window overlay.
 - Preserve selected task/project state and disabled-button opacity.
 - Verify permission, model, microphone, send, and stop controls independently from their adjacent text; do not create a background tile around each label or placeholder.
+- Keep `main.main-surface` and `[data-app-shell-main-content-layout]` transparent. The fixed `body::before` layer is the sole global background owner; never repeat the same artwork on `body` or `main`.
+- Replace Codex's solid thread-footer wash with a restrained edge fade that reaches full transparency before the reading area. The composer and right-side output panel remain independent, rounded, contrast-safe local surfaces.
 
 ### WorkBuddy
 
@@ -100,6 +102,7 @@ Do not mark a skin complete unless:
 - Both light and dark skins pass semantic contrast checks.
 - Text remains plain unless it belongs to a real control or structural surface; no generated label-sized background boxes remain.
 - One global background remains continuous across home and history pages.
+- On Codex, verify a conversation with the right output panel open: the artwork focal subject remains visible, the main content root is transparent, and the composer footer does not form a large opaque rectangle.
 - Every overlay/menu/hover card is readable.
 - History rows, sidebar tabs, composer controls, menus, and browser panels remain clickable.
 - Custom avatar Alpha is verified when transparency is requested.

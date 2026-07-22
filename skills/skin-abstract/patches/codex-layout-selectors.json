@@ -1,14 +1,16 @@
 {
-  "version": "2026.07.20-v4",
+  "version": "2026.07.22-v5",
   "clientId": "codex",
   "selectorPolicy": {
     "prefer": ["data attributes", "ARIA roles", "native state attributes"],
     "avoid": ["hashed class names as sole selector", "blanket descendant text rules", "per-text backgrounds", "global z-index promotion"]
   },
   "layerPolicy": {
-    "globalBackground": {"position": "fixed", "pointerEvents": "none"},
+    "globalBackground": {"owner": "body::before", "position": "fixed", "pointerEvents": "none", "singleLayer": true},
     "homeArtwork": {"scope": "native-home-hero-only", "preserveGeometry": true},
-    "rightPanel": {"pointerEvents": "auto", "mustRemainInteractive": true}
+    "conversationRoots": {"selectors": ["main.main-surface", "[data-app-shell-main-content-layout]"], "surface": "transparent"},
+    "threadFooterFade": {"scope": "[data-thread-scroll-footer]", "surface": "edge-fade", "maxOpacity": 0.38, "mustReachTransparent": true},
+    "rightPanel": {"pointerEvents": "auto", "mustRemainInteractive": true, "surface": "local-opaque"}
   },
   "appearancePolicy": {"source": "explicit-skin-mode", "lockNativeMode": true, "resolveInkAgainst": "effective-painted-surface"},
   "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "preserveControls": true}

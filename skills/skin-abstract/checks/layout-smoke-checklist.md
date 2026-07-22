@@ -25,8 +25,10 @@ Record Agent version, skin ID/version, appearance mode, timestamp, and screensho
 - [ ] Composer: typing, model menu, permission menu, send, stop, and microphone work.
 - [ ] History: messages, code blocks, artifacts, notices, and action buttons are readable.
 - [ ] New-task blocks and history text stay plain while permission/model/send controls keep their native control surfaces.
+- [ ] Conversation roots (`main.main-surface` and the main-content layout) are transparent; the selected artwork is painted once and remains visible behind history content.
+- [ ] The thread footer reaches full transparency before the reading area and never forms a large solid block above or around the composer.
 - [ ] Top toolbar: back/forward, sidebar, layout, and window controls remain visible.
-- [ ] Right browser/terminal/file panels are not covered and accept pointer/keyboard input.
+- [ ] With the right browser/terminal/file panel open, the artwork focal subject remains in the visible conversation viewport; the panel is locally opaque, uncovered, and accepts pointer/keyboard input.
 
 ## WorkBuddy
 
