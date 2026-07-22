@@ -1,19 +1,19 @@
 {
-  "version": "2.3.5",
-  "tag": "v2.3.5",
+  "version": "2.3.6",
+  "tag": "v2.3.6",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.5/LingGlow-2.3.5-macOS.dmg",
-      "sha256": "5c29edf98c1fe31cb412ec9a91fab36882fe4c86d8e974e6ac54996b9ca5b172"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.6/LingGlow-2.3.6-macOS.dmg",
+      "sha256": "dab4fa5aaff7a9cb1f8d0f0909477d52808843839e71fe3f00d141a0ca77ef62"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.5/LingGlow-2.3.5-macOS.dmg",
-      "sha256": "5c29edf98c1fe31cb412ec9a91fab36882fe4c86d8e974e6ac54996b9ca5b172"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.6/LingGlow-2.3.6-macOS.dmg",
+      "sha256": "dab4fa5aaff7a9cb1f8d0f0909477d52808843839e71fe3f00d141a0ca77ef62"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复 Codex 左侧栏与对话区域之间突兀的浅色竖条：侧栏本体向右逐步变淡，原生拖拽边缘继续渐隐到完全透明；保留原生拖拽热区与布局，并移除硬边框和硬阴影。",
-  "releaseNotesEn": "Fixes the hard pale strip between the Codex sidebar and conversation by fading the sidebar and its native resize chrome to transparent, while preserving native geometry and the resize hit target."
+  "releaseNotes": "完整修复 Codex 浅色与深色皮肤的语义配色、重复遮罩和可读性问题；模型触发器、模型/推理强度/速度多级菜单、权限、发送与停止控件现在都会跟随皮肤，并同步更新皮肤制作 Skill。",
+  "releaseNotesEn": "Fixes Codex light/dark semantic colors, duplicate overlays, and readability. The model trigger, nested model/reasoning/speed menus, permission, send, and stop controls now follow the selected skin, with matching Skin Skill guidance."
 }

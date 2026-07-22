@@ -23,8 +23,10 @@ Record Agent version, skin ID/version, appearance mode, timestamp, and screensho
 - [ ] New-task home: optional hero image uses its own region without changing native block geometry.
 - [ ] Sidebar: task/project selection and hover states are visible and clickable.
 - [ ] Composer: typing, model menu, permission menu, send, stop, and microphone work.
+- [ ] Model picker: the closed trigger, first-level model/reasoning/speed menu, nested model list, selected check mark, separators, prices/badges, hover/focus, and disabled rows all match the locked skin appearance.
 - [ ] Send uses the skin accent plus contrast-safe icon ink; stop uses the danger token and a restrained running ring. Hover, focus, pressed, disabled, and reduced-motion states remain distinct, and neither action becomes a solid black patch.
 - [ ] History: messages, code blocks, artifacts, notices, and action buttons are readable.
+- [ ] Host `text-token-*` and `bg-token-*` utility classes cannot reintroduce white-on-light or dark-on-dark text in the sidebar, history, artifact cards, output panel, composer, or model menus.
 - [ ] New-task blocks and history text stay plain while permission/model/send controls keep their native control surfaces.
 - [ ] Conversation roots (`main.main-surface` and the main-content layout) are transparent; the selected artwork is painted once and remains visible behind history content.
 - [ ] The thread footer reaches full transparency before the reading area and never forms a large solid block above or around the composer.

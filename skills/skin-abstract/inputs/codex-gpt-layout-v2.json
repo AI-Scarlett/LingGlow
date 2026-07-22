@@ -1,5 +1,5 @@
 {
-  "version": "2026.07.22-v6",
+  "version": "2026.07.22-v7",
   "targetClientId": "codex",
   "appearanceMode": "dark",
   "artwork": {
@@ -30,6 +30,12 @@
     "decorativePointerEvents": "none",
     "preserveNativeGeometry": true,
     "preserveRightPanelInput": true,
+    "lockSemanticUtilitiesToAppearance": true,
+    "modelPicker": {
+      "levels": ["closed-trigger", "category-menu", "model-submenu", "reasoning-submenu", "speed-submenu"],
+      "states": ["hover", "focus", "selected", "checked", "disabled"],
+      "parts": ["label", "icon", "badge", "price", "checkmark", "separator"]
+    },
     "actionControls": {
       "send": "accent-gradient-with-contrast-ink",
       "stop": "danger-surface-with-running-ring",

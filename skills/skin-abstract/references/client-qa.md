@@ -17,6 +17,6 @@ Accept a result only when screenshots and interaction observations agree. A succ
 
 Focused regression pages:
 
-- Codex: new-task blocks, conversation history, transparent main roots, edge-faded thread footer, open right output panel, permission/model menus, composer placeholder, send/stop/microphone controls. Capture send idle/hover/focus/disabled and stop running/hover/focus states; verify theme tokens, icon contrast, native click targets, and reduced-motion fallback.
+- Codex: new-task blocks, conversation history, transparent main roots, edge-faded thread footer, open right output panel, permission menu, closed model trigger, first-level model/reasoning/speed menu, nested model list with a selected check mark, composer placeholder, and send/stop/microphone controls. Capture both appearance modes plus send idle/hover/focus/disabled and stop running/hover/focus states; verify semantic variables and audited direct `text-token-*` / `bg-token-*` utility classes, icon contrast, native click targets, and reduced-motion fallback.
 - WorkBuddy: profile/account menu, project/history list, automation templates, chat history tables and code blocks, model/speaker/notice popovers.
 - Doubao: AI Creation header and prompt, current/history conversations, left navigation, composer placeholder, suggestions and dialogs.
