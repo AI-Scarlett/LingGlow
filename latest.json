@@ -1,19 +1,19 @@
 {
-  "version": "2.3.4",
-  "tag": "v2.3.4",
+  "version": "2.3.5",
+  "tag": "v2.3.5",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.4/LingGlow-2.3.4-macOS.dmg",
-      "sha256": "598bd98e0c68ace71a3214ccae9e4d76f295607c3a6334bcb084b292cdf838e1"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.5/LingGlow-2.3.5-macOS.dmg",
+      "sha256": "5c29edf98c1fe31cb412ec9a91fab36882fe4c86d8e974e6ac54996b9ca5b172"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.4/LingGlow-2.3.4-macOS.dmg",
-      "sha256": "598bd98e0c68ace71a3214ccae9e4d76f295607c3a6334bcb084b292cdf838e1"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.5/LingGlow-2.3.5-macOS.dmg",
+      "sha256": "5c29edf98c1fe31cb412ec9a91fab36882fe4c86d8e974e6ac54996b9ca5b172"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "完善 Codex、WorkBuddy 与豆包三端皮肤适配：覆盖对话背景、选中区块、模型和权限菜单、输入及发送/停止控件；移除文字周围多余底框，修复豆包黑色遮罩与浅色背景文字不可读问题，并同步更新 Skin Abstract 制作规范。",
-  "releaseNotesEn": "Completes the Codex, WorkBuddy, and Doubao skin surfaces for conversation backgrounds, selected regions, model and permission menus, composer controls, and send/stop states. Removes per-text backing boxes, fixes Doubao black overlays and light-background contrast, and updates the Skin Abstract authoring rules."
+  "releaseNotes": "修复 Codex 左侧栏与对话区域之间突兀的浅色竖条：侧栏本体向右逐步变淡，原生拖拽边缘继续渐隐到完全透明；保留原生拖拽热区与布局，并移除硬边框和硬阴影。",
+  "releaseNotesEn": "Fixes the hard pale strip between the Codex sidebar and conversation by fading the sidebar and its native resize chrome to transparent, while preserving native geometry and the resize hit target."
 }
