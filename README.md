@@ -11,16 +11,15 @@
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 当前公开版本：2.3.3
+## 当前公开版本：2.3.4
 
-- 皮肤预览改为后台限尺寸解码，并使用有上限的内存缓存，减少跨侧栏切换卡顿。
-- Agent 切换、风格、标签、陈列和权益筛选控件统一选中、悬停与窄窗口状态。
-- 中文与 English 可即时切换，不需要重新启动灵妆。
-- 修复 Codex 新建任务页主视觉闪烁、操作区块消失和重复解码问题。
-- 支持“推荐 / 全部 / 我的皮肤”、按需下载、单独更新和三端适配标签。
-- 图片解码期间使用安静的渐变占位，避免大批进度指示器闪烁。
+- Codex 新建任务与对话页现在完整显示主题背景，并适配场景区块、选中态、模型与权限菜单、输入框、发送/停止和麦克风控件。
+- WorkBuddy 移除标题、正文、标签和占位文字周围多余的独立底框；可读性背景改由圆角结构容器或边缘渐隐承担。
+- 豆包修复部分页面的大块黑色遮罩，以及浅色皮肤继续使用浅色文字的问题。
+- 三端文字颜色统一依据实际绘制表面计算，不再只跟随客户端的深浅模式标记。
+- Skin Abstract 制作规范与三端回归清单同步更新，防止新皮肤重新引入逐字底框和不可读文字。
 
-[查看 LingGlow 2.3.3 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.3)
+[查看 LingGlow 2.3.4 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.4)
 
 ## 主打皮肤 / Featured Skins
 
@@ -46,7 +45,7 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- 下载当前 Release 中的 `LingGlow-2.3.3-macOS.dmg` 和 `SHA256SUMS`
+- 下载当前 Release 中的 `LingGlow-2.3.4-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
 
 只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。

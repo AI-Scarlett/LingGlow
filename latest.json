@@ -1,19 +1,19 @@
 {
-  "version": "2.3.3",
-  "tag": "v2.3.3",
+  "version": "2.3.4",
+  "tag": "v2.3.4",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.3/LingGlow-2.3.3-macOS.dmg",
-      "sha256": "370ccc16e002152df675c1388ca686d0aa0ea279055c5b5e9f058882383c3e2f"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.4/LingGlow-2.3.4-macOS.dmg",
+      "sha256": "598bd98e0c68ace71a3214ccae9e4d76f295607c3a6334bcb084b292cdf838e1"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.3/LingGlow-2.3.3-macOS.dmg",
-      "sha256": "370ccc16e002152df675c1388ca686d0aa0ea279055c5b5e9f058882383c3e2f"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.4/LingGlow-2.3.4-macOS.dmg",
+      "sha256": "598bd98e0c68ace71a3214ccae9e4d76f295607c3a6334bcb084b292cdf838e1"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复跨越多个侧栏页面切换时的长时间卡顿：皮肤缩略图改为后台限尺寸解码并使用有上限的内存缓存。统一 Agent 切换、风格、标签、陈列与权益筛选 UI，补齐悬停、选中和窄窗口布局。",
-  "releaseNotesEn": "Fixes long stalls when jumping across non-adjacent sidebar sections by decoding bounded theme thumbnails off the main thread with a memory-limited cache. Unifies Agent switching and catalog filters with consistent hover, selected, and compact-window states."
+  "releaseNotes": "完善 Codex、WorkBuddy 与豆包三端皮肤适配：覆盖对话背景、选中区块、模型和权限菜单、输入及发送/停止控件；移除文字周围多余底框，修复豆包黑色遮罩与浅色背景文字不可读问题，并同步更新 Skin Abstract 制作规范。",
+  "releaseNotesEn": "Completes the Codex, WorkBuddy, and Doubao skin surfaces for conversation backgrounds, selected regions, model and permission menus, composer controls, and send/stop states. Removes per-text backing boxes, fixes Doubao black overlays and light-background contrast, and updates the Skin Abstract authoring rules."
 }
