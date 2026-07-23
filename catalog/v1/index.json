@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "catalogVersion": "2026.07.23.1",
-  "generatedAt": "2026-07-23T00:23:27.644Z",
+  "generatedAt": "2026-07-23T02:24:41.072Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
@@ -1090,8 +1090,8 @@
       "id": "agent-codex-terminal-orbit",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "Codex CLI·深夜指挥台",
-      "description": "以真实深夜开发指挥台、终端工作流与 Codex 标识实物为核心的三端 VIP 主题；非官方粉丝创作，与 OpenAI 无商业关联。",
+      "name": "Codex CLI·智能核心舱",
+      "description": "无人物设计；以 Codex 结形标识计算核心、终端矩阵与光路机舱为主视觉的三端 VIP 主题；非官方粉丝创作，与 OpenAI 无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1104,14 +1104,16 @@
       "tags": [
         "Agent",
         "Codex CLI",
-        "开发指挥台",
+        "智能核心舱",
+        "算力核心",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-codex-terminal-orbit.webp",
-        "sha256": "d42eeae28897c02b705b7660f8cfc4ac25d23ffda6318ad9f7527a98536f87b9"
+        "sha256": "ae67e25bcf2a3e5a590d2210fcd6a6d39d5839e30eb2af16f0153904cd9936d5"
       },
       "colors": {
         "accent": "#52C991",
@@ -1126,16 +1128,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-codex-terminal-orbit.lingglow-skin.json",
-        "sha256": "a25c73d27953417c4c3e43806878c6d12004ffafc2773b0e603655323d98524c",
-        "bytes": 386405
+        "sha256": "ce5dbf565b94930ae5a1ebc43f95dcb1e147326f5935113460e5113a67eddb8e",
+        "bytes": 1292617
       }
     },
     {
       "id": "agent-claude-code-clay",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "Claude Code·日光工作室",
-      "description": "以真实日光建筑工作室、暖陶材质与 Claude 星芒实物为核心的三端 VIP 主题；非官方粉丝创作，与 Anthropic 无商业关联。",
+      "name": "Claude Code·光子推理舱",
+      "description": "无人物设计；以 Claude 星芒推理核心、琥珀光子总线与机械仪器阵列为主视觉的三端 VIP 主题；非官方粉丝创作，与 Anthropic 无商业关联。",
       "tier": "vip",
       "appearanceMode": "light",
       "clientIds": [
@@ -1148,14 +1150,16 @@
       "tags": [
         "Agent",
         "Claude Code",
-        "日光工作室",
+        "光子推理舱",
+        "算力核心",
+        "无人物",
         "VIP",
         "浅色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-claude-code-clay.webp",
-        "sha256": "2b7ffe72736367d1f810d4e9be0da9ba9c52537cdb0555075bf8f8b052c42f57"
+        "sha256": "e329ef05151c419a00e2e4b4ebade3543296af7001f1d9bc9ec6fab9cb0085c8"
       },
       "colors": {
         "accent": "#A84F34",
@@ -1170,16 +1174,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-claude-code-clay.lingglow-skin.json",
-        "sha256": "5df0d0a66c6473196ba3722a860b773e6d4b004840f669fec2ceaa6ffde1d9d0",
-        "bytes": 502593
+        "sha256": "49c1b292bffcf59cfef479263d30d3159495db471dc1d0ae4aee4730dc8a9491",
+        "bytes": 1235157
       }
     },
     {
       "id": "agent-grok-singularity",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "Grok·航天控制室",
-      "description": "以真实航天任务控制室、黑白金属标识与工程终端为核心的三端 VIP 主题；非官方粉丝创作，与 xAI 无商业关联。",
+      "name": "Grok·深空推理阵列",
+      "description": "无人物设计；以 Grok X 推理引擎、轨道遥测与航天算力阵列为主视觉的三端 VIP 主题；非官方粉丝创作，与 xAI 无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1192,14 +1196,16 @@
       "tags": [
         "Agent",
         "Grok",
-        "航天控制室",
+        "深空推理阵列",
+        "算力核心",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-grok-singularity.webp",
-        "sha256": "fe5089afc756e4a9826b395500177e1c68c123d56f9ba52c0e0c9ade7d3040bd"
+        "sha256": "24c18545e15ca3c50f782a3a8c42ddba45ecfd57ad619235e1c9fedee00be9fc"
       },
       "colors": {
         "accent": "#C7CDD6",
@@ -1214,16 +1220,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-grok-singularity.lingglow-skin.json",
-        "sha256": "18b94333652a286aea49f5900149750ea3db5d71d31b8982b33509c86851b710",
-        "bytes": 476293
+        "sha256": "f17db3eefc658618ebed7b4e8e403212cef618b97d81dcd0a09d716d66f2bb8b",
+        "bytes": 1104801
       }
     },
     {
       "id": "agent-openclaw-gateway",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "OpenClaw·赤爪实验室",
-      "description": "以真实机器人实验室、工业机械钳与安全运维终端为核心的三端 VIP 主题；非官方粉丝创作，与 OpenClaw 项目无商业关联。",
+      "name": "OpenClaw·赤爪编排核心",
+      "description": "无人物设计；以赤色多爪编排核心、机器人控制总线与安全运维机柜为主视觉的三端 VIP 主题；非官方粉丝创作，与 OpenClaw 项目无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1236,14 +1242,16 @@
       "tags": [
         "Agent",
         "OpenClaw",
-        "机器人实验室",
+        "赤爪编排核心",
+        "机器人控制",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-openclaw-gateway.webp",
-        "sha256": "9a4dc1025d49b3d65c9a60a3316444f8987f43291cadd9e5c7c872b783d033db"
+        "sha256": "0b529ad27815d0aae935acc3def7f6324ef55c70a9fec052a1f70554dfb35adb"
       },
       "colors": {
         "accent": "#F05B61",
@@ -1258,16 +1266,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-openclaw-gateway.lingglow-skin.json",
-        "sha256": "3f524b95addc2bd7e4875e4be4d467347cc6259a1dbec807df4f04a2c2049d29",
-        "bytes": 418185
+        "sha256": "3802cdba157d9045a178055e708c87a80f941d03d8e6b0b6a4a9277eaaf568cc",
+        "bytes": 945581
       }
     },
     {
       "id": "agent-hermes-memory",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "Hermes·信使档案馆",
-      "description": "以真实研究档案馆、黄铜信使徽记与长期记忆终端为核心的三端 VIP 主题；非官方粉丝创作，与 Nous Research 无商业关联。",
+      "name": "Hermes·信使记忆引擎",
+      "description": "无人物设计；以金色信使记忆引擎、蓝金数据路由与长期上下文矩阵为主视觉的三端 VIP 主题；非官方粉丝创作，与 Nous Research 无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1280,14 +1288,16 @@
       "tags": [
         "Agent",
         "Hermes",
-        "档案馆",
+        "信使记忆引擎",
+        "长上下文",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-hermes-memory.webp",
-        "sha256": "b54d838b09601e105d5a79c0fed1083f83eb0ff6c12d29f0b32a105bdc5e390e"
+        "sha256": "2c29127ab590ce796c50374b4b87581f75cb21bf1c3082e181951f3c7938433a"
       },
       "colors": {
         "accent": "#CBA45B",
@@ -1302,16 +1312,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-hermes-memory.lingglow-skin.json",
-        "sha256": "fd879855cd2bbb4d8a77e631e71745339e22f51275752d0c95b21c91e89928dc",
-        "bytes": 454199
+        "sha256": "af9bece589d8d19ff42a41d238b105dd62cac7408ae5fd5482f77061c164176d",
+        "bytes": 1514627
       }
     },
     {
       "id": "agent-cursor-cube",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "Cursor·暮光工作室",
-      "description": "以真实极简开发工作室、精密光标雕塑与暮光编辑环境为核心的三端 VIP 主题；非官方粉丝创作，与 Cursor 无商业关联。",
+      "name": "Cursor·光晶编译核心",
+      "description": "无人物设计；以 Cursor 光晶编译核心、紫色代码光路与多层工程数据面为主视觉的三端 VIP 主题；非官方粉丝创作，与 Cursor 无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1324,14 +1334,16 @@
       "tags": [
         "Agent",
         "Cursor",
-        "暮光工作室",
+        "光晶编译核心",
+        "编译引擎",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-cursor-cube.webp",
-        "sha256": "bfa53e273280af0e4914f1b29d36a01561d331ccbbd752f8ad89a13e9247f097"
+        "sha256": "f5bfa6573133247ec8c6a7ada788a282ce03f23c4fe1a4d107279c08c8a358f7"
       },
       "colors": {
         "accent": "#A793FF",
@@ -1346,16 +1358,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-cursor-cube.lingglow-skin.json",
-        "sha256": "ddd1352da340ed1ccd44bf41df067d1ca7c908552fe41cd4ee04dc5eaf69c82d",
-        "bytes": 281835
+        "sha256": "037351ef3b13b13bd73dabf11930020c43ff1e62fdaa4277c71b56da19eba790",
+        "bytes": 1002427
       }
     },
     {
       "id": "agent-antigravity-orbit-lab",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "Antigravity CLI·轨道实验室",
-      "description": "以真实轨道研究舱、失重开发终端与四色实验室徽记为核心的三端 VIP 主题；非官方粉丝创作，与 Google 无商业关联。",
+      "name": "Antigravity CLI·零重力算力舱",
+      "description": "无人物设计；以四色反重力算力核心、轨道机械臂与失重数据环为主视觉的三端 VIP 主题；非官方粉丝创作，与 Google 无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1368,14 +1380,16 @@
       "tags": [
         "Agent",
         "Antigravity CLI",
+        "零重力算力舱",
         "轨道实验室",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-antigravity-orbit-lab.webp",
-        "sha256": "1c952dbeed9c65e7e022ff774115142b0a7f2bf3d22608ed717da05ab5b2ede4"
+        "sha256": "9930dacc1c7fe973b4b1fd17f6c43fb83dafcdd4dcbd7f7533fe71c6b5fb9563"
       },
       "colors": {
         "accent": "#4A8BE8",
@@ -1390,16 +1404,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-antigravity-orbit-lab.lingglow-skin.json",
-        "sha256": "a515a9a3cccda2f72673d0298cf5585e7086440ca3edf5f31e764494f798763d",
-        "bytes": 464887
+        "sha256": "86e55c517945e01237456b51b319f81327b1896318ff5db47608fde724e8b8e8",
+        "bytes": 1088447
       }
     },
     {
       "id": "agent-github-copilot-cockpit",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "GitHub Copilot CLI·夜航驾驶舱",
-      "description": "以真实夜航开发驾驶舱、多屏终端与 Copilot 机器人实物为核心的三端 VIP 主题；非官方粉丝创作，与 GitHub 无商业关联。",
+      "name": "GitHub Copilot CLI·代码协同核心",
+      "description": "无人物设计；以 Copilot 机器人形协同核心、仓库拓扑与多屏代码数据面为主视觉的三端 VIP 主题；非官方粉丝创作，与 GitHub 无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1412,14 +1426,16 @@
       "tags": [
         "Agent",
         "GitHub Copilot CLI",
-        "开发驾驶舱",
+        "代码协同核心",
+        "仓库拓扑",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-github-copilot-cockpit.webp",
-        "sha256": "b1fe9b2225cea7118094d8b0d0c61d0e0df06204551cd5810f1a1501848ffa5d"
+        "sha256": "4136e1c5509c1e766d407fe8c26a7823702358c57b9c43be840da11fca29f83b"
       },
       "colors": {
         "accent": "#9B7CFF",
@@ -1434,16 +1450,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-github-copilot-cockpit.lingglow-skin.json",
-        "sha256": "e53ea1c54561b9ee22f63fdb694b3821c775d911663be293ab839fd15b1247a9",
-        "bytes": 402533
+        "sha256": "a05ccaa1d44ba94df723e64f54093eccb8e672bc4bdbd8289fb9641f5e5edd82",
+        "bytes": 858661
       }
     },
     {
       "id": "agent-qwen-code-lab",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "Qwen Code·紫曜实验室",
-      "description": "以真实中国 AI 工程实验室、紫蓝多环标识与编码终端为核心的三端 VIP 主题；非官方粉丝创作，与通义千问无商业关联。",
+      "name": "Qwen Code·紫曜推理核心",
+      "description": "无人物设计；以紫蓝多环语言推理核心、参数光路与编码终端矩阵为主视觉的三端 VIP 主题；非官方粉丝创作，与通义千问无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1456,14 +1472,16 @@
       "tags": [
         "Agent",
         "Qwen Code",
-        "紫曜实验室",
+        "紫曜推理核心",
+        "语言模型",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-qwen-code-lab.webp",
-        "sha256": "ca0e4037c37f27f5b28e91f8e33d1fee923ce868a5de47fba0729726d1eebf2d"
+        "sha256": "8956b340f431aaf7370be48b849dca8e5d3fbd3561965e7ab1b8223d421777e2"
       },
       "colors": {
         "accent": "#8B6CFF",
@@ -1478,16 +1496,16 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-qwen-code-lab.lingglow-skin.json",
-        "sha256": "473e6d008e7987c1a17e24788be6513695371dd8d9354869a897162596a85fde",
-        "bytes": 463963
+        "sha256": "d1248ae5b295c672a11b67f59d4f9d851b8f480d156026545d5f54dee0f45ed1",
+        "bytes": 1315239
       }
     },
     {
       "id": "agent-kimi-code-moonlab",
       "kind": "theme-pack",
       "version": "1.1.0",
-      "name": "Kimi Code·月夜工作室",
-      "description": "以真实上海月夜开发工作室、银白新月标识与深蓝终端为核心的三端 VIP 主题；非官方粉丝创作，与 Moonshot AI 无商业关联。",
+      "name": "Kimi Code·月弧长上下文核心",
+      "description": "无人物设计；以银色月弧长上下文核心、深蓝推理光路与月面数据中心为主视觉的三端 VIP 主题；非官方粉丝创作，与 Moonshot AI 无商业关联。",
       "tier": "vip",
       "appearanceMode": "dark",
       "clientIds": [
@@ -1500,14 +1518,16 @@
       "tags": [
         "Agent",
         "Kimi Code",
-        "月夜工作室",
+        "月弧长上下文核心",
+        "长上下文",
+        "无人物",
         "VIP",
         "深色",
         "label:other"
       ],
       "preview": {
         "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-kimi-code-moonlab.webp",
-        "sha256": "baeb86d415e57737adb78292ed0d6573b62997009b44259b6394d7ae851d4b63"
+        "sha256": "25c5b00f9f00ac9d83382359355c9fd6cab1715386bd788960e1c52398b06bd2"
       },
       "colors": {
         "accent": "#D5E8FF",
@@ -1522,8 +1542,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-kimi-code-moonlab.lingglow-skin.json",
-        "sha256": "2c6a5c05509e3f76ea57d8bc95543c94cc0aa5abc697fe2b64a6006fe2668d9e",
-        "bytes": 374059
+        "sha256": "f5e982ad3734c78ee233b91a96e64750377495624a6b8ee1de828e25ba4517ce",
+        "bytes": 1075059
       }
     },
     {

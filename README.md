@@ -20,13 +20,15 @@
 
 [查看 LingGlow 2.3.6 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.6)
 
-## 2026-07-23 写实皮肤系列
+## 2026-07-23 Agent 科技核心与写实系列
 
 本次目录新增 14 套写实/电影感三端皮肤：
 
-- VIP Agent 系列：Codex CLI、Claude Code、Grok、OpenClaw、Hermes、Cursor、Antigravity CLI、GitHub Copilot CLI、Qwen Code、Kimi Code。
+- VIP Agent 科技核心系列：Codex CLI、Claude Code、Grok、OpenClaw、Hermes、Cursor、Antigravity CLI、GitHub Copilot CLI、Qwen Code、Kimi Code。
 - VIP 人物系列：爱因斯坦·普林斯顿书房。
 - 免费游戏系列：王者荣耀·云巅峡谷、绝地求生·艾伦格终局、无畏契约·亚海悬城。
+
+10 套 Agent 主题全部采用无人物设计：不是把 Logo 贴在房间里，而是把 Logo/Icon 变成正在运行的算力核心、推理引擎、编译晶格或数据路由装置，并连接终端、光子总线、遥测和机器人基础设施。
 
 每套都使用独立的 16:10 全局背景、16:9 WorkBuddy/豆包首页 Hero、3:1 Codex 首页横幅和透明品牌/角色头像，并声明固定 light/dark 语义配色。相关品牌与角色主题均为非官方粉丝创作，不代表品牌方合作或背书。
 

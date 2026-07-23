@@ -252,105 +252,105 @@
 
 ![八仙过海·有求必应](./previews/baxian-ensemble.webp)
 
-## Codex CLI·深夜指挥台
+## Codex CLI·智能核心舱
 
 - ID: `agent-codex-terminal-orbit`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、Codex CLI、开发指挥台、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、Codex CLI、智能核心舱、算力核心、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![Codex CLI·深夜指挥台](./previews/agent-codex-terminal-orbit.webp)
+![Codex CLI·智能核心舱](./previews/agent-codex-terminal-orbit.webp)
 
-## Claude Code·日光工作室
+## Claude Code·光子推理舱
 
 - ID: `agent-claude-code-clay`
 - 类型: VIP / 浅色
-- 分类: minimal / agent-cli / Agent、Claude Code、日光工作室、VIP、浅色、label:other
+- 分类: minimal / agent-cli / Agent、Claude Code、光子推理舱、算力核心、无人物、VIP、浅色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![Claude Code·日光工作室](./previews/agent-claude-code-clay.webp)
+![Claude Code·光子推理舱](./previews/agent-claude-code-clay.webp)
 
-## Grok·航天控制室
+## Grok·深空推理阵列
 
 - ID: `agent-grok-singularity`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、Grok、航天控制室、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、Grok、深空推理阵列、算力核心、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![Grok·航天控制室](./previews/agent-grok-singularity.webp)
+![Grok·深空推理阵列](./previews/agent-grok-singularity.webp)
 
-## OpenClaw·赤爪实验室
+## OpenClaw·赤爪编排核心
 
 - ID: `agent-openclaw-gateway`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、OpenClaw、机器人实验室、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、OpenClaw、赤爪编排核心、机器人控制、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![OpenClaw·赤爪实验室](./previews/agent-openclaw-gateway.webp)
+![OpenClaw·赤爪编排核心](./previews/agent-openclaw-gateway.webp)
 
-## Hermes·信使档案馆
+## Hermes·信使记忆引擎
 
 - ID: `agent-hermes-memory`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、Hermes、档案馆、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、Hermes、信使记忆引擎、长上下文、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![Hermes·信使档案馆](./previews/agent-hermes-memory.webp)
+![Hermes·信使记忆引擎](./previews/agent-hermes-memory.webp)
 
-## Cursor·暮光工作室
+## Cursor·光晶编译核心
 
 - ID: `agent-cursor-cube`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、Cursor、暮光工作室、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、Cursor、光晶编译核心、编译引擎、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![Cursor·暮光工作室](./previews/agent-cursor-cube.webp)
+![Cursor·光晶编译核心](./previews/agent-cursor-cube.webp)
 
-## Antigravity CLI·轨道实验室
+## Antigravity CLI·零重力算力舱
 
 - ID: `agent-antigravity-orbit-lab`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、Antigravity CLI、轨道实验室、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、Antigravity CLI、零重力算力舱、轨道实验室、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![Antigravity CLI·轨道实验室](./previews/agent-antigravity-orbit-lab.webp)
+![Antigravity CLI·零重力算力舱](./previews/agent-antigravity-orbit-lab.webp)
 
-## GitHub Copilot CLI·夜航驾驶舱
+## GitHub Copilot CLI·代码协同核心
 
 - ID: `agent-github-copilot-cockpit`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、GitHub Copilot CLI、开发驾驶舱、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、GitHub Copilot CLI、代码协同核心、仓库拓扑、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![GitHub Copilot CLI·夜航驾驶舱](./previews/agent-github-copilot-cockpit.webp)
+![GitHub Copilot CLI·代码协同核心](./previews/agent-github-copilot-cockpit.webp)
 
-## Qwen Code·紫曜实验室
+## Qwen Code·紫曜推理核心
 
 - ID: `agent-qwen-code-lab`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、Qwen Code、紫曜实验室、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、Qwen Code、紫曜推理核心、语言模型、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![Qwen Code·紫曜实验室](./previews/agent-qwen-code-lab.webp)
+![Qwen Code·紫曜推理核心](./previews/agent-qwen-code-lab.webp)
 
-## Kimi Code·月夜工作室
+## Kimi Code·月弧长上下文核心
 
 - ID: `agent-kimi-code-moonlab`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、Kimi Code、月夜工作室、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、Kimi Code、月弧长上下文核心、长上下文、无人物、VIP、深色、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
-![Kimi Code·月夜工作室](./previews/agent-kimi-code-moonlab.webp)
+![Kimi Code·月弧长上下文核心](./previews/agent-kimi-code-moonlab.webp)
 
 ## 爱因斯坦·普林斯顿书房
 
