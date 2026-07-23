@@ -11,14 +11,15 @@
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 当前公开版本：2.3.8
+## 当前公开版本：2.3.9
 
-- 授权页优先显示内置商品，远程兑换皮肤在后台刷新，不再让完整目录阻塞页面。
-- 皮肤预览使用稳定缓存与有界异步解码，减少反复切换页面时的大图解码开销。
-- 左侧 Tab 使用完整可点击区域，并清理重复商品请求、重复启动刷新和重复选项计算。
-- 失效的本机后端进程会在重启前被可靠清理，降低服务连接失败与界面卡住的概率。
+- Dock 图标改为透明安全边距与系统圆角，不再比其他 App 视觉尺寸更大。
+- 全部 39 套 WorkBuddy 皮肤使用通过 Alpha、留白、比例和尺寸校验的完整悬浮主体，并同时覆盖新任务与历史任务输入框。
+- 皮肤库在最前面新增“最新”，按发布时间显示最近 6 套；排程等页面保留缓存，减少切换等待和点击阻塞。
+- 启动灵妆会直接显示主窗口；本机服务恢复连接后会同步清除旧错误提示。
+- Codex 静态候选能力不再虚报，正式发行包强制关闭未验证客户端诊断路径。
 
-[查看 LingGlow 2.3.8 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.8)
+[查看 LingGlow 2.3.9 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.9)
 
 ## 2026-07-23 Agent 科技核心与写实系列
 
@@ -56,7 +57,7 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- 下载当前 Release 中的 `LingGlow-2.3.8-macOS.dmg` 和 `SHA256SUMS`
+- 下载当前 Release 中的 `LingGlow-2.3.9-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
 
 只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
