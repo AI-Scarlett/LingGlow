@@ -20,7 +20,7 @@ Required authoring facts:
 
 - Global background: recommend 16:10, 2560 x 1600, WebP, at most 4 MB.
 - Codex home artwork: recommend 3:1, 2400 x 800, WebP, at most 4 MB; hash must differ from the global background.
-- WorkBuddy mascot: recommend 1:1, 1024 x 1024, transparent WebP, at most 2 MB; decoded Alpha is required.
+- WorkBuddy mascot: recommend 1:1, 1024 x 1024, transparent WebP, at most 2 MB; decoded Alpha plus isolated-subject transparency, occupancy, and four-side padding must pass `scripts/validate-composer-mascot.mjs`.
 - App/icon artwork: recommend 1:1, 1024 x 1024, PNG or WebP, at most 2 MB.
 - Gallery preview: recommend 16:9, 1280 x 720 or larger, WebP/PNG, at most 2 MB.
 
@@ -33,6 +33,8 @@ node scripts/build_skin_distribution.mjs
 ```
 
 The project packager creates a single `<skinId>.lingglow-skin.json` with Base64 WebP assets and SHA-256 locks. Do not hand-edit the generated bundle or public `catalog/v1/index.json`.
+
+When `clientIds` includes `workbuddy`, the definition must resolve exactly one asset with slot `workbuddy.composer-avatar`; use `workbuddy.composerAvatar.fit: contain` and `workbuddy.composerAvatar.shape: square`. Validate the source asset, build the distribution, decode the packaged payload, and validate the packaged WebP again. If any gate fails, omit/null the custom mascot so the native default robot remains; do not publish a background crop or circular substitute.
 
 The public index uses `schemaVersion: 2`. Supported categories are `sports`, `fantasy`, `nature`, `minimal`, `art`, `seasonal`, and `other`. Use a stable lowercase series ID so related skins can be grouped across releases. Tags should describe subject, mood, appearance, and usage; do not duplicate long descriptions.
 

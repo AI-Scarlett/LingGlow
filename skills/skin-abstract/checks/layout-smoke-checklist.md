@@ -15,7 +15,7 @@ Record Agent version, skin ID/version, appearance mode, timestamp, and screensho
 - [ ] No non-modal readability surface covers most of the page; the global artwork remains visibly continuous behind primary content.
 - [ ] Dialogs, menus, tooltips, hover cards, and placeholders remain readable.
 - [ ] Selected, hover, pressed, focused, disabled, warning, and error states are visible.
-- [ ] A transparent mascot decodes with a real Alpha channel; no baked checkerboard remains.
+- [ ] Every WorkBuddy mascot passes `scripts/validate-composer-mascot.mjs`: real Alpha, 0.8-1.25 aspect ratio, >=15% transparent pixels, >=3% occupied pixels, >=3% padding on all sides, <=2 MB, <=2048 px edge, and <=4 MP.
 - [ ] Rollback restores the native theme and interaction behavior.
 
 ## Codex/GPT
@@ -37,6 +37,8 @@ Record Agent version, skin ID/version, appearance mode, timestamp, and screensho
 
 - [ ] New task: title/subtitle, scenario tabs, capability buttons, composer, and mascot are correct.
 - [ ] Mascot is replaced in place without frame, halo, shadow, or duplicate overlay.
+- [ ] Existing historical task: the same complete mascot appears above the composer with `contain`, no circular/background crop, and the native click target still works.
+- [ ] Invalid custom/generated mascot: the UI explains the transparent complete-subject requirement, rejects the file, and retains the default robot without a broken image, blank slot, video remnant, or duplicate overlay.
 - [ ] History rows: open, more, archive, pin, folder expand/collapse, and scrolling work.
 - [ ] Chat history and composer reveal the global background without a second image.
 - [ ] Assistant prose and automation-page copy sit directly on the global background; only bubbles, composer, cards, tables, code, and overlays use restrained translucent surfaces.
