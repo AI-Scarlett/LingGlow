@@ -1,19 +1,19 @@
 {
-  "version": "2.3.6",
-  "tag": "v2.3.6",
+  "version": "2.3.7",
+  "tag": "v2.3.7",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.6/LingGlow-2.3.6-macOS.dmg",
-      "sha256": "dab4fa5aaff7a9cb1f8d0f0909477d52808843839e71fe3f00d141a0ca77ef62"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.7/LingGlow-2.3.7-macOS.dmg",
+      "sha256": "720f1286f9e2328581bc370c17ba81ed5efc8affd93fb219262dca2d47f4851e"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.6/LingGlow-2.3.6-macOS.dmg",
-      "sha256": "dab4fa5aaff7a9cb1f8d0f0909477d52808843839e71fe3f00d141a0ca77ef62"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.7/LingGlow-2.3.7-macOS.dmg",
+      "sha256": "720f1286f9e2328581bc370c17ba81ed5efc8affd93fb219262dca2d47f4851e"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "完整修复 Codex 浅色与深色皮肤的语义配色、重复遮罩和可读性问题；模型触发器、模型/推理强度/速度多级菜单、权限、发送与停止控件现在都会跟随皮肤，并同步更新皮肤制作 Skill。",
-  "releaseNotesEn": "Fixes Codex light/dark semantic colors, duplicate overlays, and readability. The model trigger, nested model/reasoning/speed menus, permission, send, and stop controls now follow the selected skin, with matching Skin Skill guidance."
+  "releaseNotes": "统一修复 WorkBuddy 账户与个人资料弹层的嵌套表面：签到、套餐、积分和操作区会跟随皮肤锁定的明暗模式，文字根据最近的实际绘制表面计算对比色；同步更新 Skin Abstract Skill 与真实客户端 QA 清单。",
+  "releaseNotesEn": "Unifies WorkBuddy account and profile popover surfaces. Check-in, plan, credits, and action sections now follow the skin's locked appearance, while text contrast resolves against the nearest painted surface. The Skin Abstract Skill and client QA checklist are updated as well."
 }

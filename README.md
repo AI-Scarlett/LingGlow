@@ -11,14 +11,14 @@
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 当前公开版本：2.3.6
+## 当前公开版本：2.3.7
 
-- Codex 浅色/深色皮肤现在会锁定完整语义配色，侧栏、对话、文件卡、输出区和输入区不再继承错误的原生模式颜色。
-- 新建任务页只保留一层全局背景，移除了会造成大面积发白的重复渐变遮罩。
-- 模型触发按钮、模型/推理强度/速度菜单、二级模型列表、勾选和交互状态均按皮肤适配。
-- 权限、发送和停止控件补齐独立语义状态；Skin Abstract Skill 同步加入多级模型菜单与语义工具类回归检查。
+- WorkBuddy 账户与个人资料弹层统一使用皮肤锁定的明暗模式，签到、套餐、积分和操作区不再残留反色子卡片。
+- 弹层文字会根据最近的实际绘制表面计算对比色，避免白底白字、黑底黑字。
+- 已知账户组件与未知嵌套结构同时覆盖，后续新增深色或浅色皮肤无需逐套补丁。
+- Skin Abstract Skill 与真实客户端 QA 清单同步加入账户弹层嵌套表面验收。
 
-[查看 LingGlow 2.3.6 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.6)
+[查看 LingGlow 2.3.7 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.7)
 
 ## 2026-07-23 Agent 科技核心与写实系列
 
@@ -56,7 +56,7 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- 下载当前 Release 中的 `LingGlow-2.3.6-macOS.dmg` 和 `SHA256SUMS`
+- 下载当前 Release 中的 `LingGlow-2.3.7-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
 
 只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
