@@ -45,6 +45,7 @@ Record Agent version, skin ID/version, appearance mode, timestamp, and screensho
 - [ ] Model menu, model hover card, speaker popover, notice popup, and tooltips are readable.
 - [ ] The full-width team-member top fade is absent and only narrow lateral scroll edges may dissolve into the painted surface; model and permission triggers stay locally translucent in closed, hover, focus, and expanded states while both menus remain opaque and readable.
 - [ ] Profile menu, automation templates, history tables, and code content have no accidental per-label background tiles.
+- [ ] Profile/account popovers retheme every nested structural surface, including check-in, plan, credits, and action sections; no light child card remains inside a dark popup and no dark child card remains inside a light popup.
 
 ## Doubao
 

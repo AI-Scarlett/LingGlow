@@ -16,8 +16,9 @@
 3. For transparent assets, confirm an Alpha channel exists and inspect corner pixels. Reject RGB images containing a baked checkerboard.
 4. Preserve aspect ratio. Use `cover` for backgrounds and `contain` for icons/mascots unless explicitly overridden.
 5. Show the recommended ratio, dimensions, and size limit beside every upload control.
-6. Review the master and every derived crop visually. Identity, face, logo/device, and important environmental context must survive the 16:9 and 3:1 crops.
-7. Prefer believable materials, lighting, anatomy, equipment, and locations for real/cinematic subjects. A generic abstract composition is not a substitute for a specifically requested brand, person, character, or game.
+6. Review the master and every derived crop visually. Identity, requested face when present, logo/device, and important environmental context must survive the 16:9 and 3:1 crops.
+7. Prefer believable materials, lighting, anatomy when a person is requested, equipment, and locations for real/cinematic subjects. A generic abstract composition is not a substitute for a specifically requested brand, person, character, or game.
+8. Agent/CLI/logo-led masters default to no people. Treat the logo or icon as an operating compute system with visible power, data, terminal, telemetry, or robotics connections; a logo merely pasted on a wall, monitor, or empty room does not satisfy the technology gate.
 
 ## Copy limits
 
