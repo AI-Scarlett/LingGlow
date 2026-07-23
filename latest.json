@@ -1,19 +1,19 @@
 {
-  "version": "2.3.7",
-  "tag": "v2.3.7",
+  "version": "2.3.8",
+  "tag": "v2.3.8",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.7/LingGlow-2.3.7-macOS.dmg",
-      "sha256": "720f1286f9e2328581bc370c17ba81ed5efc8affd93fb219262dca2d47f4851e"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.8/LingGlow-2.3.8-macOS.dmg",
+      "sha256": "7ec6fdfcb5c2b1925ad4b101d24b75b012e482f01c9f921766474657ae36c1f8"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.7/LingGlow-2.3.7-macOS.dmg",
-      "sha256": "720f1286f9e2328581bc370c17ba81ed5efc8affd93fb219262dca2d47f4851e"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.8/LingGlow-2.3.8-macOS.dmg",
+      "sha256": "7ec6fdfcb5c2b1925ad4b101d24b75b012e482f01c9f921766474657ae36c1f8"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "统一修复 WorkBuddy 账户与个人资料弹层的嵌套表面：签到、套餐、积分和操作区会跟随皮肤锁定的明暗模式，文字根据最近的实际绘制表面计算对比色；同步更新 Skin Abstract Skill 与真实客户端 QA 清单。",
-  "releaseNotesEn": "Unifies WorkBuddy account and profile popover surfaces. Check-in, plan, credits, and action sections now follow the skin's locked appearance, while text contrast resolves against the nearest painted surface. The Skin Abstract Skill and client QA checklist are updated as well."
+  "releaseNotes": "优化授权商品目录与左侧 Tab 切换：内置商品立即显示，远程兑换皮肤后台刷新；预览图使用稳定缓存和有界异步解码，并清理重复请求、重复刷新与失效后端进程。",
+  "releaseNotesEn": "Speeds up the entitlement catalog and sidebar tabs. Built-in products appear immediately while redeemable skins refresh in the background; previews use stable caching and bounded asynchronous decoding, with duplicate requests, refreshes, and stale backend processes removed."
 }

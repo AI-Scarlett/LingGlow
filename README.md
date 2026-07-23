@@ -11,14 +11,14 @@
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 当前公开版本：2.3.7
+## 当前公开版本：2.3.8
 
-- WorkBuddy 账户与个人资料弹层统一使用皮肤锁定的明暗模式，签到、套餐、积分和操作区不再残留反色子卡片。
-- 弹层文字会根据最近的实际绘制表面计算对比色，避免白底白字、黑底黑字。
-- 已知账户组件与未知嵌套结构同时覆盖，后续新增深色或浅色皮肤无需逐套补丁。
-- Skin Abstract Skill 与真实客户端 QA 清单同步加入账户弹层嵌套表面验收。
+- 授权页优先显示内置商品，远程兑换皮肤在后台刷新，不再让完整目录阻塞页面。
+- 皮肤预览使用稳定缓存与有界异步解码，减少反复切换页面时的大图解码开销。
+- 左侧 Tab 使用完整可点击区域，并清理重复商品请求、重复启动刷新和重复选项计算。
+- 失效的本机后端进程会在重启前被可靠清理，降低服务连接失败与界面卡住的概率。
 
-[查看 LingGlow 2.3.7 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.7)
+[查看 LingGlow 2.3.8 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.8)
 
 ## 2026-07-23 Agent 科技核心与写实系列
 
@@ -56,7 +56,7 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- 下载当前 Release 中的 `LingGlow-2.3.7-macOS.dmg` 和 `SHA256SUMS`
+- 下载当前 Release 中的 `LingGlow-2.3.8-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
 
 只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
