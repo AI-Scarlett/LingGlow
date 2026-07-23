@@ -83,7 +83,7 @@
 
 ## 使用 Skill 制作皮肤
 
-[`skills/skin-abstract`](skills/skin-abstract) 提供统一的三端皮肤制作流程，包括 16:10 写实主视觉、左侧 38–42% UI 安全区、独立 Hero/横幅裁切、透明品牌头像、深浅模式、语义对比度和真实客户端 QA。
+[`skills/skin-abstract`](skills/skin-abstract) 提供统一的三端皮肤制作流程，包括图片规格、深浅模式、语义对比度、Codex 首页专图、WorkBuddy 悬浮主体透明度/留白校验，以及新任务与历史任务输入框的真实客户端 QA。不合格素材会保留默认机器人，不会退化成背景裁图或圆形头像。
 
 查看 [使用 Skin Skill 制作皮肤](docs/CREATE-SKIN-WITH-SKILL.md)。
 

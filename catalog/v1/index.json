@@ -1,13 +1,14 @@
 {
   "schemaVersion": 2,
   "catalogVersion": "2026.07.23.1",
-  "generatedAt": "2026-07-23T02:24:41.072Z",
+  "generatedAt": "2026-07-23T11:40:29.109Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
       "id": "dream-portal",
       "kind": "legacy-v1",
       "version": "1.1.0",
+      "publishedAt": "2026-07-16T13:04:09.865Z",
       "name": "Dream Portal 测试",
       "description": "基于 Codex Dream Skin 的 MIT 抽象演示图，使用红白高对比全屏背景验证换肤效果。",
       "tier": "free",
@@ -36,19 +37,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": false
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-portal.lingglow-skin.json",
-        "sha256": "42d12e6a986000eea29cd20f61a514331c79eb01151e0cc78ea89b04ce782b80",
-        "bytes": 120304
+        "sha256": "1046abae5d4275b05af6ba33069aa5663a8a0551ddd2f933990c01e3f8da132b",
+        "bytes": 512259
       }
     },
     {
       "id": "graphite-focus",
       "kind": "legacy-v1",
       "version": "1.1.0",
+      "publishedAt": "2026-07-16T07:34:59.349Z",
       "name": "石墨专注",
       "description": "低干扰的中性深色方案，适合长时间编码。",
       "tier": "free",
@@ -77,19 +80,21 @@
       "features": {
         "artwork": false,
         "projectHero": false,
+        "composerAvatar": true,
         "brand": false,
         "banner": false
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/graphite-focus.lingglow-skin.json",
-        "sha256": "ac2420632d0cab78e695413a2d69e69288f9f962194f396944d91c79b7042e2d",
-        "bytes": 1609
+        "sha256": "22d57684183b7f4d189d4dd1af4a75afa5c06d074fdc88bfccdbf8dc873440db",
+        "bytes": 517253
       }
     },
     {
       "id": "ocean-breeze",
       "kind": "legacy-v1",
       "version": "1.1.0",
+      "publishedAt": "2026-07-16T07:34:59.349Z",
       "name": "海风浅蓝",
       "description": "清爽明亮的海蓝色方案，适合白天和高亮环境。",
       "tier": "free",
@@ -118,19 +123,21 @@
       "features": {
         "artwork": false,
         "projectHero": false,
+        "composerAvatar": true,
         "brand": false,
         "banner": false
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/ocean-breeze.lingglow-skin.json",
-        "sha256": "4b14a4f24b85c48fc2daa553c4beb4df0c14269ff8d6d39021ddb6fe7cf5237f",
-        "bytes": 1605
+        "sha256": "235c1d7fcb42354f03fccbadb21a56f1b72c8c1864bdacc43ef7e2531f376acb",
+        "bytes": 570227
       }
     },
     {
       "id": "jade-calm",
       "kind": "legacy-v1",
       "version": "1.1.0",
+      "publishedAt": "2026-07-16T07:34:59.349Z",
       "name": "青玉静谧",
       "description": "柔和的青绿色深色方案，平衡辨识度与舒适度。",
       "tier": "free",
@@ -159,19 +166,21 @@
       "features": {
         "artwork": false,
         "projectHero": false,
+        "composerAvatar": true,
         "brand": false,
         "banner": false
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/jade-calm.lingglow-skin.json",
-        "sha256": "77f0baf7b136fbdec96abd4eb988db38797cba8e78c4b3ecfbd30852df2246fe",
-        "bytes": 1599
+        "sha256": "33adb6d5b3983d2fce2186affd8161c1ab60ec91b9285c30d47093f01da70648",
+        "bytes": 736486
       }
     },
     {
       "id": "aurora-glass",
       "kind": "legacy-v1",
       "version": "1.1.0",
+      "publishedAt": "2026-07-16T07:34:59.349Z",
       "name": "极光玻璃",
       "description": "高质感冷色玻璃方案，强调层次、光感和轻动画。",
       "tier": "vip",
@@ -200,19 +209,21 @@
       "features": {
         "artwork": false,
         "projectHero": false,
+        "composerAvatar": true,
         "brand": false,
         "banner": false
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/aurora-glass.lingglow-skin.json",
-        "sha256": "5c76be221e9d7bdd9259e9dce3a2ef1cbb567f8e66465eed29c9ad9fd9301842",
-        "bytes": 1613
+        "sha256": "3541388785e5a732f7d1f9b505ecfe571561073f3b5e1a07edfc126fbc4e36f4",
+        "bytes": 575991
       }
     },
     {
       "id": "sunset-atelier",
       "kind": "legacy-v1",
       "version": "1.1.0",
+      "publishedAt": "2026-07-16T07:34:59.350Z",
       "name": "落日工坊",
       "description": "温暖而克制的浅色创作方案，适合设计与内容工作。",
       "tier": "vip",
@@ -241,19 +252,21 @@
       "features": {
         "artwork": false,
         "projectHero": false,
+        "composerAvatar": true,
         "brand": false,
         "banner": false
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/sunset-atelier.lingglow-skin.json",
-        "sha256": "c7469e6cae0165802cf81d35c0fcb3399f31265ef9c00677b1bb83b453c5605d",
-        "bytes": 1625
+        "sha256": "37186203a2f2bd948719fd5503ce24b517aee747be7dbcd1e320fed4db330bf5",
+        "bytes": 681197
       }
     },
     {
       "id": "violet-nebula",
       "kind": "legacy-v1",
       "version": "1.1.0",
+      "publishedAt": "2026-07-16T07:34:59.350Z",
       "name": "紫雾星云",
       "description": "层次丰富的紫蓝深色方案，为夜间使用优化。",
       "tier": "vip",
@@ -282,19 +295,21 @@
       "features": {
         "artwork": false,
         "projectHero": false,
+        "composerAvatar": true,
         "brand": false,
         "banner": false
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/violet-nebula.lingglow-skin.json",
-        "sha256": "dedd7173f10966f30f689d3f091e189b7cc4c175c6baa20d19bf8187bccff049",
-        "bytes": 1611
+        "sha256": "0be2e9bcadee2b6b22e34039cb33279e479a62d0e1c7d46319556f2dbab5e9cc",
+        "bytes": 700298
       }
     },
     {
       "id": "aurora-free",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-19T09:27:44.651Z",
       "name": "极光青 Free",
       "description": "免费三端主题：清透青绿、深色玻璃与高对比文字。",
       "tier": "free",
@@ -324,19 +339,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": false,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/aurora-free.lingglow-skin.json",
-        "sha256": "38dd27de8af0cbb2565b82ed42937123a367cc86513342252ae3a2796297607d",
-        "bytes": 1059174
+        "sha256": "cef745ee661d6fec23a794f45cf9f2fe5758bfbfd85f2cde065319231de4981f",
+        "bytes": 836830
       }
     },
     {
       "id": "amber-free",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-19T09:27:44.651Z",
       "name": "暖沙金 Free",
       "description": "免费三端主题：暖金沙色、咖色玻璃与高对比文字。",
       "tier": "free",
@@ -366,19 +383,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": false,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/amber-free.lingglow-skin.json",
-        "sha256": "3f1640bfddf4bc3656aeb5512ee69324b8eba9adc485aef5cebdf3ab47d2782a",
-        "bytes": 1087489
+        "sha256": "37133c210ed7ef1a8d04135945cf1e43ad29de5745887c29c3416c639acdc716",
+        "bytes": 616005
       }
     },
     {
       "id": "dream-gothic-void",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-19T09:27:44.652Z",
       "name": "哥特虚空远征",
       "description": "Codex Dream Skin 社区原创哥特科幻背景，免费适配 Codex、WorkBuddy 与豆包。",
       "tier": "free",
@@ -408,19 +427,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": false,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-gothic-void.lingglow-skin.json",
-        "sha256": "9c1aa584d5d9b666ac184772fe9f0ff93897e816904fe17e45357459e2f19b5d",
-        "bytes": 1640196
+        "sha256": "ea628645eb0df510a5e37ce407f65fcdecc288f4db8fecc9cbb6ab02eb3f5722",
+        "bytes": 1151088
       }
     },
     {
       "id": "dream-portal-free",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-19T09:27:44.652Z",
       "name": "梦境传送门 Free",
       "description": "Codex Dream Skin 原创抽象 Portal 艺术扩展的免费三端主题；独立全局背景、关联首页 Hero 与 WorkBuddy 透明传送门精灵。",
       "tier": "free",
@@ -450,19 +471,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": false,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-portal-free.lingglow-skin.json",
-        "sha256": "5bcb22a590fc4ac2504c298c765771e43f4e773ff47753faf29b42f5fbcc665a",
-        "bytes": 1250139
+        "sha256": "4055712888c3fb56b65a2ada85c5d564bdbb807f884b787c05707f5b45abe745",
+        "bytes": 689608
       }
     },
     {
       "id": "cr7-portugal",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-19T11:46:27.150Z",
       "name": "C罗灵感·葡萄牙7号星夜",
       "description": "葡萄牙红、祖母绿与金色夜场氛围；原创匿名 7 号背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
       "tier": "vip",
@@ -492,6 +515,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -505,6 +529,7 @@
       "id": "messi-argentina",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-19T09:27:44.652Z",
       "name": "梅西灵感·阿根廷10号月光",
       "description": "阿根廷天蓝、月白与银金黎明氛围；原创匿名 10 号背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
       "tier": "vip",
@@ -534,19 +559,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/messi-argentina.lingglow-skin.json",
-        "sha256": "7b199759f62c8e5216b7da57244d57b34a124243924a0953c0a90cf2eb5bb2e0",
-        "bytes": 1830434
+        "sha256": "b147ba05610b34c4c11bb889e9aa80122ddbae914474ed9ee51bd2001686d25e",
+        "bytes": 764866
       }
     },
     {
       "id": "neymar-brazil",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-19T09:27:44.652Z",
       "name": "内马尔灵感·巴西10号热浪",
       "description": "巴西黄、翡翠绿与深蓝速度感；原创匿名 10 号动态背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
       "tier": "vip",
@@ -576,19 +603,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/neymar-brazil.lingglow-skin.json",
-        "sha256": "5a497968632e0d6b2c78f6804fe3f49665e8b589f3c97c50192fcdf061a04769",
-        "bytes": 2102792
+        "sha256": "7af74147675f83e2a4b508023142df4272b4bc2c91fbe8ae98ad013ad3318eaa",
+        "bytes": 1300864
       }
     },
     {
       "id": "kungfu-womens-football",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-19T11:58:41.849Z",
       "name": "功夫女足·无厘头绿茵夜",
       "description": "以周星驰式无厘头功夫喜剧精神为灵感的原创三端 VIP 主题；不含演员肖像、电影剧照、角色造型、片名标识或官方合作元素。",
       "tier": "vip",
@@ -618,6 +647,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -631,6 +661,7 @@
       "id": "spain-2026-champions",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.492Z",
       "name": "西班牙·双星冠军之夜",
       "description": "纪念西班牙赢得 2026 男足世界杯、收获队史第二冠的三端免费主题；采用西班牙红、冠军金、午夜蓝与真实大力神杯视觉。官方奖杯形象须在取得相应授权后方可公开分发。",
       "tier": "free",
@@ -663,6 +694,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -676,6 +708,7 @@
       "id": "baxian-lu-dongbin",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.486Z",
       "name": "吕洞宾·纯阳剑影",
       "description": "取自动画电影《八仙！》吕洞宾角色造型的免费三端主题；蓝金剑气与蓬莱云海。",
       "tier": "free",
@@ -709,6 +742,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -722,6 +756,7 @@
       "id": "baxian-he-xiangu",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.486Z",
       "name": "何仙姑·莲月清辉",
       "description": "取自动画电影《八仙！》何仙姑角色造型的免费三端主题；莲月、青玉与柔粉流光。",
       "tier": "free",
@@ -755,6 +790,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -768,6 +804,7 @@
       "id": "baxian-zhongli-quan",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.487Z",
       "name": "钟离权·赤焰芭蕉",
       "description": "取自动画电影《八仙！》钟离权角色造型的免费三端主题；赤焰、铜金与芭蕉仙风。",
       "tier": "free",
@@ -801,6 +838,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -814,6 +852,7 @@
       "id": "baxian-tieguai-li",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.486Z",
       "name": "铁拐李·葫芦玄火",
       "description": "取自动画电影《八仙！》铁拐李角色造型的免费三端主题；玄火葫芦与铜绿炼境。",
       "tier": "free",
@@ -847,6 +886,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -860,6 +900,7 @@
       "id": "baxian-han-xiangzi",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.486Z",
       "name": "韩湘子·碧箫流云",
       "description": "取自动画电影《八仙！》韩湘子角色造型的免费三端主题；碧青机关与轻盈流云。",
       "tier": "free",
@@ -893,6 +934,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -906,6 +948,7 @@
       "id": "baxian-cao-guojiu",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.485Z",
       "name": "曹国舅·玉板金章",
       "description": "取自动画电影《八仙！》曹国舅角色造型的免费三端主题；珊瑚宫阙与玉板金章。",
       "tier": "free",
@@ -939,6 +982,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -952,6 +996,7 @@
       "id": "baxian-lan-caihe",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.486Z",
       "name": "蓝采和·花篮春潮",
       "description": "取自动画电影《八仙！》蓝采和角色造型的免费三端主题；花篮、福包与海上春潮。",
       "tier": "free",
@@ -985,6 +1030,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -998,6 +1044,7 @@
       "id": "baxian-zhang-guolao",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.487Z",
       "name": "张果老·月驴星河",
       "description": "取自动画电影《八仙！》张果老角色造型的免费三端主题；倒骑仙驴穿越月桥星河。",
       "tier": "free",
@@ -1031,6 +1078,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -1044,6 +1092,7 @@
       "id": "baxian-ensemble",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-20T05:43:21.485Z",
       "name": "八仙过海·有求必应",
       "description": "取自动画电影《八仙！》八位主角群像造型的免费三端主题；琉璃海潮与欢乐同行。",
       "tier": "free",
@@ -1077,6 +1126,7 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
@@ -1090,6 +1140,7 @@
       "id": "agent-codex-terminal-orbit",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:21.029Z",
       "name": "Codex CLI·智能核心舱",
       "description": "无人物设计；以 Codex 结形标识计算核心、终端矩阵与光路机舱为主视觉的三端 VIP 主题；非官方粉丝创作，与 OpenAI 无商业关联。",
       "tier": "vip",
@@ -1123,19 +1174,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-codex-terminal-orbit.lingglow-skin.json",
-        "sha256": "ce5dbf565b94930ae5a1ebc43f95dcb1e147326f5935113460e5113a67eddb8e",
-        "bytes": 1292617
+        "sha256": "16ed8bc87bb60929c15ceaaaf0eea320fa77259ff0b856ac50c52596734a5c24",
+        "bytes": 1500982
       }
     },
     {
       "id": "agent-claude-code-clay",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:22.678Z",
       "name": "Claude Code·光子推理舱",
       "description": "无人物设计；以 Claude 星芒推理核心、琥珀光子总线与机械仪器阵列为主视觉的三端 VIP 主题；非官方粉丝创作，与 Anthropic 无商业关联。",
       "tier": "vip",
@@ -1169,19 +1222,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-claude-code-clay.lingglow-skin.json",
-        "sha256": "49c1b292bffcf59cfef479263d30d3159495db471dc1d0ae4aee4730dc8a9491",
-        "bytes": 1235157
+        "sha256": "b52bf8fe09a259dc67c4118397ad71fe871eba09e3e7fdc25b5af7a1be220f5d",
+        "bytes": 1339762
       }
     },
     {
       "id": "agent-grok-singularity",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:24.362Z",
       "name": "Grok·深空推理阵列",
       "description": "无人物设计；以 Grok X 推理引擎、轨道遥测与航天算力阵列为主视觉的三端 VIP 主题；非官方粉丝创作，与 xAI 无商业关联。",
       "tier": "vip",
@@ -1215,19 +1270,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-grok-singularity.lingglow-skin.json",
-        "sha256": "f17db3eefc658618ebed7b4e8e403212cef618b97d81dcd0a09d716d66f2bb8b",
-        "bytes": 1104801
+        "sha256": "feb88a7f0debf1bf3511254a277a1963e3dfef3877d2e0cc2d9ca5c67a96fb1a",
+        "bytes": 1241846
       }
     },
     {
       "id": "agent-openclaw-gateway",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:25.934Z",
       "name": "OpenClaw·赤爪编排核心",
       "description": "无人物设计；以赤色多爪编排核心、机器人控制总线与安全运维机柜为主视觉的三端 VIP 主题；非官方粉丝创作，与 OpenClaw 项目无商业关联。",
       "tier": "vip",
@@ -1261,19 +1318,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-openclaw-gateway.lingglow-skin.json",
-        "sha256": "3802cdba157d9045a178055e708c87a80f941d03d8e6b0b6a4a9277eaaf568cc",
-        "bytes": 945581
+        "sha256": "b21648b512a5d7a75dd49f431dbf71cc4ee1b2e48a58dac4a30727aaa8c629b0",
+        "bytes": 1064086
       }
     },
     {
       "id": "agent-hermes-memory",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:27.608Z",
       "name": "Hermes·信使记忆引擎",
       "description": "无人物设计；以金色信使记忆引擎、蓝金数据路由与长期上下文矩阵为主视觉的三端 VIP 主题；非官方粉丝创作，与 Nous Research 无商业关联。",
       "tier": "vip",
@@ -1307,19 +1366,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-hermes-memory.lingglow-skin.json",
-        "sha256": "af9bece589d8d19ff42a41d238b105dd62cac7408ae5fd5482f77061c164176d",
-        "bytes": 1514627
+        "sha256": "081e11b9255f3c912c38425e180202e60963ac59f7768b35f5791d934f41db63",
+        "bytes": 1641365
       }
     },
     {
       "id": "agent-cursor-cube",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:29.402Z",
       "name": "Cursor·光晶编译核心",
       "description": "无人物设计；以 Cursor 光晶编译核心、紫色代码光路与多层工程数据面为主视觉的三端 VIP 主题；非官方粉丝创作，与 Cursor 无商业关联。",
       "tier": "vip",
@@ -1353,19 +1414,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-cursor-cube.lingglow-skin.json",
-        "sha256": "037351ef3b13b13bd73dabf11930020c43ff1e62fdaa4277c71b56da19eba790",
-        "bytes": 1002427
+        "sha256": "f2039a839c3e5b095e516b682f841d73bb16da50a940bbe9340a0c40e9531742",
+        "bytes": 1183763
       }
     },
     {
       "id": "agent-antigravity-orbit-lab",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:30.643Z",
       "name": "Antigravity CLI·零重力算力舱",
       "description": "无人物设计；以四色反重力算力核心、轨道机械臂与失重数据环为主视觉的三端 VIP 主题；非官方粉丝创作，与 Google 无商业关联。",
       "tier": "vip",
@@ -1399,19 +1462,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-antigravity-orbit-lab.lingglow-skin.json",
-        "sha256": "86e55c517945e01237456b51b319f81327b1896318ff5db47608fde724e8b8e8",
-        "bytes": 1088447
+        "sha256": "67b083bfc44e59af85de631d7e6def8bb38c8bd987f8c881c63a1f35ee436cca",
+        "bytes": 1876257
       }
     },
     {
       "id": "agent-github-copilot-cockpit",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:31.733Z",
       "name": "GitHub Copilot CLI·代码协同核心",
       "description": "无人物设计；以 Copilot 机器人形协同核心、仓库拓扑与多屏代码数据面为主视觉的三端 VIP 主题；非官方粉丝创作，与 GitHub 无商业关联。",
       "tier": "vip",
@@ -1445,19 +1510,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-github-copilot-cockpit.lingglow-skin.json",
-        "sha256": "a05ccaa1d44ba94df723e64f54093eccb8e672bc4bdbd8289fb9641f5e5edd82",
-        "bytes": 858661
+        "sha256": "891545e96f226ee5a0fa0af700d4c6100f497e5ba4d9874f968d39d6f0516001",
+        "bytes": 1449864
       }
     },
     {
       "id": "agent-qwen-code-lab",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:33.012Z",
       "name": "Qwen Code·紫曜推理核心",
       "description": "无人物设计；以紫蓝多环语言推理核心、参数光路与编码终端矩阵为主视觉的三端 VIP 主题；非官方粉丝创作，与通义千问无商业关联。",
       "tier": "vip",
@@ -1491,19 +1558,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-qwen-code-lab.lingglow-skin.json",
-        "sha256": "d1248ae5b295c672a11b67f59d4f9d851b8f480d156026545d5f54dee0f45ed1",
-        "bytes": 1315239
+        "sha256": "3de24362cbe36c1e1e512cae4b04c4868c56e1cab87676e34e2c0e1cb5847ecc",
+        "bytes": 2375777
       }
     },
     {
       "id": "agent-kimi-code-moonlab",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:34.127Z",
       "name": "Kimi Code·月弧长上下文核心",
       "description": "无人物设计；以银色月弧长上下文核心、深蓝推理光路与月面数据中心为主视觉的三端 VIP 主题；非官方粉丝创作，与 Moonshot AI 无商业关联。",
       "tier": "vip",
@@ -1537,19 +1606,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-kimi-code-moonlab.lingglow-skin.json",
-        "sha256": "f5e982ad3734c78ee233b91a96e64750377495624a6b8ee1de828e25ba4517ce",
-        "bytes": 1075059
+        "sha256": "f75372c7fd4a056af671cde1355df26fd281d27eee590978596bc02ed9e686e0",
+        "bytes": 1628313
       }
     },
     {
       "id": "einstein-relativity",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:35.668Z",
       "name": "爱因斯坦·普林斯顿书房",
       "description": "以写实爱因斯坦肖像、历史物理书房与手稿实验器材为核心的三端 VIP 主题；为非官方艺术创作。",
       "tier": "vip",
@@ -1581,19 +1652,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/einstein-relativity.lingglow-skin.json",
-        "sha256": "f694745c4acfaa7a055e0ae4b55316fb7b0f5eec52939693bf8cd51a296e7a75",
-        "bytes": 647047
+        "sha256": "519df9dc0e0e296d29a6bf407a84ea408762ca017dead0a3b99da7aa56c4636c",
+        "bytes": 820177
       }
     },
     {
       "id": "honor-canyon-inspired",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:37.346Z",
       "name": "王者荣耀·云巅峡谷",
       "description": "以写实王者峡谷、东方英雄群像与蓝红阵营建筑为核心的三端免费主题；非官方粉丝创作，与腾讯游戏无商业关联。",
       "tier": "free",
@@ -1625,19 +1698,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/honor-canyon-inspired.lingglow-skin.json",
-        "sha256": "ae2b4e27f316b60c11b722f0dd7c30929a6c2249773ec702f330a068a768cbad",
-        "bytes": 1313511
+        "sha256": "c07c0c716cb5e5effa1849ed075dca8069b005cbbafa6352678c568dd3e9219d",
+        "bytes": 1408079
       }
     },
     {
       "id": "last-circle-inspired",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:38.905Z",
       "name": "绝地求生·艾伦格终局",
       "description": "以写实艾伦格战场、三级头幸存者与蓝圈空投为核心的三端免费主题；非官方粉丝创作，与 PUBG Studios 无商业关联。",
       "tier": "free",
@@ -1669,19 +1744,21 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/last-circle-inspired.lingglow-skin.json",
-        "sha256": "d1929fd24ef6f6848f23d2ac3a38d9409fdc49aa8752ff8228a82e74025bd84d",
-        "bytes": 942461
+        "sha256": "7333feb72804a5f1d91ac33e20560dcb0de857cbedd124018913d6a8ce5e87da",
+        "bytes": 1073264
       }
     },
     {
       "id": "radiant-arena-inspired",
       "kind": "theme-pack",
       "version": "1.1.0",
+      "publishedAt": "2026-07-23T06:54:40.574Z",
       "name": "无畏契约·亚海悬城",
       "description": "以写实亚海悬城战术场景、风火特工与辐能爆破装置为核心的三端免费主题；非官方粉丝创作，与 Riot Games 无商业关联。",
       "tier": "free",
@@ -1713,13 +1790,14 @@
       "features": {
         "artwork": true,
         "projectHero": true,
+        "composerAvatar": true,
         "brand": true,
         "banner": true
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/radiant-arena-inspired.lingglow-skin.json",
-        "sha256": "8cac8098adaeb4d19e3ba1c260307cdd155577c8d355145e125bc4a46a38a0d7",
-        "bytes": 836801
+        "sha256": "039db04244e572f6a9fd8accac5f24bed5154b3b7b938379cc3574ede8834c01",
+        "bytes": 926818
       }
     }
   ]

@@ -9,7 +9,16 @@
     "globalBackground": {"position": "fixed", "pointerEvents": "none"},
     "historyAndComposer": {"backgroundImage": "none", "revealGlobalBackground": true, "pageSurface": "transparent", "assistantProseSurface": "none", "localSurfaceOpacityMax": 0.66},
     "cardsAndPopovers": {"opaqueContrastSafe": true, "normalizeNestedPaintedSurfaces": true, "nestedSurfaceMode": "match-explicit-skin-mode", "knownAccountSections": ["check-in", "plan", "credits", "actions"]},
-    "customMascot": {"replaceInPlace": true, "containerTransparent": true, "preserveClickTarget": true},
+    "customMascot": {
+      "replaceInPlace": true,
+      "containerTransparent": true,
+      "preserveClickTarget": true,
+      "fit": "contain",
+      "shape": "square",
+      "forbid": ["background-crop", "hero-crop", "circle-crop", "frame", "halo", "shadow", "duplicate-overlay"],
+      "verifyRoutes": ["new-task", "historical-task"],
+      "invalidBehavior": "remove-custom-marker-and-use-native-default-robot"
+    },
     "teamMemberEdges": {"fullWidthTopFade": "none", "lateralEdgesUseEffectiveSurface": true, "fadeToTransparent": true, "forbidFullWidthDarkStrip": true},
     "composerSelectors": {"localTranslucentSurface": true, "coverStates": ["closed", "hover", "focus", "expanded"], "popupOpaqueContrastSafe": true},
     "automationEmptyState": {"structuralWrappersTransparent": true, "templateCardsLocalSurface": true, "forbidWholePagePanel": true}

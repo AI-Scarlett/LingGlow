@@ -1,6 +1,6 @@
 ---
 name: skin-abstract
-description: Create, adapt, package, and QA reusable light/dark skins for Codex/GPT, WorkBuddy, and Doubao. Use when making free or VIP theme packs, publishing LingGlow remote skin bundles, updating client layout compatibility, defining global and home artwork, replacing icons or mascots, fixing unreadable text and dialogs, or validating that visual overlays do not block native interaction.
+description: Create, adapt, package, and QA reusable light/dark skins for Codex/GPT, WorkBuddy, and Doubao. Use when making free or VIP theme packs, publishing LingGlow remote skin bundles, updating client layout compatibility, defining global and home artwork, replacing icons or WorkBuddy composer mascots, validating transparent-subject Alpha and padding, fixing unreadable text and dialogs, or checking that visual overlays do not block native interaction.
 ---
 
 # Skin Abstract
@@ -15,11 +15,11 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 4. Resolve text from semantic tokens. Use dark ink for light surfaces and light ink for dark surfaces. Do not force text to use a sampled background/accent color.
 5. Keep dialogs, popovers, hover cards, model menus, tooltips, and cards on an opaque contrast-safe surface. Do not make every descendant transparent.
 6. Set decorative background layers to `pointer-events: none`. Never use a broad `z-index` or pseudo-element that can cover native buttons, history rows, browser panels, menus, or text inputs.
-7. Replace native mascot imagery in place. Do not add a second decorative frame. A custom avatar container must have transparent background, no border, no shadow, and no forced circular crop unless the skin explicitly requests it.
-8. Accept an avatar as transparent only when the decoded image has a real Alpha channel. A checkerboard rendered into RGB pixels is not transparency.
+7. Create the WorkBuddy composer mascot as a separate isolated-subject asset, never as a crop of the global background, Hero, banner, poster, or app icon. Replace the native mascot in place without a second decorative frame. Keep the container transparent with no border, halo, shadow, ground plane, or forced circular crop.
+8. Accept a WorkBuddy composer mascot only when it passes the same hard gate as LingGlow runtime validation: decoded Alpha exists; aspect ratio is 0.8-1.25; at least 15% of pixels are transparent; at least 3% are occupied by the subject; and the occupied bounds retain at least 3% transparent padding on every side. Require at most 2 MB, 2048 px per edge, and 4 MP. A baked checkerboard, background image, circular crop, or technically transparent full-canvas poster fails. Run `node scripts/validate-composer-mascot.mjs <asset...>` before binding the asset.
 9. Preserve native app appearance while a skin is active. Tell the user not to switch the Agent's own light/dark setting independently; reapply or warn when the states diverge.
 10. Treat a successful build or injection probe as insufficient. Release only after screenshot-backed interaction QA in all three real clients.
-11. Give every distributable WorkBuddy theme its own style-matched composer mascot. Sports themes should use a related object or symbol; never reuse one generic robot across unrelated themes.
+11. Give every distributable WorkBuddy theme its own style-matched composer mascot and verify it in both the new-task and historical-task composer. Sports themes should use a related object or symbol; never reuse one generic robot across unrelated themes. If the custom or generated asset fails validation, reject it, show the user the required transparent-subject standard, leave `workbuddy.composerAvatar.image` null, and retain WorkBuddy's default robot; never substitute a background crop just to fill the slot.
 12. Give every Codex theme a dedicated 3:1 home artwork that is visually related to, but not the same file as, the global background.
 13. Record asset provenance and redistribution terms. Exclude any third-party person, character, logo, or artwork whose rights are unclear, even when it appears in an upstream preset repository.
 14. Publish one declarative `.lingglow-skin.json` per skin. Never place JavaScript, CSS, executable files, arbitrary URLs, or source archives in a remote skin bundle.
@@ -45,7 +45,7 @@ Collect:
 - Semantic colors: `canvas`, `surface`, `surfaceElevated`, `textPrimary`, `textSecondary`, `border`, `selection`, `accent`, `danger`.
 - Global background plus optional client-specific home artwork.
 - Approved 16:10 master key art, its UI-safe zone, focal-subject coordinates, avatar crop, and the intended real/cinematic rendering style.
-- Optional app icon, WorkBuddy composer mascot, and home title/subtitle per client.
+- Optional app icon and home title/subtitle per client. A WorkBuddy composer mascot is required whenever `clientIds` includes `workbuddy`; it remains optional only for skins that do not target WorkBuddy.
 - Target client versions and screenshots of every required page before adaptation.
 
 Use the templates in `inputs/`. Read `references/asset-specs.md` before accepting images.
@@ -61,8 +61,8 @@ Use the templates in `inputs/`. Read `references/asset-specs.md` before acceptin
 7. Apply the selected appearance to the Agent's native appearance selector when safely possible. Otherwise apply the complete matching semantic token set and show a warning not to change native appearance while the skin is active.
 8. Resolve text tokens against the effective painted surface after all host and skin rules apply. Verify the result with computed styles or screenshots instead of trusting the host appearance class.
 9. Keep the default background on one fixed visual layer. Make only approved content surfaces reveal it. Keep popovers and cards opaque enough to meet contrast.
-10. Validate assets before injection. Reject oversize images, non-image payloads, and mascot files that claim transparency but have no Alpha channel.
-11. Verify that the Codex home artwork and global background have different content hashes, and that every WorkBuddy pack resolves a theme-specific mascot asset.
+10. Validate assets before injection. Run `node scripts/validate-composer-mascot.mjs <asset...>` for every WorkBuddy mascot. Reject oversize images, non-image payloads, missing Alpha, insufficient transparent area/padding, full-canvas posters, background crops, circular crops, and subjects clipped by the canvas.
+11. Verify that the Codex home artwork and global background have different content hashes, and that every WorkBuddy pack resolves exactly one theme-specific `workbuddy.composer-avatar` asset with `fit: contain` and `shape: square`. Materialize the final profile or bundle and run the check again; validating only the source PNG is insufficient.
 12. Apply the skin, restart only the target Agent when required, then run the real-client matrix in `checks/layout-smoke-checklist.md`.
 13. Capture screenshots for light and dark skins and exercise clicks, typing, scrolling, menus, hover cards, and embedded browser panels.
 14. Package only after all required rows pass. Record Agent versions, skin version, appearance mode, screenshots, failures, and rollback result.
@@ -93,6 +93,9 @@ Publish in this order: skin bundle, gallery preview, catalog index. The index is
 - Let chat history and composer reveal the single global background; do not insert another cropped image.
 - Keep cards and popovers contrast-safe rather than recoloring every inner text node.
 - Replace the native composer mascot in place and preserve its native click target.
+- Use the same validated custom mascot in the new-task composer and every historical-task composer surface that exposes the native mascot slot. Check both routes after navigation; a new-task-only replacement is incomplete.
+- On custom upload, explain the standard before selection and reject invalid files with: “请上传透明画布上的完整独立主体，四周保留透明留白；不接受背景图、主视觉、圆形裁图或带底色图片。当前将使用默认机器人。”
+- When validation or runtime replacement fails, remove the custom marker and retain the native default robot. Do not leave a broken image, blank slot, video remnant, duplicate overlay, or circular fallback.
 - Check profile/account menus, history rows, automation templates, and table cells for accidental per-text backgrounds. Rounded structural panels are allowed; label-sized rectangles are not.
 - Follow the Doubao conversation-detail pattern for chat: assistant prose stays directly on the shared background with contrast-safe ink; only user bubbles, composer, tables, code, cards, and overlays receive restrained translucent surfaces. Never turn the whole chat or automation page into one opaque panel.
 - Treat automation empty-state, hero, and template-list wrappers as structural roots, not cards: keep those wrappers transparent and paint only the individual template cards.
@@ -117,7 +120,8 @@ Do not mark a skin complete unless:
 - Every overlay/menu/hover card is readable.
 - Codex model, reasoning, and speed menus pass with every submenu open; no row, icon, badge, check mark, or model trigger inherits stale host-mode ink.
 - History rows, sidebar tabs, composer controls, menus, and browser panels remain clickable.
-- Custom avatar Alpha is verified when transparency is requested.
+- Every WorkBuddy-targeting skin passes `scripts/validate-composer-mascot.mjs`, resolves exactly one final mascot asset, and displays the complete subject with `contain` and a transparent square container.
+- The mascot is screenshot-verified in both a new task and an existing historical task. Invalid custom/generated assets show the upload guidance and fall back to the native default robot.
 - Real screenshots exist for all three clients and rollback restores native appearance.
 
 See `references/client-qa.md` for evidence requirements.

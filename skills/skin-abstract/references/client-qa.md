@@ -18,5 +18,5 @@ Accept a result only when screenshots and interaction observations agree. A succ
 Focused regression pages:
 
 - Codex: new-task blocks, conversation history, transparent main roots, edge-faded thread footer, open right output panel, permission menu, closed model trigger, first-level model/reasoning/speed menu, nested model list with a selected check mark, composer placeholder, and send/stop/microphone controls. Capture both appearance modes plus send idle/hover/focus/disabled and stop running/hover/focus states; verify semantic variables and audited direct `text-token-*` / `bg-token-*` utility classes, icon contrast, native click targets, and reduced-motion fallback.
-- WorkBuddy: profile/account menu, project/history list, automation templates, chat history tables and code blocks, model/speaker/notice popovers.
+- WorkBuddy: new-task composer mascot, historical-task composer mascot, profile/account menu, project/history list, automation templates, chat history tables and code blocks, model/speaker/notice popovers. Confirm the custom subject is complete, uses `contain`, has no circular/background frame, preserves the native click target, and falls back to the default robot after an invalid custom asset is rejected.
 - Doubao: AI Creation header and prompt, current/history conversations, left navigation, composer placeholder, suggestions and dialogs.
