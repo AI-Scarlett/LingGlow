@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026.07.20.1",
-  "generatedAt": "2026-07-20T05:49:33.813Z",
+  "catalogVersion": "2026.07.23.1",
+  "generatedAt": "2026-07-23T00:23:27.644Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
@@ -1084,6 +1084,622 @@
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-ensemble.lingglow-skin.json",
         "sha256": "137d580829f44149352b3bb5a28c8973cb21e26de07be10f09e9377388a0426a",
         "bytes": 2236970
+      }
+    },
+    {
+      "id": "agent-codex-terminal-orbit",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "Codex CLI·深夜指挥台",
+      "description": "以真实深夜开发指挥台、终端工作流与 Codex 标识实物为核心的三端 VIP 主题；非官方粉丝创作，与 OpenAI 无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "Codex CLI",
+        "开发指挥台",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-codex-terminal-orbit.webp",
+        "sha256": "d42eeae28897c02b705b7660f8cfc4ac25d23ffda6318ad9f7527a98536f87b9"
+      },
+      "colors": {
+        "accent": "#52C991",
+        "surface": "#07110D",
+        "ink": "#EFFAF5"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-codex-terminal-orbit.lingglow-skin.json",
+        "sha256": "a25c73d27953417c4c3e43806878c6d12004ffafc2773b0e603655323d98524c",
+        "bytes": 386405
+      }
+    },
+    {
+      "id": "agent-claude-code-clay",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "Claude Code·日光工作室",
+      "description": "以真实日光建筑工作室、暖陶材质与 Claude 星芒实物为核心的三端 VIP 主题；非官方粉丝创作，与 Anthropic 无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "Claude Code",
+        "日光工作室",
+        "VIP",
+        "浅色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-claude-code-clay.webp",
+        "sha256": "2b7ffe72736367d1f810d4e9be0da9ba9c52537cdb0555075bf8f8b052c42f57"
+      },
+      "colors": {
+        "accent": "#A84F34",
+        "surface": "#F3E8DB",
+        "ink": "#2B211C"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-claude-code-clay.lingglow-skin.json",
+        "sha256": "5df0d0a66c6473196ba3722a860b773e6d4b004840f669fec2ceaa6ffde1d9d0",
+        "bytes": 502593
+      }
+    },
+    {
+      "id": "agent-grok-singularity",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "Grok·航天控制室",
+      "description": "以真实航天任务控制室、黑白金属标识与工程终端为核心的三端 VIP 主题；非官方粉丝创作，与 xAI 无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "Grok",
+        "航天控制室",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-grok-singularity.webp",
+        "sha256": "fe5089afc756e4a9826b395500177e1c68c123d56f9ba52c0e0c9ade7d3040bd"
+      },
+      "colors": {
+        "accent": "#C7CDD6",
+        "surface": "#07090C",
+        "ink": "#F7F9FB"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-grok-singularity.lingglow-skin.json",
+        "sha256": "18b94333652a286aea49f5900149750ea3db5d71d31b8982b33509c86851b710",
+        "bytes": 476293
+      }
+    },
+    {
+      "id": "agent-openclaw-gateway",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "OpenClaw·赤爪实验室",
+      "description": "以真实机器人实验室、工业机械钳与安全运维终端为核心的三端 VIP 主题；非官方粉丝创作，与 OpenClaw 项目无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "OpenClaw",
+        "机器人实验室",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-openclaw-gateway.webp",
+        "sha256": "9a4dc1025d49b3d65c9a60a3316444f8987f43291cadd9e5c7c872b783d033db"
+      },
+      "colors": {
+        "accent": "#F05B61",
+        "surface": "#071018",
+        "ink": "#F4F8FB"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-openclaw-gateway.lingglow-skin.json",
+        "sha256": "3f524b95addc2bd7e4875e4be4d467347cc6259a1dbec807df4f04a2c2049d29",
+        "bytes": 418185
+      }
+    },
+    {
+      "id": "agent-hermes-memory",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "Hermes·信使档案馆",
+      "description": "以真实研究档案馆、黄铜信使徽记与长期记忆终端为核心的三端 VIP 主题；非官方粉丝创作，与 Nous Research 无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "Hermes",
+        "档案馆",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-hermes-memory.webp",
+        "sha256": "b54d838b09601e105d5a79c0fed1083f83eb0ff6c12d29f0b32a105bdc5e390e"
+      },
+      "colors": {
+        "accent": "#CBA45B",
+        "surface": "#090D1D",
+        "ink": "#F5ECD9"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-hermes-memory.lingglow-skin.json",
+        "sha256": "fd879855cd2bbb4d8a77e631e71745339e22f51275752d0c95b21c91e89928dc",
+        "bytes": 454199
+      }
+    },
+    {
+      "id": "agent-cursor-cube",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "Cursor·暮光工作室",
+      "description": "以真实极简开发工作室、精密光标雕塑与暮光编辑环境为核心的三端 VIP 主题；非官方粉丝创作，与 Cursor 无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "Cursor",
+        "暮光工作室",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-cursor-cube.webp",
+        "sha256": "bfa53e273280af0e4914f1b29d36a01561d331ccbbd752f8ad89a13e9247f097"
+      },
+      "colors": {
+        "accent": "#A793FF",
+        "surface": "#0B0A13",
+        "ink": "#F7F5FF"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-cursor-cube.lingglow-skin.json",
+        "sha256": "ddd1352da340ed1ccd44bf41df067d1ca7c908552fe41cd4ee04dc5eaf69c82d",
+        "bytes": 281835
+      }
+    },
+    {
+      "id": "agent-antigravity-orbit-lab",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "Antigravity CLI·轨道实验室",
+      "description": "以真实轨道研究舱、失重开发终端与四色实验室徽记为核心的三端 VIP 主题；非官方粉丝创作，与 Google 无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "Antigravity CLI",
+        "轨道实验室",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-antigravity-orbit-lab.webp",
+        "sha256": "1c952dbeed9c65e7e022ff774115142b0a7f2bf3d22608ed717da05ab5b2ede4"
+      },
+      "colors": {
+        "accent": "#4A8BE8",
+        "surface": "#071426",
+        "ink": "#F1F7FF"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-antigravity-orbit-lab.lingglow-skin.json",
+        "sha256": "a515a9a3cccda2f72673d0298cf5585e7086440ca3edf5f31e764494f798763d",
+        "bytes": 464887
+      }
+    },
+    {
+      "id": "agent-github-copilot-cockpit",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "GitHub Copilot CLI·夜航驾驶舱",
+      "description": "以真实夜航开发驾驶舱、多屏终端与 Copilot 机器人实物为核心的三端 VIP 主题；非官方粉丝创作，与 GitHub 无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "GitHub Copilot CLI",
+        "开发驾驶舱",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-github-copilot-cockpit.webp",
+        "sha256": "b1fe9b2225cea7118094d8b0d0c61d0e0df06204551cd5810f1a1501848ffa5d"
+      },
+      "colors": {
+        "accent": "#9B7CFF",
+        "surface": "#0D0D14",
+        "ink": "#F7F5FF"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-github-copilot-cockpit.lingglow-skin.json",
+        "sha256": "e53ea1c54561b9ee22f63fdb694b3821c775d911663be293ab839fd15b1247a9",
+        "bytes": 402533
+      }
+    },
+    {
+      "id": "agent-qwen-code-lab",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "Qwen Code·紫曜实验室",
+      "description": "以真实中国 AI 工程实验室、紫蓝多环标识与编码终端为核心的三端 VIP 主题；非官方粉丝创作，与通义千问无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "Qwen Code",
+        "紫曜实验室",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-qwen-code-lab.webp",
+        "sha256": "ca0e4037c37f27f5b28e91f8e33d1fee923ce868a5de47fba0729726d1eebf2d"
+      },
+      "colors": {
+        "accent": "#8B6CFF",
+        "surface": "#0B0D27",
+        "ink": "#F5F3FF"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-qwen-code-lab.lingglow-skin.json",
+        "sha256": "473e6d008e7987c1a17e24788be6513695371dd8d9354869a897162596a85fde",
+        "bytes": 463963
+      }
+    },
+    {
+      "id": "agent-kimi-code-moonlab",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "Kimi Code·月夜工作室",
+      "description": "以真实上海月夜开发工作室、银白新月标识与深蓝终端为核心的三端 VIP 主题；非官方粉丝创作，与 Moonshot AI 无商业关联。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "minimal",
+      "series": "agent-cli",
+      "tags": [
+        "Agent",
+        "Kimi Code",
+        "月夜工作室",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/agent-kimi-code-moonlab.webp",
+        "sha256": "baeb86d415e57737adb78292ed0d6573b62997009b44259b6394d7ae851d4b63"
+      },
+      "colors": {
+        "accent": "#D5E8FF",
+        "surface": "#071426",
+        "ink": "#F5F9FF"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-kimi-code-moonlab.lingglow-skin.json",
+        "sha256": "2c6a5c05509e3f76ea57d8bc95543c94cc0aa5abc697fe2b64a6006fe2668d9e",
+        "bytes": 374059
+      }
+    },
+    {
+      "id": "einstein-relativity",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "爱因斯坦·普林斯顿书房",
+      "description": "以写实爱因斯坦肖像、历史物理书房与手稿实验器材为核心的三端 VIP 主题；为非官方艺术创作。",
+      "tier": "vip",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "art",
+      "series": "great-minds",
+      "tags": [
+        "爱因斯坦",
+        "普林斯顿",
+        "物理学家",
+        "VIP",
+        "深色",
+        "label:other"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/einstein-relativity.webp",
+        "sha256": "93f828fb748f46f6482e201360271016e1db4806862ba2f67acb7b46a2cdee39"
+      },
+      "colors": {
+        "accent": "#D2A45B",
+        "surface": "#0A1B2E",
+        "ink": "#F4EBDD"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/einstein-relativity.lingglow-skin.json",
+        "sha256": "f694745c4acfaa7a055e0ae4b55316fb7b0f5eec52939693bf8cd51a296e7a75",
+        "bytes": 647047
+      }
+    },
+    {
+      "id": "honor-canyon-inspired",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "王者荣耀·云巅峡谷",
+      "description": "以写实王者峡谷、东方英雄群像与蓝红阵营建筑为核心的三端免费主题；非官方粉丝创作，与腾讯游戏无商业关联。",
+      "tier": "free",
+      "appearanceMode": "light",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "game-inspired",
+      "tags": [
+        "王者荣耀",
+        "王者峡谷",
+        "东方英雄",
+        "免费",
+        "浅色",
+        "label:game-ip"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/honor-canyon-inspired.webp",
+        "sha256": "65d1d32c1a47d4e6569286192606924f482ffdb4f5b6edcbb169a56e439d1622"
+      },
+      "colors": {
+        "accent": "#2E70B8",
+        "surface": "#EDF5F8",
+        "ink": "#18283A"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/honor-canyon-inspired.lingglow-skin.json",
+        "sha256": "ae2b4e27f316b60c11b722f0dd7c30929a6c2249773ec702f330a068a768cbad",
+        "bytes": 1313511
+      }
+    },
+    {
+      "id": "last-circle-inspired",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "绝地求生·艾伦格终局",
+      "description": "以写实艾伦格战场、三级头幸存者与蓝圈空投为核心的三端免费主题；非官方粉丝创作，与 PUBG Studios 无商业关联。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "game-inspired",
+      "tags": [
+        "绝地求生",
+        "艾伦格",
+        "生存竞技",
+        "免费",
+        "深色",
+        "label:game-ip"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/last-circle-inspired.webp",
+        "sha256": "b3201dfb80781cad2e07be2a3ba8adae25c8e6175b63ec6179dc5a6c0a99877c"
+      },
+      "colors": {
+        "accent": "#D6A04E",
+        "surface": "#191711",
+        "ink": "#F3EFE3"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/last-circle-inspired.lingglow-skin.json",
+        "sha256": "d1929fd24ef6f6848f23d2ac3a38d9409fdc49aa8752ff8228a82e74025bd84d",
+        "bytes": 942461
+      }
+    },
+    {
+      "id": "radiant-arena-inspired",
+      "kind": "theme-pack",
+      "version": "1.1.0",
+      "name": "无畏契约·亚海悬城",
+      "description": "以写实亚海悬城战术场景、风火特工与辐能爆破装置为核心的三端免费主题；非官方粉丝创作，与 Riot Games 无商业关联。",
+      "tier": "free",
+      "appearanceMode": "dark",
+      "clientIds": [
+        "workbuddy",
+        "doubao",
+        "codex"
+      ],
+      "category": "fantasy",
+      "series": "game-inspired",
+      "tags": [
+        "无畏契约",
+        "打瓦",
+        "亚海悬城",
+        "免费",
+        "深色",
+        "label:game-ip"
+      ],
+      "preview": {
+        "url": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/catalog/v1/previews/radiant-arena-inspired.webp",
+        "sha256": "c4e41e5828b0e47846f1bab72029f011181ecdadebf9cce6541bd13047e2f999"
+      },
+      "colors": {
+        "accent": "#FF5B68",
+        "surface": "#0A1E23",
+        "ink": "#F5F4EC"
+      },
+      "features": {
+        "artwork": true,
+        "projectHero": true,
+        "brand": true,
+        "banner": true
+      },
+      "package": {
+        "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/radiant-arena-inspired.lingglow-skin.json",
+        "sha256": "8cac8098adaeb4d19e3ba1c260307cdd155577c8d355145e125bc4a46a38a0d7",
+        "bytes": 836801
       }
     }
   ]
