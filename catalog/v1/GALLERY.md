@@ -1,6 +1,6 @@
 # 灵妆皮肤样式库
 
-当前共 25 套。预览图只用于展示风格；实际效果取决于 Agent 版本与安全适配级别。
+当前共 39 套。预览图只用于展示风格；实际效果取决于 Agent 版本与安全适配级别。
 
 ## Dream Portal 测试
 
@@ -251,3 +251,143 @@
 - Agent: workbuddy、doubao、codex
 
 ![八仙过海·有求必应](./previews/baxian-ensemble.webp)
+
+## Codex CLI·深夜指挥台
+
+- ID: `agent-codex-terminal-orbit`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、Codex CLI、开发指挥台、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![Codex CLI·深夜指挥台](./previews/agent-codex-terminal-orbit.webp)
+
+## Claude Code·日光工作室
+
+- ID: `agent-claude-code-clay`
+- 类型: VIP / 浅色
+- 分类: minimal / agent-cli / Agent、Claude Code、日光工作室、VIP、浅色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![Claude Code·日光工作室](./previews/agent-claude-code-clay.webp)
+
+## Grok·航天控制室
+
+- ID: `agent-grok-singularity`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、Grok、航天控制室、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![Grok·航天控制室](./previews/agent-grok-singularity.webp)
+
+## OpenClaw·赤爪实验室
+
+- ID: `agent-openclaw-gateway`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、OpenClaw、机器人实验室、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![OpenClaw·赤爪实验室](./previews/agent-openclaw-gateway.webp)
+
+## Hermes·信使档案馆
+
+- ID: `agent-hermes-memory`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、Hermes、档案馆、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![Hermes·信使档案馆](./previews/agent-hermes-memory.webp)
+
+## Cursor·暮光工作室
+
+- ID: `agent-cursor-cube`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、Cursor、暮光工作室、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![Cursor·暮光工作室](./previews/agent-cursor-cube.webp)
+
+## Antigravity CLI·轨道实验室
+
+- ID: `agent-antigravity-orbit-lab`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、Antigravity CLI、轨道实验室、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![Antigravity CLI·轨道实验室](./previews/agent-antigravity-orbit-lab.webp)
+
+## GitHub Copilot CLI·夜航驾驶舱
+
+- ID: `agent-github-copilot-cockpit`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、GitHub Copilot CLI、开发驾驶舱、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![GitHub Copilot CLI·夜航驾驶舱](./previews/agent-github-copilot-cockpit.webp)
+
+## Qwen Code·紫曜实验室
+
+- ID: `agent-qwen-code-lab`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、Qwen Code、紫曜实验室、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![Qwen Code·紫曜实验室](./previews/agent-qwen-code-lab.webp)
+
+## Kimi Code·月夜工作室
+
+- ID: `agent-kimi-code-moonlab`
+- 类型: VIP / 深色
+- 分类: minimal / agent-cli / Agent、Kimi Code、月夜工作室、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![Kimi Code·月夜工作室](./previews/agent-kimi-code-moonlab.webp)
+
+## 爱因斯坦·普林斯顿书房
+
+- ID: `einstein-relativity`
+- 类型: VIP / 深色
+- 分类: art / great-minds / 爱因斯坦、普林斯顿、物理学家、VIP、深色、label:other
+- 标签分类: other
+- Agent: workbuddy、doubao、codex
+
+![爱因斯坦·普林斯顿书房](./previews/einstein-relativity.webp)
+
+## 王者荣耀·云巅峡谷
+
+- ID: `honor-canyon-inspired`
+- 类型: 免费 / 浅色
+- 分类: fantasy / game-inspired / 王者荣耀、王者峡谷、东方英雄、免费、浅色、label:game-ip
+- 标签分类: game-ip
+- Agent: workbuddy、doubao、codex
+
+![王者荣耀·云巅峡谷](./previews/honor-canyon-inspired.webp)
+
+## 绝地求生·艾伦格终局
+
+- ID: `last-circle-inspired`
+- 类型: 免费 / 深色
+- 分类: fantasy / game-inspired / 绝地求生、艾伦格、生存竞技、免费、深色、label:game-ip
+- 标签分类: game-ip
+- Agent: workbuddy、doubao、codex
+
+![绝地求生·艾伦格终局](./previews/last-circle-inspired.webp)
+
+## 无畏契约·亚海悬城
+
+- ID: `radiant-arena-inspired`
+- 类型: 免费 / 深色
+- 分类: fantasy / game-inspired / 无畏契约、打瓦、亚海悬城、免费、深色、label:game-ip
+- 标签分类: game-ip
+- Agent: workbuddy、doubao、codex
+
+![无畏契约·亚海悬城](./previews/radiant-arena-inspired.webp)

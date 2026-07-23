@@ -30,6 +30,10 @@ Build one reusable theme manifest and three client adapters. Preserve each Agent
 19. Treat send and stop as different semantic actions, not one button with two arbitrary colors. Derive send from `accent` plus a contrast-safe on-accent ink; derive stop from `danger` with a restrained running indicator. Preserve native geometry and hit targets. Give hover, focus, pressed, running, disabled, and reduced-motion states explicit treatments without turning either control into a solid black patch.
 20. Lock the complete client semantic palette to `appearanceMode`, including host variables and any audited semantic utility classes that directly paint text or structural backgrounds. A native `dark` class may remain in the DOM after a light skin is applied; it must not be allowed to turn conversation copy, file cards, sidebars, output panels, or menus back to dark-mode colors.
 21. Treat a model picker as one multi-level control. Theme the closed trigger, category menu, nested model list, reasoning and speed submenus, selected/checked rows, separators, icons, prices/badges, hover/focus states, and disabled rows together. Test every open level in both appearances.
+22. Start every premium character, brand, Agent, or game skin from one intentional 16:10 key-art master, not from a generic gradient or abstract shape exercise. Prefer believable places, people, equipment, materials, and practical light when the requested subject is real or cinematic.
+23. Reserve roughly the left 38-42 percent of the master as a low-detail UI-safe field and place the principal person, equipment, or scenic focal point on the right. Do this in the artwork itself; never recover a busy image later with a page-sized white or black veil.
+24. A recognizable mark belongs inside the scene as a physical badge, monitor glyph, sculpture, patch, or device. Avoid giant floating logos and slogan posters. When a named brand, person, character, or game is requested, record its unofficial fan-made status and verify the requested visual association rather than silently replacing it with a vague abstract substitute.
+25. Derive the global background, 16:9 home Hero, 3:1 Codex banner, and transparent avatar from the approved master with separate crops. Review all four results; a technically valid crop that removes the face, emblem, or scene identity fails visual QA.
 
 ## Inputs
 
@@ -40,6 +44,7 @@ Collect:
 - `appearanceMode`: `light` or `dark`.
 - Semantic colors: `canvas`, `surface`, `surfaceElevated`, `textPrimary`, `textSecondary`, `border`, `selection`, `accent`, `danger`.
 - Global background plus optional client-specific home artwork.
+- Approved 16:10 master key art, its UI-safe zone, focal-subject coordinates, avatar crop, and the intended real/cinematic rendering style.
 - Optional app icon, WorkBuddy composer mascot, and home title/subtitle per client.
 - Target client versions and screenshots of every required page before adaptation.
 
@@ -50,16 +55,17 @@ Use the templates in `inputs/`. Read `references/asset-specs.md` before acceptin
 1. Record the exact Agent version and its native light/dark state.
 2. Capture the live layout and identify stable semantic anchors such as roles, test IDs, native state attributes, and client-owned regions. Avoid hashed class names as the only selector.
 3. Fill one client input template. Separate global background, home artwork, content surfaces, overlay surfaces, text tokens, selection states, semantic action controls, and optional branding.
-4. Apply the adapter contract in `patches/`. Start with narrow selectors and native state attributes. Do not use blanket rules such as `* { color: ... }`, `div { background: transparent }`, or global z-index promotion.
-5. Audit text wrappers before styling. Remove accidental per-label paint, then put any required readability surface on the nearest structural container. Do not turn every text node or text input into a separate tile.
-6. Apply the selected appearance to the Agent's native appearance selector when safely possible. Otherwise apply the complete matching semantic token set and show a warning not to change native appearance while the skin is active.
-7. Resolve text tokens against the effective painted surface after all host and skin rules apply. Verify the result with computed styles or screenshots instead of trusting the host appearance class.
-8. Keep the default background on one fixed visual layer. Make only approved content surfaces reveal it. Keep popovers and cards opaque enough to meet contrast.
-9. Validate assets before injection. Reject oversize images, non-image payloads, and mascot files that claim transparency but have no Alpha channel.
-10. Verify that the Codex home artwork and global background have different content hashes, and that every WorkBuddy pack resolves a theme-specific mascot asset.
-11. Apply the skin, restart only the target Agent when required, then run the real-client matrix in `checks/layout-smoke-checklist.md`.
-12. Capture screenshots for light and dark skins and exercise clicks, typing, scrolling, menus, hover cards, and embedded browser panels.
-13. Package only after all required rows pass. Record Agent versions, skin version, appearance mode, screenshots, failures, and rollback result.
+4. Approve the full-resolution master before deriving client assets. Reject generic abstraction, weak brand recognition, pasted floating logos, visibly synthetic anatomy, or a focal subject that collides with the left UI-safe region.
+5. Apply the adapter contract in `patches/`. Start with narrow selectors and native state attributes. Do not use blanket rules such as `* { color: ... }`, `div { background: transparent }`, or global z-index promotion.
+6. Audit text wrappers before styling. Remove accidental per-label paint, then put any required readability surface on the nearest structural container. Do not turn every text node or text input into a separate tile.
+7. Apply the selected appearance to the Agent's native appearance selector when safely possible. Otherwise apply the complete matching semantic token set and show a warning not to change native appearance while the skin is active.
+8. Resolve text tokens against the effective painted surface after all host and skin rules apply. Verify the result with computed styles or screenshots instead of trusting the host appearance class.
+9. Keep the default background on one fixed visual layer. Make only approved content surfaces reveal it. Keep popovers and cards opaque enough to meet contrast.
+10. Validate assets before injection. Reject oversize images, non-image payloads, and mascot files that claim transparency but have no Alpha channel.
+11. Verify that the Codex home artwork and global background have different content hashes, and that every WorkBuddy pack resolves a theme-specific mascot asset.
+12. Apply the skin, restart only the target Agent when required, then run the real-client matrix in `checks/layout-smoke-checklist.md`.
+13. Capture screenshots for light and dark skins and exercise clicks, typing, scrolling, menus, hover cards, and embedded browser panels.
+14. Package only after all required rows pass. Record Agent versions, skin version, appearance mode, screenshots, failures, and rollback result.
 
 ## Remote catalog packaging
 

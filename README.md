@@ -20,14 +20,24 @@
 
 [查看 LingGlow 2.3.6 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.6)
 
+## 2026-07-23 写实皮肤系列
+
+本次目录新增 14 套写实/电影感三端皮肤：
+
+- VIP Agent 系列：Codex CLI、Claude Code、Grok、OpenClaw、Hermes、Cursor、Antigravity CLI、GitHub Copilot CLI、Qwen Code、Kimi Code。
+- VIP 人物系列：爱因斯坦·普林斯顿书房。
+- 免费游戏系列：王者荣耀·云巅峡谷、绝地求生·艾伦格终局、无畏契约·亚海悬城。
+
+每套都使用独立的 16:10 全局背景、16:9 WorkBuddy/豆包首页 Hero、3:1 Codex 首页横幅和透明品牌/角色头像，并声明固定 light/dark 语义配色。相关品牌与角色主题均为非官方粉丝创作，不代表品牌方合作或背书。
+
 ## 主打皮肤 / Featured Skins
 
-| 西班牙世界杯夺冠 | 八仙群像 | 何仙姑 |
-|---|---|---|
-| ![Spain World Cup Champions](catalog/v1/previews/spain-2026-champions.webp) | ![Baxian Ensemble](catalog/v1/previews/baxian-ensemble.webp) | ![He Xiangu](catalog/v1/previews/baxian-he-xiangu.webp) |
-| 免费 · 足球 · 推荐 | 免费 · 八仙系列 · 推荐 | 免费 · 八仙系列 · 推荐 |
+| Codex CLI | 爱因斯坦 | 王者荣耀 | 绝地求生 |
+|---|---|---|---|
+| ![Codex CLI](catalog/v1/previews/agent-codex-terminal-orbit.webp) | ![Einstein](catalog/v1/previews/einstein-relativity.webp) | ![Honor of Kings](catalog/v1/previews/honor-canyon-inspired.webp) | ![PUBG](catalog/v1/previews/last-circle-inspired.webp) |
+| VIP · Agent CLI · 深色 | VIP · 人物 · 深色 | 免费 · 游戏 · 浅色 | 免费 · 游戏 · 深色 |
 
-当前目录共 25 套皮肤，其中 18 套免费、7 套 VIP。八仙九套系列与世界杯夺冠主题均为免费皮肤。
+当前目录共 39 套皮肤，其中 21 套免费、18 套 VIP。八仙九套、三套写实游戏与世界杯夺冠主题均为免费皮肤。
 
 ## 核心能力
 
@@ -71,7 +81,7 @@
 
 ## 使用 Skill 制作皮肤
 
-[`skills/skin-abstract`](skills/skin-abstract) 提供统一的三端皮肤制作流程，包括图片规格、深浅模式、语义对比度、Codex 首页专图、WorkBuddy 机器人透明图和真实客户端 QA。
+[`skills/skin-abstract`](skills/skin-abstract) 提供统一的三端皮肤制作流程，包括 16:10 写实主视觉、左侧 38–42% UI 安全区、独立 Hero/横幅裁切、透明品牌头像、深浅模式、语义对比度和真实客户端 QA。
 
 查看 [使用 Skin Skill 制作皮肤](docs/CREATE-SKIN-WITH-SKILL.md)。
 
