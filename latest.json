@@ -1,19 +1,19 @@
 {
-  "version": "2.3.9",
-  "tag": "v2.3.9",
+  "version": "2.3.10",
+  "tag": "v2.3.10",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.9/LingGlow-2.3.9-macOS.dmg",
-      "sha256": "fa319f50d41dc2fb6e10980d570e9754a3d37a5cacf988e832e2af24ccfbc2bc"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.10/LingGlow-2.3.10-macOS.dmg",
+      "sha256": "fc9c2e59a75e9b15c70285e83e71e8a33d4a88e25df32d219d9e90233cc17f05"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.9/LingGlow-2.3.9-macOS.dmg",
-      "sha256": "fa319f50d41dc2fb6e10980d570e9754a3d37a5cacf988e832e2af24ccfbc2bc"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.10/LingGlow-2.3.10-macOS.dmg",
+      "sha256": "fc9c2e59a75e9b15c70285e83e71e8a33d4a88e25df32d219d9e90233cc17f05"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复 Dock 图标尺寸与圆角；为全部 39 套 WorkBuddy 皮肤补齐合规的输入框悬浮主体，并同时覆盖新任务与历史任务；新增“最新”前 6 套皮肤、页面缓存与启动主窗口，修正本机服务状态恢复和未验证客户端发行门禁。",
-  "releaseNotesEn": "Fixes Dock icon sizing and rounding; adds validated composer mascots to all 39 WorkBuddy skins across new and historical tasks; adds a six-item Latest shelf, cached tabs, a visible launch window, recovered local-service status, and stricter release trust gates."
+  "releaseNotes": "修复本机 7 天 VIP 试用权益、服务冷启动竞态与断线恢复；皮肤页新增“更新全部”并修正状态归因；正式适配 WorkBuddy 5.3.3 的品牌、导航、发送/停止控件、项目 Hero 与输入区头像。",
+  "releaseNotesEn": "Fixes local seven-day VIP trial access, service cold-start races, and reconnect recovery; adds Update All with accurate skin status attribution; and delivers verified WorkBuddy 5.3.3 brand, navigation, send/stop controls, project Hero, and composer avatar support."
 }
