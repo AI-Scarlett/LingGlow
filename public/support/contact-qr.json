@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-24T08:20:00.000Z",
+  "items": [
+    {
+      "id": "group",
+      "titleZh": "灵妆 LingGlow 交流群",
+      "titleEn": "LingGlow Community Group",
+      "noteZh": "扫码加入交流群。群二维码可能定期更新。",
+      "noteEn": "Scan to join the community group. This QR code may be updated periodically.",
+      "imageUrl": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/public/support/wechat-group.jpg",
+      "sha256": "77758e578bb00c82aedb1d387d2f8dddd87409fac2e2e79593e5ddf53e66f056",
+      "expiresAt": "2026-07-31T15:59:59.000Z"
+    },
+    {
+      "id": "private",
+      "titleZh": "私聊咨询",
+      "titleEn": "Private Support",
+      "noteZh": "扫码添加 JadeName，进行一对一咨询。",
+      "noteEn": "Scan to add JadeName for one-to-one support.",
+      "imageUrl": "https://raw.githubusercontent.com/AI-Scarlett/LingGlow/main/public/support/wechat-private.jpg",
+      "sha256": "1af2d84b3459a34c14a7695a61e94db72d0e299b2de108abb0d491efe80a7b8d",
+      "expiresAt": null
+    }
+  ]
+}
