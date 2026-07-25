@@ -1,19 +1,19 @@
 {
-  "version": "2.3.10",
-  "tag": "v2.3.10",
+  "version": "2.3.11",
+  "tag": "v2.3.11",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.10/LingGlow-2.3.10-macOS.dmg",
-      "sha256": "fc9c2e59a75e9b15c70285e83e71e8a33d4a88e25df32d219d9e90233cc17f05"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.11/LingGlow-2.3.11-macOS.dmg",
+      "sha256": "2c10a762346910b7ef293dc1a60fe3534d2bf72f4ae57d495ef9d0f2239626c9"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.10/LingGlow-2.3.10-macOS.dmg",
-      "sha256": "fc9c2e59a75e9b15c70285e83e71e8a33d4a88e25df32d219d9e90233cc17f05"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.11/LingGlow-2.3.11-macOS.dmg",
+      "sha256": "2c10a762346910b7ef293dc1a60fe3534d2bf72f4ae57d495ef9d0f2239626c9"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复本机 7 天 VIP 试用权益、服务冷启动竞态与断线恢复；皮肤页新增“更新全部”并修正状态归因；正式适配 WorkBuddy 5.3.3 的品牌、导航、发送/停止控件、项目 Hero 与输入区头像。",
-  "releaseNotesEn": "Fixes local seven-day VIP trial access, service cold-start races, and reconnect recovery; adds Update All with accurate skin status attribution; and delivers verified WorkBuddy 5.3.3 brand, navigation, send/stop controls, project Hero, and composer avatar support."
+  "releaseNotes": "修复皮肤同时应用到 WorkBuddy、豆包和 Codex 时未完整生效的问题；统一三端输入区为单一圆角外壳，移除工作区、工具栏和历史列表的多余边框；挂件动作改为按皮肤配置并支持全宽往返掉头，同时修复 WorkBuddy 重复挂件。",
+  "releaseNotesEn": "Fixes incomplete multi-agent theme application; reduces WorkBuddy, Doubao, and Codex composers to one rounded shell without redundant workspace, toolbar, or history borders; scopes mascot motion per skin with full-width turnaround; and removes duplicate WorkBuddy mascots."
 }
