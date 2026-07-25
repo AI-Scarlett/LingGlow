@@ -1,19 +1,19 @@
 {
-  "version": "2.3.11",
-  "tag": "v2.3.11",
+  "version": "2.3.12",
+  "tag": "v2.3.12",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.11/LingGlow-2.3.11-macOS.dmg",
-      "sha256": "2c10a762346910b7ef293dc1a60fe3534d2bf72f4ae57d495ef9d0f2239626c9"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.12/LingGlow-2.3.12-macOS.dmg",
+      "sha256": "c7c5e2af2d643a35fd5aae52685ebca7934e5e4364850298aeaff38b168c618f"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.11/LingGlow-2.3.11-macOS.dmg",
-      "sha256": "2c10a762346910b7ef293dc1a60fe3534d2bf72f4ae57d495ef9d0f2239626c9"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.12/LingGlow-2.3.12-macOS.dmg",
+      "sha256": "c7c5e2af2d643a35fd5aae52685ebca7934e5e4364850298aeaff38b168c618f"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复皮肤同时应用到 WorkBuddy、豆包和 Codex 时未完整生效的问题；统一三端输入区为单一圆角外壳，移除工作区、工具栏和历史列表的多余边框；挂件动作改为按皮肤配置并支持全宽往返掉头，同时修复 WorkBuddy 重复挂件。",
-  "releaseNotesEn": "Fixes incomplete multi-agent theme application; reduces WorkBuddy, Doubao, and Codex composers to one rounded shell without redundant workspace, toolbar, or history borders; scopes mascot motion per skin with full-width turnaround; and removes duplicate WorkBuddy mascots."
+  "releaseNotes": "修复应用皮肤时偶发无法连接本机灵妆服务的问题；在后台恢复、版本切换或会话清单更新后自动接入当前服务；多 Agent 流程逐步校验连接，确认操作不重复提交，并以 Agent 实际会话状态判断应用结果。",
+  "releaseNotesEn": "Fixes intermittent local-service connection failures during skin application; reconnects after backend recovery, version handoff, or session-manifest changes; revalidates each multi-agent step; and determines confirmation outcomes from authoritative Agent session state without replaying confirmations."
 }
