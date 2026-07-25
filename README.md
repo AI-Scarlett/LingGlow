@@ -11,15 +11,15 @@
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 当前公开版本：2.3.10
+## 当前公开版本：2.3.11
 
-- 修复本机 7 天免费 VIP 试用仍有效时，已试用过的单套 VIP 皮肤被错误拒绝的问题。
-- 修复原生界面与启动流程并发拉起服务造成的冷启动误报，并在服务恢复后补载商品目录、清理旧错误提示。
-- 皮肤页新增“更新全部”，串行更新当前 Agent 的全部可更新皮肤并汇总结果。
-- 移除含义不明的灰色盾牌和误导性的“仅预览/待验证”归因；Agent 安全或适配问题现在由 Agent 状态区明确说明。
-- 正式适配 WorkBuddy 5.3.3，覆盖背景、品牌、导航、发送/停止控件、项目 Hero 与输入区头像，并完成真机恢复验证。
+- 修复皮肤同时应用到 WorkBuddy、豆包和 Codex 时未完整生效的问题，并逐 Agent 显示应用结果。
+- 三端输入区统一为一个圆角外壳，移除文字编辑区、工作区选择区、工具栏与右侧工作区的多余边框。
+- 三端历史任务和侧栏仅在当前选中项显示圆角高亮，普通项目不再重复描边。
+- 挂件动作改为按皮肤配置，支持静止、漂浮、行走、滚动、爬行与跳跃，并在输入框两端掉头往返。
+- 修复 WorkBuddy 同时显示两个挂件的问题，历史对话输入区也会使用皮肤挂件。
 
-[查看 LingGlow 2.3.10 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.10)
+[查看 LingGlow 2.3.11 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.11)
 
 ## 2026-07-23 Agent 科技核心与写实系列
 
@@ -57,7 +57,7 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- 下载当前 Release 中的 `LingGlow-2.3.10-macOS.dmg` 和 `SHA256SUMS`
+- 下载当前 Release 中的 `LingGlow-2.3.11-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
 
 只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
