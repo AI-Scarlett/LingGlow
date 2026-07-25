@@ -1,19 +1,19 @@
 {
-  "version": "2.3.12",
-  "tag": "v2.3.12",
+  "version": "2.3.13",
+  "tag": "v2.3.13",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.12/LingGlow-2.3.12-macOS.dmg",
-      "sha256": "c7c5e2af2d643a35fd5aae52685ebca7934e5e4364850298aeaff38b168c618f"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.13/LingGlow-2.3.13-macOS.dmg",
+      "sha256": "6b9f244163557135457bae1585cb8a7fc1bed3195e69d2113b2ca0c3c3efcbd6"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.12/LingGlow-2.3.12-macOS.dmg",
-      "sha256": "c7c5e2af2d643a35fd5aae52685ebca7934e5e4364850298aeaff38b168c618f"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.13/LingGlow-2.3.13-macOS.dmg",
+      "sha256": "6b9f244163557135457bae1585cb8a7fc1bed3195e69d2113b2ca0c3c3efcbd6"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复应用皮肤时偶发无法连接本机灵妆服务的问题；在后台恢复、版本切换或会话清单更新后自动接入当前服务；多 Agent 流程逐步校验连接，确认操作不重复提交，并以 Agent 实际会话状态判断应用结果。",
-  "releaseNotesEn": "Fixes intermittent local-service connection failures during skin application; reconnects after backend recovery, version handoff, or session-manifest changes; revalidates each multi-agent step; and determines confirmation outcomes from authoritative Agent session state without replaying confirmations."
+  "releaseNotes": "重新适配 WorkBuddy 5.3.5；统一优化 WorkBuddy、豆包与 Codex 的输入区、会话选中态和发送/停止按钮；挂件改为按皮肤横向移动并在边缘掉头；修复重复或固定挂件、单套永久授权文案歧义及解锁弹窗异常背景。",
+  "releaseNotesEn": "Adds verified WorkBuddy 5.3.5 support; refines composer framing, selected conversations, and send/stop controls across WorkBuddy, Doubao, and Codex; makes mascots traverse and turn around per theme; and fixes duplicate or stationary mascots, single-theme entitlement wording, and the oversized unlock dialog background."
 }
