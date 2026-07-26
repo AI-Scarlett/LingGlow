@@ -1,19 +1,19 @@
 {
-  "version": "2.3.15",
-  "tag": "v2.3.15",
+  "version": "2.3.16",
+  "tag": "v2.3.16",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.15/LingGlow-2.3.15-macOS.dmg",
-      "sha256": "ee59aa41e1bc84c28ec39d8f75469ac9c899fd0ce7d14707508d2a401262e133"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.16/LingGlow-2.3.16-macOS.dmg",
+      "sha256": "ee81171c9f93f90ecb7e6879f21d8cb4b5ae875924b4b81efd4f590b87924eee"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.15/LingGlow-2.3.15-macOS.dmg",
-      "sha256": "ee59aa41e1bc84c28ec39d8f75469ac9c899fd0ce7d14707508d2a401262e133"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.16/LingGlow-2.3.16-macOS.dmg",
+      "sha256": "ee81171c9f93f90ecb7e6879f21d8cb4b5ae875924b4b81efd4f590b87924eee"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复 Codex 输入区重复挂件并统一为单一可见锚点；三个 Agent 的挂件仅在真实生成状态运动，空闲时暂停；补齐豆包 2.19.9 停止控件识别；移除 Codex 输入区多余直角边框，并重做清晰、简洁的圆形发送与停止按钮。",
-  "releaseNotesEn": "Fixes duplicate Codex composer mascots by using one visible anchor; pauses mascot motion while all three agents are idle; recognizes the Doubao 2.19.9 stop control; removes redundant square composer borders; and redesigns the send and stop controls as clear single-layer circular buttons."
+  "releaseNotes": "按每套皮肤分别计算 Codex 正文、弱化文字、发送与停止控件颜色，关键对比度不低于 4.5:1；会话正文使用无边框连续阅读层；未声明字体时保留原生字体；发送状态只识别一个可见主操作按钮，并修复隐藏旧 Send、取消上传和暂停录音等误判。",
+  "releaseNotesEn": "Computes Codex body, muted, send, and stop colors per skin with at least 4.5:1 contrast; adds a continuous borderless reading layer; preserves native fonts unless a skin explicitly declares one; and recognizes only one visible primary submit action while avoiding stale Send, cancel-upload, and pause-recording false positives."
 }
