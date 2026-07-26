@@ -1,19 +1,19 @@
 {
-  "version": "2.3.14",
-  "tag": "v2.3.14",
+  "version": "2.3.15",
+  "tag": "v2.3.15",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.14/LingGlow-2.3.14-macOS.dmg",
-      "sha256": "35009d30fdca346dd7d2300cb2090aa30f977e31aae655c043f6279b19ed6b92"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.15/LingGlow-2.3.15-macOS.dmg",
+      "sha256": "ee59aa41e1bc84c28ec39d8f75469ac9c899fd0ce7d14707508d2a401262e133"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.14/LingGlow-2.3.14-macOS.dmg",
-      "sha256": "35009d30fdca346dd7d2300cb2090aa30f977e31aae655c043f6279b19ed6b92"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.15/LingGlow-2.3.15-macOS.dmg",
+      "sha256": "ee59aa41e1bc84c28ec39d8f75469ac9c899fd0ce7d14707508d2a401262e133"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "修复真实客户端验收误清除活动皮肤的问题并新增活动会话保护；恢复豆包 2.19.9 的双层皮肤背景；WorkBuddy 5.3.5 新建任务显示静止挂件，历史对话才启用按皮肤往返运动；滚动回程方向与走动、爬行、漂浮掉头朝向同步修正。",
-  "releaseNotesEn": "Prevents real-client QA from clearing an active skin; restores both Doubao 2.19.9 background layers; keeps the WorkBuddy 5.3.5 New Task mascot stationary while enabling per-theme traversal only in conversation history; and corrects return rotation and turn-around direction for all supported motions."
+  "releaseNotes": "修复 Codex 输入区重复挂件并统一为单一可见锚点；三个 Agent 的挂件仅在真实生成状态运动，空闲时暂停；补齐豆包 2.19.9 停止控件识别；移除 Codex 输入区多余直角边框，并重做清晰、简洁的圆形发送与停止按钮。",
+  "releaseNotesEn": "Fixes duplicate Codex composer mascots by using one visible anchor; pauses mascot motion while all three agents are idle; recognizes the Doubao 2.19.9 stop control; removes redundant square composer borders; and redesigns the send and stop controls as clear single-layer circular buttons."
 }

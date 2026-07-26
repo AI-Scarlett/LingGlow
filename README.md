@@ -11,14 +11,14 @@
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 当前公开版本：2.3.14
+## 当前公开版本：2.3.15
 
-- 真实客户端验收新增活动会话保护，不再在测试结束时误清除用户正在使用的皮肤。
-- 恢复豆包 2.19.9 的页面背景与会话主区域背景，两层均使用当前皮肤的本地素材。
-- WorkBuddy 5.3.5 新建任务显示静止挂件，只有进入历史对话后才沿输入框往返运动。
-- 挂件动画继续按每套皮肤独立执行；滚动回程方向，以及走动、爬行和漂浮的掉头朝向均已修正。
+- Codex 输入区只保留一个可见挂件锚点，修复新建任务和生成中出现双挂件的问题。
+- WorkBuddy、豆包与 Codex 的挂件仅在真实生成状态运动；空闲和无任务时暂停，减少持续动画开销。
+- 补齐豆包 2.19.9 的停止控件识别，生成时往返运动、停止后立即暂停。
+- 移除 Codex 输入区多余的直角边框，修复按钮文字对比度，并把发送、停止按钮改为清晰的单层圆形控件。
 
-[查看 LingGlow 2.3.14 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.14)
+[查看 LingGlow 2.3.15 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.15)
 
 ## 2026-07-23 Agent 科技核心与写实系列
 
@@ -56,7 +56,7 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- 下载当前 Release 中的 `LingGlow-2.3.14-macOS.dmg` 和 `SHA256SUMS`
+- 下载当前 Release 中的 `LingGlow-2.3.15-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
 
 只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
