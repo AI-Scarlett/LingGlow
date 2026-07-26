@@ -1,19 +1,19 @@
 {
-  "version": "2.3.13",
-  "tag": "v2.3.13",
+  "version": "2.3.14",
+  "tag": "v2.3.14",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.13/LingGlow-2.3.13-macOS.dmg",
-      "sha256": "6b9f244163557135457bae1585cb8a7fc1bed3195e69d2113b2ca0c3c3efcbd6"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.14/LingGlow-2.3.14-macOS.dmg",
+      "sha256": "35009d30fdca346dd7d2300cb2090aa30f977e31aae655c043f6279b19ed6b92"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.13/LingGlow-2.3.13-macOS.dmg",
-      "sha256": "6b9f244163557135457bae1585cb8a7fc1bed3195e69d2113b2ca0c3c3efcbd6"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.14/LingGlow-2.3.14-macOS.dmg",
+      "sha256": "35009d30fdca346dd7d2300cb2090aa30f977e31aae655c043f6279b19ed6b92"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "重新适配 WorkBuddy 5.3.5；统一优化 WorkBuddy、豆包与 Codex 的输入区、会话选中态和发送/停止按钮；挂件改为按皮肤横向移动并在边缘掉头；修复重复或固定挂件、单套永久授权文案歧义及解锁弹窗异常背景。",
-  "releaseNotesEn": "Adds verified WorkBuddy 5.3.5 support; refines composer framing, selected conversations, and send/stop controls across WorkBuddy, Doubao, and Codex; makes mascots traverse and turn around per theme; and fixes duplicate or stationary mascots, single-theme entitlement wording, and the oversized unlock dialog background."
+  "releaseNotes": "修复真实客户端验收误清除活动皮肤的问题并新增活动会话保护；恢复豆包 2.19.9 的双层皮肤背景；WorkBuddy 5.3.5 新建任务显示静止挂件，历史对话才启用按皮肤往返运动；滚动回程方向与走动、爬行、漂浮掉头朝向同步修正。",
+  "releaseNotesEn": "Prevents real-client QA from clearing an active skin; restores both Doubao 2.19.9 background layers; keeps the WorkBuddy 5.3.5 New Task mascot stationary while enabling per-theme traversal only in conversation history; and corrects return rotation and turn-around direction for all supported motions."
 }
