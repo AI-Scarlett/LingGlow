@@ -206,7 +206,7 @@
 
 - ID: `baxian-han-xiangzi`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、韩湘子、流云、电影、免费、浅色、featured、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、韩湘子、流云、电影、免费、浅色、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -216,7 +216,7 @@
 
 - ID: `baxian-cao-guojiu`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、曹国舅、玉板、电影、免费、浅色、featured、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、曹国舅、玉板、电影、免费、浅色、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -226,7 +226,7 @@
 
 - ID: `baxian-lan-caihe`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、蓝采和、花篮、电影、免费、浅色、featured、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、蓝采和、花篮、电影、免费、浅色、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -236,7 +236,7 @@
 
 - ID: `baxian-zhang-guolao`
 - 类型: 免费 / 深色
-- 分类: fantasy / baxian-movie / 八仙、张果老、仙驴、电影、免费、深色、featured、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、张果老、仙驴、电影、免费、深色、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -246,7 +246,7 @@
 
 - ID: `baxian-ensemble`
 - 类型: 免费 / 浅色
-- 分类: fantasy / baxian-movie / 八仙、群像、过海、有求必应、电影、免费、featured、label:anime-ip
+- 分类: fantasy / baxian-movie / 八仙、群像、过海、有求必应、电影、免费、label:anime-ip
 - 标签分类: anime-ip
 - Agent: workbuddy、doubao、codex
 
@@ -256,7 +256,7 @@
 
 - ID: `agent-codex-terminal-orbit`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、Codex CLI、智能核心舱、算力核心、无人物、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、Codex CLI、智能核心舱、算力核心、无人物、VIP、深色、featured、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
@@ -266,7 +266,7 @@
 
 - ID: `agent-claude-code-clay`
 - 类型: VIP / 浅色
-- 分类: minimal / agent-cli / Agent、Claude Code、光子推理舱、算力核心、无人物、VIP、浅色、label:other
+- 分类: minimal / agent-cli / Agent、Claude Code、光子推理舱、算力核心、无人物、VIP、浅色、featured、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 
@@ -286,7 +286,7 @@
 
 - ID: `agent-openclaw-gateway`
 - 类型: VIP / 深色
-- 分类: minimal / agent-cli / Agent、OpenClaw、赤爪编排核心、机器人控制、无人物、VIP、深色、label:other
+- 分类: minimal / agent-cli / Agent、OpenClaw、赤爪编排核心、机器人控制、无人物、VIP、深色、featured、label:other
 - 标签分类: other
 - Agent: workbuddy、doubao、codex
 

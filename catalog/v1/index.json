@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026.07.23.1",
-  "generatedAt": "2026-07-23T11:40:29.109Z",
+  "catalogVersion": "2026.07.26.1",
+  "generatedAt": "2026-07-26T06:16:50.674Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
@@ -919,7 +919,6 @@
         "电影",
         "免费",
         "浅色",
-        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -967,7 +966,6 @@
         "电影",
         "免费",
         "浅色",
-        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -1015,7 +1013,6 @@
         "电影",
         "免费",
         "浅色",
-        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -1063,7 +1060,6 @@
         "电影",
         "免费",
         "深色",
-        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -1111,7 +1107,6 @@
         "有求必应",
         "电影",
         "免费",
-        "featured",
         "label:anime-ip"
       ],
       "preview": {
@@ -1160,6 +1155,7 @@
         "无人物",
         "VIP",
         "深色",
+        "featured",
         "label:other"
       ],
       "preview": {
@@ -1208,6 +1204,7 @@
         "无人物",
         "VIP",
         "浅色",
+        "featured",
         "label:other"
       ],
       "preview": {
@@ -1304,6 +1301,7 @@
         "无人物",
         "VIP",
         "深色",
+        "featured",
         "label:other"
       ],
       "preview": {
