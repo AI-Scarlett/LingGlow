@@ -1,19 +1,19 @@
 {
-  "version": "2.3.16",
-  "tag": "v2.3.16",
+  "version": "2.3.17",
+  "tag": "v2.3.17",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.16/LingGlow-2.3.16-macOS.dmg",
-      "sha256": "ee81171c9f93f90ecb7e6879f21d8cb4b5ae875924b4b81efd4f590b87924eee"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.17/LingGlow-2.3.17-macOS.dmg",
+      "sha256": "f6df69b41370c94f3b58e8a12ff6ae1f34c6fb1f1202b199abf87a0ad71dad6c"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.16/LingGlow-2.3.16-macOS.dmg",
-      "sha256": "ee81171c9f93f90ecb7e6879f21d8cb4b5ae875924b4b81efd4f590b87924eee"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.17/LingGlow-2.3.17-macOS.dmg",
+      "sha256": "f6df69b41370c94f3b58e8a12ff6ae1f34c6fb1f1202b199abf87a0ad71dad6c"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "按每套皮肤分别计算 Codex 正文、弱化文字、发送与停止控件颜色，关键对比度不低于 4.5:1；会话正文使用无边框连续阅读层；未声明字体时保留原生字体；发送状态只识别一个可见主操作按钮，并修复隐藏旧 Send、取消上传和暂停录音等误判。",
-  "releaseNotesEn": "Computes Codex body, muted, send, and stop colors per skin with at least 4.5:1 contrast; adds a continuous borderless reading layer; preserves native fonts unless a skin explicitly declares one; and recognizes only one visible primary submit action while avoiding stale Send, cancel-upload, and pause-recording false positives."
+  "releaseNotes": "Codex 仅在真实新建任务首页显示专属 3:1 横幅，并保留每套皮肤的位置与透明度意图；18 套 Theme Pack 为 WorkBuddy/豆包改用独立 1920 × 1080 Hero；Skin Skill 补充 Codex 首页构图、原生布局保护、第三方来源与伪 UI 禁止规则。",
+  "releaseNotesEn": "Shows the dedicated 3:1 Codex banner only on a genuine new-task home view while preserving each skin's position and opacity intent; gives 18 Theme Packs independent 1920 x 1080 WorkBuddy/Doubao heroes; and expands the Skin Skill with Codex hero composition, native-layout protection, provenance, and fake-UI gates."
 }

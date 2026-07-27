@@ -1,14 +1,34 @@
 {
-  "version": "2026.07.22-v7",
+  "version": "2026.07.22-v8",
   "targetClientId": "codex",
   "appearanceMode": "dark",
   "artwork": {
     "globalBackground": null,
     "homeArtwork": null,
-    "homeArtworkRatio": "3:1"
+    "homeArtworkRatio": "3:1",
+    "homeHero": {
+      "bannerPosition": null,
+      "bannerOpacity": null,
+      "derivedSafeArea": null,
+      "derivedFocusX": null,
+      "derivedFocusY": 0.5,
+      "derivedTaskMode": null,
+      "runtimeFit": "cover",
+      "persistence": "authoring hints only; persist image/position/opacity through existing advanced.banner fields"
+    }
   },
   "copy": {
     "homeTitle": null
+  },
+  "paletteGuidance": {
+    "contrast": null,
+    "temperature": null
+  },
+  "provenance": {
+    "source": null,
+    "license": null,
+    "redistribution": null,
+    "unofficialFanMade": null
   },
   "surfaces": {
     "page": "transparent",
@@ -43,5 +63,15 @@
       "states": ["idle", "hover", "focus", "pressed", "running", "disabled", "reduced-motion"]
     }
   },
-  "requiredStates": ["selected", "hover", "focus", "disabled", "warning", "error"]
+  "requiredStates": ["selected", "hover", "focus", "disabled", "warning", "error"],
+  "fieldGuide": {
+    "artwork.homeHero": "authoring and QA record only; these derived values are not union-profile fields",
+    "artwork.homeHero.bannerPosition": "copy the persisted advanced.banner.position value: top-right|bottom-right|top-center",
+    "artwork.homeHero.bannerOpacity": "copy the persisted advanced.banner.opacity value; runtime derives a bounded directional scrim strength",
+    "artwork.homeHero.derivedSafeArea": "top-right/bottom-right => left; top-center => center; place the focal subject opposite the safe area",
+    "artwork.homeHero.derivedFocusX": "top-right/bottom-right => 0.72; top-center => 0.5; image saliency is QA-only and does not override this author signal",
+    "artwork.homeHero.derivedTaskMode": "dedicated banner image => banner; global image only => ambient; no art => off-by-absence",
+    "paletteGuidance": "derivation hints only; contrast soft|normal|high, temperature cool|neutral|warm. Does NOT replace appearanceMode or the nine explicit semantic colors (contract 1)",
+    "provenance": "required before publish; source/license/redistribution are non-empty strings, unofficialFanMade is boolean (contracts 13/28)"
+  }
 }
