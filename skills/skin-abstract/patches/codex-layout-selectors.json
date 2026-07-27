@@ -1,13 +1,36 @@
 {
-  "version": "2026.07.22-v7",
+  "version": "2026.07.22-v8",
   "clientId": "codex",
   "selectorPolicy": {
     "prefer": ["data attributes", "ARIA roles", "native state attributes"],
-    "avoid": ["hashed class names as sole selector", "blanket descendant text rules", "per-text backgrounds", "global z-index promotion"]
+    "avoid": ["hashed class names as sole selector", "blanket descendant text rules", "per-text backgrounds", "global z-index promotion", "positional child selectors such as div:first-child / div:nth-child(n)", "layout classes that reorder native home DOM"]
+  },
+  "teardownPolicy": {
+    "everyAttributeWrittenMustBeListedInCleanup": true,
+    "noHostLocalStorageWrites": true,
+    "noResidentTimers": true,
+    "installTokenGuardRequired": true
   },
   "layerPolicy": {
     "globalBackground": {"owner": "body::before", "position": "fixed", "pointerEvents": "none", "singleLayer": true},
-    "homeArtwork": {"scope": "native-home-hero-only", "preserveGeometry": true},
+    "homeArtwork": {
+      "scope": "native-home-hero-only",
+      "preserveGeometry": true,
+      "authoringSource": "advanced.banner.position and advanced.banner.opacity",
+      "mapping": {"top-right": "safe-left-focus-0.72", "bottom-right": "safe-left-focus-0.72", "top-center": "safe-center-focus-0.5"},
+      "focusVariables": ["--dream-art-focus-x", "--dream-art-focus-y", "--dream-skin-art-position", "--ds-focus-x", "--ds-focus-y"],
+      "safeAreaAttributes": ["data-dream-art-safe-area", "data-dream-art-safe"],
+      "taskModeAttributes": ["data-dream-task-mode", "data-dream-art-task-mode"],
+      "scrim": {
+        "variable": "--ds-hero-scrim",
+        "kind": "directional-gradient",
+        "perSafeArea": true,
+        "perShell": true,
+        "forbidFullPageVeil": true
+      }
+    },
+    "decorationLayer": {"pointerEvents": "none", "mustNotShieldNativeControls": true},
+    "rightPanelFocusFallback": {"selector": "body:has([data-app-shell-focus-area=right-panel])::before", "position": "right center", "mustMatchFocusX": true},
     "conversationRoots": {"selectors": ["main.main-surface", "[data-app-shell-main-content-layout]"], "surface": "transparent"},
     "threadFooterFade": {"scope": "[data-thread-scroll-footer]", "surface": "edge-fade", "maxOpacity": 0.38, "mustReachTransparent": true},
     "rightPanel": {"pointerEvents": "auto", "mustRemainInteractive": true, "surface": "local-opaque"}
@@ -20,6 +43,17 @@
     "forbidBlanketDescendantOverride": true
   },
   "textSurfacePolicy": {"plainTextBackground": "none", "paintStructuralParent": true, "preserveControls": true},
+  "conversationTextPolicy": {
+    "textWrapperAnchors": ["[class*=\"_markdownContent_\"]", "[class*=\"_markdownText_\"]", ".loading-shimmer-pure-text", "[class*=\"_cadencedShimmer\"]", ".group/activity-header", "[class*=\"_homeUtilityBar_\"]"],
+    "plainTextBackground": "none",
+    "resolveInkAgainst": "effective-painted-surface",
+    "forbidPerTextBackground": true
+  },
+  "overlayPolicy": {
+    "selectors": ["[role=\"dialog\"]", "[role=\"tooltip\"]", "[data-sonner-toaster]", "[data-testid*=\"toast\"]"],
+    "surface": "opaque-contrast-safe",
+    "contrastSafeSurface": true
+  },
   "actionControlPolicy": {
     "selectors": ["[data-lingglow-codex-control=send]", "[data-lingglow-codex-control=stop]"],
     "sendToken": "accent",

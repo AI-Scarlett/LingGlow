@@ -11,14 +11,14 @@
 
 > 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
 
-## 当前公开版本：2.3.16
+## 当前公开版本：2.3.17
 
-- Codex 会话正文使用无边框、无阴影的连续阅读层，复杂皮肤背景上不再出现文字忽明忽暗。
-- 正文、弱化文字、强调控件与停止控件按每套皮肤独立计算，关键颜色组合保持至少 4.5:1 对比度。
-- 皮肤未声明字体时保留 Codex 原生界面与代码字体，不再把统一字体规则扩散到 WorkBuddy 和豆包。
-- 发送与停止按钮统一为 40 × 40 的皮肤化圆角控件；状态识别只锁定一个可见主操作按钮，避免隐藏旧 Send 和普通操作误判。
+- Codex 新建任务页只在真实、可见且没有会话内容的首页区域显示 3:1 专属横幅，历史会话不再被隐藏或残留首页节点误触发。
+- Codex 横幅保留每套皮肤的 `banner.position` 与 `banner.opacity` 构图意图，并通过新的运行时摘要避免复用旧注入。
+- 18 套现有 Theme Pack 完成跨端素材修正：Codex 保留独立 3:1 横幅，WorkBuddy 与豆包改用独立 1920 × 1080 Hero。
+- Skin Skill 新增 Codex 首页构图、原生布局保护、第三方素材来源与伪 UI 禁止规则；安装包同时携带完整第三方声明。
 
-[查看 LingGlow 2.3.16 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.16)
+[查看 LingGlow 2.3.17 完整更新说明](https://github.com/AI-Scarlett/LingGlow/releases/tag/v2.3.17)
 
 ## 2026-07-23 Agent 科技核心与写实系列
 
@@ -56,7 +56,7 @@
 
 前往 [GitHub Releases](https://github.com/AI-Scarlett/LingGlow/releases/latest)：
 
-- 下载当前 Release 中的 `LingGlow-2.3.16-macOS.dmg` 和 `SHA256SUMS`
+- 下载当前 Release 中的 `LingGlow-2.3.17-macOS.dmg` 和 `SHA256SUMS`
 - 系统要求：macOS 13 或更高版本
 
 只从本仓库的正式 Release 下载。DMG 与 App 使用 Developer ID 签名并附加 Apple 公证票据；完整步骤见 [安装与使用手册](docs/USER-GUIDE.md)。
