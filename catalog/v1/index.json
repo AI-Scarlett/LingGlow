@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026.07.26.1",
-  "generatedAt": "2026-07-26T06:16:50.674Z",
+  "catalogVersion": "2026.07.28.1",
+  "generatedAt": "2026-07-28T02:20:52.068Z",
   "minimumAppVersion": "2.2.1",
   "skins": [
     {
@@ -345,8 +345,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/aurora-free.lingglow-skin.json",
-        "sha256": "cef745ee661d6fec23a794f45cf9f2fe5758bfbfd85f2cde065319231de4981f",
-        "bytes": 836830
+        "sha256": "d3284987062f3c8e3ffdbb9da255834f42d36c282fb77adbca619037a9d90380",
+        "bytes": 852975
       }
     },
     {
@@ -389,8 +389,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/amber-free.lingglow-skin.json",
-        "sha256": "37133c210ed7ef1a8d04135945cf1e43ad29de5745887c29c3416c639acdc716",
-        "bytes": 616005
+        "sha256": "4b60773f001190888f69dd4ee8d4957c077495efdaf07a32e5e90842b826891a",
+        "bytes": 632941
       }
     },
     {
@@ -433,8 +433,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-gothic-void.lingglow-skin.json",
-        "sha256": "ea628645eb0df510a5e37ce407f65fcdecc288f4db8fecc9cbb6ab02eb3f5722",
-        "bytes": 1151088
+        "sha256": "0cfd71b917d7f5d82ca19449c5679cb92b534f97a52d749a558fffc4045161fa",
+        "bytes": 1484171
       }
     },
     {
@@ -477,8 +477,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/dream-portal-free.lingglow-skin.json",
-        "sha256": "4055712888c3fb56b65a2ada85c5d564bdbb807f884b787c05707f5b45abe745",
-        "bytes": 689608
+        "sha256": "15b2d06737e368b9c00d60a41a50a562fe2bd44f284e70e28ff449c935b68b91",
+        "bytes": 876567
       }
     },
     {
@@ -521,8 +521,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/cr7-portugal.lingglow-skin.json",
-        "sha256": "f251383a44391366dba78a302c919df76238c26c72abee5a15b3c1f5c37381b9",
-        "bytes": 1900123
+        "sha256": "5a5efdeef879998369361ad2cf2dd1849e3726ab0bc208cbaeb5f40b0abb8f5c",
+        "bytes": 2196801
       }
     },
     {
@@ -565,8 +565,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/messi-argentina.lingglow-skin.json",
-        "sha256": "b147ba05610b34c4c11bb889e9aa80122ddbae914474ed9ee51bd2001686d25e",
-        "bytes": 764866
+        "sha256": "93ba7466abd4b0cf603ae67b771b0b0226e1ecc60b7e21fb92ca93e5bf02b543",
+        "bytes": 1042807
       }
     },
     {
@@ -609,8 +609,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/neymar-brazil.lingglow-skin.json",
-        "sha256": "7af74147675f83e2a4b508023142df4272b4bc2c91fbe8ae98ad013ad3318eaa",
-        "bytes": 1300864
+        "sha256": "16f4f6fcf9997b0dde9650516e5f7dcc98a665703b6b0162c91a1a26a02df5dd",
+        "bytes": 1748847
       }
     },
     {
@@ -653,8 +653,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/kungfu-womens-football.lingglow-skin.json",
-        "sha256": "eeb879d9c3fdd66ed3acfe689ed0faa2314813bf8a3dc36a4f10ea5eff653109",
-        "bytes": 1795436
+        "sha256": "2291c7a013718402307f163d62e2297408b92047c4b171dfcbb32a81f9c03d1a",
+        "bytes": 2257792
       }
     },
     {
@@ -700,8 +700,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/spain-2026-champions.lingglow-skin.json",
-        "sha256": "48205db64fea74cf290e8596d782d6a3964f0905c5c8ac222751067c187f5043",
-        "bytes": 878771
+        "sha256": "563aa1b7145a4fb0ed2ce95edeec284c60c10d28c8a3ff820792061d15ca6815",
+        "bytes": 1191309
       }
     },
     {
@@ -748,8 +748,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-lu-dongbin.lingglow-skin.json",
-        "sha256": "0a1beb96f06bb371d81b02fea0bd52b9ac2695a3d156ccf00179646fb00dc7de",
-        "bytes": 1068040
+        "sha256": "f0580ccfe79ed23d1ff31eabad767a2eca62fac75e293f4c1aa27876b39fd7f8",
+        "bytes": 1466371
       }
     },
     {
@@ -796,8 +796,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-he-xiangu.lingglow-skin.json",
-        "sha256": "cf18f6e0792dd14849858927cf81bf5fc7d6e007be7c12046b50f20cc3b52820",
-        "bytes": 1046295
+        "sha256": "94497e126504a4eb59202f5592890fccaf4285db439054e771322e897584e8ee",
+        "bytes": 1361413
       }
     },
     {
@@ -844,8 +844,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-zhongli-quan.lingglow-skin.json",
-        "sha256": "944a8a0d9428088932409b1f57684365b9b9a14214993ffe32f89a5b3eaa2ed5",
-        "bytes": 1387570
+        "sha256": "b8601a84e635153a54709bb6a1d70b14ee9dfcef4acfe41e002449d229db485e",
+        "bytes": 1909399
       }
     },
     {
@@ -892,8 +892,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-tieguai-li.lingglow-skin.json",
-        "sha256": "73f64e892214f60c478160e032bc1b6c2cdd43c942283ceeb3e7095ba5037d72",
-        "bytes": 1328376
+        "sha256": "28853174bc1b70e1cb75fa9e9a9a0f4aa6b6c117e4029ce5111d6552d5d8ae55",
+        "bytes": 1756387
       }
     },
     {
@@ -939,8 +939,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-han-xiangzi.lingglow-skin.json",
-        "sha256": "133622d2eed86fea024bbcb9f2d8c56bd4e4a7e32ca414c9f5bb3accb3fa0c3c",
-        "bytes": 1052769
+        "sha256": "126d470d0caf19f2ac85bb54c7c61edfb3339084fdd8bdbc1a7ae8e4214e8d84",
+        "bytes": 1547049
       }
     },
     {
@@ -986,8 +986,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-cao-guojiu.lingglow-skin.json",
-        "sha256": "bb8d570536b102e7c8a3b61cd76414ca8519846a14577ceac4a818c51157e4aa",
-        "bytes": 1300524
+        "sha256": "bf7aebd27e786390cb052526f6482de6abae828dc6ed8d5e3339089e3b18232f",
+        "bytes": 1668323
       }
     },
     {
@@ -1033,8 +1033,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-lan-caihe.lingglow-skin.json",
-        "sha256": "486b26b467e90305e03db89afd5dc6cef4fa46c79ebd8ed8c96455d8a8937042",
-        "bytes": 1580707
+        "sha256": "b7cb1768a3619666cdc96134ec90b2b7a43c3b2aa164bab13edbfdfbb11588f1",
+        "bytes": 2039537
       }
     },
     {
@@ -1080,8 +1080,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-zhang-guolao.lingglow-skin.json",
-        "sha256": "ce763462ef70b295e17b8f38035d0641f781fad3816f0c8ba41bd8935e9f2612",
-        "bytes": 1421494
+        "sha256": "6451b46d59f3d1802caa06c25c15997a9f0918090ee004fbdc39c3244593f0ee",
+        "bytes": 1863871
       }
     },
     {
@@ -1127,8 +1127,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/baxian-ensemble.lingglow-skin.json",
-        "sha256": "137d580829f44149352b3bb5a28c8973cb21e26de07be10f09e9377388a0426a",
-        "bytes": 2236970
+        "sha256": "0c10db6e7a2f94ba361d71c445cd8da3f43ea3adf6cca7b82473f5339de89d92",
+        "bytes": 3096295
       }
     },
     {
@@ -1176,8 +1176,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-codex-terminal-orbit.lingglow-skin.json",
-        "sha256": "16ed8bc87bb60929c15ceaaaf0eea320fa77259ff0b856ac50c52596734a5c24",
-        "bytes": 1500982
+        "sha256": "c13ef3c7c8b49f65fe18c36e57b6b9ccb1471a46cc937f332d54a5a3911bbd7d",
+        "bytes": 1501058
       }
     },
     {
@@ -1225,8 +1225,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-claude-code-clay.lingglow-skin.json",
-        "sha256": "b52bf8fe09a259dc67c4118397ad71fe871eba09e3e7fdc25b5af7a1be220f5d",
-        "bytes": 1339762
+        "sha256": "c38c2fff9d6debd843de1260de118a2f982746c63f70e1f26ad000d320ffb658",
+        "bytes": 1339834
       }
     },
     {
@@ -1273,8 +1273,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-grok-singularity.lingglow-skin.json",
-        "sha256": "feb88a7f0debf1bf3511254a277a1963e3dfef3877d2e0cc2d9ca5c67a96fb1a",
-        "bytes": 1241846
+        "sha256": "023fbdb6531e764df2e55d2e0d22485798bbfddf91217c8a1420b41c30818f09",
+        "bytes": 1241918
       }
     },
     {
@@ -1322,8 +1322,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-openclaw-gateway.lingglow-skin.json",
-        "sha256": "b21648b512a5d7a75dd49f431dbf71cc4ee1b2e48a58dac4a30727aaa8c629b0",
-        "bytes": 1064086
+        "sha256": "163bac98cb3244bd9387d9f766763ba552e9b40ce243fd97c71dcc3d3c9a015a",
+        "bytes": 1064158
       }
     },
     {
@@ -1370,8 +1370,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-hermes-memory.lingglow-skin.json",
-        "sha256": "081e11b9255f3c912c38425e180202e60963ac59f7768b35f5791d934f41db63",
-        "bytes": 1641365
+        "sha256": "e504152ea8bd9c08e75d106b1e00c976aebba2ac4046751ade5a2e4eafdc7ea5",
+        "bytes": 1641437
       }
     },
     {
@@ -1418,8 +1418,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-cursor-cube.lingglow-skin.json",
-        "sha256": "f2039a839c3e5b095e516b682f841d73bb16da50a940bbe9340a0c40e9531742",
-        "bytes": 1183763
+        "sha256": "9369606b776a72da07c11b13745f69f139b29131934308bb236e545c9cd7c0d4",
+        "bytes": 1183835
       }
     },
     {
@@ -1466,8 +1466,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-antigravity-orbit-lab.lingglow-skin.json",
-        "sha256": "67b083bfc44e59af85de631d7e6def8bb38c8bd987f8c881c63a1f35ee436cca",
-        "bytes": 1876257
+        "sha256": "59901d9a1923fab78943b4710578fddc1fdd5940d5d4255bb904fe3470170180",
+        "bytes": 1876329
       }
     },
     {
@@ -1514,8 +1514,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-github-copilot-cockpit.lingglow-skin.json",
-        "sha256": "891545e96f226ee5a0fa0af700d4c6100f497e5ba4d9874f968d39d6f0516001",
-        "bytes": 1449864
+        "sha256": "d095e6322d41db4a661c85bd8e98bb5ac61d826b31b03851fa273dd2ebe659f7",
+        "bytes": 1449940
       }
     },
     {
@@ -1562,8 +1562,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-qwen-code-lab.lingglow-skin.json",
-        "sha256": "3de24362cbe36c1e1e512cae4b04c4868c56e1cab87676e34e2c0e1cb5847ecc",
-        "bytes": 2375777
+        "sha256": "d6fdb8f2cd1b5a93c763a95a330fe474bc6f2022f07679d522921a90328459a5",
+        "bytes": 2375849
       }
     },
     {
@@ -1610,8 +1610,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/agent-kimi-code-moonlab.lingglow-skin.json",
-        "sha256": "f75372c7fd4a056af671cde1355df26fd281d27eee590978596bc02ed9e686e0",
-        "bytes": 1628313
+        "sha256": "9a049d9198b9f9d0ad87586c202c6450fd503d276687badfb2ead9dc95bfe00b",
+        "bytes": 1628385
       }
     },
     {
@@ -1656,8 +1656,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/einstein-relativity.lingglow-skin.json",
-        "sha256": "519df9dc0e0e296d29a6bf407a84ea408762ca017dead0a3b99da7aa56c4636c",
-        "bytes": 820177
+        "sha256": "815be8acc4ff8a61bd00d28fd236d360a749bad62a879ebd577617c8c02277d3",
+        "bytes": 820253
       }
     },
     {
@@ -1702,8 +1702,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/honor-canyon-inspired.lingglow-skin.json",
-        "sha256": "c07c0c716cb5e5effa1849ed075dca8069b005cbbafa6352678c568dd3e9219d",
-        "bytes": 1408079
+        "sha256": "f2f6be5b9f7e03a4895da63e85798b93eb9a54d49610055b9505af9f072c3275",
+        "bytes": 1408151
       }
     },
     {
@@ -1748,8 +1748,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/last-circle-inspired.lingglow-skin.json",
-        "sha256": "7333feb72804a5f1d91ac33e20560dcb0de857cbedd124018913d6a8ce5e87da",
-        "bytes": 1073264
+        "sha256": "2af21662a0edb6f2e757a0f2dd3cec36d1a9883f1916f4e16d001021c213b947",
+        "bytes": 1073336
       }
     },
     {
@@ -1794,8 +1794,8 @@
       },
       "package": {
         "url": "https://github.com/AI-Scarlett/LingGlow/releases/download/skin-catalog-v1/radiant-arena-inspired.lingglow-skin.json",
-        "sha256": "039db04244e572f6a9fd8accac5f24bed5154b3b7b938379cc3574ede8834c01",
-        "bytes": 926818
+        "sha256": "58c4fedddc106f32900e79bb72e1e0b06a96ddd4682d931bede669852bf4c27a",
+        "bytes": 926890
       }
     }
   ]
