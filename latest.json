@@ -1,19 +1,19 @@
 {
-  "version": "2.3.17",
-  "tag": "v2.3.17",
+  "version": "2.3.18",
+  "tag": "v2.3.18",
   "artifacts": {
     "arm64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.17/LingGlow-2.3.17-macOS.dmg",
-      "sha256": "f6df69b41370c94f3b58e8a12ff6ae1f34c6fb1f1202b199abf87a0ad71dad6c"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.18/LingGlow-2.3.18-macOS.dmg",
+      "sha256": "f0066a88c37a34caf19c3243e37a12584e6cdf9056ea476cba994d697e60cd5e"
     },
     "x86_64": {
-      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.17/LingGlow-2.3.17-macOS.dmg",
-      "sha256": "f6df69b41370c94f3b58e8a12ff6ae1f34c6fb1f1202b199abf87a0ad71dad6c"
+      "dmgURL": "https://github.com/AI-Scarlett/LingGlow/releases/download/v2.3.18/LingGlow-2.3.18-macOS.dmg",
+      "sha256": "f0066a88c37a34caf19c3243e37a12584e6cdf9056ea476cba994d697e60cd5e"
     }
   },
   "bundleIdentifier": "local.skin-studio.menubar",
   "teamIdentifier": "UQ87N2WZ76",
   "minimumSystemVersion": "13.0",
-  "releaseNotes": "Codex 仅在真实新建任务首页显示专属 3:1 横幅，并保留每套皮肤的位置与透明度意图；18 套 Theme Pack 为 WorkBuddy/豆包改用独立 1920 × 1080 Hero；Skin Skill 补充 Codex 首页构图、原生布局保护、第三方来源与伪 UI 禁止规则。",
-  "releaseNotesEn": "Shows the dedicated 3:1 Codex banner only on a genuine new-task home view while preserving each skin's position and opacity intent; gives 18 Theme Packs independent 1920 x 1080 WorkBuddy/Doubao heroes; and expands the Skin Skill with Codex hero composition, native-layout protection, provenance, and fake-UI gates."
+  "releaseNotes": "修复豆包 2.19.9 输入框挂件固定不动与复杂背景文字难读的问题；三端挂件按真实输入框宽度往返，只在 Agent 生成回复时运行，空闲或后台立即暂停；动画改用合成层位移，并限制豆包运行时扫描范围以减少卡顿。",
+  "releaseNotesEn": "Fixes the stationary Doubao 2.19.9 composer mascot and unreadable text on complex artwork; makes each Agent's mascot traverse the measured composer only while a response is being generated and pause when idle or backgrounded; and reduces layout work and Doubao runtime scanning."
 }
