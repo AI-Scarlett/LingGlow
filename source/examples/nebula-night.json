@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula-night",
+  "name": "星云夜色",
+  "official": {
+    "variant": "dark",
+    "codeThemeId": "codex",
+    "accent": "#7AA2F7",
+    "surface": "#111827",
+    "ink": "#E5E7EB",
+    "contrast": 45,
+    "fonts": {
+      "code": "SF Mono",
+      "ui": null
+    },
+    "opaqueWindows": true,
+    "semanticColors": {
+      "diffAdded": "#22C55E",
+      "diffRemoved": "#EF4444",
+      "skill": "#A78BFA"
+    }
+  },
+  "advanced": {
+    "enabled": true,
+    "background": {
+      "image": null,
+      "opacity": 0.55,
+      "overlay": 0.58,
+      "blur": 0,
+      "position": "center"
+    },
+    "banner": {
+      "enabled": false,
+      "image": null,
+      "opacity": 0.45,
+      "height": 112,
+      "width": 720,
+      "position": "top-center"
+    },
+    "glass": {
+      "enabled": true,
+      "opacity": 0.74,
+      "blur": 18
+    },
+    "radius": 16,
+    "motion": "subtle",
+    "sidebarWidth": 275
+  }
+}

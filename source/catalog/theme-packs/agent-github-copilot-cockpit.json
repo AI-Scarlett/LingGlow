@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-github-copilot-cockpit",
+  "name": "GitHub Copilot CLI·代码协同核心",
+  "description": "无人物设计；以 Copilot 机器人形协同核心、仓库拓扑与多屏代码数据面为主视觉的三端 VIP 主题；非官方粉丝创作，与 GitHub 无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-github-copilot-cockpit-preview"
+  },
+  "assets": {
+    "agent-github-copilot-cockpit-background": {
+      "slot": "background.main",
+      "path": "assets/agent-github-copilot-cockpit-background.webp",
+      "sha256": "3cfb5df17751acb18dd497eac19d248f9d08462c1df1278ab4ccaa33d9ad22a1"
+    },
+    "agent-github-copilot-cockpit-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-github-copilot-cockpit-hero.webp",
+      "sha256": "4136e1c5509c1e766d407fe8c26a7823702358c57b9c43be840da11fca29f83b"
+    },
+    "agent-github-copilot-cockpit-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-github-copilot-cockpit-banner.webp",
+      "sha256": "e57ec9478da0e6c96fe813a1ab23ed7ac8953e502d68ed5e10ca159a0b8eca02"
+    },
+    "agent-github-copilot-cockpit-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-github-copilot-cockpit-hero.webp",
+      "sha256": "4136e1c5509c1e766d407fe8c26a7823702358c57b9c43be840da11fca29f83b"
+    },
+    "agent-github-copilot-cockpit-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-github-copilot-cockpit-avatar.webp",
+      "sha256": "7c6325a93e593f66e6325a8c32fac164f7a95a986f69692f32c189d015686b60"
+    },
+    "agent-github-copilot-cockpit-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-github-copilot-cockpit-mascot.webp",
+      "sha256": "511cf997fc97d9a08dbfb13f2ca976d6e57995b27d60aaad5a9c087257c10860"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#9B7CFF",
+    "appearance.surface": "#0D0D14",
+    "appearance.ink": "#F7F5FF",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#B59DFF",
+    "background.image": {
+      "assetId": "agent-github-copilot-cockpit-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "GitHub Copilot",
+    "brand.shortMark": "GC",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": {
+      "assetId": "agent-github-copilot-cockpit-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-github-copilot-cockpit-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-github-copilot-cockpit-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-github-copilot-cockpit-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-github-copilot-cockpit-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#9B7CFF",
+      "appearance.surface": "#0D0D14",
+      "appearance.ink": "#F7F5FF",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#9B7CFF",
+      "appearance.surface": "#0D0D14",
+      "appearance.ink": "#F7F5FF",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#9B7CFF",
+      "appearance.surface": "#0D0D14",
+      "appearance.ink": "#F7F5FF",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

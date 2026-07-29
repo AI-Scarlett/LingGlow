@@ -1,0 +1,21 @@
+{
+  "name": "@lingglow/commerce-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fail-closed trusted Dodo commerce and entitlement service for LingGlow.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/main.mjs",
+    "check": "node --check src/main.mjs",
+    "test": "node --test test/*.test.mjs",
+    "migrate": "node scripts/migrate.mjs",
+    "migrations:list": "node scripts/list-migrations.mjs"
+  },
+  "dependencies": {
+    "dodopayments": "2.42.2",
+    "pg": "8.22.0"
+  }
+}

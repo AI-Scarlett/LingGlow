@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "messi-argentina",
+  "name": "梅西灵感·阿根廷10号月光",
+  "description": "阿根廷天蓝、月白与银金黎明氛围；原创匿名 10 号背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "ocean",
+    "assetId": "m10-background-main"
+  },
+  "assets": {
+    "m10-background-main": {
+      "slot": "background.main",
+      "path": "assets/messi-argentina.webp",
+      "sha256": "96b90a688244702754f35c5fb8db30048f8a6b210aaa809c0cce125b7af5ae8d"
+    },
+    "m10-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/messi-argentina-home-hero.webp",
+      "sha256": "df7e14e50895e9e799ee58d97caa1863a4bccd7eb0fddc10438109936eed450d"
+    },
+    "m10-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/messi-argentina-hero.webp",
+      "sha256": "92b84fdb0e081679a437c1982e739f7189c1a0ffc5822289b858539cf730c94e"
+    },
+    "m10-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/messi-argentina-home-hero.webp",
+      "sha256": "df7e14e50895e9e799ee58d97caa1863a4bccd7eb0fddc10438109936eed450d"
+    },
+    "messi-argentina-workbuddy-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/messi-argentina-mascot.webp",
+      "sha256": "6e98fa4a05acebfc9e3a2ea5bd4bc90932b694705182ac2e0ede2a1800603e63"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#8BCBF1",
+    "appearance.surface": "#071526",
+    "appearance.ink": "#F5FAFF",
+    "appearance.contrast": 62,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#7FD5B6",
+    "semantic.diffRemoved": "#FF7B83",
+    "semantic.skill": "#E5C16A",
+    "background.image": {
+      "assetId": "m10-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.34,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.66,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "阿根廷 10 号",
+    "brand.shortMark": "M10",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": null,
+    "shape.radius": 22,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "m10-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "m10-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "m10-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "messi-argentina-workbuddy-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#73C6F2"
+    },
+    "doubao": {
+      "appearance.accent": "#E6C66E"
+    },
+    "codex": {
+      "appearance.accent": "#9CD8F5"
+    }
+  }
+}

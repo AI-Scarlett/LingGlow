@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "honor-canyon-inspired",
+  "name": "王者荣耀·云巅峡谷",
+  "description": "以写实王者峡谷、东方英雄群像与蓝红阵营建筑为核心的三端免费主题；非官方粉丝创作，与腾讯游戏无商业关联。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "honor-canyon-inspired-preview"
+  },
+  "assets": {
+    "honor-canyon-inspired-background": {
+      "slot": "background.main",
+      "path": "assets/honor-canyon-inspired-background.webp",
+      "sha256": "a40a07415a727bd874c545a7ca6e5e8dfdd0ae1f2ea3bf9424b4f6698cedefdb"
+    },
+    "honor-canyon-inspired-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/honor-canyon-inspired-hero.webp",
+      "sha256": "65d1d32c1a47d4e6569286192606924f482ffdb4f5b6edcbb169a56e439d1622"
+    },
+    "honor-canyon-inspired-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/honor-canyon-inspired-banner.webp",
+      "sha256": "6a4c7d80d36fefaa591274d01b53ef8ad622faa0fa33cd28cef7fa398fbbf759"
+    },
+    "honor-canyon-inspired-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/honor-canyon-inspired-hero.webp",
+      "sha256": "65d1d32c1a47d4e6569286192606924f482ffdb4f5b6edcbb169a56e439d1622"
+    },
+    "honor-canyon-inspired-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/honor-canyon-inspired-avatar.webp",
+      "sha256": "8129e997c903e33e981e29557cc3133f1ee7db114c4c10b2d8d23487a277726a"
+    },
+    "honor-canyon-inspired-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/honor-canyon-inspired-mascot.webp",
+      "sha256": "f6f2ac320767e18822c127ea55b6f2314bdef911d2ea90b41821e4ae214259c7"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#2E70B8",
+    "appearance.surface": "#EDF5F8",
+    "appearance.ink": "#18283A",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#356DA5",
+    "background.image": {
+      "assetId": "honor-canyon-inspired-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.1,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.86,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "王者荣耀",
+    "brand.shortMark": "王",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": {
+      "assetId": "honor-canyon-inspired-brand-icon"
+    },
+    "shape.radius": 22,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "honor-canyon-inspired-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "honor-canyon-inspired-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "honor-canyon-inspired-codex-banner"
+    },
+    "codex.banner.opacity": 0.52,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "honor-canyon-inspired-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#2E70B8",
+      "appearance.surface": "#EDF5F8",
+      "appearance.ink": "#18283A",
+      "background.overlay": 0.12,
+      "glass.opacity": 0.88
+    },
+    "doubao": {
+      "appearance.accent": "#2E70B8",
+      "appearance.surface": "#EDF5F8",
+      "appearance.ink": "#18283A",
+      "background.overlay": 0.14,
+      "glass.enabled": true,
+      "glass.opacity": 0.89,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#2E70B8",
+      "appearance.surface": "#EDF5F8",
+      "appearance.ink": "#18283A",
+      "background.overlay": 0.11,
+      "glass.opacity": 0.87
+    }
+  }
+}

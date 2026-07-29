@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-antigravity-orbit-lab",
+  "name": "Antigravity CLI·零重力算力舱",
+  "description": "无人物设计；以四色反重力算力核心、轨道机械臂与失重数据环为主视觉的三端 VIP 主题；非官方粉丝创作，与 Google 无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-antigravity-orbit-lab-preview"
+  },
+  "assets": {
+    "agent-antigravity-orbit-lab-background": {
+      "slot": "background.main",
+      "path": "assets/agent-antigravity-orbit-lab-background.webp",
+      "sha256": "3e1a8212ec95a81da516198abfe403e31c040c52107a1924f0d77bf5eb40503d"
+    },
+    "agent-antigravity-orbit-lab-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-antigravity-orbit-lab-hero.webp",
+      "sha256": "9930dacc1c7fe973b4b1fd17f6c43fb83dafcdd4dcbd7f7533fe71c6b5fb9563"
+    },
+    "agent-antigravity-orbit-lab-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-antigravity-orbit-lab-banner.webp",
+      "sha256": "4421330365db9e7d489b7ed2662c7fdbb1e89b1cc06000a7ef770d551ec1a0df"
+    },
+    "agent-antigravity-orbit-lab-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-antigravity-orbit-lab-hero.webp",
+      "sha256": "9930dacc1c7fe973b4b1fd17f6c43fb83dafcdd4dcbd7f7533fe71c6b5fb9563"
+    },
+    "agent-antigravity-orbit-lab-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-antigravity-orbit-lab-avatar.webp",
+      "sha256": "baaf183842061fa572156d144cb336f6ded0a937d0dd1d45d8795eb856dddfdb"
+    },
+    "agent-antigravity-orbit-lab-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-antigravity-orbit-lab-mascot.webp",
+      "sha256": "8ae91f6ef9d81fbf19ffac9708e13d9cb0cbd66577df4eaaca00d7924989cdfd"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#4A8BE8",
+    "appearance.surface": "#071426",
+    "appearance.ink": "#F1F7FF",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#74A8F0",
+    "background.image": {
+      "assetId": "agent-antigravity-orbit-lab-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "Antigravity CLI",
+    "brand.shortMark": "AG",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": {
+      "assetId": "agent-antigravity-orbit-lab-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-antigravity-orbit-lab-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-antigravity-orbit-lab-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "roll",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-antigravity-orbit-lab-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-antigravity-orbit-lab-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#4A8BE8",
+      "appearance.surface": "#071426",
+      "appearance.ink": "#F1F7FF",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#4A8BE8",
+      "appearance.surface": "#071426",
+      "appearance.ink": "#F1F7FF",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#4A8BE8",
+      "appearance.surface": "#071426",
+      "appearance.ink": "#F1F7FF",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

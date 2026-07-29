@@ -1,0 +1,53 @@
+# ---- 依赖 ----
+node_modules/
+
+# ---- 构建产物与发行包 ----
+# 打包好的 macOS 应用与 DMG/ZIP 发行包（由 scripts/package_macos_release.sh 生成）
+dist/
+灵妆.app/
+*.dmg
+
+# 内置 Node 运行时二进制（233M，由 scripts/fetch_node_runtime.mjs 按 manifest.json 的
+# SHA-256 重新下载校验，不入库以免仓库膨胀）
+native/Resources/NodeRuntime/*
+!native/Resources/NodeRuntime/manifest.json
+!native/Resources/NodeRuntime/README.md
+
+# SKILL 分发包（由 scripts/build_skin_distribution.mjs 生成，release/*-notes.md 与
+# github-public/ 下的目录数据仍然入库）
+release/*.zip
+
+# 官网 site/ 是一套独立维护的 git 仓库（自带 main 分支与提交历史，部署在
+# OpenAI Sites 平台）。它由自己的 .gitignore 管理，不并入本仓库，以免形成
+# 没有 .gitmodules 的 gitlink。改动请在 site/ 目录内单独提交。
+site/
+
+# ---- 本地工作目录与备份 ----
+.backups/
+work/
+tmp/
+.tmp-runtime-inspect/
+.tmp-*.mjs
+
+# 目标应用提取出的第三方样式表（来自 Codex/WorkBuddy 应用包内部，仅作适配参考，
+# 不属于本项目原创代码，不入库）
+/src-*.css
+/index-*.css
+
+# ---- 本地运行时状态 ----
+.workbuddy/
+
+# 个人本地设置（团队共享的设置应放在 .claude/settings.json）
+.claude/settings.local.json
+
+# ---- 环境与密钥 ----
+.env
+.env.*
+!.env.example
+!*.env.example
+
+# ---- macOS ----
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes

@@ -1,0 +1,20 @@
+{
+  "name": "lingglow",
+  "version": "2.3.18",
+  "private": true,
+  "type": "module",
+  "description": "LingGlow (灵妆), a local-only macOS theme and skin manager for AI assistants.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs dashboard --open",
+    "doctor": "node src/cli.mjs doctor",
+    "build:composer-mascots": "node scripts/build_composer_mascots.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:integration": "node tests/integration-isolated.mjs",
+    "test:workbuddy": "node tests/integration-workbuddy-isolated.mjs",
+    "test:doubao:skin": "node tests/integration-doubao-skin.mjs",
+    "test:doubao:isolated": "node tests/integration-doubao-isolated.mjs"
+  }
+}

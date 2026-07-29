@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "configId": "lingglow-live-YYYY-MM",
+  "environment": "live",
+  "issuedAt": "2026-01-01T00:00:00.000Z",
+  "expiresAt": "2026-12-31T00:00:00.000Z",
+  "accountPortalUrl": "https://account.example.com/store/",
+  "entitlementServiceBaseUrl": "https://entitlements.example.com/",
+  "productPortalUrls": {
+    "vip-monthly": "https://account.example.com/store/vip-monthly",
+    "vip-yearly": "https://account.example.com/store/vip-yearly",
+    "skin-permanent": "https://account.example.com/store/skin-permanent",
+    "custom-slot-permanent": "https://account.example.com/store/custom-slot-permanent"
+  },
+  "leaseSigningPublicKeySpki": "REPLACE_WITH_BASE64URL_DER_SPKI_ED25519_PUBLIC_KEY",
+  "signature": "REPLACE_WITH_ED25519_SIGNATURE_OVER_CANONICAL_PAYLOAD"
+}

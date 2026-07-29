@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "neymar-brazil",
+  "name": "内马尔灵感·巴西10号热浪",
+  "description": "巴西黄、翡翠绿与深蓝速度感；原创匿名 10 号动态背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "jade",
+    "assetId": "n10-background-main"
+  },
+  "assets": {
+    "n10-background-main": {
+      "slot": "background.main",
+      "path": "assets/neymar-brazil.webp",
+      "sha256": "c26515d02fe552482f908314ef02a0ed922928aa79816d6e1a6ff0152adab0b7"
+    },
+    "n10-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/neymar-brazil-home-hero.webp",
+      "sha256": "640c8fb4d646e7c6d558a94b3ecf88acecb49cd58143b4916a5aad989c0ed60c"
+    },
+    "n10-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/neymar-brazil-hero.webp",
+      "sha256": "5178317a12acc23de8c3864590772ec0f0910b47a1abcfe540bdfa2e12cc8f46"
+    },
+    "n10-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/neymar-brazil-home-hero.webp",
+      "sha256": "640c8fb4d646e7c6d558a94b3ecf88acecb49cd58143b4916a5aad989c0ed60c"
+    },
+    "neymar-brazil-workbuddy-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/neymar-brazil-mascot.webp",
+      "sha256": "2638324e1fef8ff8d66b19df4a5c5459f541440775b9871384419489a4445bf0"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#F6C945",
+    "appearance.surface": "#061A24",
+    "appearance.ink": "#F7F4D6",
+    "appearance.contrast": 60,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#3BD17F",
+    "semantic.diffRemoved": "#FF6B61",
+    "semantic.skill": "#4EB7FF",
+    "background.image": {
+      "assetId": "n10-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.37,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.67,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "巴西 10 号",
+    "brand.shortMark": "N10",
+    "brand.logoStyle": "tile",
+    "brand.iconImage": null,
+    "shape.radius": 18,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "n10-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "n10-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "n10-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "neymar-brazil-workbuddy-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#F5C842"
+    },
+    "doubao": {
+      "appearance.accent": "#29A66B"
+    },
+    "codex": {
+      "appearance.accent": "#4C93E8"
+    }
+  }
+}

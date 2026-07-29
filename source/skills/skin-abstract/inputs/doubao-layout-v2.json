@@ -1,0 +1,29 @@
+{
+  "version": "2026.07.20-v4",
+  "targetClientId": "doubao",
+  "appearanceMode": "dark",
+  "artwork": {
+    "globalBackground": null
+  },
+  "copy": {
+    "homeTitle": null
+  },
+  "surfaces": {
+    "page": "transparent",
+    "sidebar": "translucent",
+    "composer": "opaque-contrast-safe",
+    "messages": "transparent-or-semantic-surface",
+    "overlays": "opaque-contrast-safe"
+  },
+  "textSurfacePolicy": {
+    "resolveInkAgainst": "effective-painted-surface",
+    "plainTextBackground": "none",
+    "structuralBackdropOnly": true
+  },
+  "interaction": {
+    "decorativePointerEvents": "none",
+    "preserveNativeGeometry": true,
+    "preserveHistoryAndTabClicks": true
+  },
+  "requiredStates": ["selected", "hover", "focus", "disabled", "warning", "error"]
+}

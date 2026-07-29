@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "ocean-breeze",
+  "name": "海风浅蓝",
+  "description": "清爽明亮的海蓝色方案，适合白天和高亮环境。",
+  "tier": "free",
+  "clientIds": [
+    "codex",
+    "workbuddy"
+  ],
+  "preview": {
+    "gradientPreset": "ocean"
+  },
+  "profile": {
+    "official": {
+      "variant": "light",
+      "codeThemeId": "codex",
+      "accent": "#0284C7",
+      "surface": "#EAF7FF",
+      "ink": "#0C4A6E",
+      "contrast": 58,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#15803D",
+        "diffRemoved": "#DC2626",
+        "skill": "#7C3AED"
+      }
+    },
+    "advanced": {
+      "enabled": true,
+      "background": {
+        "image": null,
+        "opacity": 0.6,
+        "overlay": 0.38,
+        "blur": 0,
+        "position": "center"
+      },
+      "banner": {
+        "enabled": false,
+        "image": null,
+        "opacity": 0.4,
+        "height": 96,
+        "width": 680,
+        "position": "top-center"
+      },
+      "glass": {
+        "enabled": true,
+        "opacity": 0.9,
+        "blur": 12
+      },
+      "radius": 16,
+      "motion": "subtle",
+      "sidebarWidth": 280
+    }
+  },
+  "composerAvatarAsset": {
+    "kind": "composer-avatar-webp",
+    "path": "assets/ocean-breeze-mascot.webp",
+    "sha256": "93d491293f35033d78ac2bb763eddd042ce496b0fc43947775fcaeb5638f5035"
+  }
+}

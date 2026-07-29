@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-qwen-code-lab",
+  "name": "Qwen Code·紫曜推理核心",
+  "description": "无人物设计；以紫蓝多环语言推理核心、参数光路与编码终端矩阵为主视觉的三端 VIP 主题；非官方粉丝创作，与通义千问无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-qwen-code-lab-preview"
+  },
+  "assets": {
+    "agent-qwen-code-lab-background": {
+      "slot": "background.main",
+      "path": "assets/agent-qwen-code-lab-background.webp",
+      "sha256": "616a5436fbb85ae0f8ffd2b3fe710cd3cbdb6ba8edf82036b6b98f1b6fd0e37c"
+    },
+    "agent-qwen-code-lab-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-qwen-code-lab-hero.webp",
+      "sha256": "8956b340f431aaf7370be48b849dca8e5d3fbd3561965e7ab1b8223d421777e2"
+    },
+    "agent-qwen-code-lab-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-qwen-code-lab-banner.webp",
+      "sha256": "187b1536172892b520b5667be6496728a4e7abbcc6a567163e96df4cc0e75a66"
+    },
+    "agent-qwen-code-lab-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-qwen-code-lab-hero.webp",
+      "sha256": "8956b340f431aaf7370be48b849dca8e5d3fbd3561965e7ab1b8223d421777e2"
+    },
+    "agent-qwen-code-lab-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-qwen-code-lab-avatar.webp",
+      "sha256": "a2c3b6e33607bf7b8d193075bca36c3c5a04cf964ca0ea7830385c268da0875e"
+    },
+    "agent-qwen-code-lab-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-qwen-code-lab-mascot.webp",
+      "sha256": "2d30884c8c709888d706c31efb2f4dbfc218ac77d94d93a8264a97fe7a3ddbd1"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#8B6CFF",
+    "appearance.surface": "#0B0D27",
+    "appearance.ink": "#F5F3FF",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#AA91FF",
+    "background.image": {
+      "assetId": "agent-qwen-code-lab-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "Qwen Code",
+    "brand.shortMark": "QW",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": {
+      "assetId": "agent-qwen-code-lab-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-qwen-code-lab-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-qwen-code-lab-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-qwen-code-lab-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-qwen-code-lab-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#8B6CFF",
+      "appearance.surface": "#0B0D27",
+      "appearance.ink": "#F5F3FF",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#8B6CFF",
+      "appearance.surface": "#0B0D27",
+      "appearance.ink": "#F5F3FF",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#8B6CFF",
+      "appearance.surface": "#0B0D27",
+      "appearance.ink": "#F5F3FF",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

@@ -9,7 +9,7 @@
 
 灵妆让用户无需修改 Agent 源码，即可浏览、下载、更新和应用经过完整性校验的主题皮肤。它会根据目标客户端与深浅模式处理背景、文字、卡片、弹窗、输入框、首页专图与 WorkBuddy 机器人图片，并保留恢复官方原版的入口。
 
-> 本仓库只发布签名公证安装包、远程皮肤目录、皮肤预览、用户文档和皮肤制作 Skill，**不发布灵妆应用源码**。
+> 灵妆应用源码现已公开在 [`source/`](source/)，采用 MIT License。签名公证安装包仍通过 GitHub Releases 分发；本机凭据、发行证书、运行数据、构建产物和未审计的 QA 记录不进入公开源码。
 
 ## 当前公开版本：2.3.18
 
@@ -117,6 +117,7 @@ Yes. App updates and skin catalog updates use separate channels.
 
 ## Repository Contents
 
+- `source/`: LingGlow 应用源码、原生 macOS 客户端、运行时适配器、测试和构建脚本
 - `catalog/v1/`: remote catalog, metadata, and preview gallery
 - `skills/skin-abstract/`: reusable skin creation Skill
 - `docs/`: installation, creation, privacy, purchase, and product facts

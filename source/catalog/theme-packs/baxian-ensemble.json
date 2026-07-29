@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-ensemble",
+  "name": "八仙过海·有求必应",
+  "description": "取自动画电影《八仙！》八位主角群像造型的免费三端主题；琉璃海潮与欢乐同行。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-ensemble-background-main"
+  },
+  "assets": {
+    "baxian-ensemble-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-ensemble.webp",
+      "sha256": "d68f9d939c28dab37d2b0756c5cf3b1efe9ab0d7d4f439be27944147a2294c1f"
+    },
+    "baxian-ensemble-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-ensemble-home-hero.webp",
+      "sha256": "c525893873d2a06c2185e2f03303e5ff9874ec108e41cf28d9daa18ed1a6bc2f"
+    },
+    "baxian-ensemble-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-ensemble-hero.webp",
+      "sha256": "df49a97ebd36b8d21980c76777fa78e335178dcfe70dd86a305e358e3fe02570"
+    },
+    "baxian-ensemble-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-ensemble-home-hero.webp",
+      "sha256": "c525893873d2a06c2185e2f03303e5ff9874ec108e41cf28d9daa18ed1a6bc2f"
+    },
+    "baxian-ensemble-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-ensemble-mascot.webp",
+      "sha256": "4f1c89b5d52fb0312a88c6519c71ce6ad2dfc51f0251bb74e979209cd606228f"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#ED6A5A",
+    "appearance.surface": "#F6F1E9",
+    "appearance.ink": "#24323A",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#ED6A5A",
+    "background.image": {
+      "assetId": "baxian-ensemble-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.12,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.76,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "八仙过海·有求必应",
+    "brand.shortMark": "八仙",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-ensemble-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-ensemble-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-ensemble-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-ensemble-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#ED6A5A"
+    },
+    "doubao": {
+      "appearance.accent": "#ED6A5A"
+    },
+    "codex": {
+      "appearance.accent": "#ED6A5A"
+    }
+  }
+}

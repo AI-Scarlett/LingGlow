@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "cr7-portugal",
+  "name": "C罗灵感·葡萄牙7号星夜",
+  "description": "葡萄牙红、祖母绿与金色夜场氛围；原创匿名 7 号背影的三端 VIP 主题，不含肖像、队徽或官方合作标识。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "cr7-background-main"
+  },
+  "assets": {
+    "cr7-background-main": {
+      "slot": "background.main",
+      "path": "assets/cr7-portugal.webp",
+      "sha256": "0970c2866c337f4785656dd970c8375d6debb71bdd80ac57bf4a1e0b62996aad"
+    },
+    "cr7-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/cr7-portugal-home-hero.webp",
+      "sha256": "4ca1296db92c38339684143e64ee9cec28b6f22955fd78e2ac6a1a3837aac610"
+    },
+    "cr7-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/cr7-portugal-hero.webp",
+      "sha256": "02ba5de4602c72b306399bb3b30ad33f71d3268dd66e4bb885bc6357ce003019"
+    },
+    "cr7-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/cr7-portugal-home-hero.webp",
+      "sha256": "4ca1296db92c38339684143e64ee9cec28b6f22955fd78e2ac6a1a3837aac610"
+    },
+    "cr7-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/cr7-portugal-avatar.webp",
+      "sha256": "9ddc1d406d306d956438e318f5668e197b4dd681e0707ebbcfcf2348cbfd01bf"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#E3B341",
+    "appearance.surface": "#071411",
+    "appearance.ink": "#F7F2E7",
+    "appearance.contrast": 60,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#E7C35D",
+    "background.image": {
+      "assetId": "cr7-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.38,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.68,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "葡萄牙 7 号",
+    "brand.shortMark": "CR7",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "cr7-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "cr7-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "cr7-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "cr7-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "roll"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D64A4A"
+    },
+    "doubao": {
+      "appearance.accent": "#2F9E67"
+    },
+    "codex": {
+      "appearance.accent": "#E3B341"
+    }
+  }
+}

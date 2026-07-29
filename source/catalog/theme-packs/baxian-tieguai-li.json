@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-tieguai-li",
+  "name": "铁拐李·葫芦玄火",
+  "description": "取自动画电影《八仙！》铁拐李角色造型的免费三端主题；玄火葫芦与铜绿炼境。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-tieguai-li-background-main"
+  },
+  "assets": {
+    "baxian-tieguai-li-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-tieguai-li.webp",
+      "sha256": "59425e325b5279f69d2c3884f2282556623d3a04f0bcfb7cfce13d75e40edcf6"
+    },
+    "baxian-tieguai-li-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-tieguai-li-home-hero.webp",
+      "sha256": "cdde242cdd2c4198ce2917a30d49f68cbcaacf3aca48263ddcdfc7eb255d0aa4"
+    },
+    "baxian-tieguai-li-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-tieguai-li-hero.webp",
+      "sha256": "605da9f45300801bd79387826234e657d7726ed01b1694780eee1014c7d5d957"
+    },
+    "baxian-tieguai-li-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-tieguai-li-home-hero.webp",
+      "sha256": "cdde242cdd2c4198ce2917a30d49f68cbcaacf3aca48263ddcdfc7eb255d0aa4"
+    },
+    "baxian-tieguai-li-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-tieguai-li-mascot.webp",
+      "sha256": "244f4b1579a43c1507843ac2fef14c957a5a1cd2a986b4a4a1d56ec7e8a8b02b"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#63B28A",
+    "appearance.surface": "#0C1815",
+    "appearance.ink": "#EDF7E9",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#63B28A",
+    "background.image": {
+      "assetId": "baxian-tieguai-li-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.28,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.66,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "铁拐李·葫芦玄火",
+    "brand.shortMark": "铁拐",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-tieguai-li-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-tieguai-li-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-tieguai-li-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-tieguai-li-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#63B28A"
+    },
+    "doubao": {
+      "appearance.accent": "#63B28A"
+    },
+    "codex": {
+      "appearance.accent": "#63B28A"
+    }
+  }
+}

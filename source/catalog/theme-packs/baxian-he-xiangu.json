@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-he-xiangu",
+  "name": "何仙姑·莲月清辉",
+  "description": "取自动画电影《八仙！》何仙姑角色造型的免费三端主题；莲月、青玉与柔粉流光。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-he-xiangu-background-main"
+  },
+  "assets": {
+    "baxian-he-xiangu-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-he-xiangu.webp",
+      "sha256": "3d82fd5c7835bf234dd1ffc4361beafef658668daceabbbbf47e3b370e917c05"
+    },
+    "baxian-he-xiangu-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-he-xiangu-home-hero.webp",
+      "sha256": "b3fc6db1239e6f0bc81678ef24d3cb946e6cc6722682e6fd80a06596b074116a"
+    },
+    "baxian-he-xiangu-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-he-xiangu-hero.webp",
+      "sha256": "9aba548ee24c5089922d389131256bd5bce624237ca98bdd37135f216f5a4a6e"
+    },
+    "baxian-he-xiangu-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-he-xiangu-home-hero.webp",
+      "sha256": "b3fc6db1239e6f0bc81678ef24d3cb946e6cc6722682e6fd80a06596b074116a"
+    },
+    "baxian-he-xiangu-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-he-xiangu-mascot.webp",
+      "sha256": "352dbc4c3d286e98aa063d80ceba8cde9684ab201c87eddcef4093bf6b1a50b0"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#E56F8A",
+    "appearance.surface": "#F6F1EE",
+    "appearance.ink": "#213A39",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#E56F8A",
+    "background.image": {
+      "assetId": "baxian-he-xiangu-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.12,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.76,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "何仙姑·莲月清辉",
+    "brand.shortMark": "仙姑",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-he-xiangu-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-he-xiangu-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-he-xiangu-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-he-xiangu-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#E56F8A"
+    },
+    "doubao": {
+      "appearance.accent": "#E56F8A"
+    },
+    "codex": {
+      "appearance.accent": "#E56F8A"
+    }
+  }
+}

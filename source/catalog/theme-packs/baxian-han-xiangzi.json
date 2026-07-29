@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-han-xiangzi",
+  "name": "韩湘子·碧箫流云",
+  "description": "取自动画电影《八仙！》韩湘子角色造型的免费三端主题；碧青机关与轻盈流云。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-han-xiangzi-background-main"
+  },
+  "assets": {
+    "baxian-han-xiangzi-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-han-xiangzi.webp",
+      "sha256": "4be0100f2f968f7b950612f15a621b1554681753c237ab73fa3702e0fb9ccbf5"
+    },
+    "baxian-han-xiangzi-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-han-xiangzi-home-hero.webp",
+      "sha256": "afdc19ce8c60e71fd51f3da3f9c84c358bb2ae0276c722be7f6d5c8771ec7d64"
+    },
+    "baxian-han-xiangzi-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-han-xiangzi-hero.webp",
+      "sha256": "9dc79df5f12a45e62134683872125506cf9f8938f744a7ebdc233b8088c0c6ee"
+    },
+    "baxian-han-xiangzi-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-han-xiangzi-home-hero.webp",
+      "sha256": "afdc19ce8c60e71fd51f3da3f9c84c358bb2ae0276c722be7f6d5c8771ec7d64"
+    },
+    "baxian-han-xiangzi-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-han-xiangzi-mascot.webp",
+      "sha256": "959b7f92b7213bacc48ad80fbbaf204f01f8d14719b9fe1dbf5fe13728fbdc00"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#43A997",
+    "appearance.surface": "#EDF6F1",
+    "appearance.ink": "#173A36",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#43A997",
+    "background.image": {
+      "assetId": "baxian-han-xiangzi-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.12,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.76,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "韩湘子·碧箫流云",
+    "brand.shortMark": "湘子",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-han-xiangzi-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-han-xiangzi-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-han-xiangzi-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-han-xiangzi-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#43A997"
+    },
+    "doubao": {
+      "appearance.accent": "#43A997"
+    },
+    "codex": {
+      "appearance.accent": "#43A997"
+    }
+  }
+}

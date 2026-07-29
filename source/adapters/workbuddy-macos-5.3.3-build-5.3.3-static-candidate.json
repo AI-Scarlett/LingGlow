@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "adapterId": "workbuddy-macos-5.3.3-build-5.3.3-static-candidate",
+  "clientId": "workbuddy",
+  "bundleId": "com.workbuddy.workbuddy",
+  "teamId": "FN2V63AD2J",
+  "versions": ["5.3.3"],
+  "builds": ["5.3.3"],
+  "asarSha256": ["68c9d776c2d557981cbbb6c334931e1efd3ab799032d23ba9172e3868eae3acd"],
+  "targetPath": "renderer/index.html",
+  "probeKind": "workbuddy-v1",
+  "capabilities": [
+    "background",
+    "palette",
+    "glass",
+    "brand",
+    "navigation",
+    "controls",
+    "project-hero",
+    "composer-avatar"
+  ],
+  "requiredSignals": [
+    "appUrlEntry",
+    "semanticSelectors",
+    "designTokens",
+    "productMarker"
+  ],
+  "validation": {
+    "status": "static-candidate",
+    "runtimeEvidenceRequired": true,
+    "staticBaseline": "qa/workbuddy-static-5.3.3.json",
+    "staticBaselineSha256": "d29a1d2e3eeda580db10d208f655952511c3955dbb07477b2d8a571dda6c96bd",
+    "runtimeEvidenceKind": "lingglow.workbuddy-real-device-qa-evidence"
+  }
+}

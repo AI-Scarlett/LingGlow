@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-kimi-code-moonlab",
+  "name": "Kimi Code·月弧长上下文核心",
+  "description": "无人物设计；以银色月弧长上下文核心、深蓝推理光路与月面数据中心为主视觉的三端 VIP 主题；非官方粉丝创作，与 Moonshot AI 无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-kimi-code-moonlab-preview"
+  },
+  "assets": {
+    "agent-kimi-code-moonlab-background": {
+      "slot": "background.main",
+      "path": "assets/agent-kimi-code-moonlab-background.webp",
+      "sha256": "36417d6f8f77d3400a0fb0e5a65dd8dd4f1245ed0932e54eaee333088c73996f"
+    },
+    "agent-kimi-code-moonlab-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-kimi-code-moonlab-hero.webp",
+      "sha256": "25c5b00f9f00ac9d83382359355c9fd6cab1715386bd788960e1c52398b06bd2"
+    },
+    "agent-kimi-code-moonlab-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-kimi-code-moonlab-banner.webp",
+      "sha256": "5932a8fafba3a46a9577a487e6ab549324002b49778a179c76618d014085542f"
+    },
+    "agent-kimi-code-moonlab-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-kimi-code-moonlab-hero.webp",
+      "sha256": "25c5b00f9f00ac9d83382359355c9fd6cab1715386bd788960e1c52398b06bd2"
+    },
+    "agent-kimi-code-moonlab-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-kimi-code-moonlab-avatar.webp",
+      "sha256": "d094836b38ff35212efbd8355fbdc4098a16a01dadec73cf6ae9f61a600980e6"
+    },
+    "agent-kimi-code-moonlab-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-kimi-code-moonlab-mascot.webp",
+      "sha256": "870346155c93c895ec1fd46d8051aede5dd96849980c43a27fda79ebe5a4b941"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#D5E8FF",
+    "appearance.surface": "#071426",
+    "appearance.ink": "#F5F9FF",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#AFCFEB",
+    "background.image": {
+      "assetId": "agent-kimi-code-moonlab-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "Kimi Code",
+    "brand.shortMark": "KM",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": {
+      "assetId": "agent-kimi-code-moonlab-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-kimi-code-moonlab-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-kimi-code-moonlab-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-kimi-code-moonlab-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-kimi-code-moonlab-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D5E8FF",
+      "appearance.surface": "#071426",
+      "appearance.ink": "#F5F9FF",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#D5E8FF",
+      "appearance.surface": "#071426",
+      "appearance.ink": "#F5F9FF",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#D5E8FF",
+      "appearance.surface": "#071426",
+      "appearance.ink": "#F5F9FF",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

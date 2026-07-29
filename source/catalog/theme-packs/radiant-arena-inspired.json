@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "radiant-arena-inspired",
+  "name": "无畏契约·亚海悬城",
+  "description": "以写实亚海悬城战术场景、风火特工与辐能爆破装置为核心的三端免费主题；非官方粉丝创作，与 Riot Games 无商业关联。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "radiant-arena-inspired-preview"
+  },
+  "assets": {
+    "radiant-arena-inspired-background": {
+      "slot": "background.main",
+      "path": "assets/radiant-arena-inspired-background.webp",
+      "sha256": "aa1b3fa1b4dd8dbbfbb688e4ab5b9bc5f27848ec69b50f6d4d3c7b2ec835bd37"
+    },
+    "radiant-arena-inspired-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/radiant-arena-inspired-hero.webp",
+      "sha256": "c4e41e5828b0e47846f1bab72029f011181ecdadebf9cce6541bd13047e2f999"
+    },
+    "radiant-arena-inspired-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/radiant-arena-inspired-banner.webp",
+      "sha256": "6c483e3308514240b705e43f14e94561043a23037c3dd32e47330dfb2054eec5"
+    },
+    "radiant-arena-inspired-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/radiant-arena-inspired-hero.webp",
+      "sha256": "c4e41e5828b0e47846f1bab72029f011181ecdadebf9cce6541bd13047e2f999"
+    },
+    "radiant-arena-inspired-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/radiant-arena-inspired-avatar.webp",
+      "sha256": "c1b3c763c48350a2de67541bd9c4237bf359dae7cc7769b9903cb9bd769d2e4f"
+    },
+    "radiant-arena-inspired-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/radiant-arena-inspired-mascot.webp",
+      "sha256": "2bef381141a593898bd9ce83614f59076f33b5c8e745faa366dd4efdaf1ccd7c"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#FF5B68",
+    "appearance.surface": "#0A1E23",
+    "appearance.ink": "#F5F4EC",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#FF858D",
+    "background.image": {
+      "assetId": "radiant-arena-inspired-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "VALORANT",
+    "brand.shortMark": "V",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": {
+      "assetId": "radiant-arena-inspired-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "radiant-arena-inspired-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "radiant-arena-inspired-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "radiant-arena-inspired-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "radiant-arena-inspired-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#FF5B68",
+      "appearance.surface": "#0A1E23",
+      "appearance.ink": "#F5F4EC",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#FF5B68",
+      "appearance.surface": "#0A1E23",
+      "appearance.ink": "#F5F4EC",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#FF5B68",
+      "appearance.surface": "#0A1E23",
+      "appearance.ink": "#F5F4EC",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

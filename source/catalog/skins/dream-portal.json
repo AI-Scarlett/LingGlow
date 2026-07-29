@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "dream-portal",
+  "name": "Dream Portal 测试",
+  "description": "基于 Codex Dream Skin 的 MIT 抽象演示图，使用红白高对比全屏背景验证换肤效果。",
+  "tier": "free",
+  "clientIds": [
+    "codex",
+    "workbuddy"
+  ],
+  "preview": {
+    "gradientPreset": "sunset"
+  },
+  "asset": {
+    "kind": "background-webp",
+    "path": "assets/dream-portal.webp",
+    "sha256": "2154717eedf080ea6ab608638022ecef67116c445e076a55bb02377d1cb415ba"
+  },
+  "projectHeroAsset": {
+    "kind": "project-hero-webp",
+    "path": "assets/dream-portal.webp",
+    "sha256": "2154717eedf080ea6ab608638022ecef67116c445e076a55bb02377d1cb415ba"
+  },
+  "profile": {
+    "official": {
+      "variant": "light",
+      "codeThemeId": "codex",
+      "accent": "#E25563",
+      "surface": "#F7F4F5",
+      "ink": "#2B2224",
+      "contrast": 58,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "opaqueWindows": false,
+      "semanticColors": {
+        "diffAdded": "#2F855A",
+        "diffRemoved": "#C93D4C",
+        "skill": "#E25563"
+      }
+    },
+    "advanced": {
+      "enabled": true,
+      "background": {
+        "image": null,
+        "opacity": 1,
+        "overlay": 0.12,
+        "blur": 0,
+        "position": "right"
+      },
+      "banner": {
+        "enabled": false,
+        "image": null,
+        "opacity": 0.4,
+        "height": 112,
+        "width": 720,
+        "position": "top-center"
+      },
+      "glass": {
+        "enabled": true,
+        "opacity": 0.58,
+        "blur": 18
+      },
+      "brand": {
+        "enabled": true,
+        "displayName": "Dream Portal",
+        "shortMark": "DP",
+        "logoStyle": "diamond"
+      },
+      "workbuddy": {
+        "projectHero": {
+          "image": null,
+          "fit": "cover",
+          "position": "center"
+        }
+      },
+      "radius": 20,
+      "motion": "subtle",
+      "sidebarWidth": 280
+    }
+  },
+  "composerAvatarAsset": {
+    "kind": "composer-avatar-webp",
+    "path": "assets/dream-portal-mascot.webp",
+    "sha256": "4438a2bddb12c28525a4e5eca7ff529f695ac435ebccfc6b3fa207566d154367"
+  }
+}

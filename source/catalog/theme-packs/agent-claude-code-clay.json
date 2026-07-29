@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-claude-code-clay",
+  "name": "Claude Code·光子推理舱",
+  "description": "无人物设计；以 Claude 星芒推理核心、琥珀光子总线与机械仪器阵列为主视觉的三端 VIP 主题；非官方粉丝创作，与 Anthropic 无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-claude-code-clay-preview"
+  },
+  "assets": {
+    "agent-claude-code-clay-background": {
+      "slot": "background.main",
+      "path": "assets/agent-claude-code-clay-background.webp",
+      "sha256": "951175e37dcd9f92a18a0e4ba0ae25e638002bdf9e45b43739627008c1a81031"
+    },
+    "agent-claude-code-clay-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-claude-code-clay-hero.webp",
+      "sha256": "e329ef05151c419a00e2e4b4ebade3543296af7001f1d9bc9ec6fab9cb0085c8"
+    },
+    "agent-claude-code-clay-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-claude-code-clay-banner.webp",
+      "sha256": "192c6db848a953f3d025bcc5a73dbefdca68e48b0e54436e48597dfd21e81556"
+    },
+    "agent-claude-code-clay-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-claude-code-clay-hero.webp",
+      "sha256": "e329ef05151c419a00e2e4b4ebade3543296af7001f1d9bc9ec6fab9cb0085c8"
+    },
+    "agent-claude-code-clay-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-claude-code-clay-avatar.webp",
+      "sha256": "b55ebabbee8b13ac9252ce680773066bf42d2e42527d46368bad1589cca31470"
+    },
+    "agent-claude-code-clay-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-claude-code-clay-mascot.webp",
+      "sha256": "01db6d3c1468af2602e366ae6a52a1b0188305489ae967dbb5767644653cae71"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#A84F34",
+    "appearance.surface": "#F3E8DB",
+    "appearance.ink": "#2B211C",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#9B5A3E",
+    "background.image": {
+      "assetId": "agent-claude-code-clay-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.1,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.86,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "Claude Code",
+    "brand.shortMark": "CC",
+    "brand.logoStyle": "tile",
+    "brand.iconImage": {
+      "assetId": "agent-claude-code-clay-brand-icon"
+    },
+    "shape.radius": 22,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-claude-code-clay-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-claude-code-clay-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-claude-code-clay-codex-banner"
+    },
+    "codex.banner.opacity": 0.52,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-claude-code-clay-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#A84F34",
+      "appearance.surface": "#F3E8DB",
+      "appearance.ink": "#2B211C",
+      "background.overlay": 0.12,
+      "glass.opacity": 0.88
+    },
+    "doubao": {
+      "appearance.accent": "#A84F34",
+      "appearance.surface": "#F3E8DB",
+      "appearance.ink": "#2B211C",
+      "background.overlay": 0.14,
+      "glass.enabled": true,
+      "glass.opacity": 0.89,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#A84F34",
+      "appearance.surface": "#F3E8DB",
+      "appearance.ink": "#2B211C",
+      "background.overlay": 0.11,
+      "glass.opacity": 0.87
+    }
+  }
+}

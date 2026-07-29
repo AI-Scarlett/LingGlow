@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-hermes-memory",
+  "name": "Hermes·信使记忆引擎",
+  "description": "无人物设计；以金色信使记忆引擎、蓝金数据路由与长期上下文矩阵为主视觉的三端 VIP 主题；非官方粉丝创作，与 Nous Research 无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-hermes-memory-preview"
+  },
+  "assets": {
+    "agent-hermes-memory-background": {
+      "slot": "background.main",
+      "path": "assets/agent-hermes-memory-background.webp",
+      "sha256": "375617f70da3d39ca0478610306a7dc26729271bc95536c91bc12c35d53c0b1a"
+    },
+    "agent-hermes-memory-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-hermes-memory-hero.webp",
+      "sha256": "2c29127ab590ce796c50374b4b87581f75cb21bf1c3082e181951f3c7938433a"
+    },
+    "agent-hermes-memory-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-hermes-memory-banner.webp",
+      "sha256": "9240bc2ba692a80fd20652ce6c433f574512649d58f2c1269e6fb01b87763b14"
+    },
+    "agent-hermes-memory-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-hermes-memory-hero.webp",
+      "sha256": "2c29127ab590ce796c50374b4b87581f75cb21bf1c3082e181951f3c7938433a"
+    },
+    "agent-hermes-memory-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-hermes-memory-avatar.webp",
+      "sha256": "6f2e4c996fa9145c9b2c2030cbeefc498000bc8ccd6f3bbe0ae332567d8b3723"
+    },
+    "agent-hermes-memory-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-hermes-memory-mascot.webp",
+      "sha256": "7cde3d9012268d59384a2e37bad8e0e5ec66c57cbe4dd7b284879f46a1909dfa"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#CBA45B",
+    "appearance.surface": "#090D1D",
+    "appearance.ink": "#F5ECD9",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#E1C27C",
+    "background.image": {
+      "assetId": "agent-hermes-memory-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "Hermes",
+    "brand.shortMark": "H",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": {
+      "assetId": "agent-hermes-memory-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-hermes-memory-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-hermes-memory-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-hermes-memory-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-hermes-memory-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#CBA45B",
+      "appearance.surface": "#090D1D",
+      "appearance.ink": "#F5ECD9",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#CBA45B",
+      "appearance.surface": "#090D1D",
+      "appearance.ink": "#F5ECD9",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#CBA45B",
+      "appearance.surface": "#090D1D",
+      "appearance.ink": "#F5ECD9",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

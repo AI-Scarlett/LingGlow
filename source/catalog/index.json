@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "skins": [
+    "skins/dream-portal.json",
+    "skins/graphite-focus.json",
+    "skins/ocean-breeze.json",
+    "skins/jade-calm.json",
+    "skins/aurora-glass.json",
+    "skins/sunset-atelier.json",
+    "skins/violet-nebula.json"
+  ]
+}

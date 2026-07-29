@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-zhang-guolao",
+  "name": "张果老·月驴星河",
+  "description": "取自动画电影《八仙！》张果老角色造型的免费三端主题；倒骑仙驴穿越月桥星河。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-zhang-guolao-background-main"
+  },
+  "assets": {
+    "baxian-zhang-guolao-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-zhang-guolao.webp",
+      "sha256": "e01fc1172ccd42269d31c36f25e26e9d12f96d43347b47e1b6d42e62646ad719"
+    },
+    "baxian-zhang-guolao-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-zhang-guolao-home-hero.webp",
+      "sha256": "58a83e0bb522fadd9fa78d09ec865cfa29bbb4f75a340a8b7c41c9cefb56a619"
+    },
+    "baxian-zhang-guolao-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-zhang-guolao-hero.webp",
+      "sha256": "eacd08f9237ffc621686d6640a999c92438ee73d2a49b2c4e17c7d5acd70e699"
+    },
+    "baxian-zhang-guolao-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-zhang-guolao-home-hero.webp",
+      "sha256": "58a83e0bb522fadd9fa78d09ec865cfa29bbb4f75a340a8b7c41c9cefb56a619"
+    },
+    "baxian-zhang-guolao-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-zhang-guolao-mascot.webp",
+      "sha256": "8d4cf5aaf4a49471ffeeee5e64746c95ecfd2d05e87ce057a879a99ccc10918d"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#87A9E8",
+    "appearance.surface": "#0B1529",
+    "appearance.ink": "#EEF3FF",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#87A9E8",
+    "background.image": {
+      "assetId": "baxian-zhang-guolao-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.28,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.66,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "张果老·月驴星河",
+    "brand.shortMark": "果老",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-zhang-guolao-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-zhang-guolao-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-zhang-guolao-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-zhang-guolao-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#87A9E8"
+    },
+    "doubao": {
+      "appearance.accent": "#87A9E8"
+    },
+    "codex": {
+      "appearance.accent": "#87A9E8"
+    }
+  }
+}

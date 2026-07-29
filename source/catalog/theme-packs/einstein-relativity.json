@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "einstein-relativity",
+  "name": "爱因斯坦·普林斯顿书房",
+  "description": "以写实爱因斯坦肖像、历史物理书房与手稿实验器材为核心的三端 VIP 主题；为非官方艺术创作。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "einstein-relativity-preview"
+  },
+  "assets": {
+    "einstein-relativity-background": {
+      "slot": "background.main",
+      "path": "assets/einstein-relativity-background.webp",
+      "sha256": "81a6a7dd0b672d0af2da676ffaf722b241c6a469eaff25738b790631827ff3aa"
+    },
+    "einstein-relativity-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/einstein-relativity-hero.webp",
+      "sha256": "93f828fb748f46f6482e201360271016e1db4806862ba2f67acb7b46a2cdee39"
+    },
+    "einstein-relativity-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/einstein-relativity-banner.webp",
+      "sha256": "5a11263281083aa639e92836f736b118c01f36af4ed996cab10606d05f581d88"
+    },
+    "einstein-relativity-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/einstein-relativity-hero.webp",
+      "sha256": "93f828fb748f46f6482e201360271016e1db4806862ba2f67acb7b46a2cdee39"
+    },
+    "einstein-relativity-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/einstein-relativity-avatar.webp",
+      "sha256": "01248e322b9a301d57469a6c35a5d48984e2bee96c7a121d26cd2cd49b561111"
+    },
+    "einstein-relativity-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/einstein-relativity-mascot.webp",
+      "sha256": "3a6f23baa6068735756316ace526fa54fe426d3a9d9070320d92290c909673e0"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#D2A45B",
+    "appearance.surface": "#0A1B2E",
+    "appearance.ink": "#F4EBDD",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#E3BF78",
+    "background.image": {
+      "assetId": "einstein-relativity-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "Einstein",
+    "brand.shortMark": "AE",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": {
+      "assetId": "einstein-relativity-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "einstein-relativity-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "einstein-relativity-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "einstein-relativity-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "einstein-relativity-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D2A45B",
+      "appearance.surface": "#0A1B2E",
+      "appearance.ink": "#F4EBDD",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#D2A45B",
+      "appearance.surface": "#0A1B2E",
+      "appearance.ink": "#F4EBDD",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#D2A45B",
+      "appearance.surface": "#0A1B2E",
+      "appearance.ink": "#F4EBDD",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-cursor-cube",
+  "name": "Cursor·光晶编译核心",
+  "description": "无人物设计；以 Cursor 光晶编译核心、紫色代码光路与多层工程数据面为主视觉的三端 VIP 主题；非官方粉丝创作，与 Cursor 无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-cursor-cube-preview"
+  },
+  "assets": {
+    "agent-cursor-cube-background": {
+      "slot": "background.main",
+      "path": "assets/agent-cursor-cube-background.webp",
+      "sha256": "7e166ed1a6c36b6067517b7eec4de5f11ab59343c35c5f86e78ea412b4574494"
+    },
+    "agent-cursor-cube-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-cursor-cube-hero.webp",
+      "sha256": "f5bfa6573133247ec8c6a7ada788a282ce03f23c4fe1a4d107279c08c8a358f7"
+    },
+    "agent-cursor-cube-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-cursor-cube-banner.webp",
+      "sha256": "3be816e00c98cb7f91a3add5598d3d21d03933164ae5de393871a218365adaa2"
+    },
+    "agent-cursor-cube-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-cursor-cube-hero.webp",
+      "sha256": "f5bfa6573133247ec8c6a7ada788a282ce03f23c4fe1a4d107279c08c8a358f7"
+    },
+    "agent-cursor-cube-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-cursor-cube-avatar.webp",
+      "sha256": "a6967286ab81508061219d3e984fcca3c4068b1bea2561c481410e1044fb156a"
+    },
+    "agent-cursor-cube-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-cursor-cube-mascot.webp",
+      "sha256": "ad6a1bffad8f65c713c520818a07481945a3d97a87705f15ffca6a291fb49a42"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#A793FF",
+    "appearance.surface": "#0B0A13",
+    "appearance.ink": "#F7F5FF",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#C0B5FF",
+    "background.image": {
+      "assetId": "agent-cursor-cube-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "Cursor",
+    "brand.shortMark": "CU",
+    "brand.logoStyle": "tile",
+    "brand.iconImage": {
+      "assetId": "agent-cursor-cube-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-cursor-cube-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-cursor-cube-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "roll",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-cursor-cube-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-cursor-cube-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#A793FF",
+      "appearance.surface": "#0B0A13",
+      "appearance.ink": "#F7F5FF",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#A793FF",
+      "appearance.surface": "#0B0A13",
+      "appearance.ink": "#F7F5FF",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#A793FF",
+      "appearance.surface": "#0B0A13",
+      "appearance.ink": "#F7F5FF",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "kungfu-womens-football",
+  "name": "功夫女足·无厘头绿茵夜",
+  "description": "以周星驰式无厘头功夫喜剧精神为灵感的原创三端 VIP 主题；不含演员肖像、电影剧照、角色造型、片名标识或官方合作元素。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "jade",
+    "assetId": "kungfu-football-background-main"
+  },
+  "assets": {
+    "kungfu-football-background-main": {
+      "slot": "background.main",
+      "path": "assets/kungfu-womens-football-background.webp",
+      "sha256": "027cd83540abd038150bbec789c4f8090da00ff9e3cff63c5483fd7277935b9f"
+    },
+    "kungfu-football-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/kungfu-womens-football-home-hero.webp",
+      "sha256": "74f8937298bba592706711737d9d2f641ba8621c0123413be945a449b4058d9e"
+    },
+    "kungfu-football-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/kungfu-womens-football-hero.webp",
+      "sha256": "e5671a1f7184a67f7b9190170a0510708023ca3a85173d078328580efb62c499"
+    },
+    "kungfu-football-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/kungfu-womens-football-home-hero.webp",
+      "sha256": "74f8937298bba592706711737d9d2f641ba8621c0123413be945a449b4058d9e"
+    },
+    "kungfu-football-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/kungfu-womens-football-avatar.webp",
+      "sha256": "78b3df26cb8ff94f8e2ed6fae70773347282e5ec125dfab34729a2d63ac33e04"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#D7B65B",
+    "appearance.surface": "#081611",
+    "appearance.ink": "#F7F2DB",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#39D98A",
+    "semantic.diffRemoved": "#E95B54",
+    "semantic.skill": "#E6C96E",
+    "background.image": {
+      "assetId": "kungfu-football-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.42,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.72,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "功夫女足",
+    "brand.shortMark": "功",
+    "brand.logoStyle": "circle",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "kungfu-football-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "kungfu-football-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "kungfu-football-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "kungfu-football-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D64B42"
+    },
+    "doubao": {
+      "appearance.accent": "#39B87A"
+    },
+    "codex": {
+      "appearance.accent": "#D7B65B"
+    }
+  }
+}

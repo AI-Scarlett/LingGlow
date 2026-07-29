@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-zhongli-quan",
+  "name": "钟离权·赤焰芭蕉",
+  "description": "取自动画电影《八仙！》钟离权角色造型的免费三端主题；赤焰、铜金与芭蕉仙风。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-zhongli-quan-background-main"
+  },
+  "assets": {
+    "baxian-zhongli-quan-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-zhongli-quan.webp",
+      "sha256": "5523cbd743b3121f10f0e954febbdbdbf661e517a7ad6c62178c450dad3eda46"
+    },
+    "baxian-zhongli-quan-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-zhongli-quan-home-hero.webp",
+      "sha256": "4862f0268e29eceef421cbf00f6ea13cb4126ae0a041ab4d1d313a57c33fd0ee"
+    },
+    "baxian-zhongli-quan-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-zhongli-quan-hero.webp",
+      "sha256": "dd0318975317560ebd8d83a1a25dbfceffcb9f1b880f8a8fcb85e8764f3195a6"
+    },
+    "baxian-zhongli-quan-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-zhongli-quan-home-hero.webp",
+      "sha256": "4862f0268e29eceef421cbf00f6ea13cb4126ae0a041ab4d1d313a57c33fd0ee"
+    },
+    "baxian-zhongli-quan-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-zhongli-quan-mascot.webp",
+      "sha256": "a5cae73863973d61cb611056cada010181ac44b82dabce9a76c4b5eeb924d614"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#E69A42",
+    "appearance.surface": "#21130F",
+    "appearance.ink": "#FFF1D8",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#E69A42",
+    "background.image": {
+      "assetId": "baxian-zhongli-quan-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.28,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.66,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "钟离权·赤焰芭蕉",
+    "brand.shortMark": "钟离",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-zhongli-quan-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-zhongli-quan-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-zhongli-quan-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-zhongli-quan-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#E69A42"
+    },
+    "doubao": {
+      "appearance.accent": "#E69A42"
+    },
+    "codex": {
+      "appearance.accent": "#E69A42"
+    }
+  }
+}

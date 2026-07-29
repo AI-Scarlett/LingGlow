@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-cao-guojiu",
+  "name": "曹国舅·玉板金章",
+  "description": "取自动画电影《八仙！》曹国舅角色造型的免费三端主题；珊瑚宫阙与玉板金章。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-cao-guojiu-background-main"
+  },
+  "assets": {
+    "baxian-cao-guojiu-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-cao-guojiu.webp",
+      "sha256": "4e32727c539ff209d7a60f98ee8f7ef22eb60e507d20e28cf93fec401641b3e5"
+    },
+    "baxian-cao-guojiu-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-cao-guojiu-home-hero.webp",
+      "sha256": "02acf439de8b05d19cabb44d1f62423888885f6e060914f0ac376d5ba7a6803a"
+    },
+    "baxian-cao-guojiu-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-cao-guojiu-hero.webp",
+      "sha256": "55812cfe9f088ec1a45c786c936b49f56cb3b3ffcc3100edc10ca875e6447c2a"
+    },
+    "baxian-cao-guojiu-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-cao-guojiu-home-hero.webp",
+      "sha256": "02acf439de8b05d19cabb44d1f62423888885f6e060914f0ac376d5ba7a6803a"
+    },
+    "baxian-cao-guojiu-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-cao-guojiu-mascot.webp",
+      "sha256": "c931d6e7b96fdbc0d88165e3ff5a5780c0ba402d58f931ef2768aee47c551afa"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#D95E55",
+    "appearance.surface": "#F8EEE6",
+    "appearance.ink": "#43231E",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#D95E55",
+    "background.image": {
+      "assetId": "baxian-cao-guojiu-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.12,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.76,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "曹国舅·玉板金章",
+    "brand.shortMark": "国舅",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-cao-guojiu-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-cao-guojiu-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-cao-guojiu-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-cao-guojiu-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D95E55"
+    },
+    "doubao": {
+      "appearance.accent": "#D95E55"
+    },
+    "codex": {
+      "appearance.accent": "#D95E55"
+    }
+  }
+}

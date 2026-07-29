@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-grok-singularity",
+  "name": "Grok·深空推理阵列",
+  "description": "无人物设计；以 Grok X 推理引擎、轨道遥测与航天算力阵列为主视觉的三端 VIP 主题；非官方粉丝创作，与 xAI 无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-grok-singularity-preview"
+  },
+  "assets": {
+    "agent-grok-singularity-background": {
+      "slot": "background.main",
+      "path": "assets/agent-grok-singularity-background.webp",
+      "sha256": "244dad06c45d21b9158934b9b74fa7e71d52b116ecca0a0ccdc360407ade8787"
+    },
+    "agent-grok-singularity-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-grok-singularity-hero.webp",
+      "sha256": "24c18545e15ca3c50f782a3a8c42ddba45ecfd57ad619235e1c9fedee00be9fc"
+    },
+    "agent-grok-singularity-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-grok-singularity-banner.webp",
+      "sha256": "82e5b542e17d627122c081195c04884829962a7948795cfa5abd63c65bcfb6fc"
+    },
+    "agent-grok-singularity-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-grok-singularity-hero.webp",
+      "sha256": "24c18545e15ca3c50f782a3a8c42ddba45ecfd57ad619235e1c9fedee00be9fc"
+    },
+    "agent-grok-singularity-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-grok-singularity-avatar.webp",
+      "sha256": "4d7ed416f1ca86e6913f044438a06c88afe06c0ce50f8676810d3253a0dfdae6"
+    },
+    "agent-grok-singularity-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-grok-singularity-mascot.webp",
+      "sha256": "bfa824aa5122fbf82ca96afba6286771a039d7c633c5149506a728291c6d0de6"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#C7CDD6",
+    "appearance.surface": "#07090C",
+    "appearance.ink": "#F7F9FB",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#AEB8C8",
+    "background.image": {
+      "assetId": "agent-grok-singularity-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "Grok",
+    "brand.shortMark": "G",
+    "brand.logoStyle": "tile",
+    "brand.iconImage": {
+      "assetId": "agent-grok-singularity-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-grok-singularity-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-grok-singularity-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "roll",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-grok-singularity-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-grok-singularity-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#C7CDD6",
+      "appearance.surface": "#07090C",
+      "appearance.ink": "#F7F9FB",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#C7CDD6",
+      "appearance.surface": "#07090C",
+      "appearance.ink": "#F7F9FB",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#C7CDD6",
+      "appearance.surface": "#07090C",
+      "appearance.ink": "#F7F9FB",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

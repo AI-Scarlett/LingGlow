@@ -1,0 +1,49 @@
+{
+  "version": "2026.07.23-v5",
+  "targetClientId": "workbuddy",
+  "appearanceMode": "dark",
+  "artwork": {
+    "globalBackground": null,
+    "homeArtwork": null,
+    "composerMascot": null,
+    "mascotRequiresAlpha": true,
+    "composerMascotRequiredForWorkBuddy": true,
+    "composerMascotFit": "contain",
+    "composerMascotShape": "square",
+    "composerMascotValidation": {
+      "maxBytes": 2097152,
+      "maxEdge": 2048,
+      "maxPixels": 4194304,
+      "aspectRatioMin": 0.8,
+      "aspectRatioMax": 1.25,
+      "transparentFractionMin": 0.15,
+      "occupiedFractionMin": 0.03,
+      "paddingFractionMinEachSide": 0.03,
+      "reject": ["background-crop", "hero-crop", "circle-crop", "baked-checkerboard", "clipped-subject"],
+      "invalidBehavior": "show-guidance-and-use-native-default-robot"
+    }
+  },
+  "copy": {
+    "homeTitle": null,
+    "homeSubtitle": null
+  },
+  "surfaces": {
+    "page": "transparent",
+    "history": "transparent",
+    "composer": "transparent-or-translucent",
+    "expertCards": "opaque-contrast-safe",
+    "overlays": "opaque-contrast-safe"
+  },
+  "textSurfacePolicy": {
+    "resolveInkAgainst": "effective-painted-surface",
+    "plainTextBackground": "none",
+    "structuralBackdropOnly": true
+  },
+  "interaction": {
+    "decorativePointerEvents": "none",
+    "preserveNativeMascotClickTarget": true,
+    "preserveHistoryActions": true,
+    "verifyMascotRoutes": ["new-task", "historical-task"]
+  },
+  "requiredPopups": ["model-menu", "model-hover-card", "speaker", "notice", "tooltip"]
+}

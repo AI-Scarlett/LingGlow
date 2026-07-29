@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "violet-nebula",
+  "name": "紫雾星云",
+  "description": "层次丰富的紫蓝深色方案，为夜间使用优化。",
+  "tier": "vip",
+  "clientIds": [
+    "codex",
+    "workbuddy"
+  ],
+  "preview": {
+    "gradientPreset": "violet"
+  },
+  "profile": {
+    "official": {
+      "variant": "dark",
+      "codeThemeId": "codex",
+      "accent": "#A78BFA",
+      "surface": "#17112B",
+      "ink": "#F3E8FF",
+      "contrast": 54,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "opaqueWindows": false,
+      "semanticColors": {
+        "diffAdded": "#6EE7B7",
+        "diffRemoved": "#FB7185",
+        "skill": "#D8B4FE"
+      }
+    },
+    "advanced": {
+      "enabled": true,
+      "background": {
+        "image": null,
+        "opacity": 0.56,
+        "overlay": 0.6,
+        "blur": 1,
+        "position": "center"
+      },
+      "banner": {
+        "enabled": false,
+        "image": null,
+        "opacity": 0.45,
+        "height": 120,
+        "width": 740,
+        "position": "bottom-right"
+      },
+      "glass": {
+        "enabled": true,
+        "opacity": 0.7,
+        "blur": 26
+      },
+      "radius": 24,
+      "motion": "float",
+      "sidebarWidth": 300
+    }
+  },
+  "composerAvatarAsset": {
+    "kind": "composer-avatar-webp",
+    "path": "assets/violet-nebula-mascot.webp",
+    "sha256": "4d9f6c4d8a0954a53610152374c7b055ca51a014a7e58ff5e8f8a6955e6a3b10"
+  }
+}

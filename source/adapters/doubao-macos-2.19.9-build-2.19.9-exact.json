@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "adapterId": "doubao-macos-2.19.9-build-2.19.9-exact",
+  "clientId": "doubao",
+  "bundleId": "com.bot.pc.doubao",
+  "teamId": "96L78H6LMH",
+  "nestedBundleId": "com.bot.pc.doubao.browser",
+  "nestedTeamId": "96L78H6LMH",
+  "chromiumFrameworkVersion": "135.0.7049.72",
+  "extensionId": "obkcimipmjdkghadnfcjojepocldeggd",
+  "versions": [
+    "2.19.9"
+  ],
+  "builds": [
+    "2.19.9"
+  ],
+  "mainCDHash": [
+    "d253e4d81b463aa3269156e32dbdbc161b99b01e"
+  ],
+  "nestedCDHash": [
+    "853c671fc6413efe8ba5cece9ad87a305671f09e"
+  ],
+  "manifestCommit": [
+    "3a04c286fa3f5511d21e6f8d228a88f80cda771c"
+  ],
+  "extensionVersion": [
+    "1.0.0.6640"
+  ],
+  "artifactSha256": {
+    "mainExecutable": [
+      "3f0c9e057bc0a65ae9a678fb3486e9cbbe24f8cd40d97c3865ae47b8e456ac00"
+    ],
+    "mainManifest": [
+      "d68b65ad7dd41dac882099751ace8b27a0577274034a8640b1c58adb9b567473"
+    ],
+    "nestedExecutable": [
+      "3ae362fc11fdd9775c683380a69e72f8a62455b4722c53427b44fa259d3a664e"
+    ],
+    "chromiumFramework": [
+      "ff7b32b6900e442f5dd4e84687ea54884c848ae7dbce3e543ba5b5aef0381e69"
+    ],
+    "extensionManifest": [
+      "bd638eb1fc2012b08765c7057a93810005f8452337f4efad91737f632a0fe130"
+    ],
+    "sidePanelHtml": [
+      "db02238f6156e22beb0f6c1aa8d2e59d94dea542f9b5e1513a5300eb58c9a4ea"
+    ],
+    "sidePanelJavaScript": [
+      "0d6c2c0be5eda7c31a6ac8e215c163fa92995ea2bf634684a1a87e6e79a74f16"
+    ],
+    "sidePanelStylesheet": [
+      "174fcf022b4bff7816724fc0b132115ae599b2e84c5bc8d8bc0fef10ccbd4552"
+    ],
+    "designTokensStylesheet": [
+      "b681c1669af8a9268e6da18e57dfb7499144a53fa01040ff3c564589195dadae"
+    ]
+  },
+  "targetAllowlist": [
+    "doubao://doubao-chat/*",
+    "chrome://doubao-chat/*",
+    "chrome-extension://obkcimipmjdkghadnfcjojepocldeggd/side_panel.html",
+    "https://www.doubao.com/chat/*"
+  ],
+  "probeKind": "doubao-v1",
+  "capabilities": [
+    "background",
+    "palette",
+    "glass"
+  ],
+  "requiredSignals": [
+    "appUrlEntry",
+    "semanticSelectors",
+    "designTokens",
+    "productMarker",
+    "nestedSignature",
+    "frameworkIdentity",
+    "resourceHashes",
+    "targetAllowlist",
+    "transportVerified"
+  ],
+  "validation": {
+    "status": "runtime-verified",
+    "staticBaseline": "qa/doubao-static-2.19.9.json",
+    "staticBaselineSha256": "668ceb52a3fcfb99418296c898e353e24459294645e26fd6cd3402cb0a591e8c",
+    "staticCandidateAdapterId": "doubao-macos-2.19.9-build-2.19.9-static",
+    "candidateEvidence": "qa/doubao-candidate-2.19.9.json",
+    "candidateEvidenceSha256": "ba4683ff29b19877383bc415a695b7940c568847f6741e0d9ad8536abab9bd6c",
+    "candidateEvidenceKind": "lingglow.doubao-isolated-qa-evidence",
+    "runtimeEvidenceRequired": true,
+    "runtimeEvidenceKind": "lingglow.doubao-exact-adapter-review",
+    "runtimeEvidence": "qa/doubao-exact-review-2.19.9.json",
+    "runtimeEvidenceSha256": "620895f87097cf4ca12123f9b2b0dd446255d4706f6a2586cbf147230db4970c"
+  }
+}

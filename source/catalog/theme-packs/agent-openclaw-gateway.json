@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "agent-openclaw-gateway",
+  "name": "OpenClaw·赤爪编排核心",
+  "description": "无人物设计；以赤色多爪编排核心、机器人控制总线与安全运维机柜为主视觉的三端 VIP 主题；非官方粉丝创作，与 OpenClaw 项目无商业关联。",
+  "tier": "vip",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "agent-openclaw-gateway-preview"
+  },
+  "assets": {
+    "agent-openclaw-gateway-background": {
+      "slot": "background.main",
+      "path": "assets/agent-openclaw-gateway-background.webp",
+      "sha256": "d4733549011a5a0ce42f66be3cb96598e86e8c9cb95ba66c3b9fa3e57c77826a"
+    },
+    "agent-openclaw-gateway-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/agent-openclaw-gateway-hero.webp",
+      "sha256": "0b529ad27815d0aae935acc3def7f6324ef55c70a9fec052a1f70554dfb35adb"
+    },
+    "agent-openclaw-gateway-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/agent-openclaw-gateway-banner.webp",
+      "sha256": "1ee969d0486d1bcb891458c3ebd94419135e30addaf41a6238d5b466711d98ac"
+    },
+    "agent-openclaw-gateway-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/agent-openclaw-gateway-hero.webp",
+      "sha256": "0b529ad27815d0aae935acc3def7f6324ef55c70a9fec052a1f70554dfb35adb"
+    },
+    "agent-openclaw-gateway-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/agent-openclaw-gateway-avatar.webp",
+      "sha256": "eb0936068eb43d2a1e25a916ea4deb4dadbddfa2cfbde01af94ef3fcde72c93e"
+    },
+    "agent-openclaw-gateway-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/agent-openclaw-gateway-mascot.webp",
+      "sha256": "50540165a8282061170b534907dd8364106ba04c83a5ea694e8a55116407cdd0"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#F05B61",
+    "appearance.surface": "#071018",
+    "appearance.ink": "#F4F8FB",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#FF8A8E",
+    "background.image": {
+      "assetId": "agent-openclaw-gateway-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "OpenClaw",
+    "brand.shortMark": "OC",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": {
+      "assetId": "agent-openclaw-gateway-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "agent-openclaw-gateway-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "agent-openclaw-gateway-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "agent-openclaw-gateway-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "agent-openclaw-gateway-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#F05B61",
+      "appearance.surface": "#071018",
+      "appearance.ink": "#F4F8FB",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#F05B61",
+      "appearance.surface": "#071018",
+      "appearance.ink": "#F4F8FB",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#F05B61",
+      "appearance.surface": "#071018",
+      "appearance.ink": "#F4F8FB",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

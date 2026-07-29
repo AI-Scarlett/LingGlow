@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "cross-agent-sample",
+  "name": "跨端主题包样例",
+  "description": "仅用于开发和测试 Theme Pack 投影，不进入现有内置皮肤目录。",
+  "tier": "vip",
+  "clientIds": ["workbuddy", "doubao", "codex"],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "main-background"
+  },
+  "assets": {
+    "main-background": {
+      "slot": "background.main",
+      "path": "assets/dream-portal.webp",
+      "sha256": "2154717eedf080ea6ab608638022ecef67116c445e076a55bb02377d1cb415ba"
+    },
+    "workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/dream-portal.webp",
+      "sha256": "2154717eedf080ea6ab608638022ecef67116c445e076a55bb02377d1cb415ba"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#E25563",
+    "appearance.surface": "#F7F4F5",
+    "appearance.ink": "#2B2224",
+    "semantic.skill": "#F59E0B",
+    "background.image": {"assetId": "main-background"},
+    "background.opacity": 1,
+    "background.overlay": 0.12,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.58,
+    "glass.blur": 18,
+    "workbuddy.projectHero.image": {"assetId": "workbuddy-project-hero"},
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "center",
+    "codex.codeThemeId": "codex",
+    "doubao.assistantAvatar.shape": "rounded"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D94668"
+    },
+    "doubao": {
+      "appearance.accent": "#7C3AED"
+    },
+    "codex": {
+      "appearance.accent": "#C241A5"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "sunset-atelier",
+  "name": "落日工坊",
+  "description": "温暖而克制的浅色创作方案，适合设计与内容工作。",
+  "tier": "vip",
+  "clientIds": [
+    "codex",
+    "workbuddy"
+  ],
+  "preview": {
+    "gradientPreset": "sunset"
+  },
+  "profile": {
+    "official": {
+      "variant": "light",
+      "codeThemeId": "codex",
+      "accent": "#EA580C",
+      "surface": "#FFF7ED",
+      "ink": "#7C2D12",
+      "contrast": 60,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#16A34A",
+        "diffRemoved": "#E11D48",
+        "skill": "#9333EA"
+      }
+    },
+    "advanced": {
+      "enabled": true,
+      "background": {
+        "image": null,
+        "opacity": 0.62,
+        "overlay": 0.32,
+        "blur": 0,
+        "position": "center"
+      },
+      "banner": {
+        "enabled": false,
+        "image": null,
+        "opacity": 0.38,
+        "height": 104,
+        "width": 700,
+        "position": "top-right"
+      },
+      "glass": {
+        "enabled": true,
+        "opacity": 0.88,
+        "blur": 16
+      },
+      "radius": 20,
+      "motion": "subtle",
+      "sidebarWidth": 280
+    }
+  },
+  "composerAvatarAsset": {
+    "kind": "composer-avatar-webp",
+    "path": "assets/sunset-atelier-mascot.webp",
+    "sha256": "4fa6fb1c61bbb61db6126dde1cd7c4775cd84dc8d794c2640bbb89ce75ad3f22"
+  }
+}

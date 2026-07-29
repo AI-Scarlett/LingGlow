@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "jade-calm",
+  "name": "青玉静谧",
+  "description": "柔和的青绿色深色方案，平衡辨识度与舒适度。",
+  "tier": "free",
+  "clientIds": [
+    "codex",
+    "workbuddy"
+  ],
+  "preview": {
+    "gradientPreset": "jade"
+  },
+  "profile": {
+    "official": {
+      "variant": "dark",
+      "codeThemeId": "codex",
+      "accent": "#2DD4BF",
+      "surface": "#0B1F1B",
+      "ink": "#D1FAE5",
+      "contrast": 50,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "opaqueWindows": true,
+      "semanticColors": {
+        "diffAdded": "#34D399",
+        "diffRemoved": "#FB7185",
+        "skill": "#A78BFA"
+      }
+    },
+    "advanced": {
+      "enabled": true,
+      "background": {
+        "image": null,
+        "opacity": 0.55,
+        "overlay": 0.64,
+        "blur": 0,
+        "position": "center"
+      },
+      "banner": {
+        "enabled": false,
+        "image": null,
+        "opacity": 0.42,
+        "height": 112,
+        "width": 720,
+        "position": "top-center"
+      },
+      "glass": {
+        "enabled": true,
+        "opacity": 0.78,
+        "blur": 18
+      },
+      "radius": 18,
+      "motion": "subtle",
+      "sidebarWidth": 285
+    }
+  },
+  "composerAvatarAsset": {
+    "kind": "composer-avatar-webp",
+    "path": "assets/jade-calm-mascot.webp",
+    "sha256": "f8e92f7f2cbc43ac9bf505aaa08a534c6d8e98c0a856a0924df8578036648b03"
+  }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_CN</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>zh-Hans</string>
+        <string>en</string>
+    </array>
+    <key>CFBundleDisplayName</key>
+    <string>灵妆</string>
+    <key>CFBundleExecutable</key>
+    <string>SkinStudio</string>
+    <key>CFBundleIdentifier</key>
+    <string>local.skin-studio.menubar</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <!-- build_native.sh adds CFBundleIconFile only when LingGlowAppIcon.icns exists. -->
+    <key>CFBundleGetInfoString</key>
+    <string>灵妆｜AI 助手主题与换肤</string>
+    <key>CFBundleName</key>
+    <string>LingGlow</string>
+    <key>CFBundleSpokenName</key>
+    <string>灵妆</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+	<string>2.3.18</string>
+    <key>CFBundleVersion</key>
+	<string>248</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSMultipleInstancesProhibited</key>
+    <true/>
+    <key>LSUIElement</key>
+    <false/>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsLocalNetworking</key>
+        <true/>
+    </dict>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+</dict>
+</plist>

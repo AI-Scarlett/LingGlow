@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-lan-caihe",
+  "name": "蓝采和·花篮春潮",
+  "description": "取自动画电影《八仙！》蓝采和角色造型的免费三端主题；花篮、福包与海上春潮。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-lan-caihe-background-main"
+  },
+  "assets": {
+    "baxian-lan-caihe-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-lan-caihe.webp",
+      "sha256": "46b549e19ea7d8f404cdeed3f802d0e42aaade9c5c45f02715590c1ab5115c9a"
+    },
+    "baxian-lan-caihe-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-lan-caihe-home-hero.webp",
+      "sha256": "bc141baa260f43054e9fbd6d299b9a86d547b225fafa9a33313bad6051b513eb"
+    },
+    "baxian-lan-caihe-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-lan-caihe-hero.webp",
+      "sha256": "959df31210910ea06ad47bd3df66502462e1cbfa077f3db22a86f94daf8f9956"
+    },
+    "baxian-lan-caihe-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-lan-caihe-home-hero.webp",
+      "sha256": "bc141baa260f43054e9fbd6d299b9a86d547b225fafa9a33313bad6051b513eb"
+    },
+    "baxian-lan-caihe-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-lan-caihe-mascot.webp",
+      "sha256": "68851cfd1ed400005651523008069642f008181a54a29b0f8a8060325201aedc"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#3E8FD0",
+    "appearance.surface": "#EEF4F7",
+    "appearance.ink": "#183449",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#3E8FD0",
+    "background.image": {
+      "assetId": "baxian-lan-caihe-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.12,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.76,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "蓝采和·花篮春潮",
+    "brand.shortMark": "采和",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-lan-caihe-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-lan-caihe-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-lan-caihe-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-lan-caihe-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "hop"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#3E8FD0"
+    },
+    "doubao": {
+      "appearance.accent": "#3E8FD0"
+    },
+    "codex": {
+      "appearance.accent": "#3E8FD0"
+    }
+  }
+}

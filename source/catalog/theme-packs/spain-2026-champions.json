@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "spain-2026-champions",
+  "name": "西班牙·双星冠军之夜",
+  "description": "纪念西班牙赢得 2026 男足世界杯、收获队史第二冠的三端免费主题；采用西班牙红、冠军金、午夜蓝与真实大力神杯视觉。官方奖杯形象须在取得相应授权后方可公开分发。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "spain-2026-background-main"
+  },
+  "assets": {
+    "spain-2026-background-main": {
+      "slot": "background.main",
+      "path": "assets/spain-2026-champions.webp",
+      "sha256": "89b5a6717685e3abea6d6a7faa034e66abc9c81d8723ee4c408df0fb08af91b8"
+    },
+    "spain-2026-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/spain-2026-champions-home-hero.webp",
+      "sha256": "38bdfd62d1126925f55424cbef0aa5d06f5696952bb5aadf4d6a640f836d35b8"
+    },
+    "spain-2026-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/spain-2026-champions-hero.webp",
+      "sha256": "7cb762c4a7e77fb06895d3c8f03fb888db5d58d53a2389267fc59bcb90c19afe"
+    },
+    "spain-2026-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/spain-2026-champions-home-hero.webp",
+      "sha256": "38bdfd62d1126925f55424cbef0aa5d06f5696952bb5aadf4d6a640f836d35b8"
+    },
+    "spain-2026-workbuddy-trophy": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/spain-2026-champions-trophy.webp",
+      "sha256": "ef5467a8fd8a97ee76ba2e6ad845094437f62ac4ee5d247d5713fd84e4a5e766"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#F2C14E",
+    "appearance.surface": "#071426",
+    "appearance.ink": "#FFF7E6",
+    "appearance.contrast": 62,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#4FC27A",
+    "semantic.diffRemoved": "#F05A60",
+    "semantic.skill": "#F2C14E",
+    "background.image": {
+      "assetId": "spain-2026-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.4,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.7,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "西班牙双星冠军",
+    "brand.shortMark": "ESP",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "spain-2026-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "spain-2026-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "spain-2026-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "spain-2026-workbuddy-trophy"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "still"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D94B45"
+    },
+    "doubao": {
+      "appearance.accent": "#F2C14E"
+    },
+    "codex": {
+      "appearance.accent": "#E9B949"
+    }
+  }
+}

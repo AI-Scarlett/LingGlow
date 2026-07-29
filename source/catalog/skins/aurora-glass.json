@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "aurora-glass",
+  "name": "极光玻璃",
+  "description": "高质感冷色玻璃方案，强调层次、光感和轻动画。",
+  "tier": "vip",
+  "clientIds": [
+    "codex",
+    "workbuddy"
+  ],
+  "preview": {
+    "gradientPreset": "aurora"
+  },
+  "profile": {
+    "official": {
+      "variant": "dark",
+      "codeThemeId": "codex",
+      "accent": "#67E8F9",
+      "surface": "#10142A",
+      "ink": "#E0F2FE",
+      "contrast": 55,
+      "fonts": {
+        "code": null,
+        "ui": null
+      },
+      "opaqueWindows": false,
+      "semanticColors": {
+        "diffAdded": "#5EEAD4",
+        "diffRemoved": "#FDA4AF",
+        "skill": "#C4B5FD"
+      }
+    },
+    "advanced": {
+      "enabled": true,
+      "background": {
+        "image": null,
+        "opacity": 0.58,
+        "overlay": 0.55,
+        "blur": 2,
+        "position": "center"
+      },
+      "banner": {
+        "enabled": false,
+        "image": null,
+        "opacity": 0.45,
+        "height": 128,
+        "width": 760,
+        "position": "top-center"
+      },
+      "glass": {
+        "enabled": true,
+        "opacity": 0.68,
+        "blur": 24
+      },
+      "radius": 22,
+      "motion": "float",
+      "sidebarWidth": 290
+    }
+  },
+  "composerAvatarAsset": {
+    "kind": "composer-avatar-webp",
+    "path": "assets/aurora-glass-mascot.webp",
+    "sha256": "fc8c1afd2ea2d88498e4e3e55b4d37b804be86acbcf6cd362212fb7d8e698145"
+  }
+}

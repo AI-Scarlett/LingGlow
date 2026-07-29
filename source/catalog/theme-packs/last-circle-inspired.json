@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "last-circle-inspired",
+  "name": "绝地求生·艾伦格终局",
+  "description": "以写实艾伦格战场、三级头幸存者与蓝圈空投为核心的三端免费主题；非官方粉丝创作，与 PUBG Studios 无商业关联。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "last-circle-inspired-preview"
+  },
+  "assets": {
+    "last-circle-inspired-background": {
+      "slot": "background.main",
+      "path": "assets/last-circle-inspired-background.webp",
+      "sha256": "ad6762f26fd876c532141ff819622f84814108073442e58da2757a008926f42a"
+    },
+    "last-circle-inspired-preview": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/last-circle-inspired-hero.webp",
+      "sha256": "b3201dfb80781cad2e07be2a3ba8adae25c8e6175b63ec6179dc5a6c0a99877c"
+    },
+    "last-circle-inspired-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/last-circle-inspired-banner.webp",
+      "sha256": "c68083b64ae99c35128179de822bcc1388a35df7259c9f0f4793c45e3b385c45"
+    },
+    "last-circle-inspired-doubao-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/last-circle-inspired-hero.webp",
+      "sha256": "b3201dfb80781cad2e07be2a3ba8adae25c8e6175b63ec6179dc5a6c0a99877c"
+    },
+    "last-circle-inspired-brand-icon": {
+      "slot": "brand.icon",
+      "path": "assets/last-circle-inspired-avatar.webp",
+      "sha256": "03996512633ece72688fb1e0bc8cfce48083a982efafd26d12e44c2081a420b4"
+    },
+    "last-circle-inspired-composer-mascot": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/last-circle-inspired-mascot.webp",
+      "sha256": "b9dc30b58c5893fa7d56c454d2d28e7ded86cc7b8de79eda4a13357d91ccdfeb"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "dark",
+    "appearance.accent": "#D6A04E",
+    "appearance.surface": "#191711",
+    "appearance.ink": "#F3EFE3",
+    "appearance.contrast": 86,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#E35D68",
+    "semantic.skill": "#E7BC70",
+    "background.image": {
+      "assetId": "last-circle-inspired-background"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.2,
+    "background.blur": 0,
+    "background.position": "right",
+    "glass.enabled": true,
+    "glass.opacity": 0.78,
+    "glass.blur": 18,
+    "brand.enabled": true,
+    "brand.displayName": "PUBG",
+    "brand.shortMark": "P",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": {
+      "assetId": "last-circle-inspired-brand-icon"
+    },
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "last-circle-inspired-preview"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "right",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "last-circle-inspired-composer-mascot"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "roll",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "last-circle-inspired-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 220,
+    "codex.banner.width": 1160,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "last-circle-inspired-doubao-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "right",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#D6A04E",
+      "appearance.surface": "#191711",
+      "appearance.ink": "#F3EFE3",
+      "background.overlay": 0.22,
+      "glass.opacity": 0.8
+    },
+    "doubao": {
+      "appearance.accent": "#D6A04E",
+      "appearance.surface": "#191711",
+      "appearance.ink": "#F3EFE3",
+      "background.overlay": 0.24,
+      "glass.enabled": true,
+      "glass.opacity": 0.82,
+      "glass.blur": 18
+    },
+    "codex": {
+      "appearance.accent": "#D6A04E",
+      "appearance.surface": "#191711",
+      "appearance.ink": "#F3EFE3",
+      "background.overlay": 0.2,
+      "glass.opacity": 0.79
+    }
+  }
+}

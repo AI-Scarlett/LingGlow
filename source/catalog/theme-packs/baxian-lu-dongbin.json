@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack",
+  "id": "baxian-lu-dongbin",
+  "name": "吕洞宾·纯阳剑影",
+  "description": "取自动画电影《八仙！》吕洞宾角色造型的免费三端主题；蓝金剑气与蓬莱云海。",
+  "tier": "free",
+  "clientIds": [
+    "workbuddy",
+    "doubao",
+    "codex"
+  ],
+  "preview": {
+    "gradientPreset": "sunset",
+    "assetId": "baxian-lu-dongbin-background-main"
+  },
+  "assets": {
+    "baxian-lu-dongbin-background-main": {
+      "slot": "background.main",
+      "path": "assets/baxian-lu-dongbin.webp",
+      "sha256": "f4d585dc5d3109ae69dff67aca1a797f1f245dedcf096591afecd566f18a96cc"
+    },
+    "baxian-lu-dongbin-workbuddy-project-hero": {
+      "slot": "workbuddy.project-hero",
+      "path": "assets/baxian-lu-dongbin-home-hero.webp",
+      "sha256": "7da1ba7f988adf64ddd992b3271b63fdb8174749e94dc85fb794207f3f86ee45"
+    },
+    "baxian-lu-dongbin-codex-banner": {
+      "slot": "codex.banner",
+      "path": "assets/baxian-lu-dongbin-hero.webp",
+      "sha256": "6d1f5bfdab653b507e50efe3068e3c7023eaccd51f3c3a045a0f1c53b9aa14b5"
+    },
+    "baxian-lu-dongbin-doubao-home-hero": {
+      "slot": "doubao.home-hero",
+      "path": "assets/baxian-lu-dongbin-home-hero.webp",
+      "sha256": "7da1ba7f988adf64ddd992b3271b63fdb8174749e94dc85fb794207f3f86ee45"
+    },
+    "baxian-lu-dongbin-workbuddy-avatar": {
+      "slot": "workbuddy.composer-avatar",
+      "path": "assets/baxian-lu-dongbin-mascot.webp",
+      "sha256": "c2b7810550adf55a8bce914f1210b6b29905a3f2701ef43c79ddb3d123b27761"
+    }
+  },
+  "base": {
+    "advanced.enabled": true,
+    "appearance.variant": "light",
+    "appearance.accent": "#2C91C8",
+    "appearance.surface": "#EAF3F3",
+    "appearance.ink": "#102A36",
+    "appearance.contrast": 64,
+    "typography.codeFont": null,
+    "typography.uiFont": null,
+    "window.opaque": true,
+    "semantic.diffAdded": "#45C17A",
+    "semantic.diffRemoved": "#F05B61",
+    "semantic.skill": "#2C91C8",
+    "background.image": {
+      "assetId": "baxian-lu-dongbin-background-main"
+    },
+    "background.opacity": 1,
+    "background.overlay": 0.12,
+    "background.blur": 0,
+    "background.position": "center",
+    "glass.enabled": true,
+    "glass.opacity": 0.76,
+    "glass.blur": 20,
+    "brand.enabled": true,
+    "brand.displayName": "吕洞宾·纯阳剑影",
+    "brand.shortMark": "纯阳",
+    "brand.logoStyle": "diamond",
+    "brand.iconImage": null,
+    "shape.radius": 20,
+    "motion.preset": "subtle",
+    "layout.sidebarWidth": 280,
+    "codex.codeThemeId": "codex",
+    "workbuddy.projectHero.image": {
+      "assetId": "baxian-lu-dongbin-workbuddy-project-hero"
+    },
+    "workbuddy.projectHero.fit": "cover",
+    "workbuddy.projectHero.position": "left",
+    "codex.banner.enabled": true,
+    "codex.banner.image": {
+      "assetId": "baxian-lu-dongbin-codex-banner"
+    },
+    "codex.banner.opacity": 0.55,
+    "codex.banner.height": 240,
+    "codex.banner.width": 1120,
+    "codex.banner.position": "top-right",
+    "doubao.homeHero.image": {
+      "assetId": "baxian-lu-dongbin-doubao-home-hero"
+    },
+    "doubao.homeHero.fit": "cover",
+    "doubao.homeHero.position": "left",
+    "doubao.assistantAvatar.image": null,
+    "doubao.assistantAvatar.fit": "cover",
+    "doubao.assistantAvatar.shape": "circle",
+    "workbuddy.composerAvatar.image": {
+      "assetId": "baxian-lu-dongbin-workbuddy-avatar"
+    },
+    "workbuddy.composerAvatar.fit": "contain",
+    "workbuddy.composerAvatar.shape": "square",
+    "workbuddy.composerAvatar.activityMotion": "float"
+  },
+  "overrides": {
+    "workbuddy": {
+      "appearance.accent": "#2C91C8"
+    },
+    "doubao": {
+      "appearance.accent": "#2C91C8"
+    },
+    "codex": {
+      "appearance.accent": "#2C91C8"
+    }
+  }
+}

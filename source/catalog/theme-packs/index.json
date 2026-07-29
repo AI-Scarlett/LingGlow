@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "kind": "lingglow.theme-pack-index",
+  "packs": [
+    {
+      "id": "aurora-free",
+      "path": "theme-packs/aurora-free.json",
+      "sha256": "4c4243ce4ac4b9dee37a6c3cbed553f4e2268f32a54fda624508dcd4a32e4a46"
+    },
+    {
+      "id": "amber-free",
+      "path": "theme-packs/amber-free.json",
+      "sha256": "ef7277f1eb250baa984c03d0398eb1e93e55c33c9268b1eb5ecfa5216989d116"
+    },
+    {
+      "id": "dream-gothic-void",
+      "path": "theme-packs/dream-gothic-void.json",
+      "sha256": "9df03a1631af0215e5f290758ab82e93ec8363b28a1122aafa2f5009d05f2252"
+    },
+    {
+      "id": "dream-portal-free",
+      "path": "theme-packs/dream-portal-free.json",
+      "sha256": "bd6690a9966cc0047ef03198c1f77dad1270148dbda7f95775ca99c7382a7315"
+    },
+    {
+      "id": "cr7-portugal",
+      "path": "theme-packs/cr7-portugal.json",
+      "sha256": "4e93be66f1443ab2d694cb48238761edfe4f859a6adb36c86cad6710ec60dbc5"
+    },
+    {
+      "id": "messi-argentina",
+      "path": "theme-packs/messi-argentina.json",
+      "sha256": "8d094070f9d340d2af5a349b5dc04f35b23c1b3280224e877999376fb3a2f1ff"
+    },
+    {
+      "id": "neymar-brazil",
+      "path": "theme-packs/neymar-brazil.json",
+      "sha256": "8cbdc5f3aa2befa1aa9eb1ebb47eac5767cd74c233f60bf394e6bcd84239e123"
+    },
+    {
+      "id": "kungfu-womens-football",
+      "path": "theme-packs/kungfu-womens-football.json",
+      "sha256": "5949bfa34a03c92a1f9164d73f1bd724087f7787ab44aabc7be7ab7408e09b36"
+    },
+    {
+      "id": "spain-2026-champions",
+      "path": "theme-packs/spain-2026-champions.json",
+      "sha256": "d606ee21c1538fcfcd51818c08b59a083722892e9a7c3d8c979b551ef7f5be93"
+    },
+    {
+      "id": "baxian-lu-dongbin",
+      "path": "theme-packs/baxian-lu-dongbin.json",
+      "sha256": "325892464b31652eea5a6a8ba6fde479b8e8f6c25c5dfd978cf6c5e625a13d31"
+    },
+    {
+      "id": "baxian-he-xiangu",
+      "path": "theme-packs/baxian-he-xiangu.json",
+      "sha256": "21e9c4889455db2acf040d3a63acebbab6e89e80ddec19cd0ec62ba02f29023c"
+    },
+    {
+      "id": "baxian-zhongli-quan",
+      "path": "theme-packs/baxian-zhongli-quan.json",
+      "sha256": "ee23caea961832f23872d7248ddc31e5d67dd54a9963b663b5b0212b8ad9d296"
+    },
+    {
+      "id": "baxian-tieguai-li",
+      "path": "theme-packs/baxian-tieguai-li.json",
+      "sha256": "dc78d82d42a75a1b7d01d7c7e4eb82830c573442436cd6ccca64d8f0854bb9ea"
+    },
+    {
+      "id": "baxian-han-xiangzi",
+      "path": "theme-packs/baxian-han-xiangzi.json",
+      "sha256": "ffde87f232f380227f9920403e1e43b7615244fdacced6226e5236b7584e8eb7"
+    },
+    {
+      "id": "baxian-cao-guojiu",
+      "path": "theme-packs/baxian-cao-guojiu.json",
+      "sha256": "45e93a13b468406da5db2c8e73763bcdaa6838267c634a9ca9a01244632e9de5"
+    },
+    {
+      "id": "baxian-lan-caihe",
+      "path": "theme-packs/baxian-lan-caihe.json",
+      "sha256": "04b98804f42eac4b7205458e5a5d2d8ffeff0e76d6dea3e483fce38c8b7a8917"
+    },
+    {
+      "id": "baxian-zhang-guolao",
+      "path": "theme-packs/baxian-zhang-guolao.json",
+      "sha256": "b8708a7a46428914d2c43885188a8a04b403c74d6d3d455b0147b19f97f2e0a2"
+    },
+    {
+      "id": "baxian-ensemble",
+      "path": "theme-packs/baxian-ensemble.json",
+      "sha256": "0f46b5302a5708f9cbe4bfea764fbf5d48e3db6ceccb40fd65a01199f895ab43"
+    },
+    {
+      "id": "agent-codex-terminal-orbit",
+      "path": "theme-packs/agent-codex-terminal-orbit.json",
+      "sha256": "fd99b8727347e5881855733996bab037f8d227fd9c85a1cd0a2d6a07838eff46"
+    },
+    {
+      "id": "agent-claude-code-clay",
+      "path": "theme-packs/agent-claude-code-clay.json",
+      "sha256": "0d2ac40e4f50dbabe1d8651893d26ba1267f8228085a051444f2794ce96905ea"
+    },
+    {
+      "id": "agent-grok-singularity",
+      "path": "theme-packs/agent-grok-singularity.json",
+      "sha256": "1ffab384d35fbd7fef565980aca817dce383f63f5ec5302ee42ee1c001007d45"
+    },
+    {
+      "id": "agent-openclaw-gateway",
+      "path": "theme-packs/agent-openclaw-gateway.json",
+      "sha256": "63130236c54f5b0a76672126dee0d6c66d7c63207405a58e0710e6befd16e052"
+    },
+    {
+      "id": "agent-hermes-memory",
+      "path": "theme-packs/agent-hermes-memory.json",
+      "sha256": "62dc75513a5b4ea0c74abeb1b1067d20ad8b39b4391dde3f7730e790560e14e2"
+    },
+    {
+      "id": "agent-cursor-cube",
+      "path": "theme-packs/agent-cursor-cube.json",
+      "sha256": "8b80537ee8a66e02fda1dc4fadbfac3de21e9d3afede36ef92ebc301d8b447d5"
+    },
+    {
+      "id": "agent-antigravity-orbit-lab",
+      "path": "theme-packs/agent-antigravity-orbit-lab.json",
+      "sha256": "fd12e3f58827300f16e8f40ef8abdea68531448591cea8077224742762245837"
+    },
+    {
+      "id": "agent-github-copilot-cockpit",
+      "path": "theme-packs/agent-github-copilot-cockpit.json",
+      "sha256": "e3887b0851fa5f9430f2a5d5e8227527fc265d34a69cf05d3859bd8ec88b7c15"
+    },
+    {
+      "id": "agent-qwen-code-lab",
+      "path": "theme-packs/agent-qwen-code-lab.json",
+      "sha256": "d38066fb83b31fcdd49b0d56d491f32dada44f66383ebd1946aa77f6d2a7dae7"
+    },
+    {
+      "id": "agent-kimi-code-moonlab",
+      "path": "theme-packs/agent-kimi-code-moonlab.json",
+      "sha256": "a05eef02b3e39f1146edee9017f0bcc3637dcf727e050acc084a486f38c5319a"
+    },
+    {
+      "id": "einstein-relativity",
+      "path": "theme-packs/einstein-relativity.json",
+      "sha256": "c604c748ceffac3ed71fdbaadc1b3b48f0bd7936a4866f453c49f43f880dba84"
+    },
+    {
+      "id": "honor-canyon-inspired",
+      "path": "theme-packs/honor-canyon-inspired.json",
+      "sha256": "b41b3f6b97b3987dcb4490b9554e43a8e638a9b6d81c369335938b990b5222d6"
+    },
+    {
+      "id": "last-circle-inspired",
+      "path": "theme-packs/last-circle-inspired.json",
+      "sha256": "670232acf4aaa16340f31f0ba2aa25709ab5491ea2a768c44e0aac0c9bfbb37b"
+    },
+    {
+      "id": "radiant-arena-inspired",
+      "path": "theme-packs/radiant-arena-inspired.json",
+      "sha256": "686aab5e09dcf50560262245f8052b1bd1d3e8606ef9d55ab0589bf67b70e610"
+    }
+  ]
+}

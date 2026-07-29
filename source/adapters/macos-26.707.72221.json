@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "adapterId": "macos-26.707.72221-build-5307",
+  "bundleId": "com.openai.codex",
+  "teamId": "2DC432GLL2",
+  "versions": ["26.707.72221"],
+  "builds": ["5307"],
+  "asarSha256": ["b5da51e5df6e996076e4cb19045cec46dd4c08cf61c19cdbc5cb426b8413b73c"],
+  "targetUrl": "app://-/index.html",
+  "capabilities": [
+    "background",
+    "palette",
+    "glass",
+    "composer",
+    "banner",
+    "motion",
+    "sidebar-width"
+  ],
+  "requiredSignals": [
+    "themeShareV1",
+    "appUrlEntry",
+    "semanticSelectors",
+    "designTokens"
+  ]
+}

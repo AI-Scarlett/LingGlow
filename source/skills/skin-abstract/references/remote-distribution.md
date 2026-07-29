@@ -1,0 +1,41 @@
+# LingGlow Remote Distribution v2
+
+Read this file when a completed skin must be packaged for the public LingGlow catalog.
+
+## Output contract
+
+Create one Theme Pack definition and its referenced WebP assets under the project `catalog/` tree. Do not create executable code or arbitrary CSS inside a skin.
+
+Required authoring facts:
+
+- Stable lowercase `skinId`.
+- Semantic version, free/VIP tier, and explicit `appearance.mode`.
+- One catalog `category`, a stable `series`, and concise search `tags`.
+- Supported Agent IDs.
+- Global background, separate Codex 3:1 hero, and WorkBuddy transparent mascot when those slots are enabled.
+- Source, license, and redistribution evidence.
+- Real-client screenshots and rollback evidence before public release.
+
+## Asset limits
+
+- Global background: recommend 16:10, 2560 x 1600, WebP, at most 4 MB.
+- Codex home artwork: recommend 3:1, 2400 x 800, WebP, at most 4 MB; hash must differ from the global background.
+- WorkBuddy mascot: recommend 1:1, 1024 x 1024, transparent WebP, at most 2 MB; decoded Alpha plus isolated-subject transparency, occupancy, and four-side padding must pass `scripts/validate-composer-mascot.mjs`.
+- App/icon artwork: recommend 1:1, 1024 x 1024, PNG or WebP, at most 2 MB.
+- Gallery preview: recommend 16:9, 1280 x 720 or larger, WebP/PNG, at most 2 MB.
+
+## Packaging
+
+After adding the definition to `catalog/theme-packs/index.json`, run:
+
+```bash
+node scripts/build_skin_distribution.mjs
+```
+
+The project packager creates a single `<skinId>.lingglow-skin.json` with Base64 WebP assets and SHA-256 locks. Do not hand-edit the generated bundle or public `catalog/v1/index.json`.
+
+When `clientIds` includes `workbuddy`, the definition must resolve exactly one asset with slot `workbuddy.composer-avatar`; use `workbuddy.composerAvatar.fit: contain` and `workbuddy.composerAvatar.shape: square`. Validate the source asset, build the distribution, decode the packaged payload, and validate the packaged WebP again. If any gate fails, omit/null the custom mascot so the native default robot remains; do not publish a background crop or circular substitute.
+
+The public index uses `schemaVersion: 2`. Supported categories are `sports`, `fantasy`, `nature`, `minimal`, `art`, `seasonal`, and `other`. Use a stable lowercase series ID so related skins can be grouped across releases. Tags should describe subject, mood, appearance, and usage; do not duplicate long descriptions.
+
+The maintainer uploads the bundle to the `skin-catalog-v1` GitHub Release, uploads the preview to `catalog/v1/previews/`, then publishes the generated index last. A user-created skin remains local until the maintainer completes rights review and real-client QA.

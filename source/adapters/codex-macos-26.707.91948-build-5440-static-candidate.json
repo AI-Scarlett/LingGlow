@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "adapterId": "codex-macos-26.707.91948-build-5440-static-candidate",
+  "clientId": "codex",
+  "bundleId": "com.openai.codex",
+  "teamId": "2DC432GLL2",
+  "versions": ["26.707.91948"],
+  "builds": ["5440"],
+  "asarSha256": ["85b11c8d93d377f82161ba9b7b1af6f95b2a0490f01993dbc4d3a107dce77591"],
+  "targetUrl": "app://-/index.html",
+  "targetAllowlist": ["app://-/index.html"],
+  "probeKind": "codex-v1",
+  "capabilities": [
+    "background",
+    "palette",
+    "glass",
+    "composer",
+    "sidebar-width"
+  ],
+  "requiredSignals": [
+    "themeShareV1",
+    "appUrlEntry",
+    "semanticSelectors",
+    "designTokens",
+    "productMarker"
+  ],
+  "validation": {
+    "status": "static-candidate",
+    "staticBaseline": "qa/codex-static-26.707.91948.json",
+    "staticBaselineSha256": "c7a44735a7f79c12a00d72ebdaeb77b85038ae5eb87131e1df6ef19c2383b91a",
+    "runtimeEvidenceRequired": true,
+    "runtimeEvidenceKind": "lingglow.codex-isolated-qa-evidence"
+  }
+}
